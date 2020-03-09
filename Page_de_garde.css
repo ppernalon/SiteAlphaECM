@@ -1,0 +1,17 @@
+#Block_teaserAlpha
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2vmax;
+    align-items: center;
+}
+
+#TeaserAlpha_2019
+{
+    width: 100%;
+    justify-self: center;
+    padding: 1vw;
+    margin : 2vw;
+    box-shadow: 0 0 1vw black;
+    background: #f5eedb;
+}
