@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class AlphaButton extends React.Component{
+export default class NavBar extends React.Component{
     constructor(props){
         super(props)
     }
@@ -8,7 +8,7 @@ export default class AlphaButton extends React.Component{
     render() {
         return(
             <div>
-
+                <button onClick={this.props.toggle}>Open drawer</button>
             </div>
         )
     }
