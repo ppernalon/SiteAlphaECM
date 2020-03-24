@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cc9c359-e560-411e-b23c-5cd70c36b2af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/BackDrop.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/SlideDrawer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/styles/Backdrop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/styles/SlideDrawer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/AlphaButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/AlphaButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/Map.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/Map.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/Navigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/Navigator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/PopUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/PresentationMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/PresentationMessage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/ScrollButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/ScrollButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/WelcomingMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/WelcomingMessage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/styles/Navigator.css" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/styles/Navigator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Pages/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Pages/MarseillePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Pages/MarseillePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="0cc9c359-e560-411e-b23c-5cd70c36b2af" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/Navigator.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -132,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site_alpha/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -319,11 +299,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584996493612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Drawer de base et sytème de navigation opérationel">
+      <created>1585045115466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585045115466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12046000" />
+    <option name="totallyTimeSpent" value="12173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,9 +323,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.32650363" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.32650363" />
       <window_info id="Structure" order="1" sideWeight="0.502193" side_tool="true" weight="0.32650363" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" />
@@ -350,10 +336,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49966952" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24558823" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24558823" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50033045" side_tool="true" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,7 +396,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Debut de creation de l'architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debut de creation de l'architecture" />
+    <MESSAGE value="Drawer de base et sytème de navigation opérationel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drawer de base et sytème de navigation opérationel" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/PresentationMessage.jsx">
@@ -506,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/styles/SlideDrawer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -574,6 +554,13 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
