@@ -1,7 +1,8 @@
 import React from 'react';
 import WelcomingMessage from '../Components/WelcomingMessage'
+import logo from "../logo.svg";
 
-export default class AlphaButton extends React.Component{
+export default class HomePage extends React.Component{
     constructor(props){
         super(props);
         this.state={
@@ -14,8 +15,11 @@ export default class AlphaButton extends React.Component{
 
     render() {
         return(
-            <div>
-                <WelcomingMessage message={this.state.message} authors={this.state.authors}/>
+            <div className="page">
+                <header className="App-header">
+                    <img src={logo} className="App-logo" alt="logo" />
+                    <p>Page d'Accueil</p>
+                </header>
             </div>
         )
     }

@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cc9c359-e560-411e-b23c-5cd70c36b2af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/site_alpha/Components/styles/Navigator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/BackDrop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/NavBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/SlideDrawer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/styles/Backdrop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site_alpha/src/Components/styles/SlideDrawer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_alpha/Components/Navigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/Components/Navigator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Components/AlphaButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/AlphaButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Components/Map.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/Map.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Components/Navigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/Navigator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/PopUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Components/PresentationMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/PresentationMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Components/ScrollButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/ScrollButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Components/WelcomingMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/WelcomingMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Components/styles/Navigator.css" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Components/styles/Navigator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/Pages/MarseillePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/Pages/MarseillePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_alpha/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/site_alpha/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,15 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site_alpha/Components/NavBar.jsx">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site_alpha/Components/Navigator.jsx">
+        <entry file="file://$PROJECT_DIR$/site_alpha/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="189">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -35,19 +46,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site_alpha/Components/AlphaButton.jsx">
+        <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/Navigator.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site_alpha/Pages/HomePage.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="165">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,22 +58,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site_alpha/Pages/MarseillePage.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site_alpha/Components/Map.jsx">
+        <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/SlideDrawer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site_alpha/src/Pages/HomePage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -80,24 +82,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site_alpha/Components/WelcomingMessage.jsx">
+        <entry file="file://$PROJECT_DIR$/site_alpha/src/Pages/MarseillePage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="222">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site_alpha/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/styles/SlideDrawer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/BackDrop.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/NavBar.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/styles/Navigator.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site_alpha/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="147">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -159,8 +198,21 @@
         <option value="$PROJECT_DIR$/site_alpha/Pages/MarseillePage.jsx" />
         <option value="$PROJECT_DIR$/site_alpha/Components/Map.jsx" />
         <option value="$PROJECT_DIR$/site_alpha/Pages/HomePage.jsx" />
-        <option value="$PROJECT_DIR$/site_alpha/Components/Navigator.jsx" />
         <option value="$PROJECT_DIR$/site_alpha/Components/styles/Navigator.css" />
+        <option value="$PROJECT_DIR$/site_alpha/Components/Navigator.jsx" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Components/Menu.jsx" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Components/styles/Backdrop.css" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Components/BackDrop.jsx" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Components/styles/Navigator.css" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Components/styles/SlideDrawer.css" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Pages/page.css" />
+        <option value="$PROJECT_DIR$/site_alpha/src/App.css" />
+        <option value="$PROJECT_DIR$/site_alpha/src/App.js" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Pages/HomePage.jsx" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Components/NavBar.jsx" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Pages/MarseillePage.jsx" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Components/SlideDrawer.jsx" />
+        <option value="$PROJECT_DIR$/site_alpha/src/Components/Navigator.jsx" />
       </list>
     </option>
   </component>
@@ -192,19 +244,20 @@
               <item name="Github_site_alpha" type="b2602c69:ProjectViewProjectNode" />
               <item name="Github_site_alpha" type="462c0819:PsiDirectoryNode" />
               <item name="site_alpha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Github_site_alpha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Github_site_alpha" type="462c0819:PsiDirectoryNode" />
+              <item name="site_alpha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Github_site_alpha" type="b2602c69:ProjectViewProjectNode" />
               <item name="Github_site_alpha" type="462c0819:PsiDirectoryNode" />
               <item name="site_alpha" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Github_site_alpha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Github_site_alpha" type="462c0819:PsiDirectoryNode" />
-              <item name="site_alpha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -216,13 +269,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/site_alpha/Components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/site_alpha/src/Components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clément\Documents\GitHub\Github_site_alpha\site_alpha\src\Components" />
+      <recent name="C:\Users\Clément\Documents\GitHub\Github_site_alpha\site_alpha\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Clément\Documents\GitHub\Github_site_alpha\site_alpha\src\Components" />
       <recent name="C:\Users\Clément\Documents\GitHub\Github_site_alpha\site_alpha\Components" />
       <recent name="C:\Users\Clément\Documents\GitHub\Github_site_alpha\site_alpha\Pages" />
     </key>
@@ -264,7 +323,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6125000" />
+    <option name="totallyTimeSpent" value="12046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,10 +336,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.32650363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.32650363" />
       <window_info id="Structure" order="1" sideWeight="0.502193" side_tool="true" weight="0.32650363" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -289,9 +350,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24558823" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -352,38 +413,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="Debut de creation de l'architecture" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site_alpha/Components/PresentationMessage.jsx">
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/PresentationMessage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Components/ScrollButton.jsx">
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/ScrollButton.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Components/PopUp.jsx">
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/PopUp.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/src/App.js">
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/AlphaButton.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Components/Map.jsx">
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/Map.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
@@ -393,67 +451,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Components/WelcomingMessage.jsx">
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/WelcomingMessage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/Menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site_alpha/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Pages/HomePage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Pages/MarseillePage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Components/Navigator.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Components/NavBar.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Components/styles/Navigator.css">
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/styles/Backdrop.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_alpha/Components/AlphaButton.jsx">
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/BackDrop.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/styles/Navigator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="501" column="8" selection-start-line="501" selection-start-column="8" selection-end-line="501" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Pages/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/styles/SlideDrawer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/NavBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Pages/MarseillePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Pages/HomePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/SlideDrawer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_alpha/src/Components/Navigator.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
