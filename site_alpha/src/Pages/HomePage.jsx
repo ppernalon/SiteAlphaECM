@@ -1,7 +1,6 @@
 import React from 'react';
-import WelcomingMessage from '../Components/WelcomingMessage'
-import logo from "../Assets/Logos_site/Logos__site_wShadow.png";
 import data from '../content/HomePage';
+import Logo from "../Assets/Logos_site/Logos__site_wShadow.png";
 import './styles/HomePage.css';
 
 const message1 = data.welcomingWord.message1
@@ -16,7 +15,7 @@ export default class HomePage extends React.Component{
     render() {
         return(
             <div id="container">
-                <img id="Logo" src={logo} alt={"logo"}/>
+                <img id="Logo" src={Logo} alt={"logo"}/>
                 <div id="Message">
                     <p> {message1} <br/> </p>
                     <p> {message2} </p>

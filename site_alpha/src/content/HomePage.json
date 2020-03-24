@@ -1,7 +1,7 @@
 {
     "title" : "Accueil",
     "componentName" : "HomePage",
-    "logo": "logo.png",
+    "logo": "Logo",
     "welcomingWord": {
         "message1" : "Bienvenue sur le site alpha de Centrale Marseille, c'est ici que tu découvriras ta future vie étudiante et associative !",
         "message2" : "Ce site a été conçu et réalisé par des étudiants de Centrale Marseille.",
