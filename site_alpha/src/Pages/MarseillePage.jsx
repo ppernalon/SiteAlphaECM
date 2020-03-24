@@ -1,6 +1,6 @@
 import React from 'react';
 import PresentationMessage from '../Components/WelcomingMessage'
-import Map from '../Components/Map'
+import logo from "../logo.svg";
 
 export default class MarseillePage extends React.Component{
     constructor(props){
@@ -15,9 +15,11 @@ export default class MarseillePage extends React.Component{
 
     render() {
         return(
-            <div>
-                <Map/>
-                <PresentationMessage title={this.state.title} message={this.state.message} />
+            <div className="page">
+                <header className="App-header">
+                    <img src={logo} className="App-logo" alt="logo" />
+                    <p>Page de presentation de marseille</p>
+                </header>
             </div>
         )
     }
