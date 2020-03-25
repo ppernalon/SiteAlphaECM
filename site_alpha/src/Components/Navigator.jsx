@@ -40,16 +40,11 @@ export default class Navigator extends React.Component{
     }
 
     render() {
-        let backdrop;
-        if(this.state.drawerOpen){
-            backdrop = <Backdrop close={this.backdropClickHandler}/>;
-        }
-
-        return(
+       return(
             <div className="container">
                 <NavBar toggle={this.drawerToggleClickHandler}/>
                 {this.state.currentPage}
-                {backdrop}
+                <Backdrop show={this.state.drawerOpen} close={this.backdropClickHandler}/>
                 <SlideDrawer show={this.state.drawerOpen} navigate={this.navigationHandler}/>
             </div>
         )

@@ -1,15 +1,52 @@
 @media only screen and (min-width: 768px) {
     /* tablettes et ordinateurs */
+    .MenuButton{
+        display: none;
+    }
 }
+
 @media only screen and (max-width: 767px) {
     /* smartphone */
+    .Menu{
+        display: none;
+    }
 }
+
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* smartphone en mode portait */
+    .Menu{
+        display: none;
+    }
 }
 
 
 .container{
     height: 100%;
-    left: 100%;
+}
+
+.MenuButton{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 15px;
+}
+
+.MenuLogo{
+    height: 85px;
+    float: left;
+    margin-left: 15px;
+}
+
+.NavBar{
+    height: 85px;
+    background-image: url("../../Assets/Bordures/Bordures__ecole.png");
+    background-size: 101vw;
+    flex-direction: row;
+    background-position: center;
+    justify-content: center;
+}
+
+.Menu{
+    float: right;
+    margin-right: 30px;
 }
