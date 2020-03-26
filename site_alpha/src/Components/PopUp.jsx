@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles/PopUp.css'
 import Croix from '../Assets/Buttons/Buttons__croix.png';
-
+import data from '../content/data';
+import Slideshow from './Slideshow';
 
 export default class PopUp extends React.Component{
     constructor(props){
@@ -9,6 +10,15 @@ export default class PopUp extends React.Component{
         this.state={
             visible : false,
         }
+
+        this.entity = data[this.props.identity];
+        this.logo = this.entity.Logo;
+        this.color = this.entity.Color;
+        this.name = this.entity.Name;
+        this.message = this.entity.Message;
+        this.title = this.entity.Title;
+        this.images = this.entity.Images;
+        this.links = this.entity.Links;
     }
 
     openModal() {
@@ -27,21 +37,25 @@ export default class PopUp extends React.Component{
         if (this.state.visible) {
             return (
                 <div className='container'>
-                    <input type="button" value={this.props.title} onClick={() => this.openModal()}/>
+                    <input type="button" value={this.title} onClick={() => this.openModal()}/>
+                    <div onClick={() => this.closeModal()} className="close_area"> </div>
                     <div className="PopUp">
-                        <div class={this.props.pole}>
-                            <h1> {this.props.title}</h1>
+                        <div class={"bordure " + this.color}>
+                            <h1> {this.title}</h1>
                             <p> </p>
-                            <a href="javascript:void(0);" onClick={() => this.closeModal()}><img className="croix" src={Croix}/></a>
+                            <img className="croix" src={Croix} alt="close" onClick={() => this.closeModal()}/>
                         </div>
                         <div className="tableau">
-                            <div className="line-container">
-                                <h2> {this.props.name}</h2>
-                                <img className="logo" src={this.props.logo}/>
+                            <div className="line1-container">
+                                <h2> {this.name}</h2>
+                                <img className="logo" alt="logo" src={this.logo}/>
                             </div>
-                            <div className="line-container">
-                                <p className="Message"> {this.props.message}</p>
-                                <img className="logo" src={this.props.logo}/>
+                            <div className="line2-container">
+                                <div className="Message">
+                                    <p> {this.message}</p>
+                                    <div className="Links"></div>
+                                </div>
+                                <Slideshow className="Photos" images = {this.images}></Slideshow>
                             </div>
                         </div>
                     </div>
@@ -49,7 +63,7 @@ export default class PopUp extends React.Component{
             );
         }
         else {
-            return (<div> <input type="button" value={this.props.title}  onClick={() => this.openModal()}/> </div>)
+            return (<div> <input type="button" value={this.title}  onClick={() => this.openModal()}/> </div>)
         }
     }
 }

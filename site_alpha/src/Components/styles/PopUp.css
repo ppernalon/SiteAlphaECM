@@ -7,20 +7,21 @@
     height: 90vh;
     width: 90vw;
     border-radius: 1vmax;
-    overflow: hidden;
+    box-shadow: 0 0 1vmax black;
 }
 
 .croix
 {
-    vertical-align: middle;
-    width: 3vw;
+    cursor: pointer;
+    width: 3vmax;
+    margin-right: 2vmax;
 }
 
 h1
 {
     font-family: "Kaushan Script", cursive;
     color:white;
-    font-size : 1.5vmax;
+    margin-left: 2vmax;
 }
 
 h2
@@ -30,93 +31,163 @@ h2
     font-size : 3vmax;
 }
 
-.line-container
+.close_area
+{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.line1-container
 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: justify;
+    max-height: 11vh;
+    margin: 5vh 2vmax 2.5vmax;
+}
+
+.line2-container
+{
+    max-height: 65vh;
+    display: grid;
+    grid-gap: 2.5vh;
+    place-self: center;
+    align-items: center;
+    text-align: justify;
+    margin: 2.5vh 2vw 2.5vmax;
+}
+
+.Photos
+{
+    padding: 1vmax;
+    max-width: 100%;
 }
 
 .Message
 {
-    max-width: 50vw;
-    padding: 4vw;
+    padding: 1vmax;
     font-family: Roboto, sans-serif;
-    font-size: 1.5vmax;
 }
 
-.logo
+.bordure
 {
-    max-height: 30vh;
+    background-size:cover;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1vmax 1vmax 0 0;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px){
+    h1
+    {
+        font-size : 1.5vmax;
+    }
+
+    h2
+    {
+        font-size : 4vmax;
+    }
+
+    .logo
+    {
+        height: 15vh;
+    }
+
+    .line2-container
+    {
+        grid-template-columns: 50% 40%;
+        grid-template-rows: 60vh;
+    }
+
+    .Message
+    {
+        font-size: 1.5vmax;
+        margin: 1vw;
+        max-width: 50vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px){
+    h1
+    {
+        font-size : 3vmax;
+    }
+
+    h2
+    {
+        font-size : 3vmax;
+    }
+
+    .logo
+    {
+        height: 20vw;
+    }
+
+
+    .line2-container
+    {
+        grid-template-rows: 50% 40%;
+        grid-template-columns: 80vw;
+        justify-content: space-around;
+        justify-items: center;
+    }
+
+    .Message
+    {
+        font-size: 1.7vmax;
+        width: 100%;
+    }
+
+    .bordure
+    {
+        height: 7vh;
+    }
+
+    .Photo
+    {
+        max-height: 30vh;
+    }
 }
 
 .vde
 {
     background-image: url("../../../src/Assets/Bordures/Bordures__vde.png");
-    background-size:cover;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2vmax 0 2vmax;
-    align-items: center;
 }
 
 .sport
 {
     background-image: url("../../../src/Assets/Bordures/Bordures__sport.png");
-    background-size:cover;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2vmax 0 2vmax;
-    align-items: center;
 }
 
 .reseaux
 {
     background-image: url("../../../src/Assets/Bordures/Bordures__reseaux.png");
-    background-size:cover;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2vmax 0 2vmax;
-    align-items: center;
 }
 
 .business
 {
     background-image: url("../../../src/Assets/Bordures/Bordures__business.png");
-    background-size:cover;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2vmax 0 2vmax;
-    align-items: center;
 }
 
 .culture
 {
     background-image: url("../../../src/Assets/Bordures/Bordures__culture.png");
-    background-size:cover;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2vmax 0 2vmax;
-    align-items: center;
 }
 
 .citoyennete
 {
     background-image: url("../../../src/Assets/Bordures/Bordures__citoyennete.png");
-    background-size:cover;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2vmax 0 2vmax;
-    align-items: center;
 }
 
 .innovation
 {
     background-image: url("../../../src/Assets/Bordures/Bordures__inno.png");
-    background-size:cover;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2vmax 0 2vmax;
-    align-items: center;
 }

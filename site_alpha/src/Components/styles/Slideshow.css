@@ -1,0 +1,69 @@
+.Current_image
+{
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+.Arrow
+{
+    position: absolute;
+    top:50%;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.L_Arrow
+{
+    left: 1vw;
+}
+
+.R_Arrow
+{
+    margin-right: 1vw;
+    right: 1vw;
+}
+
+.Slideshow{
+    position: relative
+}
+
+.Slide_box
+{
+    overflow: hidden;
+    box-shadow: 0 0 1.5vmax black;
+}
+
+@media only screen and (max-width: 767px){
+    .Slide_box{
+        height: 32vh;
+        width: 80vw;
+    }
+
+    .Slideshow{
+        height: 32vh;
+        width: 80vw;
+    }
+
+    .Arrow{
+        width: 4vw;
+        height: 20vw;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .Slide_box{
+        height: 50vh;
+        width: 40vw;
+    }
+
+    .Slideshow{
+        height: 50vh;
+        width: 40vw;
+    }
+
+    .Arrow{
+        width: 2vw;
+        height: 10vw;
+    }
+}

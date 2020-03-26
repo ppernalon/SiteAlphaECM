@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/styles/PopUp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/BDE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/Association_UA_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/Association_UA_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/Association_UA_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/Association_UA_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/BDE_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Alumni_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/AssoM_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/BDE_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/BNEI_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/C5_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/UA_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Slideshow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/styles/Slideshow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/styles/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/PopUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/BDE.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,25 +35,53 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Zf80VW9SwUED4VzSz6k1i45pP9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="" />
+      <created>1585218565363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585218565363</updated>
+      <workItem from="1585218570798" duration="26449000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -53,5 +95,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1585045292708" />
+    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1585250393987">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1585250393987" />
   </component>
 </project>
