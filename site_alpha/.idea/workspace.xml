@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/Association_UA_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/Association_UA_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/Association_UA_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/Association_UA_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDE/BDE_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Alumni_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/AssoM_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/BDE_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/BNEI_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/C5_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/UA_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Slideshow.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/styles/Slideshow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/BDE_1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/PopUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/BDE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slideshow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slideshow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/styles/Slideshow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/Slideshow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585218565363</updated>
-      <workItem from="1585218570798" duration="26449000" />
+      <workItem from="1585218570798" duration="26914000" />
+      <workItem from="1585293235134" duration="6821000" />
     </task>
     <servers />
   </component>

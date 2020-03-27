@@ -2,44 +2,61 @@
 {
     min-width: 100%;
     min-height: 100%;
-    width: 100%;
+}
+
+.Arrow_btns
+{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:35%;
 }
 
 .Arrow
 {
-    position: absolute;
-    top:50%;
     z-index: 4;
     cursor: pointer;
+    position: relative;
 }
 
 .L_Arrow
 {
-    left: 1vw;
+    margin-left: 1.5vw;
 }
 
 .R_Arrow
 {
-    margin-right: 1vw;
-    right: 1vw;
+    margin-right: 1.5vw;
 }
 
 .Slideshow{
-    position: relative
+    position: relative;
 }
 
 .Slide_box
 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     box-shadow: 0 0 1.5vmax black;
 }
 
-@media only screen and (max-width: 767px){
-    .Slide_box{
-        height: 32vh;
-        width: 80vw;
-    }
+.Counter
+{
+    font-family: "Kaushan Script", cursive;
+    color:white;
+    text-shadow: 0 0 0.5vmax black;
+    font-size: 2vmax;
+    display: block;
+    text-align: center;
+    margin: 0.3vmax auto;
+    position: relative;
+    bottom: 14%;
+}
 
+@media only screen and (max-width: 767px){
     .Slideshow{
         height: 32vh;
         width: 80vw;
@@ -49,16 +66,21 @@
         width: 4vw;
         height: 20vw;
     }
+
+    .Arrow_btns
+    {
+        width: 80vw;
+    }
 }
 
 @media only screen and (min-width: 768px){
-    .Slide_box{
+    .Slideshow{
         height: 50vh;
         width: 40vw;
     }
 
-    .Slideshow{
-        height: 50vh;
+    .Arrow_btns
+    {
         width: 40vw;
     }
 

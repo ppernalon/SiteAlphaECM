@@ -10,11 +10,12 @@ export default class Slideshow extends React.Component {
             rank:0
         }
         this.images = this.props.images
+        this.images_length = Object.keys(this.images).length
     }
 
     next_img(){
-        if (this.state.rank == this.props.images.length){
-            this.setState({ rank: 0});
+        if (this.state.rank === this.images_length - 1) {
+            this.setState((prevSate)=> ({ rank: 0}));
         }
         else {
             this.setState((prevSate) => ({ rank: prevSate.rank++}));
@@ -22,8 +23,8 @@ export default class Slideshow extends React.Component {
     }
 
     previous_img(){
-        if (this.state.rank == 0){
-            this.setState({ rank: this.props.images.length});
+        if (this.state.rank === 0){
+            this.setState((prevSate)=> ({ rank: this.images_length - 1}));
         }
         else {
             this.setState((prevSate) => ({ rank: prevSate.rank--}));
@@ -33,14 +34,14 @@ export default class Slideshow extends React.Component {
     render() {
         return (
             <div className="Slideshow">
-                <div className="Slide_box">
-                    <img className="Current_image" src={this.images[this.state.rank]}/>
-                </div>
+                <div className="Slide_box" style={{backgroundImage: 'url(' + this.images[this.state.rank] + ')',}}/>
                 <div className="Arrow_btns">
                     <img className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={() => this.previous_img()}/>
                     <img className="R_Arrow Arrow" src={Right_arrow} alt="next" onClick={() => this.next_img()}/>
                 </div>
+                <p className="Counter">{this.state.rank + 1}/{this.images_length} </p>
             </div>
+
         )
     }
 
