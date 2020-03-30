@@ -16,16 +16,18 @@ export default class Navigator extends React.Component{
         }
     }
 
+
     navigationHandler = (newPage) => {
-        let pages = {
-            HomePage: <HomePage navigate={this.props.navigate}/>,
-            MarseillePage : <MarseillePage navigate={this.props.navigate}/>
-        }
         this.setState({
-            currentPage: pages[newPage],
+            currentPage: this.pages[newPage],
             drawerOpen: !this.state.drawerOpen
         })
     };
+
+    pages = {
+        HomePage: <HomePage navigate={this.navigationHandler}/>,
+        MarseillePage : <MarseillePage navigate={this.navigationHandler}/>
+    }
 
     drawerToggleClickHandler = () => {
         this.setState({
@@ -42,7 +44,7 @@ export default class Navigator extends React.Component{
     render() {
        return(
             <div className="container">
-                <NavBar toggle={this.drawerToggleClickHandler}/>
+                <NavBar toggle={this.drawerToggleClickHandler} navigate={this.navigationHandler}/>
                 {this.state.currentPage}
                 <Backdrop show={this.state.drawerOpen} close={this.backdropClickHandler}/>
                 <SlideDrawer show={this.state.drawerOpen} navigate={this.navigationHandler}/>

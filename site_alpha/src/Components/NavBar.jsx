@@ -12,7 +12,7 @@ export default class NavBar extends React.Component{
         return(
             <div className="NavBar">
                 <img src={LogowCM} height="80px" className="MenuLogo"/>
-                <Menu />
+                <Menu scale={0.3} navigate={this.props.navigate}/>
                 <img src={ButtonImage} width="50px" onClick={this.props.toggle} className="MenuButton"/>
             </div>
         )
