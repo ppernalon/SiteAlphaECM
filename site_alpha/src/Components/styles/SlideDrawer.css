@@ -1,13 +1,11 @@
 .side-drawer {
     height: 100%;
-    background-image: url('../../Assets/Bordures/Bordures__ecole.png');
-    background-position: center;
-    background-size: auto 100vh;
+    background: white;
     position: fixed;
     top: 0;
     right: 0;
-    color: white;
-    width: 60%;
+    color: #282c34;
+    width: 40%;
     z-index: 200;
     box-shadow: 1px 0px 7px rgba(0,0,0,0.5);
     transform: translateX(100%);

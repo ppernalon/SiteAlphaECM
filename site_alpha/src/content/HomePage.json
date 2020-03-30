@@ -1,7 +1,7 @@
 {
     "title" : "Accueil",
     "componentName" : "HomePage",
-    "logo": "../Asset/logo.png",
+    "logo": "logo.png",
     "welcomingWord": {
         "message" : "Bienvenue sur le sjkdkj",
         "authors" : "Paul Pernalon et Clément Bidan"
