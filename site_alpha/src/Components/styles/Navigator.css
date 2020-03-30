@@ -1,15 +1,87 @@
 @media only screen and (min-width: 768px) {
     /* tablettes et ordinateurs */
+    .MenuButton{
+        display: none;
+    }
 }
+
 @media only screen and (max-width: 767px) {
     /* smartphone */
+    .Menu{
+        display: none;
+    }
 }
+
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* smartphone en mode portait */
+    .Menu{
+        display: none;
+    }
 }
 
 
 .container{
     height: 100%;
-    left: 100%;
+}
+
+.MenuButton{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 15px;
+}
+
+.MenuLogo{
+    height: 85px;
+    float: left;
+    margin-left: 15px;
+}
+
+.NavBar{
+    height: 85px;
+    background-image: url("../../Assets/Bordures/Bordures__ecole.png");
+    background-size: 101vw;
+    flex-direction: row;
+    background-position: center;
+    justify-content: center;
+}
+
+.Menu{
+    color: white;
+}
+
+.MenuItem{
+    background-image:url("../../Assets/Menu/Menu_button_bc.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    height:100%;
+    background-size: contain;
+    display:inline-flex;
+    width:195px;
+    justify-content:start;
+    flex-direction:column;
+    font-size: 15px;
+}
+
+.MenuItemEnd{
+    background-image:url("../../Assets/Menu/Menu_button_bc_end.png");
+}
+.MenuItemStart{
+    background-image:url("../../Assets/Menu/Menu_button_bc_start.png");
+}
+
+.MenuItemEnd:hover{
+    background-image:url("../../Assets/Menu/Menu_button_bc_end_filled.png");
+}
+.MenuItemStart:hover{
+    background-image:url("../../Assets/Menu/Menu_button_bc_start_filled.png");
+}
+
+.MenuItem:hover{
+    background-image:url("../../Assets/Menu/Menu_button_bc_filled.png");
+}
+
+.MenuItem a{
+    display: block;
+    height: 100%;
 }
