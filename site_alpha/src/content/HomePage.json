@@ -1,9 +1,10 @@
 {
     "title" : "Accueil",
     "componentName" : "HomePage",
-    "logo": "../Asset/logo.png",
+    "logo": "Logo",
     "welcomingWord": {
-        "message" : "Bienvenue sur le sjkdkj",
+        "message1" : "Bienvenue sur le site alpha de Centrale Marseille, c'est ici que tu découvriras ta future vie étudiante et associative !",
+        "message2" : "Ce site a été conçu et réalisé par des étudiants de Centrale Marseille.",
         "authors" : "Paul Pernalon et Clément Bidan"
     }
 }
