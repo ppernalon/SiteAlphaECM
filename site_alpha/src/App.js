@@ -8,7 +8,7 @@ import MarseillePage from "./Pages/MarseillePage";
 function App() {
   return (
     <div className="App">
-        <PopUp identity="BDE"/>
+        <Navigator/>
     </div>
   );
 }
