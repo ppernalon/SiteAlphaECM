@@ -1,6 +1,6 @@
 .PopUp
 {
-    background-color: white;
+    background-color: #303030;
     position: absolute;
     top : 5vh;
     left : 5vw;
@@ -27,7 +27,7 @@ h1
 h2
 {
     font-family: "Kaushan Script", cursive;
-    color:black;
+    color:white;
     font-size : 3vmax;
 }
 
@@ -44,7 +44,7 @@ h2
 .line1-container
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     text-align: justify;
     max-height: 11vh;
@@ -72,6 +72,7 @@ h2
 {
     padding: 1vmax;
     font-family: Roboto, sans-serif;
+    color:white;
 }
 
 .bordure

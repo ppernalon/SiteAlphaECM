@@ -47,8 +47,8 @@ export default class PopUp extends React.Component{
                         </div>
                         <div className="tableau">
                             <div className="line1-container">
-                                <h2> {this.name}</h2>
                                 <img className="logo" alt="logo" src={this.logo}/>
+                                <h2> {this.name}</h2>
                             </div>
                             <div className="line2-container">
                                 <div className="Message">
