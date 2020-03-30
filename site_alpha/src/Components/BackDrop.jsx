@@ -3,8 +3,14 @@ import './styles/Backdrop.css'
 
 export default class Backdrop extends React.Component {
     render(){
-        return(
-            <div className="backdrop" onClick={this.props.close} />
-        )
+        if(this.props.show){
+            return(
+                <div className="backdrop" onClick={this.props.close} />
+            )
+        }
+        return(<div>
+
+        </div>)
+
     }
 }
