@@ -1,4 +1,7 @@
 import React from 'react';
+import ButtonImage from '../Assets/Buttons/Buttons__menu.png';
+import LogowCM from '../Assets/Logos_site/Logos__wCM.png';
+import Menu from "./Menu";
 
 export default class NavBar extends React.Component{
     constructor(props){
@@ -7,8 +10,10 @@ export default class NavBar extends React.Component{
 
     render() {
         return(
-            <div>
-                <button onClick={this.props.toggle}>Open drawer</button>
+            <div className="NavBar">
+                <img src={LogowCM} height="80px" className="MenuLogo"/>
+                <Menu scale={0.3} navigate={this.props.navigate}/>
+                <img src={ButtonImage} width="50px" onClick={this.props.toggle} className="MenuButton"/>
             </div>
         )
     }

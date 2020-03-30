@@ -16,10 +16,8 @@ export default class MarseillePage extends React.Component{
     render() {
         return(
             <div className="page">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <p>Page de presentation de marseille</p>
-                </header>
+                <img src={logo} className="App-logo" alt="logo" />
+                <p>Page de présentation de marseille</p>
             </div>
         )
     }
