@@ -1,0 +1,63 @@
+#Map
+{
+    background-image: url("../../Assets/Marseille_map/Marseille_Map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 65vmin;
+    height: 65vmin;
+    position: relative;
+}
+
+input
+{
+    height: 9vmin;
+}
+
+#CentraleMarseille
+{
+    position: absolute;
+    top: 20%;
+    right:22%;
+}
+
+#MuCEM
+{
+    position: absolute;
+    top: 32%;
+    left:35%;
+}
+
+#VieuxPort
+{
+    position: absolute;
+    top: 38%;
+    left:45%;
+}
+
+#NotreDame
+{
+    position: absolute;
+    top: 47%;
+    left:38%;
+}
+
+#Frioul
+{
+    position: absolute;
+    top: 45%;
+    left:9%;
+}
+
+#OrangeVelodrome
+{
+    position: absolute;
+    top: 55%;
+    Right:27%;
+}
+
+#Calanques
+{
+    position: absolute;
+    top: 80%;
+    left:50%;
+}

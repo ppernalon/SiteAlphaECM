@@ -1,23 +1,21 @@
 import React from 'react';
-import PresentationMessage from '../Components/WelcomingMessage'
-import logo from "../logo.svg";
+import MarseilleMap_img from '../Assets/Marseille_map/Marseille_Map_bis.png';
+import './styles/MarseillePage.css';
+import CentraleMarseille from '../Assets/Marseille_map/Marseille_CentraleMarseille.png';
+import MarseilleMap from '../Components/MarseilleMap';
 
 export default class MarseillePage extends React.Component{
     constructor(props){
         super(props);
-        this.state={
-            presentationMessage:{
-                title:'',
-                message:''
-            }
-        }
     }
 
     render() {
         return(
-            <div className="page">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>Page de présentation de marseille</p>
+            <div className="MarseillePage">
+                <MarseilleMap/>
+                <div id="Message">
+
+                </div>
             </div>
         )
     }

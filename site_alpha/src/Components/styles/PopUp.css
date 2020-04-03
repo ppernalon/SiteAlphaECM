@@ -1,7 +1,8 @@
 .PopUp
 {
+    z-index: 10;
     background-color: #303030;
-    position: absolute;
+    position: fixed;
     top : 5vh;
     left : 5vw;
     height: 90vh;
@@ -34,7 +35,7 @@ h2
 .close_area
 {
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -191,4 +192,9 @@ h2
 .innovation
 {
     background-image: url("../../../src/Assets/Bordures/Bordures__inno.png");
+}
+
+.ecole
+{
+    background-image: url("../../../src/Assets/Bordures/Bordures__ecole.png");
 }

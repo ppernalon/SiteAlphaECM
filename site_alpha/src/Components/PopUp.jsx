@@ -11,7 +11,8 @@ export default class PopUp extends React.Component{
             visible : false,
         }
 
-        this.entity = data[this.props.identity];
+
+        this.entity = data[this.props.type][this.props.identity];
         this.logo = this.entity.Logo;
         this.color = this.entity.Color;
         this.name = this.entity.Name;
@@ -37,7 +38,7 @@ export default class PopUp extends React.Component{
         if (this.state.visible) {
             return (
                 <div className='container'>
-                    <input type="button" value={this.title} onClick={() => this.openModal()}/>
+                    <input type="image" src={this.entity.Img_btn} onClick={() => this.openModal()}/>
                     <div onClick={() => this.closeModal()} className="close_area"> </div>
                     <div className="PopUp">
                         <div class={"bordure " + this.color}>
@@ -63,7 +64,7 @@ export default class PopUp extends React.Component{
             );
         }
         else {
-            return (<div> <input type="button" value={this.title}  onClick={() => this.openModal()}/> </div>)
+            return (<div> <input type="image" src={this.entity.Img_btn} onClick={() => this.openModal()}/> </div>)
         }
     }
 }
