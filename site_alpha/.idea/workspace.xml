@@ -55,6 +55,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ECM_assos\UA\CA20\Github_site_alpha\site_alpha\src\Components" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>

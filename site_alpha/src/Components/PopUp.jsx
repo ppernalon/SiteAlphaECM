@@ -53,7 +53,7 @@ export default class PopUp extends React.Component{
                             </div>
                             <div className="line2-container">
                                 <div className="Message">
-                                    <p> {this.message}</p>
+                                    <p id="Texte_PopUp"> {this.message}</p>
                                     <div className="Links"></div>
                                 </div>
                                 <Slideshow className="Photos" images = {this.images}></Slideshow>

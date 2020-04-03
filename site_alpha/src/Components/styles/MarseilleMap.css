@@ -3,15 +3,34 @@
     background-image: url("../../Assets/Marseille_map/Marseille_Map.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 65vmin;
-    height: 65vmin;
     position: relative;
+    margin: 0 auto;
 }
 
-input
-{
-    height: 9vmin;
+@media only screen and (max-width: 767px) {
+    #Map {
+        width: 90vmin;
+        height: 90vmin;
+    }
+
+    input
+    {
+        height: 13vmin;
+    }
 }
+
+@media only screen and (min-width: 768px) {
+    #Map {
+        width: 60vmin;
+        height: 60vmin;
+    }
+
+    input
+    {
+        height: 9vmin;
+    }
+}
+
 
 #CentraleMarseille
 {

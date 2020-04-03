@@ -1,0 +1,73 @@
+.Bordure
+{
+    background-image: url("../../../src/Assets/Bordures/Bordures__ecole.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    width: 100%;
+}
+
+.top
+{
+    border-radius: 2vmax 2vmax 0 0;
+}
+
+.bot
+{
+    border-radius: 0 0 2vmax 2vmax;
+}
+
+p
+{
+    font-family: Roboto, sans-serif;
+    color: black;
+    margin: auto;
+}
+
+#Message h1
+{
+    font-family: "Kaushan Script", cursive;
+    color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    p
+    {
+        font-size: 1.5vmax;
+    }
+
+    #Message h1
+    {
+        font-size: 2.5vmax;
+    }
+
+    .Bordure
+    {
+        height: 4vmax;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    p
+    {
+        font-size: 0.8vmax;
+    }
+
+    #Message h1
+    {
+        font-size: 1.5vmax;
+    }
+
+    .Bordure
+    {
+        height: 4vmin;
+    }
+}
+
+#Message
+{
+    background-color: white;
+    padding: 2vmax;
+    box-shadow: 0 0 2vmax black;
+}

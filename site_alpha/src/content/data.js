@@ -64,7 +64,7 @@ export default
     VilleMarseille:{
         CentraleMarseille:{
             Img_btn: require('../Assets/Marseille_map/Marseille_CentraleMarseille.png'),
-            Title: "Centrale Marseille et ses alentours",
+            Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
             Logo: require('../Assets/Logos/BDE_logo.png'),
@@ -77,7 +77,7 @@ export default
         },
         MuCEM:{
             Img_btn: require('../Assets/Marseille_map/Marseille_MuCEM.png'),
-            Title: "Centrale Marseille et ses alentours",
+            Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
             Logo: require('../Assets/Logos/BDE_logo.png'),
@@ -90,7 +90,7 @@ export default
         },
         VieuxPort:{
             Img_btn: require('../Assets/Marseille_map/Marseille_VieuxPort.png'),
-            Title: "Centrale Marseille et ses alentours",
+            Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
             Logo: require('../Assets/Logos/BDE_logo.png'),
@@ -103,7 +103,7 @@ export default
         },
         NotreDame:{
             Img_btn: require('../Assets/Marseille_map/Marseille_NotreDame.png'),
-            Title: "Centrale Marseille et ses alentours",
+            Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
             Logo: require('../Assets/Logos/BDE_logo.png'),
@@ -116,7 +116,7 @@ export default
         },
         Frioul:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Frioul.png'),
-            Title: "Centrale Marseille et ses alentours",
+            Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
             Logo: require('../Assets/Logos/BDE_logo.png'),
@@ -129,7 +129,7 @@ export default
         },
         Calanques:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Calanques.png'),
-            Title: "Centrale Marseille et ses alentours",
+            Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
             Logo: require('../Assets/Logos/BDE_logo.png'),
@@ -142,7 +142,7 @@ export default
         },
         OrangeVelodrome:{
             Img_btn: require('../Assets/Marseille_map/Marseille_OrangeVelodrome.png'),
-            Title: "Centrale Marseille et ses alentours",
+            Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
             Logo: require('../Assets/Logos/BDE_logo.png'),
