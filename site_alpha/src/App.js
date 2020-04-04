@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import MarseillePage from "./Pages/MarseillePage";
+import Navigator from "./Components/Navigator";
 
 function App() {
   return (
     <div className="App">
-        <MarseillePage/>
+        <Navigator/>
     </div>
   );
 }

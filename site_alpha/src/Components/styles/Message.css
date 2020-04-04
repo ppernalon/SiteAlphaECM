@@ -49,9 +49,9 @@ p
 }
 
 @media only screen and (min-width: 768px) {
-    p
+    #Message p
     {
-        font-size: 0.8vmax;
+        font-size: 0.9vmax;
     }
 
     #Message h1
