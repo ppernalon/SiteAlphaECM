@@ -9,13 +9,13 @@
 
 @media only screen and (max-width: 767px) {
     #Map {
-        width: 90vmin;
-        height: 90vmin;
+        width: 75vmin;
+        height: 75vmin;
     }
 
     input
     {
-        height: 13vmin;
+        height: 11vmin;
     }
 }
 

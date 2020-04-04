@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
-    width: 100%;
+    width: 50vw;
 }
 
 .top
@@ -32,9 +32,10 @@ p
 }
 
 @media only screen and (max-width: 767px) {
-    p
+    #Message p
     {
         font-size: 1.5vmax;
+        padding: 0 2vmax 1.5vmax;
     }
 
     #Message h1
@@ -45,6 +46,7 @@ p
     .Bordure
     {
         height: 4vmax;
+        width: 90vw;
     }
 }
 
@@ -52,6 +54,7 @@ p
     #Message p
     {
         font-size: 0.9vmax;
+        padding: 0 2vmax 1.5vmax;
     }
 
     #Message h1
@@ -62,12 +65,13 @@ p
     .Bordure
     {
         height: 4vmin;
+        width: 50vw;
     }
 }
 
-#Message
+#Message_container
 {
     background-color: white;
-    padding: 2vmax;
-    box-shadow: 0 0 2vmax black;
+    border-radius: 2vmax;
+    box-shadow: 0 0 1vmax black ;
 }
