@@ -15,7 +15,56 @@
 
     input
     {
-        height: 11vmin;
+        height: 14vmin;
+    }
+
+    #CentraleMarseille
+    {
+        position: absolute;
+        top: 17%;
+        right:19%;
+    }
+
+    #MuCEM
+    {
+        position: absolute;
+        top: 28%;
+        left:31%;
+    }
+
+    #VieuxPort
+    {
+        position: absolute;
+        top: 36%;
+        left:44%;
+    }
+
+    #NotreDame
+    {
+        position: absolute;
+        top: 50%;
+        left:35%;
+    }
+
+    #Frioul
+    {
+        position: absolute;
+        top: 40%;
+        left:4%;
+    }
+
+    #OrangeVelodrome
+    {
+        position: absolute;
+        top: 55%;
+        Right:24%;
+    }
+
+    #Calanques
+    {
+        position: absolute;
+        top: 75%;
+        left:50%;
     }
 }
 
@@ -27,56 +76,56 @@
 
     input
     {
-        height: 7vmin;
+        height: 10vmin;
     }
-}
 
+    #CentraleMarseille
+    {
+        position: absolute;
+        top: 15%;
+        right:18%;
+    }
 
-#CentraleMarseille
-{
-    position: absolute;
-    top: 20%;
-    right:22%;
-}
+    #MuCEM
+    {
+        position: absolute;
+        top: 27%;
+        left:28%;
+    }
 
-#MuCEM
-{
-    position: absolute;
-    top: 32%;
-    left:35%;
-}
+    #VieuxPort
+    {
+        position: absolute;
+        top: 33%;
+        left:45%;
+    }
 
-#VieuxPort
-{
-    position: absolute;
-    top: 38%;
-    left:45%;
-}
+    #NotreDame
+    {
+        position: absolute;
+        top: 46%;
+        left:35%;
+    }
 
-#NotreDame
-{
-    position: absolute;
-    top: 47%;
-    left:38%;
-}
+    #Frioul
+    {
+        position: absolute;
+        top: 38%;
+        left:4%;
+    }
 
-#Frioul
-{
-    position: absolute;
-    top: 45%;
-    left:9%;
-}
+    #OrangeVelodrome
+    {
+        position: absolute;
+        top: 53%;
+        Right:22%;
+    }
 
-#OrangeVelodrome
-{
-    position: absolute;
-    top: 55%;
-    Right:27%;
-}
+    #Calanques
+    {
+        position: absolute;
+        top: 75%;
+        left:50%;
+    }
 
-#Calanques
-{
-    position: absolute;
-    top: 80%;
-    left:50%;
 }
