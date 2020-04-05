@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Navigator from "./Components/Navigator";
+import AlphaButtons from "./Components/AlphaButtons";
 
 function App() {
   return (
     <div className="App">
-        <Navigator/>
+        <AlphaButtons/>
     </div>
   );
 }

@@ -2,6 +2,8 @@ export default
 {
     Portail:{
         VDE: {
+            Title: "Pôle Vie de l'élève",
+            Color: "vde",
             Img_btn: require('../Assets/Alpha_buttons/VDE.png'),
             Assos: {
                 BDE: {
@@ -37,6 +39,156 @@ export default
                         Logo : require('../Assets/Logos/BDE_logo.png'),
                 }
             }
+        },
+
+        Business: {
+            Img_btn: require('../Assets/Alpha_buttons/Business.png'),
+            Assos: {
+                KSI: {
+                    Name : "KSI",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                FOCEEN: {
+                    Name : "FOCEEN",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                CMF: {
+                    Name : "Centrale Marseille Finance",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+            }
+        },
+
+        Culture: {
+            Img_btn: require('../Assets/Alpha_buttons/Culture.png'),
+            Assos: {
+                BDA: {
+                    Name : "Bureau des Arts",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                Clubs: {
+                    Name : "Clubs du BDA",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                PXC: {
+                    Name : "PXC",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                POMPOMS: {
+                    Name : "Pompoms",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                Farigoule: {
+                    Name : "Farigoule",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                PHY: {
+                    Name : "Phy-Tv",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+            }
+        },
+
+        Citoyennete: {
+            Img_btn: require('../Assets/Alpha_buttons/Citoyennete.png'),
+            Assos: {
+                ISF: {
+                    Name : "Ingénieurs Sans Frontières",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                EP: {
+                    Name : "Echanges Phocéens",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                CU: {
+                    Name : "CheerUp!",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                POTAGER: {
+                    Name : "Pot'a'gégé",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                AUMONERIE: {
+                    Name : "Farigoule",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+            }
+        },
+
+        Innovation: {
+            Img_btn: require('../Assets/Alpha_buttons/Inno.png'),
+            Assos: {
+                FABLAB: {
+                    Name : "Fablab",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                EGAB: {
+                    Name : "E-Gab",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                GINFO: {
+                    Name : "GInfo!",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                CHRIS: {
+                    Name : "Christopher.ai",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                KRYPTO: {
+                    Name : "Kryptoshpere",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                R2CM: {
+                    Name : "Racing Club de Marseille",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                QUATREL: {
+                    Name : "Squadra Massilia",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+            }
+        },
+
+        Sport: {
+            Img_btn: require('../Assets/Alpha_buttons/Sport.png'),
+            Assos: {
+                BDS: {
+                    Name : "Bureau des Sports",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                MSB: {
+                    Name : "MSB",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                Raid: {
+                    Name : "Raid Centrale Marseille",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                MRC: {
+                    Name : "MRC le Ski",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                TOURNOIS: {
+                    Name : "Tournois Sportifs",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                MDV: {
+                    Name : "Massilia Défi Voile",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                GLISSEPLONGEE: {
+                    Name : "Centrale Glisse & Centrale Plongée",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                REGATES: {
+                    Name : "RIC & CCE",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                },
+                TVP: {
+                    Name : "Massilia Défi Voile",
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
+                }
+            }
         }
 
 },
@@ -57,6 +209,25 @@ export default
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
                 Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
                 Site: "https://bde.asso.centrale-marseille.fr/"
+            }
+        },
+
+        UA: {
+            Img_btn: require('../Assets/Alpha_buttons/UA.png'),
+            Title: "",
+            Name: "Union des Associations",
+            Color: "ecole",
+            Logo: require('../Assets/Logos/UA_logo.png'),
+            Message: "Comme tu vas vite t'en rendre compte, la vie associative de Centrale Marseille est dense et variée ! Avec le développement exponentielle de celle-ci des dix dernières années, la necessité d'une fédération chargée de pérenniser, professionnaliser et représenter les associations a rapidement vu le jour. Cette fédération est l'Union des Associations de son nom court l'UA. Une telle fédération confère une plus grande envergure à l'ensemble des associations, non seulement elle est au centre des discussions avec la direction de l'école mais c'est aussi un interlocuteur privilégié pour développer des partenariats profitant à tous.",
+            Images: {
+                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
+                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
+                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            },
+            Links:{
+                Facebook: "https://www.facebook.com/ua.centrale.marseille",
+                Instagram: "0",
+                Site: "https://uaecm.fr/"
             }
         }
     },
