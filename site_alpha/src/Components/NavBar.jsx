@@ -6,15 +6,37 @@ import Menu from "./Menu";
 export default class NavBar extends React.Component{
     constructor(props){
         super(props)
+        this.state = {
+            windowWidth:window.innerWidth
+        }
     }
 
+    handleResize = () => {
+        this.setState({
+            windowWidth: window.innerWidth
+        });
+    };
+
     render() {
-        return(
-            <div className="NavBar">
-                <img src={LogowCM} height="80px" className="MenuLogo"/>
-                <Menu scale={0.3} navigate={this.props.navigate}/>
-                <img src={ButtonImage} width="50px" onClick={this.props.toggle} className="MenuButton"/>
-            </div>
-        )
+        if (this.state.windowWidth > 768){
+            return(
+                <div className="NavBar">
+                    <img src={LogowCM} height="80px" className="MenuLogo"/>
+                    <Menu scale={0.3} toggle={this.props.toggle} navigate={this.props.navigate}/>
+                </div>
+            )
+        }
+        else{
+            return(
+                <div className="NavBar">
+                    <img src={LogowCM} height="80px" className="MenuLogo"/>
+                    <img src={ButtonImage} width="50px" onClick={this.props.toggle} className="MenuButton"/>
+                </div>
+            )
+        }
+    }
+
+    componentDidMount() {
+        window.addEventListener("resize",this.handleResize);
     }
 }

@@ -1,22 +1,15 @@
 @media only screen and (min-width: 768px) {
     /* tablettes et ordinateurs */
-    .MenuButton{
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 767px) {
     /* smartphone */
-    .Menu{
-        display: none;
-    }
+
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* smartphone en mode portait */
-    .Menu{
-        display: none;
-    }
+
 }
 
 
@@ -47,7 +40,17 @@
 }
 
 .Menu{
-    color: white;
+    display: grid;
+    grid-template-columns: repeat(6,85px);
+    grid-auto-rows: 80px;
+    justify-content: end;
+}
+
+.MenuV {
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    justify-content: center;
+    grid-auto-rows: 85px;
 }
 
 .MenuItem{
@@ -56,32 +59,82 @@
     background-position: center;
     height:100%;
     background-size: contain;
-    display:inline-flex;
-    width:195px;
-    justify-content:start;
-    flex-direction:column;
     font-size: 15px;
+    color: white;
 }
+
+.MenuItemV{
+    background-image:url("../../Assets/Menu/Menu_button_bcV.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    height:100%;
+    background-size: contain;
+    font-size: 15px;
+    color: white;
+}
+
+
+
 
 .MenuItemEnd{
     background-image:url("../../Assets/Menu/Menu_button_bc_end.png");
 }
+.MenuItemEndV{
+    background-image:url("../../Assets/Menu/Menu_button_bcV_end.png");
+}
+
+
 .MenuItemStart{
     background-image:url("../../Assets/Menu/Menu_button_bc_start.png");
 }
+.MenuItemStartV{
+    background-image:url("../../Assets/Menu/Menu_button_bcV_start.png");
+}
 
-.MenuItemEnd:hover{
+.MenuItem.MenuItemEnd:hover{
     background-image:url("../../Assets/Menu/Menu_button_bc_end_filled.png");
 }
-.MenuItemStart:hover{
+.MenuItemV.MenuItemEndV:hover{
+    background-image:url("../../Assets/Menu/Menu_button_bcV_end_filled.png");
+}
+
+.MenuItem.MenuItemStart:hover{
     background-image:url("../../Assets/Menu/Menu_button_bc_start_filled.png");
+}
+.MenuItemV.MenuItemStartV:hover{
+    background-image:url("../../Assets/Menu/Menu_button_bcV_start_filled.png");
 }
 
 .MenuItem:hover{
     background-image:url("../../Assets/Menu/Menu_button_bc_filled.png");
 }
 
-.MenuItem a{
-    display: block;
-    height: 100%;
+.MenuItemV:hover{
+    background-image:url("../../Assets/Menu/Menu_button_bcV_filled.png");
 }
+
+.MenuItem a{
+    display: flex;
+    height: 100%;
+    justify-content: start;
+    flex-direction: column;
+    color: #fff;
+}
+
+.MenuItemV a{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: #fff;
+}
+
+.MenuItem a.Impair{
+    justify-content: end;
+}
+
+.MenuItemV a.Impair{
+    text-align: right;
+}
+
