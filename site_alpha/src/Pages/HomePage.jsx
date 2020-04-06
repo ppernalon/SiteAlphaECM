@@ -2,6 +2,7 @@ import React from 'react';
 import data from '../content/HomePage';
 import Logo from "../Assets/Logos_site/Logos__site_wShadow.png";
 import './styles/HomePage.css';
+import PopUp from "../Components/PopUp";
 
 const message1 = data.welcomingWord.message1
 const message2 = data.welcomingWord.message2
@@ -23,6 +24,7 @@ export default class HomePage extends React.Component{
                     <br/>
                     <span> {authors} </span>
                 </div>
+                <PopUp identity="BDE"/>
             </div>
         )
     }

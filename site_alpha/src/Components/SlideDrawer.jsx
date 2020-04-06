@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles/SlideDrawer.css'
+import Menu from "./Menu";
 
 export default class SlideDrawer extends React.Component {
     render(){
@@ -9,10 +10,7 @@ export default class SlideDrawer extends React.Component {
         }       return(
 
             <div className={drawerClasses}>
-                <h1>Hello, I'm sliding!</h1>
-                <a onClick={() => this.props.navigate('HomePage')}>Page d'accueil</a>
-                <br/>
-                <a onClick={() => this.props.navigate('MarseillePage')}>Presentation marseille</a>
+                <Menu navigate={this.props.navigate} toggle={this.props.toggle} vertical/>
             </div>)
     }
 
