@@ -14,56 +14,56 @@
         height: 60vh;
     }
 
-    #AlphaButtons_container input
+    #AlphaButtons_container .PopUpBTN
     {
-        height: 18vh;
+        height: 22vh;
     }
 
-    #Asso_UA input
+    #Asso_UA .PopUpBTN
     {
-        height: 10vh;
+        height: 13vh;
     }
 
     #Asso_UA
     {
-        top:25vh;
-        left:35vw;
+        top: 23.5vh;
+        left: calc(45vw - 6.5vh);
     }
 
     #pole_sport
     {
-        top:10vh;
-        right:12vw;
+        top: 10vh;
+        right: 16vw;
     }
 
     #pole_business
     {
         top:10vh;
-        left:12vw;
+        left:16vw;
     }
 
     #pole_VDE
     {
-        top:2vh;
-        left:28vw;
+        top: 1vh;
+        left:calc(45vw - 11vh);
     }
 
     #pole_culture
     {
-        bottom: 2vh;
-        left:28vw;
+        bottom: 1vh;
+        left:calc(45vw - 11vh);
     }
 
     #pole_innovation
     {
         bottom:10vh;
-        right:12vw;
+        right:16vw;
     }
 
     #pole_citoyennete
     {
         bottom:10vh;
-        left:12vw;
+        left:16vw;;
     }
 }
 
@@ -74,12 +74,12 @@
         height: 40vh;
     }
 
-    #AlphaButtons_container input
+    #AlphaButtons_container .PopUpBTN
     {
         height: 18vh;
     }
 
-    #Asso_UA input
+    #Asso_UA .PopUpBTN
     {
         height: 10vh;
     }

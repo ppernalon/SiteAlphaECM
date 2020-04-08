@@ -1,0 +1,21 @@
+#AssociationsPage
+{
+    display: grid;
+    grid-auto-rows: auto auto;
+    grid-gap: 0.2vmax;
+    text-align: justify;
+    justify-content: center;
+    padding: 2vmin;
+}
+
+@media only screen and (max-width: 767px) {
+    #AssociationsPage {
+        grid-template-columns: 90vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #AssociationsPage {
+        grid-template-columns: 50vw;
+    }
+}

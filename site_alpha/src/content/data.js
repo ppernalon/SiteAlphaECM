@@ -8,41 +8,43 @@ export default
             Assos: {
                 BDE: {
                     Name : "Bureau des Elèves",
-                        Logo : require('../Assets/Logos/BDE_logo.png'),
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
                 },
                 Technopole: {
                     Name : "Technopôle",
-                        Logo : require('../Assets/Logos/BDE_logo.png'),
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
                 },
                 Chaudron: {
                     Name : "Le Chaudron",
-                        Logo : require('../Assets/Logos/BDE_logo.png'),
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
                 },
                 Barbu: {
                     Name : "Bar'bu",
-                        Logo : require('../Assets/Logos/BDE_logo.png'),
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
                 },
                 Foys: {
                     Name : "Foy's",
-                        Logo : require('../Assets/Logos/BDE_logo.png'),
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
                 },
                 ICM: {
                     Name : "ICM",
-                        Logo : require('../Assets/Logos/BDE_logo.png'),
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
                 },
                 LPC: {
                     Name : "Le Petit Centralien",
-                        Logo : require('../Assets/Logos/BDE_logo.png'),
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
                 },
                 Campagnes: {
                     Name : "Les Campagnes",
-                        Logo : require('../Assets/Logos/BDE_logo.png'),
+                    Logo : require('../Assets/Logos/BDE_logo.png'),
                 }
             }
         },
 
         Business: {
+            Title: "Pôle Business",
             Img_btn: require('../Assets/Alpha_buttons/Business.png'),
+            Color: "business",
             Assos: {
                 KSI: {
                     Name : "KSI",
@@ -60,7 +62,9 @@ export default
         },
 
         Culture: {
+            Title: "Pôle Culture",
             Img_btn: require('../Assets/Alpha_buttons/Culture.png'),
+            Color: "culture",
             Assos: {
                 BDA: {
                     Name : "Bureau des Arts",
@@ -90,7 +94,9 @@ export default
         },
 
         Citoyennete: {
+            Title: "Pôle Citoyennete",
             Img_btn: require('../Assets/Alpha_buttons/Citoyennete.png'),
+            Color: "citoyennete",
             Assos: {
                 ISF: {
                     Name : "Ingénieurs Sans Frontières",
@@ -116,7 +122,9 @@ export default
         },
 
         Innovation: {
+            Title: "Pôle Innovation",
             Img_btn: require('../Assets/Alpha_buttons/Inno.png'),
+            Color: "innovation",
             Assos: {
                 FABLAB: {
                     Name : "Fablab",
@@ -150,7 +158,9 @@ export default
         },
 
         Sport: {
+            Title: "Pôle Sport",
             Img_btn: require('../Assets/Alpha_buttons/Sport.png'),
+            Color: "sport",
             Assos: {
                 BDS: {
                     Name : "Bureau des Sports",
@@ -185,12 +195,11 @@ export default
                     Logo : require('../Assets/Logos/BDE_logo.png'),
                 },
                 TVP: {
-                    Name : "Massilia Défi Voile",
+                    Name : "Traversée du Vieux-Port",
                     Logo : require('../Assets/Logos/BDE_logo.png'),
                 }
             }
         }
-
 },
 
     Assos:{

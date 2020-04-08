@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import AlphaButtons from "./Components/AlphaButtons";
+import AssociationsPage from "./Pages/AssociationsPage";
+
 
 function App() {
   return (
     <div className="App">
-        <AlphaButtons/>
+        <AssociationsPage/>
     </div>
   );
 }

@@ -86,7 +86,50 @@
     align-items: center;
 }
 
+
+.logoAssoPortail{
+    height: 6vh;
+}
+
+.ligneAsso
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ligneAsso .nomAsso
+{
+    font-family: "Kaushan Script",cursive;
+    color: black;
+}
+
+#PopUpPortail
+{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto 0;
+}
+
 @media only screen and (min-width: 768px){
+    .ligneAsso
+    {
+        padding: 0 4vw;
+        margin: 0 25vw;
+    }
+
+    .ligneAsso .enSavoirPlusBTN
+    {
+        height: 5vh;
+    }
+
+    .ligneAsso .nomAsso
+    {
+        font-size: 1.5vmax;
+    }
+
     .PopUp h1
     {
         font-size : 1.5vmax;
@@ -100,6 +143,11 @@
     .logo
     {
         height: 15vh;
+    }
+
+    .bordure
+    {
+        height: 8vh;
     }
 
     .line2-container
@@ -123,6 +171,22 @@
 }
 
 @media only screen and (max-width: 767px){
+    .ligneAsso
+    {
+        padding: 0 4vw;
+        margin: 0 4vw;
+    }
+
+    .ligneAsso .enSavoirPlusBTN
+    {
+        height: 8vw;
+    }
+
+    .ligneAsso .nomAsso
+    {
+        font-size: 2.0vmax;
+    }
+
     .PopUp h1
     {
         font-size : 3vmax;

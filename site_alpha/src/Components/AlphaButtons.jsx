@@ -10,6 +10,7 @@ export default class AlphaButtons extends React.Component {
     render() {
         return (
             <div id="AlphaButtons_container">
+
                 <div className="Buttons" id="pole_VDE">
                     <PopUp type="Portail" identity="VDE"/>
                 </div>
