@@ -1,0 +1,128 @@
+.Buttons
+{
+    position: absolute;
+}
+
+#AlphaButtons_container
+{
+    position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+    #AlphaButtons_container {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    #AlphaButtons_container .PopUpBTN
+    {
+        height: 22vh;
+    }
+
+    #Asso_UA .PopUpBTN
+    {
+        height: 13vh;
+    }
+
+    #Asso_UA
+    {
+        top: 23.5vh;
+        left: calc(45vw - 6.5vh);
+    }
+
+    #pole_sport
+    {
+        top: 10vh;
+        right: 16vw;
+    }
+
+    #pole_business
+    {
+        top:10vh;
+        left:16vw;
+    }
+
+    #pole_VDE
+    {
+        top: 1vh;
+        left:calc(45vw - 11vh);
+    }
+
+    #pole_culture
+    {
+        bottom: 1vh;
+        left:calc(45vw - 11vh);
+    }
+
+    #pole_innovation
+    {
+        bottom:10vh;
+        right:16vw;
+    }
+
+    #pole_citoyennete
+    {
+        bottom:10vh;
+        left:16vw;;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    #AlphaButtons_container {
+        width: 50vw;
+        height: 40vh;
+    }
+
+    #AlphaButtons_container .PopUpBTN
+    {
+        height: 18vh;
+    }
+
+    #Asso_UA .PopUpBTN
+    {
+        height: 10vh;
+    }
+
+    #Asso_UA
+    {
+        top:15vh;
+        left:22.5vw;
+    }
+
+    #pole_sport
+    {
+        top:2vh;
+        left:15vw;
+    }
+
+    #pole_business
+    {
+        bottom:2vh;
+        left:15vw;
+    }
+
+    #pole_VDE
+    {
+        top:11vh;
+        left: 10vw;
+    }
+
+    #pole_culture
+    {
+        top:11vh;
+        Right: 10vw;
+    }
+
+    #pole_innovation
+    {
+        top:2vh;
+        right:15vw;
+    }
+
+    #pole_citoyennete
+    {
+        bottom:2vh;
+        right:15vw;
+    }
+}
