@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import AssociationsPage from "./Pages/AssociationsPage";
+import Navigator from "./Components/Navigator";
 
 
 function App() {
   return (
     <div className="App">
-        <AssociationsPage/>
+        <Navigator/>
     </div>
   );
 }

@@ -4,17 +4,7 @@
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AlphaButtons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AlphaButtons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PopUpAsso.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PopUpPortail.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/AlphaButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/AlphaButtons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/MarseilleMap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/MarseilleMap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/Message.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/Message.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/PopUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/AssociationsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/AssociationsPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/styles/AssociationsPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/styles/AssociationsPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigator.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +75,7 @@
       <workItem from="1585562006962" duration="135000" />
       <workItem from="1585562166170" duration="6458000" />
       <workItem from="1586159829202" duration="608000" />
-      <workItem from="1586360378931" duration="8718000" />
+      <workItem from="1586360378931" duration="9287000" />
     </task>
     <servers />
   </component>

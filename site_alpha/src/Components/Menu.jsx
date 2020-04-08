@@ -37,7 +37,7 @@ export default class Menu extends React.Component{
                         </a>
                     </div>
                     <div className={classItem}>
-                        <a className="Impair" href={'#'} onClick={() =>{toggle(); this.props.navigate('MarseillePage')}}>
+                        <a className="Impair" href={'#'} onClick={() =>{toggle(); this.props.navigate('AssociationsPage')}}>
                         Associations
                         </a>
                     </div>
