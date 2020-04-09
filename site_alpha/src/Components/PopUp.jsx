@@ -10,7 +10,7 @@ export default class PopUp extends React.Component{
         super(props);
         this.state={
             visible : false,
-            content : <div></div>,
+            content : <div/>,
             type: this.props.type,
             entity : data[this.props.type][this.props.identity],
         };
@@ -40,7 +40,7 @@ export default class PopUp extends React.Component{
     changeIdentity(type, identity){
         this.setState({
             type: type,
-            entity: data["Assos"]["BDE"]
+            entity: data[type][identity]
         });
         this.contentChoice()
     }
