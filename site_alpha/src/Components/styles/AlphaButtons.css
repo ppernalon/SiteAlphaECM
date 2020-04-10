@@ -1,70 +1,84 @@
+#Asso_UA
+{
+    grid-area: d;
+}
+
+#pole_sport
+{
+    grid-area: a;
+}
+
+#pole_business
+{
+    grid-area: f;
+}
+
+#pole_VDE
+{
+    grid-area: c;
+}
+
+#pole_culture
+{
+    grid-area: e;
+}
+
+#pole_innovation
+{
+    grid-area: g;
+}
+
+#pole_citoyennete
+{
+    grid-area: b;
+}
+
 .Buttons
 {
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 1vmax black;
+}
+
+#Asso_UA
+{
+    border-radius: 10vmax;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 1vmax black;
 }
 
 #AlphaButtons_container
 {
-    position: relative;
+    display: grid;
+    grid-gap: 2vmax;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 767px) {
     #AlphaButtons_container {
         width: 90vw;
         height: 40vh;
+        grid-template-areas:
+                "h h a a a j b b b i i"
+                "h h a a a j b b b i i"
+                "h h a a a j b b b i i"
+                "p c c c d d d e e e q"
+                "p c c c d d d e e e q"
+                "p c c c d d d e e e q"
+                "n n f f f m g g g o o"
+                "n n f f f m g g g o o"
+                "n n f f f m g g g o o";
     }
 
-    #AlphaButtons_container .PopUpBTN
+    .Buttons
     {
-        width: 26vw;
+        border-radius: 2vmax;
     }
 
     #Asso_UA .PopUpBTN
     {
-        width: 18vw;
-    }
-
-    #Asso_UA
-    {
-        height: 18vw;
-        top: calc(20vh - 9vw);
-        left: calc(45vw - 9vw);
-    }
-
-    #pole_sport
-    {
-        top: 5vh;
-        right: 16vw;
-    }
-
-    #pole_business
-    {
-        top:5vh;
-        left:16vw;
-    }
-
-    #pole_VDE
-    {
-        top: 1vh;
-        left:calc(45vw - 13vw);
-    }
-
-    #pole_culture
-    {
-        bottom: 1vh;
-        left:calc(45vw - 13vw);
-    }
-
-    #pole_innovation
-    {
-        bottom:5vh;
-        right:16vw;
-    }
-
-    #pole_citoyennete
-    {
-        bottom:5vh;
-        left:16vw;;
+        height: 13vh;
     }
 }
 
@@ -72,57 +86,27 @@
     #AlphaButtons_container {
         width: 50vw;
         height: 40vh;
+        grid-template-areas:
+                "h h a a a a a j b b b b b i i"
+                "h h a a a a a j b b b b b i i"
+                "h h a a a a a j b b b b b i i"
+                "c c c c c k d d d l e e e e e"
+                "c c c c c k d d d l e e e e e"
+                "c c c c c k d d d l e e e e e"
+                "n n f f f f f m g g g g g o o"
+                "n n f f f f f m g g g g g o o"
+                "n n f f f f f m g g g g g o o";
+
     }
 
-    #AlphaButtons_container .PopUpBTN
+    .Buttons
     {
-        height: 18vh;
+        border-radius: 1vmax;
     }
 
     #Asso_UA .PopUpBTN
     {
-        height: 10vh;
-    }
-
-    #Asso_UA
-    {
-        top:15vh;
-        left:22.5vw;
-    }
-
-    #pole_sport
-    {
-        top:2vh;
-        left:15vw;
-    }
-
-    #pole_business
-    {
-        bottom:2vh;
-        left:15vw;
-    }
-
-    #pole_VDE
-    {
-        top:11vh;
-        left: 10vw;
-    }
-
-    #pole_culture
-    {
-        top:11vh;
-        Right: 10vw;
-    }
-
-    #pole_innovation
-    {
-        top:2vh;
-        right:15vw;
-    }
-
-    #pole_citoyennete
-    {
-        bottom:2vh;
-        right:15vw;
+        height: 15vh;
     }
 }
+

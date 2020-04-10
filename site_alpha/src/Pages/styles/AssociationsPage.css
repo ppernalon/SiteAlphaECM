@@ -2,7 +2,7 @@
 {
     display: grid;
     grid-auto-rows: auto auto;
-    grid-gap: 0.2vmax;
+    grid-gap: 4vmax;
     text-align: justify;
     justify-content: center;
     padding: 2vmin;
