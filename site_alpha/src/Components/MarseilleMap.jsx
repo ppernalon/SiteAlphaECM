@@ -10,31 +10,31 @@ export default class MarseilleMap extends React.Component {
     render(){
         return(
             <div id="Map">
-                <div className="Buttons" id="CentraleMarseille">
+                <div className="ButtonsMarseilleMap" id="CentraleMarseille">
                     <PopUp type="VilleMarseille" identity="CentraleMarseille"/>
                 </div>
 
-                <div className="Buttons" id="MuCEM">
+                <div className="ButtonsMarseilleMap" id="MuCEM">
                     <PopUp type="VilleMarseille" identity="MuCEM"/>
                 </div>
 
-                <div className="Buttons" id="VieuxPort">
+                <div className="ButtonsMarseilleMap" id="VieuxPort">
                     <PopUp type="VilleMarseille" identity="VieuxPort"/>
                 </div>
 
-                <div className="Buttons" id="NotreDame">
+                <div className="ButtonsMarseilleMap" id="NotreDame">
                     <PopUp type="VilleMarseille" identity="NotreDame"/>
                 </div>
 
-                <div className="Buttons" id="Frioul">
+                <div className="ButtonsMarseilleMap" id="Frioul">
                     <PopUp type="VilleMarseille" identity="Frioul"/>
                 </div>
 
-                <div className="Buttons" id="Calanques">
+                <div className="ButtonsMarseilleMap" id="Calanques">
                     <PopUp type="VilleMarseille" identity="Calanques"/>
                 </div>
 
-                <div className="Buttons" id="OrangeVelodrome">
+                <div className="ButtonsMarseilleMap" id="OrangeVelodrome">
                     <PopUp type="VilleMarseille" identity="OrangeVelodrome"/>
                 </div>
 

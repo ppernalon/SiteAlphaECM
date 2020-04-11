@@ -28,19 +28,19 @@ export default class Navigator extends React.Component{
         HomePage: <HomePage navigate={this.navigationHandler}/>,
         MarseillePage : <MarseillePage navigate={this.navigationHandler}/>,
         AssociationsPage : <AssociationsPage navigate={this.navigationHandler}/>
-    }
+    };
 
     drawerToggleClickHandler = () => {
         this.setState({
             drawerOpen: !this.state.drawerOpen
         })
-    }
+    };
 
     backdropClickHandler = () => {
         this.setState({
             drawerOpen: false
         })
-    }
+    };
 
     render() {
        return(

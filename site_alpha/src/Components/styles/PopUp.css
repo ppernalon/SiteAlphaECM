@@ -127,7 +127,7 @@
 
     #Texte_PopUp
     {
-        font-size: 1.2vmax;
+        font-size: 1.8vmax;
     }
 
 }
@@ -176,6 +176,11 @@
     .Photo
     {
         max-height: 30vh;
+    }
+
+    #Texte_PopUp
+    {
+        font-size: 1.6vmax;
     }
 }
 

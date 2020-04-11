@@ -15,8 +15,8 @@
 
 #logoPortail
 {
-    height: 40vh;
-    width: 40vh;
+    max-height: 40vh;
+    max-width: 40vh;
     margin: 4vmax;
 }
 
@@ -30,6 +30,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 1vmax black;
+    background-image: url("../../../src/Assets/Bordures/Bordures__white.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,60 +112,30 @@
 
 .innovationPortail
 {
-    background-image: url("../../../src/Assets/Background_poles/innovation.png");
+    background-image: url("../../../src/Assets/Background_poles/innovation.jpg");
 }
 
 .citoyennetePortail
 {
-    background-image: url("../../../src/Assets/Background_poles/citoyennete.png");
+    background-image: url("../../../src/Assets/Background_poles/citoyennete.jpg");
 }
 
 .culturePortail
 {
-    background-image: url("../../../src/Assets/Background_poles/culture.png");
+    background-image: url("../../../src/Assets/Background_poles/culture.jpg");
 }
 
 .businessPortail
 {
-    background-image: url("../../../src/Assets/Background_poles/business.png");
+    background-image: url("../../../src/Assets/Background_poles/business.jpg");
 }
 
 .sportPortail
 {
-    background-image: url("../../../src/Assets/Background_poles/sport.png");
+    background-image: url("../../../src/Assets/Background_poles/sport.jpg");
 }
 
 .vdePortail
 {
-    background-image: url("../../../src/Assets/Background_poles/vde.png");
-}
-
-.vdeAssoPortailBTN
-{
-    background-image: url("../../../src/Assets/Bordures/Bordures__vde.png");
-}
-
-.cultureAssoPortailBTN
-{
-    background-image: url("../../../src/Assets/Bordures/Bordures__culture.png");
-}
-
-.citoyenneteAssoPortailBTN
-{
-    background-image: url("../../../src/Assets/Bordures/Bordures__citoyennete.png");
-}
-
-.sportAssoPortailBTN
-{
-    background-image: url("../../../src/Assets/Bordures/Bordures__sport.png");
-}
-
-.businessAssoPortailBTN
-{
-    background-image: url("../../../src/Assets/Bordures/Bordures__business.png");
-}
-
-.innovationAssoPortailBTN
-{
-    background-image: url("../../../src/Assets/Bordures/Bordures__inno.png");
+    background-image: url("../../../src/Assets/Background_poles/vde.jpg");
 }

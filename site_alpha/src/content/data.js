@@ -214,9 +214,10 @@ export default
             Logo: require('../Assets/Logos/BDE_logo.png'),
             Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                3: require("../Assets/Images/BDE/Association_UA_4.png")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -1243,10 +1244,7 @@ export default
 
     VilleMarseille:{
         CentraleMarseille:{
-            Img_btn: {
-                nav : require('../Assets/Marseille_map/Marseille_CentraleMarseille.png'),
-                sp : require('../Assets/Marseille_map/Marseille_CentraleMarseille.png')
-            },
+            Img_btn: require('../Assets/Marseille_map/Marseille_CentraleMarseille.png'),
             Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
@@ -1259,10 +1257,7 @@ export default
             }
         },
         MuCEM:{
-            Img_btn: {
-                nav : require('../Assets/Marseille_map/Marseille_MuCEM.png'),
-                sp : require('../Assets/Marseille_map/Marseille_MuCEM.png')
-            },
+            Img_btn: require('../Assets/Marseille_map/Marseille_MuCEM.png'),
             Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
@@ -1275,10 +1270,7 @@ export default
             }
         },
         VieuxPort:{
-            Img_btn: {
-                nav : require('../Assets/Marseille_map/Marseille_VieuxPort.png'),
-                sp : require('../Assets/Marseille_map/Marseille_VieuxPort.png')
-            },
+            Img_btn: require('../Assets/Marseille_map/Marseille_VieuxPort.png'),
             Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
@@ -1291,10 +1283,7 @@ export default
             }
         },
         NotreDame:{
-            Img_btn: {
-                nav : require('../Assets/Marseille_map/Marseille_NotreDame.png'),
-                sp : require('../Assets/Marseille_map/Marseille_NotreDame.png'),
-            },
+            Img_btn: require('../Assets/Marseille_map/Marseille_NotreDame.png'),
             Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
@@ -1307,10 +1296,7 @@ export default
             }
         },
         Frioul:{
-            Img_btn: {
-                nav : require('../Assets/Marseille_map/Marseille_Frioul.png'),
-                sp : require('../Assets/Marseille_map/Marseille_Frioul.png'),
-            },
+            Img_btn: require('../Assets/Marseille_map/Marseille_Frioul.png'),
             Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
@@ -1323,10 +1309,7 @@ export default
             }
         },
         Calanques:{
-            Img_btn: {
-                nav : require('../Assets/Marseille_map/Marseille_Calanques.png'),
-                sp : require('../Assets/Marseille_map/Marseille_Calanques.png')
-            },
+            Img_btn: require('../Assets/Marseille_map/Marseille_Calanques.png'),
             Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",
@@ -1339,10 +1322,7 @@ export default
             }
         },
         OrangeVelodrome:{
-            Img_btn: {
-                nav : require('../Assets/Marseille_map/Marseille_OrangeVelodrome.png'),
-                sp : require('../Assets/Marseille_map/Marseille_OrangeVelodrome.png'),
-            },
+            Img_btn: require('../Assets/Marseille_map/Marseille_OrangeVelodrome.png'),
             Title: "Marseille",
             Name: "Centrale Marseille",
             Color: "ecole",

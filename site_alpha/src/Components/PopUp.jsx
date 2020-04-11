@@ -45,7 +45,7 @@ export default class PopUp extends React.Component{
         if (this.state.visible) {
             return (
                 <div>
-                    <input className="PopUpBTN" type="image" alt="button" src={this.Img_btn} onClick={() => this.openModal()}/>
+                    <input className={"PopUpBTN " + this.Type + "TypeBTN"} type="image" alt="button" src={this.Img_btn} onClick={() => this.openModal()}/>
                     <div onClick={() => this.closeModal()} className="close_area"> </div>
                     <div className="PopUpAsso">
                         <div className={"bordure " + this.Color}>
@@ -71,7 +71,7 @@ export default class PopUp extends React.Component{
             );
         }
         else {
-            return (<div> <input className="PopUpBTN" type="image" alt="button" src={this.Img_btn} onClick={() => this.openModal()}/> </div>)
+            return (<div> <input className={"PopUpBTN " + this.Type + "TypeBTN"} type="image" alt="button" src={this.Img_btn} onClick={() => this.openModal()}/> </div>)
         }
     }
 }

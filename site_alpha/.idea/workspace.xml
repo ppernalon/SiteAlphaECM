@@ -2,45 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_business.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_citoyennete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_culture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_innovation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_sport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_vde.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_business.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_citoyennete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_culture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_innovation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_sport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_vde.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_business.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_citoyennete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_culture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_innovation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_sport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_vde.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/business.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/citoyennete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/culture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/innovation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/sport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/vde.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PopUpPortail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/styles/PopUpPortail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Background_global.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/business.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/citoyennete.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/culture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/innovation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/sport.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Background_poles/vde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Bordures/Bordures__white.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/Business.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/Citoyennete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/Culture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/Inno.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/Sport.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/VDE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/UA.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/UA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_business.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_business.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_citoyennete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_citoyennete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_culture.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_culture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_innovation.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_innovation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_sport.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_sport.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_vde.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/logo_vde.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_business.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_business.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_citoyennete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_citoyennete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_culture.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_culture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_innovation.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_innovation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_sport.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_sport.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_vde.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/nav_vde.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_business.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_business.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_citoyennete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_citoyennete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_culture.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_culture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_innovation.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_innovation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_sport.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_sport.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_vde.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Alpha_buttons/sp_vde.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Background_global.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Background_poles/business.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Background_poles/citoyennete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Background_poles/culture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Background_poles/innovation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Background_poles/sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Background_poles/vde.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__savoir_plus_business.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__savoir_plus_citoyennete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__savoir_plus_culture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__savoir_plus_inno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__savoir_plus_sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__savoir_plus_vde.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Alumni_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Alumni_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Aumonerie_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Aumonerie_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/BDA_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/BDA_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/BDE_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/BDE_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/BDS_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/BDS_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/CMF_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/CMF_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/CU_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/CU_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Chaudron_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Chaudron_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/EGab_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/EGab_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/EP_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/EP_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/FOCEEN_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/FOCEEN_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Fablab_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Fablab_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Farigoule_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Farigoule_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/ISF_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/ISF_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/KSI_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/KSI_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Kryptosphere_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Kryptosphere_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Assets/Logos/LPC_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/LPC_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AlphaButtons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AlphaButtons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/MDV_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/MDV_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/MRC_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/MRC_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/MSB_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/MSB_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/POTAGER_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/POTAGER_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/PXC_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/PXC_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/PhyTv_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/PhyTv_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/RIC_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/RIC_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Raid_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Raid_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Squadra_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Squadra_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/TP_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/TP_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/TVP_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/TVP_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/UA_Logo_blanc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/UA_Logo_blanc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/UA_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/UA_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/massiliades_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/massiliades_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Marseille_map/Marseille_Map.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Marseille_map/Marseille_Map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MarseilleMap.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MarseilleMap.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigator.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/AlphaButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/AlphaButtons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slideshow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slideshow.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/styles/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/PopUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/styles/AssociationsPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/styles/AssociationsPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/styles/PopUpPortail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/PopUpPortail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +158,7 @@
       <workItem from="1586159829202" duration="608000" />
       <workItem from="1586360378931" duration="9556000" />
       <workItem from="1586424239887" duration="11488000" />
+      <workItem from="1586615430776" duration="6455000" />
     </task>
     <servers />
   </component>
