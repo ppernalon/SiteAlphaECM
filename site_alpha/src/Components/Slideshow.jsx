@@ -8,36 +8,38 @@ export default class Slideshow extends React.Component {
         super(props);
         this.state = {
             rank:0
-        }
-        this.images = this.props.images
-        this.images_length = Object.keys(this.images).length
+        };
+        this.images = this.props.images;
+        this.images_length = Object.keys(this.images).length;
     }
 
-    next_img(){
-        if (this.state.rank === this.images_length - 1) {
-            this.setState((prevSate)=> ({ rank: 0}));
+    next_img = () => {
+        if (this.state.rank >= this.images_length - 1) {
+            this.setState({ rank: 0});
         }
-        else {
-            this.setState((prevSate) => ({ rank: prevSate.rank++}));
+        else if (this.state.rank < this.images_length -1) {
+            let prevRank = this.state.rank;
+            this.setState({ rank: ++prevRank});
         }
-    }
+    };
 
-    previous_img(){
-        if (this.state.rank === 0){
-            this.setState((prevSate)=> ({ rank: this.images_length - 1}));
+    previous_img = () => {
+        if (this.state.rank > 0) {
+            let prevRank = this.state.rank;
+            this.setState({ rank: --prevRank});
         }
-        else {
-            this.setState((prevSate) => ({ rank: prevSate.rank--}));
+        else if (this.state.rank <= 0){
+            this.setState({ rank: this.images_length - 1});
         }
-    }
+    };
 
     render() {
         return (
             <div className="Slideshow">
                 <div className="Slide_box" style={{backgroundImage: 'url(' + this.images[this.state.rank] + ')',}}/>
                 <div className="Arrow_btns">
-                    <img className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={() => this.previous_img()}/>
-                    <img className="R_Arrow Arrow" src={Right_arrow} alt="next" onClick={() => this.next_img()}/>
+                    <input type="image" className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={this.previous_img}/>
+                    <input type="image" className="R_Arrow Arrow" src={Right_arrow} alt="next" onClick={this.next_img}/>
                 </div>
                 <p className="Counter">{this.state.rank + 1}/{this.images_length} </p>
             </div>

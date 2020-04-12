@@ -1,4 +1,4 @@
-.PopUp
+.PopUpAsso
 {
     z-index: 10;
     background-color: white;
@@ -18,14 +18,14 @@
     margin-right: 2vmax;
 }
 
-.PopUp h1
+.PopUpAsso h1
 {
     font-family: "Kaushan Script", cursive;
     color:white;
     margin-left: 2vmax;
 }
 
-.PopUp h2
+.PopUpAsso h2
 {
     font-family: "Kaushan Script", cursive;
     color:black;
@@ -86,56 +86,18 @@
     align-items: center;
 }
 
-
-.logoAssoPortail{
-    height: 6vh;
-}
-
-.ligneAsso
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ligneAsso .nomAsso
-{
-    font-family: "Kaushan Script",cursive;
-    color: black;
-}
-
-#PopUpPortail
-{
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: auto 0;
-}
-
 @media only screen and (min-width: 768px){
-    .ligneAsso
+    .PopUpBTN
     {
-        padding: 0 4vw;
-        margin: 0 25vw;
+        height: 5vw;
     }
 
-    .ligneAsso .enSavoirPlusBTN
-    {
-        height: 5vh;
-    }
-
-    .ligneAsso .nomAsso
-    {
-        font-size: 1.5vmax;
-    }
-
-    .PopUp h1
+    .PopUpAsso h1
     {
         font-size : 1.5vmax;
     }
 
-    .PopUp h2
+    .PopUpAsso h2
     {
         font-size : 4vmax;
     }
@@ -165,34 +127,23 @@
 
     #Texte_PopUp
     {
-        font-size: 1.2vmax;
+        font-size: 1.55vmax;
     }
 
 }
 
 @media only screen and (max-width: 767px){
-    .ligneAsso
+    .PopUpBTN
     {
-        padding: 0 4vw;
-        margin: 0 4vw;
+        height: 10vw;
     }
 
-    .ligneAsso .enSavoirPlusBTN
-    {
-        height: 8vw;
-    }
-
-    .ligneAsso .nomAsso
-    {
-        font-size: 2.0vmax;
-    }
-
-    .PopUp h1
+    .PopUpAsso h1
     {
         font-size : 3vmax;
     }
 
-    .PopUp h2
+    .PopUpAsso h2
     {
         font-size : 3vmax;
     }
@@ -225,6 +176,11 @@
     .Photo
     {
         max-height: 30vh;
+    }
+
+    #Texte_PopUp
+    {
+        font-size: 1.6vmax;
     }
 }
 

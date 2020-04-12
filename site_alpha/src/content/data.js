@@ -4,7 +4,11 @@ export default
         VDE: {
             Title: "Pôle Vie de l'élève",
             Color: "vde",
-            Img_btn: require('../Assets/Alpha_buttons/VDE.png'),
+            Logo : require('../Assets/Alpha_buttons/logo_vde.png'),
+            Img_btn: {
+                nav : require('../Assets/Alpha_buttons/nav_vde.png'),
+                sp : require('../Assets/Alpha_buttons/sp_vde.png')
+            },
             Assos: {
                 BDE: {
                     Name : "Bureau des Elèves",
@@ -34,16 +38,16 @@ export default
                     Name : "Le Petit Centralien",
                     Logo : require('../Assets/Logos/LPC_logo.png'),
                 },
-                CAMPAGNES: {
-                    Name : "Les Campagnes",
-                    Logo : require('../Assets/Logos/BDE_logo.png'),
-                }
             }
         },
 
         Business: {
             Title: "Pôle Business",
-            Img_btn: require('../Assets/Alpha_buttons/Business.png'),
+            Logo : require('../Assets/Alpha_buttons/logo_business.png'),
+            Img_btn: {
+                nav : require('../Assets/Alpha_buttons/nav_business.png'),
+                sp : require('../Assets/Alpha_buttons/sp_business.png')
+            },
             Color: "business",
             Assos: {
                 KSI: {
@@ -63,7 +67,11 @@ export default
 
         Culture: {
             Title: "Pôle Culture",
-            Img_btn: require('../Assets/Alpha_buttons/Culture.png'),
+            Logo : require('../Assets/Alpha_buttons/logo_culture.png'),
+            Img_btn: {
+                nav : require('../Assets/Alpha_buttons/nav_culture.png'),
+                sp : require('../Assets/Alpha_buttons/sp_culture.png')
+            },
             Color: "culture",
             Assos: {
                 BDA: {
@@ -91,7 +99,11 @@ export default
 
         Citoyennete: {
             Title: "Pôle Citoyennete",
-            Img_btn: require('../Assets/Alpha_buttons/Citoyennete.png'),
+            Logo : require('../Assets/Alpha_buttons/logo_citoyennete.png'),
+            Img_btn: {
+                nav : require('../Assets/Alpha_buttons/nav_citoyennete.png'),
+                sp : require('../Assets/Alpha_buttons/sp_citoyennete.png')
+            },
             Color: "citoyennete",
             Assos: {
                 ISF: {
@@ -119,7 +131,11 @@ export default
 
         Innovation: {
             Title: "Pôle Innovation",
-            Img_btn: require('../Assets/Alpha_buttons/Inno.png'),
+            Logo : require('../Assets/Alpha_buttons/logo_innovation.png'),
+            Img_btn: {
+                nav : require('../Assets/Alpha_buttons/nav_innovation.png'),
+                sp : require('../Assets/Alpha_buttons/sp_innovation.png')
+            },
             Color: "innovation",
             Assos: {
                 FABLAB: {
@@ -155,7 +171,11 @@ export default
 
         Sport: {
             Title: "Pôle Sport",
-            Img_btn: require('../Assets/Alpha_buttons/Sport.png'),
+            Logo : require('../Assets/Alpha_buttons/logo_sport.png'),
+            Img_btn: {
+                nav : require('../Assets/Alpha_buttons/nav_sport.png'),
+                sp : require('../Assets/Alpha_buttons/sp_sport.png')
+            },
             Color: "sport",
             Assos: {
                 BDS: {
@@ -173,10 +193,6 @@ export default
                 MRC: {
                     Name : "MRC le Ski",
                     Logo : require('../Assets/Logos/MRC_logo.png'),
-                },
-                TOURNOIS: {
-                    Name : "Tournois Sportifs",
-                    Logo : require('../Assets/Logos/BDS_logo.png'),
                 },
                 MDV: {
                     Name : "Massilia Défi Voile",
@@ -196,6 +212,61 @@ export default
             Name: "Bureau des Elèves",
             Color: "vde",
             Logo: require('../Assets/Logos/BDE_logo.png'),
+            Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
+            Images: {
+                0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                3: require("../Assets/Images/BDE/Association_UA_4.png")
+            },
+            Links:{
+                Facebook: "https://www.facebook.com/bdecentralemarseille",
+                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
+                Site: "https://bde.asso.centrale-marseille.fr/"
+            }
+        },
+
+        ICM: {
+            Title: "Pôle Vie de l'élève",
+            Name: "Bureau des Elèves",
+            Color: "vde",
+            Logo: require('../Assets/Logos/ICM_logo.png'),
+            Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
+            Images: {
+                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
+                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
+                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            },
+            Links:{
+                Facebook: "https://www.facebook.com/bdecentralemarseille",
+                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
+                Site: "https://bde.asso.centrale-marseille.fr/"
+            }
+        },
+
+        FOYS: {
+            Title: "Pôle Vie de l'élève",
+            Name: "Bureau des Elèves",
+            Color: "vde",
+            Logo: require('../Assets/Logos/Foys_logo.png'),
+            Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
+            Images: {
+                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
+                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
+                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            },
+            Links:{
+                Facebook: "https://www.facebook.com/bdecentralemarseille",
+                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
+                Site: "https://bde.asso.centrale-marseille.fr/"
+            }
+        },
+
+        TP: {
+            Title: "Pôle Vie de l'élève",
+            Name: "Bureau des Elèves",
+            Color: "vde",
+            Logo: require('../Assets/Logos/TP_logo.png'),
             Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
             Images: {
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
@@ -327,7 +398,7 @@ export default
             }
         },
 
-        PHYTV: {
+        PHY: {
             Title: "Pôle Culture",
             Name: "Phy-Tv",
             Color: "culture",
