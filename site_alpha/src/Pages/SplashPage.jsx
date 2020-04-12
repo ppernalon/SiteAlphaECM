@@ -2,9 +2,8 @@ import React from 'react';
 import './styles/HomePage.css';
 import HomePage_data from "../content/WelcomingMessage_data";
 import WelcomingMessage from "../Components/WelcomingMessage";
-import ScrollButton from "../Components/ScrollButton";
 
-export default class HomePage extends React.Component{
+export default class SplashPage extends React.Component{
     constructor(props){
         super(props);
     }
@@ -12,9 +11,8 @@ export default class HomePage extends React.Component{
     render() {
         return(
             <div id="container">
-                    <img id="Logo" src={HomePage_data.logo} alt={"logo"}/>
-                    <WelcomingMessage data={HomePage_data.welcomingWord}/>
-                    <ScrollButton title="Marseille" to="/marseille" />
+                <img id="Logo" src={HomePage_data.logo} alt={"logo"}/>
+                <p>Chargement...</p>
             </div>
         )
     }

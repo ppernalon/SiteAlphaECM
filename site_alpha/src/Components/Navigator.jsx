@@ -7,6 +7,7 @@ import HomePage from '../Pages/HomePage'
 import MarseillePage from '../Pages/MarseillePage'
 import NavBar from './NavBar'
 import AssociationsPage from "../Pages/AssociationsPage";
+import ScrollButton from "./ScrollButton";
 
 export default class Navigator extends React.Component{
     constructor(props){
@@ -46,7 +47,9 @@ export default class Navigator extends React.Component{
        return(
             <div className="container">
                 <NavBar toggle={this.drawerToggleClickHandler} navigate={this.navigationHandler}/>
+                <ScrollButton title="precedente" navigate={this.navigationHandler}/>
                 {this.state.currentPage}
+                <ScrollButton title="suivante" navigate={this.navigationHandler}/>
                 <Backdrop show={this.state.drawerOpen} close={this.backdropClickHandler}/>
                 <SlideDrawer show={this.state.drawerOpen} toggle={this.drawerToggleClickHandler} navigate={this.navigationHandler}/>
             </div>

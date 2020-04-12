@@ -42,3 +42,4 @@ export default class MarseilleMap extends React.Component {
         )
     }
 }
+
