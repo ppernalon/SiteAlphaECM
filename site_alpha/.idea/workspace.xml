@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Aumonerie_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/BDA_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/BDS_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Barbu_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/CMF_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/CU_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Chaudron_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Chris_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/EGab_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/EP_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/FOCEEN_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Fablab_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Farigoule_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Foys_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/GInfo_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/ICM_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/ISF_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/KSI_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Kryptosphere_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/LPC_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/MDV_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/MRC_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/MSB_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/POTAGER_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/PXC_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/PhyTv_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/R2CM_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/RIC_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Raid_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Squadra_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/TP_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/TVP_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/cglisse_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/cplongee_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/massiliades_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/AlphaButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/AlphaButtons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/data.js" afterDir="false" />
-    </list>
+    <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

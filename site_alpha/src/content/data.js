@@ -670,7 +670,7 @@ export default
             Title: "Pôle Culture",
             Name: "Les Massiliades",
             Color: "culture",
-            Logo: require('../Assets/Logos/Massiliades_logo.png'),
+            Logo: require('../Assets/Logos/massiliades_logo.png'),
             Message: "Les plus grands artistes de l’école passeront sur le devant de la scène pour vous montrer à tour de rôle leur talent ! Danse, musique, chant, stand-up, préparez-vous à en prendre plein la vue !\n" +
                 "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
             Images: {
