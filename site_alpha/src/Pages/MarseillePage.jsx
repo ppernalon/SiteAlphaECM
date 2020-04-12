@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/MarseillePage.css';
 import MarseilleMap from '../Components/MarseilleMap';
 import Message from '../Components/Message'
+import ScrollButton from "../Components/ScrollButton";
 
 export default class MarseillePage extends React.Component{
     constructor(props){
@@ -14,8 +15,10 @@ export default class MarseillePage extends React.Component{
     render() {
         return(
             <div id="MarseillePage">
+                <ScrollButton title="Accueil" to="/" />
                 <MarseilleMap/>
                 <Message title={this.title} message={this.message}/>
+                <ScrollButton title="Réseaux" to="/reseaux" />
             </div>
         )
     }

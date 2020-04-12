@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 export default class ScrollButton extends React.Component{
     constructor(props){
@@ -6,10 +7,14 @@ export default class ScrollButton extends React.Component{
     }
 
     render() {
-        return(
-            <div>
-
-            </div>
-        )
+        if (this.props.up){
+            return(
+                <NavLink className={"ScrollButton"} to={this.props.to}>
+                    {this.props.title}
+                </NavLink>)
+        }
+        return (<NavLink className={"ScrollButton"} to={this.props.to}>
+            {this.props.title}
+        </NavLink>)
     }
 }

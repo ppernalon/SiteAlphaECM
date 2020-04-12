@@ -2,6 +2,7 @@ import React from 'react';
 import Frise from '../Assets/Menu/Menu__frise.png'
 import Rond from '../Assets/Menu/Menu__rond.png'
 import AB from '../Assets/Menu/Menu_button_bc.png'
+import { NavLink } from 'react-router-dom'
 
 export default class Menu extends React.Component{
     constructor(props){
@@ -22,34 +23,46 @@ export default class Menu extends React.Component{
         return(
             <div className={className}>
                     <div className={"MenuItemStart" + vertical + " " + classItem}>
-                        <a href={'#'} onClick={() => {toggle(); this.props.navigate('HomePage')}}>
-                        Accueil
-                        </a>
+                        <NavLink to="/">
+                            <a onClick={() => toggle()}>
+                            Accueil
+                            </a>
+                        </NavLink>
                     </div>
                     <div className={classItem}>
-                        <a className="Impair" href={'#'} onClick={() =>{toggle(); this.props.navigate('MarseillePage')}}>
+                        <NavLink to="/marseille">
+                        <a className="Impair" onClick={() => toggle()}>
                         Marseille
                         </a>
+                        </NavLink>
                     </div>
                     <div className={classItem}>
-                        <a href={'#'} onClick={() =>{toggle(); this.props.navigate('MarseillePage')}}>
-                        Réseaux
-                        </a>
+                        <NavLink to="/reseaux">
+                            <a onClick={() => toggle()}>
+                                Réseaux
+                            </a>
+                        </NavLink>
                     </div>
                     <div className={classItem}>
-                        <a className="Impair" href={'#'} onClick={() =>{toggle(); this.props.navigate('AssociationsPage')}}>
-                        Associations
-                        </a>
+                        <NavLink to="/associations">
+                            <a className="Impair" onClick={() => toggle()}>
+                                Associations
+                            </a>
+                        </NavLink>
                     </div>
                     <div className={classItem}>
-                        <a className="Pair" href={'#'} onClick={() =>{toggle(); this.props.navigate('MarseillePage')}}>
-                        Calendrier
-                        </a>
+                        <NavLink to="/calendrier">
+                            <a onClick={() => toggle()}>
+                                Calendrier
+                            </a>
+                        </NavLink>
                     </div>
                     <div className={"MenuItemEnd" + vertical + " " + classItem}>
-                        <a className="Impair" href={'#'}>
-                        Contact
-                        </a>
+                        <NavLink to="/contact">
+                            <a className="Impair" onClick={() => toggle()}>
+                                Contact
+                            </a>
+                        </NavLink>
                     </div>
             </div>
         )

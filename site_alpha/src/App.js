@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navigator from "./Components/Navigator";
+import './animate.css';
+import NavigatorRouter from "./Components/NavigatorRouter";
 
 
 function App() {
   return (
     <div className="App">
-        <Navigator/>
+        <NavigatorRouter/>
     </div>
   );
 }
