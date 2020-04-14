@@ -1,0 +1,65 @@
+#ReseauxButtonsDiv
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-gap: 0.1vmax;
+}
+
+#C5
+{
+    grid-area: a;
+}
+
+#BNEI
+{
+    grid-area: e;
+}
+
+#AssoM
+{
+    grid-area: c;
+}
+
+#AI
+{
+    grid-area: g;
+}
+
+@media only screen and (min-width: 768px) {
+    #ReseauxButtonsDiv
+    {
+        grid-template-areas:
+                "a a a h g g g i i"
+                "b b c c c d e e e";
+        width: 50vw;
+        height: 45vh;
+    }
+
+    .ReseauxButtons .PopUpBTN
+    {
+        height: 24vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #ReseauxButtonsDiv
+    {
+        grid-template-areas:
+                "a a a i i i"
+                "a a a g g g"
+                "a a a g g g"
+                "c c c g g g"
+                "c c c e e e"
+                "c c c e e e"
+                "b b b e e e";
+        width: 80vw;
+        height: 45vh;
+    }
+
+    .ReseauxButtons .PopUpBTN
+    {
+        height: 19vh;
+    }
+}

@@ -14,6 +14,7 @@ import SplashPage from "../Pages/SplashPage";
 const HomePage = lazy(() => import('../Pages/HomePage'));
 const MarseillePage = lazy(() => import('../Pages/MarseillePage'));
 const AssociationsPage = lazy(() => import('../Pages/AssociationsPage'));
+const ReseauxPage = lazy(() => import('../Pages/ReseauxPage'));
 
 export default class NavigatorRouter extends React.Component{
     constructor(props){
@@ -27,13 +28,13 @@ export default class NavigatorRouter extends React.Component{
         this.setState({
             drawerOpen: !this.state.drawerOpen
         })
-    }
+    };
 
     backdropClickHandler = () => {
         this.setState({
             drawerOpen: false
         })
-    }
+    };
 
     render() {
         return(
@@ -46,6 +47,7 @@ export default class NavigatorRouter extends React.Component{
                             <Switch>
                                 <Route exact path="/" component={HomePage}/>
                                 <Route path="/marseille" component={MarseillePage}/>
+                                <Route path="/reseaux" component={ReseauxPage}/>
                                 <Route path="/associations" component={AssociationsPage}/>
                             </Switch>
                         </Suspense>

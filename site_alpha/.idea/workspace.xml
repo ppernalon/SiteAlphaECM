@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Assets/Reseaux_buttons/ReseauxButtons_AI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Reseaux_buttons/ReseauxButtons_AssoM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Reseaux_buttons/ReseauxButtons_BNEI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Reseaux_buttons/ReseauxButtons_C5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ReseauxButtons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/styles/ReseauxButtons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/ReseauxPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/styles/ReseauxPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/DataEntities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/DataPortailAsso.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/PopUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navigator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavigatorRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavigatorRouter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PopUpPortail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUpPortail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/data.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +95,7 @@
       <workItem from="1586424239887" duration="11488000" />
       <workItem from="1586615430776" duration="7256000" />
       <workItem from="1586687456470" duration="965000" />
+      <workItem from="1586785600476" duration="5980000" />
     </task>
     <servers />
   </component>
@@ -91,10 +106,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="521" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586101430857">
+    <state x="521" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586787952201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="521" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1586101430857" />
+    <state x="521" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1586787952201" />
     <state x="776" y="175" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1585563016393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

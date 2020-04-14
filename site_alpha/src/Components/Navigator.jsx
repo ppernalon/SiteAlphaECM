@@ -5,6 +5,7 @@ import SlideDrawer from "./SlideDrawer";
 import Backdrop from "./BackDrop";
 import HomePage from '../Pages/HomePage'
 import MarseillePage from '../Pages/MarseillePage'
+import ReseauxPage from "../Pages/ReseauxPage";
 import NavBar from './NavBar'
 import AssociationsPage from "../Pages/AssociationsPage";
 import ScrollButton from "./ScrollButton";
@@ -28,7 +29,8 @@ export default class Navigator extends React.Component{
     pages = {
         HomePage: <HomePage navigate={this.navigationHandler}/>,
         MarseillePage : <MarseillePage navigate={this.navigationHandler}/>,
-        AssociationsPage : <AssociationsPage navigate={this.navigationHandler}/>
+        AssociationsPage : <AssociationsPage navigate={this.navigationHandler}/>,
+        ReseauxPage: <ReseauxPage navigate={this.navigationHandler}/>
     };
 
     drawerToggleClickHandler = () => {

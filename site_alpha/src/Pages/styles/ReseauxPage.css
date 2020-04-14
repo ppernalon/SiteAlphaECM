@@ -1,0 +1,23 @@
+#ReseauxPageDiv
+{
+    display: grid;
+    grid-auto-rows: auto auto;
+    grid-gap: 3vmax;
+    text-align: justify;
+    justify-content: center;
+    justify-items: center;
+    padding: 2vmin;
+    max-height: 80vh;
+}
+
+@media only screen and (max-width: 767px) {
+    #ReseauxPageDiv {
+        grid-template-columns: 90vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #ReseauxPageDiv {
+        grid-template-columns: 50vw;
+    }
+}

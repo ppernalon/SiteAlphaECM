@@ -1,211 +1,5 @@
 export default
 {
-    Portail:{
-        VDE: {
-            Title: "Pôle Vie de l'élève",
-            Color: "vde",
-            Logo : require('../Assets/Alpha_buttons/logo_vde.png'),
-            Img_btn: {
-                nav : require('../Assets/Alpha_buttons/nav_vde.png'),
-                sp : require('../Assets/Alpha_buttons/sp_vde.png')
-            },
-            Assos: {
-                BDE: {
-                    Name : "Bureau des Elèves",
-                    Logo : require('../Assets/Logos/BDE_logo.png'),
-                },
-                TP: {
-                    Name : "Technopôle",
-                    Logo : require('../Assets/Logos/TP_logo.png'),
-                },
-                CHAUDRON: {
-                    Name : "Le Chaudron",
-                    Logo : require('../Assets/Logos/Chaudron_logo.png'),
-                },
-                BARBU: {
-                    Name : "Bar'bu",
-                    Logo : require('../Assets/Logos/Barbu_logo.png'),
-                },
-                FOYS: {
-                    Name : "Foy's",
-                    Logo : require('../Assets/Logos/Foys_logo.png'),
-                },
-                ICM: {
-                    Name : "ICM",
-                    Logo : require('../Assets/Logos/ICM_logo.png'),
-                },
-                LPC: {
-                    Name : "Le Petit Centralien",
-                    Logo : require('../Assets/Logos/LPC_logo.png'),
-                },
-            }
-        },
-
-        Business: {
-            Title: "Pôle Business",
-            Logo : require('../Assets/Alpha_buttons/logo_business.png'),
-            Img_btn: {
-                nav : require('../Assets/Alpha_buttons/nav_business.png'),
-                sp : require('../Assets/Alpha_buttons/sp_business.png')
-            },
-            Color: "business",
-            Assos: {
-                KSI: {
-                    Name : "KSI",
-                    Logo : require('../Assets/Logos/KSI_logo.png'),
-                },
-                FOCEEN: {
-                    Name : "FOCEEN",
-                    Logo : require('../Assets/Logos/FOCEEN_logo.png'),
-                },
-                CMF: {
-                    Name : "Centrale Marseille Finance",
-                    Logo : require('../Assets/Logos/CMF_logo.png'),
-                },
-            }
-        },
-
-        Culture: {
-            Title: "Pôle Culture",
-            Logo : require('../Assets/Alpha_buttons/logo_culture.png'),
-            Img_btn: {
-                nav : require('../Assets/Alpha_buttons/nav_culture.png'),
-                sp : require('../Assets/Alpha_buttons/sp_culture.png')
-            },
-            Color: "culture",
-            Assos: {
-                BDA: {
-                    Name : "Bureau des Arts",
-                    Logo : require('../Assets/Logos/BDA_logo.png'),
-                },
-                PXC: {
-                    Name : "PXC",
-                    Logo : require('../Assets/Logos/PXC_logo.png'),
-                },
-                POMPOMS: {
-                    Name : "Pompoms",
-                    Logo : require('../Assets/Logos/BDA_logo.png'),
-                },
-                FARIGOULE: {
-                    Name : "Farigoule",
-                    Logo : require('../Assets/Logos/Farigoule_logo.png'),
-                },
-                PHY: {
-                    Name : "Phy-Tv",
-                    Logo : require('../Assets/Logos/PhyTv_logo.png'),
-                },
-            }
-        },
-
-        Citoyennete: {
-            Title: "Pôle Citoyennete",
-            Logo : require('../Assets/Alpha_buttons/logo_citoyennete.png'),
-            Img_btn: {
-                nav : require('../Assets/Alpha_buttons/nav_citoyennete.png'),
-                sp : require('../Assets/Alpha_buttons/sp_citoyennete.png')
-            },
-            Color: "citoyennete",
-            Assos: {
-                ISF: {
-                    Name : "Ingénieurs Sans Frontières",
-                    Logo : require('../Assets/Logos/ISF_logo.png'),
-                },
-                EP: {
-                    Name : "Echanges Phocéens",
-                    Logo : require('../Assets/Logos/EP_logo.png'),
-                },
-                CU: {
-                    Name : "CheerUp!",
-                    Logo : require('../Assets/Logos/CU_logo.png'),
-                },
-                POTAGER: {
-                    Name : "Pot'a'gégé",
-                    Logo : require('../Assets/Logos/POTAGER_logo.png'),
-                },
-                AUMONERIE: {
-                    Name : "Farigoule",
-                    Logo : require('../Assets/Logos/Aumonerie_logo.png'),
-                },
-            }
-        },
-
-        Innovation: {
-            Title: "Pôle Innovation",
-            Logo : require('../Assets/Alpha_buttons/logo_innovation.png'),
-            Img_btn: {
-                nav : require('../Assets/Alpha_buttons/nav_innovation.png'),
-                sp : require('../Assets/Alpha_buttons/sp_innovation.png')
-            },
-            Color: "innovation",
-            Assos: {
-                FABLAB: {
-                    Name : "Fablab",
-                    Logo : require('../Assets/Logos/Fablab_logo.png'),
-                },
-                EGAB: {
-                    Name : "E-Gab",
-                    Logo : require('../Assets/Logos/EGab_logo.png'),
-                },
-                GINFO: {
-                    Name : "GInfo!",
-                    Logo : require('../Assets/Logos/GInfo_logo.png'),
-                },
-                CHRIS: {
-                    Name : "Christopher.ai",
-                    Logo : require('../Assets/Logos/Chris_logo.png'),
-                },
-                KRYPTO: {
-                    Name : "Kryptoshpere",
-                    Logo : require('../Assets/Logos/Kryptosphere_logo.png'),
-                },
-                R2CM: {
-                    Name : "Racing Club de Marseille",
-                    Logo : require('../Assets/Logos/R2CM_logo.png'),
-                },
-                QUATREL: {
-                    Name : "Squadra Massilia",
-                    Logo : require('../Assets/Logos/Squadra_logo.png'),
-                },
-            }
-        },
-
-        Sport: {
-            Title: "Pôle Sport",
-            Logo : require('../Assets/Alpha_buttons/logo_sport.png'),
-            Img_btn: {
-                nav : require('../Assets/Alpha_buttons/nav_sport.png'),
-                sp : require('../Assets/Alpha_buttons/sp_sport.png')
-            },
-            Color: "sport",
-            Assos: {
-                BDS: {
-                    Name : "Bureau des Sports",
-                    Logo : require('../Assets/Logos/BDS_logo.png'),
-                },
-                MSB: {
-                    Name : "MSB",
-                    Logo : require('../Assets/Logos/MSB_logo.png'),
-                },
-                RAID: {
-                    Name : "Raid Centrale Marseille",
-                    Logo : require('../Assets/Logos/Raid_logo.png'),
-                },
-                MRC: {
-                    Name : "MRC le Ski",
-                    Logo : require('../Assets/Logos/MRC_logo.png'),
-                },
-                MDV: {
-                    Name : "Massilia Défi Voile",
-                    Logo : require('../Assets/Logos/MDV_logo.png'),
-                },
-                TVP: {
-                    Name : "Traversée du Vieux-Port",
-                    Logo : require('../Assets/Logos/BDE_logo.png'),
-                }
-            }
-        }
-},
-
     Assos:{
         BDE: {
             Title: "Pôle Vie de l'élève",
@@ -1334,6 +1128,100 @@ export default
                 2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
             }
         },
-    }
+    },
 
+    Reseaux:{
+        AssoM: {
+            Img_btn: require('../Assets/Reseaux_buttons/ReseauxButtons_AssoM.png'),
+            Title: "Nos réseaux",
+            Name: "AssoM",
+            Color: "reseaux",
+            Logo: require('../Assets/Logos/AssoM_logo.png'),
+            Message: "Une association regroupant tous les organismes étudiants de \n" +
+                "Marseille, ne serait-ce pas formidable ? Ne cherche plus, cette \n" +
+                "association existe et s’appelle l’AssoM ! Cette asso ne se limite \n" +
+                "pas à organiser deux énormes soirées étudiantes dans l’année, \n" +
+                "elle œuvre à une ouverture culturelle et sportive au sein de \n" +
+                "Marseille : un concours culinaire de qualité, une tournoi hyper \n" +
+                "compétitif inter-écoles, l’AssoM régale la cité Phocéenne avec \n" +
+                "des évènements tous plus exceptionnels les uns que les autres. \n" +
+                "Et ceci n’est possible que grâce à l’aide de tous les étudiants \n" +
+                "Marseillais, centraliens y compris.",
+            Images: {
+                0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                3: require("../Assets/Images/BDE/Association_UA_4.png")
+            },
+            Links: {
+                Facebook: "https://www.facebook.com/bdecentralemarseille",
+                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
+                Site: "https://bde.asso.centrale-marseille.fr/"
+            }
+        },
+
+        AI: {
+            Img_btn: require('../Assets/Reseaux_buttons/ReseauxButtons_AI.png'),
+            Title: "Nos réseaux",
+            Name: "Centrale Marseille Alumni",
+            Color: "reseaux",
+            Logo: require('../Assets/Logos/Alumni_logo.png'),
+            Message: "Tu comprendras très vite en arrivant à l'école l'importance d'avoir un bon réseau de relations construit au cours de ta vie. L'association des alumnis, c'est ta porte ouverte sur tous les élèves passés par Centrale Marseille et ses écoles fondatrices ! Au-delà d'un annuaire où se trouve peut-être le numéro de ton futur employeur, l'association des Alumnis c'est aussi des interlocuteurs expérimentés qui sauront répondre à toutes tes questions et qui feront leur maximum pour t'aider dans tes projets professionnels.\n" +
+                "C'est ce réseau riche, accessible et solidaire qui fait la force de Centrale Marseille !",
+            Images: {
+                0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                3: require("../Assets/Images/BDE/Association_UA_4.png")
+            },
+            Links: {
+                Facebook: "https://www.facebook.com/bdecentralemarseille",
+                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
+                Site: "https://bde.asso.centrale-marseille.fr/"
+            }
+        },
+
+        C5: {
+            Img_btn: require('../Assets/Reseaux_buttons/ReseauxButtons_C5.png'),
+            Title: "Nos réseaux",
+            Name: "C5",
+            Color: "reseaux",
+            Logo: require('../Assets/Logos/C5_logo.png'),
+            Message: "La fédération C5 est une association constituée d'élèves des 5 écoles Centrale métropolitaines et de l'Ecole Centrale de Casablanca. Elle favorise la cohésion et la communication au sein du réseau centralien et agit à l'échelle du Groupe des Ecoles Centrale. \n" +
+                "Chaque année l'équipe du C5 organise un congrès sur le campus de CentraleSupélec pour rassembler les associations des Ecoles Centrales. L'objectif est de créer des temps d'échange et de réflexion autour du monde associatif et des problèmatiques qu'il rencontre comme l'éco-responsabilité ou l'organisation d'événements de grande ampleur. Au programme : des conférences, des tables rondes, des rencontres, et une soirée entre les 6 écoles !",
+            Images: {
+                0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                3: require("../Assets/Images/BDE/Association_UA_4.png")
+            },
+            Links: {
+                Facebook: "https://www.facebook.com/bdecentralemarseille",
+                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
+                Site: "https://bde.asso.centrale-marseille.fr/"
+            }
+        },
+
+        BNEI: {
+            Img_btn: require('../Assets/Reseaux_buttons/ReseauxButtons_BNEI.png'),
+            Title: "Nos réseaux",
+            Name: "Bureau National des Elèves Ingénieurs",
+            Color: "reseaux",
+            Logo: require('../Assets/Logos/BNEI_logo.png'),
+            Message: "Le Bureau National des Elèves Ingénieurs (BNEI) représente l’ensemble des 185 000 élèves-ingénieurs en fédérant les Bureaux des Elèves des écoles et les élus. Ses missions sont de représenter, d'informer et de former les élèves ingénieurs de la France entière. C'est une instance permettant un lien avec différentes institutions sociales, industrielles ou gouvernementales afin de défendre vos intérêts !\n" +
+                "Des formations sont également dispensées aux différents responsables associatifs afin d'accompagner le développement des associations et l'implication des élèves !\n" +
+                "Le BNEI est organisé en près de 24 Bureaux Régionaux des Elèves Ingénieurs (BREI) pour agir à échelle locale !",
+            Images: {
+                0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                3: require("../Assets/Images/BDE/Association_UA_4.png")
+            },
+            Links: {
+                Facebook: "https://www.facebook.com/bdecentralemarseille",
+                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
+                Site: "https://bde.asso.centrale-marseille.fr/"
+            }
+        }
+    }
 };

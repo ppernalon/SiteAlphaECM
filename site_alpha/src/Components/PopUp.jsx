@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/PopUp.css'
 import Croix from '../Assets/Buttons/Buttons__croix.png';
-import data from '../content/data';
+import DataEntities from '../content/DataEntities';
 import Slideshow from "./Slideshow";
 
 export default class PopUp extends React.Component{
@@ -12,7 +12,7 @@ export default class PopUp extends React.Component{
         };
 
         this.Type = this.props.type;
-        this.Entity = data[this.Type][this.props.identity];
+        this.Entity = DataEntities[this.Type][this.props.identity];
         this.Color = this.Entity["Color"];
         this.Title = this.Entity["Title"];
 

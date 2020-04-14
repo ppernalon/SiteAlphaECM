@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles/PopUpPortail.css'
 import Croix from '../Assets/Buttons/Buttons__croix.png';
-import data from '../content/data';
+import DataPortailAsso from '../content/DataPortailAsso';
 import PopUp from "./PopUp";
 
 export default class PopUpPortail extends React.Component{
     constructor(props){
         super(props);
-        this.Entity = data["Portail"][this.props.identity];
+        this.Entity = DataPortailAsso[this.props.identity];
         this.state={
             visible : false,
             screenWidth: window.innerWidth,
