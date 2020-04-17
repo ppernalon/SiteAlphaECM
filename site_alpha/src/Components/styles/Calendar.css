@@ -1,0 +1,65 @@
+#monthsFrieze
+{
+    height: 40vh;
+
+}
+
+.monthsBTN
+{
+    height: 20vh;
+}
+
+#monthEvnts
+{
+    display: grid;
+    grid-template-areas:
+            "a a d b b"
+            "a a d b b"
+            "a a d b b";
+    grid-gap: 1vmax;
+    width: 50vw;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#listMonthEvntsDiv
+{
+    grid-area: b;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#monthTitle
+{
+    font-family: "Kaushan Script", cursive;
+    color: white;
+    text-shadow: 0 0 1vmax black;
+}
+
+#currentMonthIMG
+{
+    width: 15vw;
+    grid-area: a;
+}
+
+.liEVNT
+{
+    list-style-type: none;
+    text-align: left;
+}
+
+#listMonthEvnts
+{
+    color: white;
+    text-shadow: 0 0 1vmax black;
+    font-family: Roboto,sans-serif;
+}
+
+#traitVertical
+{
+    grid-area: d;
+    height: 15vw;
+    align-self: center;
+}
