@@ -43,7 +43,7 @@ export default class Calendar extends React.Component{
 
         for (let evnt in this.state.currentMonth[1][1])
         {
-            listMonthEvnts.push(<li className={"liEVNT"}>{this.state.currentMonth[1][1][evnt]}</li>);
+            listMonthEvnts.push(<div className={"liEVNT"}>{this.state.currentMonth[1][1][evnt]}</div>);
         }
 
         return (
@@ -64,9 +64,9 @@ export default class Calendar extends React.Component{
                     <img src={this.state.currentMonth[1][2]} alt={this.state.currentMonth[0]} id="currentMonthIMG"/>
                     <div id={"listMonthEvntsDiv"}>
                         <h1 id={"monthTitle"}> {this.state.currentMonth[1][0]} </h1>
-                        <ul id={"listMonthEvnts"}>
+                        <div id={"listMonthEvnts"}>
                             {listMonthEvnts}
-                        </ul>
+                        </div>
                     </div>
                     <img src={trait_verti} alt={""} id="traitVertical"/>
                 </div>

@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Avr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Dec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Fev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Jan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Juin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Mai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Mars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Nov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Oct.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/Sept.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Calendar_buttons/trait_vertical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Calendar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/styles/Calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/CalendarPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/styles/CalendarPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/paulp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/paulp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavigatorRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavigatorRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/WelcomingMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WelcomingMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Calendar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/styles/Calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/Calendar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

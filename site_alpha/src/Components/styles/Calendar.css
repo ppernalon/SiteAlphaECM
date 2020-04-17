@@ -1,12 +1,7 @@
 #monthsFrieze
 {
-    height: 40vh;
-
-}
-
-.monthsBTN
-{
-    height: 20vh;
+    display: block;
+    margin: 0 auto;
 }
 
 #monthEvnts
@@ -17,7 +12,6 @@
             "a a d b b"
             "a a d b b";
     grid-gap: 1vmax;
-    width: 50vw;
     justify-content: center;
     margin: 0 auto;
 }
@@ -25,10 +19,10 @@
 #listMonthEvntsDiv
 {
     grid-area: b;
-    width: 15vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #monthTitle
@@ -40,26 +34,242 @@
 
 #currentMonthIMG
 {
-    width: 15vw;
     grid-area: a;
+    display: block;
+    margin: auto;
 }
 
 .liEVNT
 {
-    list-style-type: none;
     text-align: left;
+    margin: 0;
 }
 
 #listMonthEvnts
 {
     color: white;
+    margin: 0 auto;
     text-shadow: 0 0 1vmax black;
     font-family: Roboto,sans-serif;
 }
 
+
 #traitVertical
 {
     grid-area: d;
-    height: 15vw;
-    align-self: center;
+    display: block;
+    margin: auto 0;
+}
+
+@media only screen and (max-width: 767px) {
+    #monthEvnts
+    {
+        width: 90vw;
+        height: 22vh;
+    }
+
+    #traitVertical
+    {
+        height: 20vh;
+    }
+
+    #currentMonthIMG
+    {
+        height: 22vh;
+    }
+
+    .monthsBTN
+    {
+        height: 12vh;
+        position: absolute;
+    }
+
+    #monthsFrieze
+    {
+        width: 90vw;
+        height: 60vh;
+        position: relative;
+    }
+
+    #listMonthEvnts
+    {
+        font-size: 1.3vmax;
+    }
+
+    #monthTitle
+    {
+        font-size: 3vmax;
+    }
+
+    #listMonthEvntsDiv
+    {
+        width: 30vw;
+        height: 22vh;
+    }
+
+    #Sept
+    {
+        top: 45.6vh;
+        left: calc(45vw - 6vh);
+    }
+
+    #Oct
+    {
+        top: 38.4vh;
+        left: calc(45vw - 16vh);
+    }
+
+    #Nov
+    {
+        top: 38.4vh;
+        left: calc(45vw + 4vh);
+    }
+
+    #Déc
+    {
+        top: 31.2vh;
+        left: calc(45vw - 6vh);
+    }
+
+    #Jan
+    {
+        top: 24vh;
+        left: calc(45vw - 16vh);
+    }
+
+    #Fév
+    {
+        top: 24vh;
+        left: calc(45vw + 4vh);
+    }
+
+    #Mars
+    {
+        top: 16.8vh;
+        left: calc(45vw - 6vh);
+    }
+
+    #Avr
+    {
+        top: 9.6vh;
+        left:calc(45vw - 16vh);
+    }
+
+    #Mai
+    {
+        top: 9.6vh;
+        left:calc(45vw + 4vh);
+    }
+
+    #Juin
+    {
+        top: 2.4vh;
+        left: calc(45vw - 6vh);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #monthEvnts
+    {
+        width: 50vw;
+    }
+
+    #traitVertical
+    {
+        height: 15vw;
+    }
+
+    #listMonthEvntsDiv
+    {
+        width: 15vw;
+    }
+
+    #listMonthEvnts
+    {
+        font-size: 0.9vmax;
+    }
+
+    #monthTitle
+    {
+        font-size: 1.7vmax;
+    }
+
+    #currentMonthIMG
+    {
+        width: 15vw;
+    }
+
+
+    #monthsFrieze
+    {
+        width: 60vw;
+        height: 40vh;
+        position: relative;
+    }
+
+    .monthsBTN
+    {
+        width: 10vw;
+        position: absolute;
+    }
+
+    #Sept
+    {
+        top: 3vh;
+        left: 1vw;
+    }
+
+    #Oct
+    {
+        top: 8vw;
+        left: 6vw;
+    }
+
+    #Nov
+    {
+        top:3vh;
+        left:11vw;
+    }
+
+    #Déc
+    {
+        top: 8vw;
+        left: 16vw;
+    }
+
+    #Jan
+    {
+        top: 3vh;
+        left: 21vw;
+    }
+
+    #Fév
+    {
+        top: 8vw;
+        left: 26vw;
+    }
+
+    #Mars
+    {
+        top: 3vh;
+        left: 31vw;
+    }
+
+    #Avr
+    {
+        top: 8vw;
+        left:36vw;
+    }
+
+    #Mai
+    {
+        top:3vh;
+        left:41vw;
+    }
+
+    #Juin
+    {
+        top: 8vw;
+        left: 46vw;
+    }
 }
