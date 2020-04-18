@@ -16,6 +16,7 @@ export default class PopUpPortail extends React.Component{
 
         this.Color = this.Entity["Color"];
         this.Title = this.Entity["Title"];
+        this.Assos = ["BDE", "BDA", "BDS", "FABLAB", "ISF", "MDV"];
 
         if (this.state.screenWidth <= 727){
             this.setState({Img_btn: this.Entity["Img_btn"]["sp"]});
@@ -46,7 +47,7 @@ export default class PopUpPortail extends React.Component{
                 let Asso_btn;
                 Asso_btn = (
                     <div className={"ButtonAssoPortail " + this.Color + "AssoPortailBTN"}>
-                        <PopUp type={"Assos"} identity={asso}/>
+                        <PopUp type={"Assos"} identity={asso} severalPages={this.Assos.includes(asso)}/>
                     </div>
                 );
                 arrayAssos.push(Asso_btn);

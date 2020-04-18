@@ -3,33 +3,10 @@
     z-index: 10;
     background-color: white;
     position: fixed;
-    top : 5vh;
-    left : 5vw;
     height: 90vh;
     width: 90vw;
-    border-radius: 1vmax;
+    border-radius: 1.2vmax;
     box-shadow: 0 0 1vmax black;
-}
-
-.croix
-{
-    cursor: pointer;
-    width: 3vmax;
-    margin-right: 2vmax;
-}
-
-.PopUpAsso h1
-{
-    font-family: "Kaushan Script", cursive;
-    color:white;
-    margin-left: 2vmax;
-}
-
-.PopUpAsso h2
-{
-    font-family: "Kaushan Script", cursive;
-    color:black;
-    font-size : 3vmax;
 }
 
 .close_area
@@ -42,145 +19,218 @@
     height: 100vh;
 }
 
-.line1-container
+#closeCrossPopUpAsso
 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: justify;
-    max-height: 11vh;
-    margin: 5vh 2vmax 2.5vmax;
+    cursor: pointer;
+    grid-column: 3/3;
 }
 
-.line2-container
+#PoleAssociatif
 {
-    max-height: 65vh;
+    font-family: "Kaushan Script", cursive;
+    color:white;
+    margin-left: 2vmax;
+    grid-column: 1/1;
+}
+
+#EntityName
+{
+    font-family: "Kaushan Script", cursive;
+    color:black;
+}
+
+#row1-container
+{
     display: grid;
-    grid-gap: 2.5vh;
-    place-self: center;
     align-items: center;
-    text-align: justify;
-    margin: 2.5vh 2vw 2.5vmax;
 }
 
-.Photos
+#row2-container
+{
+    display: grid;
+    align-items: center;
+}
+
+#SlideshowDiv
 {
     padding: 1vmax;
     max-width: 100%;
 }
 
-.Message
-{
-    padding: 1vmax;
-    font-family: Roboto, sans-serif;
-    color:black;
-}
-
-.bordure
+#Bordure
 {
     background-size:cover;
     background-color: black;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     border-radius: 1vmax 1vmax 0 0;
     align-items: center;
 }
 
 @media only screen and (min-width: 768px){
-    .PopUpBTN
+    .PopUpAsso
     {
-        height: 5vw;
+        height: 90vh;
+        width: 90vw;
+        top : 5vh;
+        left : 5vw;
     }
 
-    .PopUpAsso h1
+    #Bordure
+    {
+        grid-template-columns: 20vw auto 9vh;
+        grid-template-rows: 8vh;
+        width: 100%;
+        height: 8vh;
+    }
+
+    #closeCrossPopUpAsso
+    {
+        height: 6vh;
+    }
+
+    #row1-container
+    {
+        height: 15vh;
+        grid-template-columns: 10vw auto 10vw 10vw;
+        grid-template-rows: 15vh;
+        grid-gap: 0.5vw;
+        width: 80vw;
+        margin: auto;
+        justify-items: center;
+        padding: 1vh;
+    }
+
+    #LeftArrowButtonPopUP{
+        height: 10vh;
+        max-width: 10vw;
+    }
+
+    #RightArrowButtonPopUP{
+        height: 10vh;
+        max-width: 10vw;
+    }
+
+    #row2-container
+    {
+        height: 50vh;
+        grid-template-columns: 39.75vw 39.75vw;
+        grid-template-rows: 50vh;
+        grid-gap: 1vw;
+        width: 80vw;
+        margin: auto;
+        padding: 1vh;
+        justify-items: center;
+    }
+
+    #PoleAssociatif
     {
         font-size : 1.5vmax;
     }
 
-    .PopUpAsso h2
+    #EntityName
     {
         font-size : 4vmax;
     }
 
-    .logo
+    #EntityLogoPopUp
     {
         height: 15vh;
-    }
-
-    .bordure
-    {
-        height: 8vh;
-    }
-
-    .line2-container
-    {
-        grid-template-columns: 50% 40%;
-        grid-template-rows: 60vh;
-    }
-
-    .Message
-    {
-        font-size: 1.5vmax;
-        margin: 1vw;
-        max-width: 50vw;
     }
 
     #Texte_PopUp
     {
         font-size: 1.55vmax;
+        max-width: 50vw;
+        margin: 1vw;
     }
 
+    .PopUpBTN
+    {
+        height: 5vw;
+    }
 }
 
 @media only screen and (max-width: 767px){
+    .PopUpAsso
+    {
+        height: 98vh;
+        width: 95vw;
+        top : 1vh;
+        left : 2.5vw;
+    }
+
     .PopUpBTN
     {
         height: 10vw;
     }
 
-    .PopUpAsso h1
+    #PoleAssociatif
     {
         font-size : 3vmax;
     }
 
-    .PopUpAsso h2
+    #EntityName
     {
         font-size : 3vmax;
     }
 
-    .logo
+    #EntityLogoPopUp
     {
-        height: 20vw;
+        height: 13vw;
     }
 
-
-    .line2-container
-    {
-        grid-template-rows: 50% 40%;
-        grid-template-columns: 80vw;
-        justify-content: space-around;
-        justify-items: center;
+    #LeftArrowButtonPopUP{
+        height: 7vh;
+        max-width: 7vw;
     }
 
-    .Message
+    #RightArrowButtonPopUP{
+        height: 7vh;
+        max-width: 7vw;
+    }
+
+    #Bordure
     {
-        font-size: 1.7vmax;
+        grid-template-columns: 60vw auto 9vh;
+        grid-template-rows: 7vh;
         width: 100%;
-    }
-
-    .bordure
-    {
         height: 7vh;
     }
 
-    .Photo
+    #row1-container
     {
-        max-height: 30vh;
+        height: 15vw;
+        grid-template-columns: 15vw auto 7vw 7vw;
+        grid-template-rows: 15vw;
+        grid-gap: 1vw;
+        width: 80vw;
+        margin: auto;
+        padding: 2vh;
+        justify-items: center;
+    }
+
+    #row2-container
+    {
+        height: 67vh;
+        grid-template-rows: 35vh 30vh;
+        grid-template-columns: 80vw;
+        grid-gap: 0.25vh;
+        width: 80vw;
+        margin: auto;
+        padding: 1vh;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #closeCrossPopUpAsso
+    {
+        height: 5vh;
     }
 
     #Texte_PopUp
     {
-        font-size: 1.6vmax;
+        font-size: 1.8vmax;
+        width: 100%;
     }
 }
 

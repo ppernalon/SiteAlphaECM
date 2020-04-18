@@ -3,16 +3,79 @@ export default
     Assos:{
         BDE: {
             Title: "Pôle Vie de l'élève",
-            Name: "Bureau des Elèves",
             Color: "vde",
             Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
-            Images: {
-                0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                3: require("../Assets/Images/BDE/Association_UA_4.png")
-            },
+            Pages: {
+                        0: {
+                            Name: "Bureau des Elèves",
+                            Logo: require('../Assets/Logos/BDE_logo.png'),
+                            Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
+                            Images:
+                                {
+                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                },
+                            },
+                        1: {
+                            Name: "Soirées",
+                            Logo: require('../Assets/Logos/BDE_logo.png'),
+                            Message: "Après la monotonie de la vie en prépa, tu découvriras enfin ce que veut dire la vie étudiante. Tu pourras compter sur le pôle Soirée du Bureau Des Élèves pour te faire connaître les lieux les plus festifs de notre belle ville marseillaise, toujours à des prix \n" +
+                                "incroyablement réduits. Heureusement pour toi, les soirées seront nombreuses et variées. D'une simple soirée afterwork en bar aux\n" +
+                                "énormes soirées organisées en club privatisé, sois-en sûr, nous te montrerons ce que c'est que de s'amuser !",
+                            Images:
+                                {
+                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                },
+                            },
+                        2: {
+                            Name: "Inté",
+                            Logo: require('../Assets/Logos/BDE_logo.png'),
+                            Message: "Si vous voulez décompresser après la dure vie de prépa, l'Inté c'est votre mois ! L'objectif : découvrir la vie à  \n" +
+                                "Centrale Marseille ainsi que ses nombreuses assos et se faire des potes lors d'activités sportives et culturelles,  \n" +
+                                "pour finir sur un WEI endiablé !",
+                            Images:
+                                {
+                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                },
+                            },
+                        3: {
+                            Name: "WEI",
+                            Logo: require('../Assets/Logos/BDE_logo.png'),
+                            Message: "Qu’est-ce que le WEI? Organisé par 6 membres dévoués, cet \n" +
+                                "événement est l’avènement de l’intégration de Centrale Marseille. \n" +
+                                "Au programme: 2 jours de folie avec des activités ludiques, du \n" +
+                                "soleil et 2 soirées inoubliables. Profitez-en un maximum car vous \n" +
+                                "n’en aurez pas deux comme ça.",
+                            Images:
+                                {
+                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                },
+                            },
+                        4: {
+                            Name: "Gala",
+                            Logo: require('../Assets/Logos/BDE_logo.png'),
+                            Message: "Point final de la vie étudiante pour les nouveaux diplômés, le Gala réunit en leur honneur toutes les générations de centraliens \n" +
+                                "marseillais. Les centraliens passent tous ensemble une soirée de prestige aux cotés de leur famille, leurs amis, leurs enseignants et de l’administration.",
+                            Images:
+                                {
+                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                },
+                        },
+                    },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
                 Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
@@ -22,7 +85,7 @@ export default
 
         ICM: {
             Title: "Pôle Vie de l'élève",
-            Name: "Bureau des Elèves",
+            Name: "International Centrale Marseille",
             Color: "vde",
             Logo: require('../Assets/Logos/ICM_logo.png'),
             Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
@@ -40,10 +103,11 @@ export default
 
         FOYS: {
             Title: "Pôle Vie de l'élève",
-            Name: "Bureau des Elèves",
+            Name: "Foy's",
             Color: "vde",
             Logo: require('../Assets/Logos/Foys_logo.png'),
-            Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
+            Message: "Ah la la… que dire du Foy’s ? Le Foy’s c’est une équipe soudée qui a pour objectif d’apporter un endroit convivial et chaleureux pour tout le monde. \n" +
+                "Mais le Foy's c’est surtout un endroit de rassemblement et de partage, que ce soit lors des événements organisés par les différentes assos mais aussi en dehors des cours, juste pour se détendre autour du babyfoot ou du billard. Alors venez nous rejoindre au Foy’s !",
             Images: {
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
@@ -58,91 +122,10 @@ export default
 
         TP: {
             Title: "Pôle Vie de l'élève",
-            Name: "Bureau des Elèves",
+            Name: "Techno-pôle",
             Color: "vde",
             Logo: require('../Assets/Logos/TP_logo.png'),
             Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        SOIREES: {
-            Title: "Pôle Vie de l'élève",
-            Name: "Les soirées !",
-            Color: "vde",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "Après la monotonie de la vie en prépa, tu découvriras enfin ce que veut dire la vie étudiante. Tu pourras compter sur le pôle Soirée du Bureau Des Élèves pour te faire connaître les lieux les plus festifs de notre belle ville marseillaise, toujours à des prix \n" +
-                "incroyablement réduits. Heureusement pour toi, les soirées seront nombreuses et variées. D'une simple soirée afterwork en bar aux\n" +
-                "énormes soirées organisées en club privatisé, sois-en sûr, nous te montrerons ce que c'est que de s'amuser !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        INTE: {
-            Title: "Pôle Vie de l'élève",
-            Name: "Intégration",
-            Color: "vde",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "Si vous voulez décompresser après la dure vie de prépa, l'Inté c'est votre mois ! L'objectif : découvrir la vie à  \n" +
-                "Centrale Marseille ainsi que ses nombreuses assos et se faire des potes lors d'activités sportives et culturelles,  \n" +
-                "pour finir sur un WEI endiablé !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        WEI: {
-            Title: "Pôle Vie de l'élève",
-            Name: "Week-end d'intégration",
-            Color: "vde",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "Qu’est-ce que le WEI? Organisé par 6 membres dévoués, cet \n" +
-                "événement est l’avènement de l’intégration de Centrale Marseille. \n" +
-                "Au programme: 2 jours de folie avec des activités ludiques, du \n" +
-                "soleil et 2 soirées inoubliables. Profitez-en un maximum car vous \n" +
-                "n’en aurez pas deux comme ça.",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        GALA: {
-            Title: "Pôle Vie de l'élève",
-            Name: "Gala",
-            Color: "vde",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "Point final de la vie étudiante pour les nouveaux diplômés, le Gala réunit en leur honneur toutes les générations de centraliens \n" +
-                "marseillais. Les centraliens passent tous ensemble une soirée de prestige aux cotés de leur famille, leurs amis, leurs enseignants et de l’administration.",
             Images: {
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
@@ -231,34 +214,35 @@ export default
 
         FABLAB: {
             Title: "Pôle Innovation",
-            Name: "Fablab",
             Color: "innovation",
             Logo: require('../Assets/Logos/Fablab_logo.png'),
-            Message: "Tu as pleins d’idées farfelues et des projets à fabriquer mais qui sont en stand-by ? Alors n’attends plus ! Le Fablab est un lieu où tu peux laisser ta créativité parler et bricoler tout et n’importe quoi, grâce aux imprimantes 3D, découpeuses laser, floqueuse et autres matériels à disposition. \n" +
-                "Tu n’y connais rien ? Pas grave ! Tout le long de l’année, le Fablab organise des Repair Cafés et des formations pour pouvoir utiliser les machines et vous donner des tips et conseils en tout genre.\n" +
-                "Viens donc nous rejoindre au Fablab !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        MOC: {
-            Title: "Pôle Innovation",
-            Name: "Makers Original Challenge",
-            Color: "innovation",
-            Logo: require('../Assets/Logos/Fablab_logo.png'),
-            Message: "En février, se tient le MOC - Makers Original Challenge, c’est le plus gros événement organisé par le Fablab Marseille ! Il rassemble de nombreux élèves de différentes écoles pour s’affronter en équipe et créer LE prototype qui séduira le jury en seulement 48h. Aucun thème, les seules limites sont votre imagination et votre détermination, le tout c’est de s’amuser, créer et ce grâce aux machines et matériel mis à disposition par le Fab !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            Pages: {
+                0: {
+                    Name: "Fablab",
+                    Logo: require('../Assets/Logos/Fablab_logo.png'),
+                    Message: "Tu as pleins d’idées farfelues et des projets à fabriquer mais qui sont en stand-by ? Alors n’attends plus ! Le Fablab est un lieu où tu peux laisser ta créativité parler et bricoler tout et n’importe quoi, grâce aux imprimantes 3D, découpeuses laser, floqueuse et autres matériels à disposition. \n" +
+                        "Tu n’y connais rien ? Pas grave ! Tout le long de l’année, le Fablab organise des Repair Cafés et des formations pour pouvoir utiliser les machines et vous donner des tips et conseils en tout genre.\n" +
+                        "Viens donc nous rejoindre au Fablab !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                1: {
+                    Name: "Makers Original Challenge",
+                    Logo: require('../Assets/Logos/Fablab_logo.png'),
+                    Message: "En février, se tient le MOC - Makers Original Challenge, c’est le plus gros événement organisé par le Fablab Marseille ! Il rassemble de nombreux élèves de différentes écoles pour s’affronter en équipe et créer LE prototype qui séduira le jury en seulement 48h. Aucun thème, les seules limites sont votre imagination et votre détermination, le tout c’est de s’amuser, créer et ce grâce aux machines et matériel mis à disposition par le Fab !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -342,7 +326,7 @@ export default
 
         R2CM: {
             Title: "Pôle Innovation",
-            Name: "Racing Club de Centrale Marseille",
+            Name: "Racing Club",
             Color: "innovation",
             Logo: require('../Assets/Logos/Squadra_logo.png'),
             Message: "Tu es passionné de belles mécaniques\n" +
@@ -456,92 +440,75 @@ export default
 
         BDA: {
             Title: "Pôle Culture",
-            Name: "Bureau des Arts",
             Color: "culture",
             Logo: require('../Assets/Logos/BDA_logo.png'),
-            Message: "Le Bureau des Arts c’est l’association culturelle de l’école. Une équipe survoltée se donne à fond pour organiser des événements de folie!\n" +
-                "Le BDA héberge également une dizaine de clubs : comédie musicale, chant / chorale, rock, orchestre, mais aussi cuisine, cinéma, jeux de société ou yoga ! Et si vous êtes animé.e.s par un projet nouveau, il est toujours possible de créer un club. \n" +
-                "Alors préparez-vous à vivre une année inoubliable entre le Plot 5, le cabaret, le masterchef, les concerts, les soirées Foy’s ainsi que le Voyage, vous ne vous ennuierez jamais, que vous ayez l’âme d’un artiste ou non !\n",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        VOYAGE: {
-            Title: "Pôle Culture",
-            Name: "Voyage",
-            Color: "culture",
-            Logo: require('../Assets/Logos/BDA_logo.png'),
-            Message: "Partir le temps d’un Week-end en Europe avec des ami.e.s, c’est ce que le BDA te propose pendant le mois d’intégration ! \n" +
-                "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        POUCEDOR: {
-            Title: "Pôle Culture",
-            Name: "Pouce d'Or",
-            Color: "culture",
-            Logo: require('../Assets/Logos/BDA_logo.png'),
-            Message: "Partir le temps d’un Week-end en Europe avec des ami.e.s, c’est ce que le BDA te propose pendant le mois d’intégration ! \n" +
-                "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        CABARET: {
-            Title: "Pôle Culture",
-            Name: "Cabaret",
-            Color: "culture",
-            Logo: require('../Assets/Logos/BDA_logo.png'),
-            Message: "Les plus grands artistes de l’école passeront sur le devant de la scène pour vous montrer à tour de rôle leur talent ! Danse, musique, chant, stand-up, préparez-vous à en prendre plein la vue !\n" +
-                "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        MASSILIADES: {
-            Title: "Pôle Culture",
-            Name: "Les Massiliades",
-            Color: "culture",
-            Logo: require('../Assets/Logos/massiliades_logo.png'),
-            Message: "Les plus grands artistes de l’école passeront sur le devant de la scène pour vous montrer à tour de rôle leur talent ! Danse, musique, chant, stand-up, préparez-vous à en prendre plein la vue !\n" +
-                "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            Pages: {
+                0: {
+                    Name: "Bureau des Arts",
+                    Logo: require('../Assets/Logos/BDA_logo.png'),
+                    Message: "Le Bureau des Arts c’est l’association culturelle de l’école. Une équipe survoltée se donne à fond pour organiser des événements de folie!\n" +
+                        "Le BDA héberge également une dizaine de clubs : comédie musicale, chant / chorale, rock, orchestre, mais aussi cuisine, cinéma, jeux de société ou yoga ! Et si vous êtes animé.e.s par un projet nouveau, il est toujours possible de créer un club. \n" +
+                        "Alors préparez-vous à vivre une année inoubliable entre le Plot 5, le cabaret, le masterchef, les concerts, les soirées Foy’s ainsi que le Voyage, vous ne vous ennuierez jamais, que vous ayez l’âme d’un artiste ou non !\n",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                1: {
+                    Name: "Voyage",
+                    Logo: require('../Assets/Logos/BDA_logo.png'),
+                    Message: "Partir le temps d’un Week-end en Europe avec des ami.e.s, c’est ce que le BDA te propose pendant le mois d’intégration ! \n" +
+                        "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                2: {
+                    Name: "Pouce d'Or",
+                    Logo: require('../Assets/Logos/BDA_logo.png'),
+                    Message: "Partir le temps d’un Week-end en Europe avec des ami.e.s, c’est ce que le BDA te propose pendant le mois d’intégration ! \n" +
+                        "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                3: {
+                    Name: "Cabaret",
+                    Logo: require('../Assets/Logos/BDA_logo.png'),
+                    Message: "Les plus grands artistes de l’école passeront sur le devant de la scène pour vous montrer à tour de rôle leur talent ! Danse, musique, chant, stand-up, préparez-vous à en prendre plein la vue !\n" +
+                        "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                4: {
+                    Name: "Les Massiliades",
+                    Logo: require('../Assets/Logos/BDA_logo.png'),
+                    Message: "Les plus grands artistes de l’école passeront sur le devant de la scène pour vous montrer à tour de rôle leur talent ! Danse, musique, chant, stand-up, préparez-vous à en prendre plein la vue !\n" +
+                        "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -628,7 +595,7 @@ export default
 
         EP: {
             Title: "Pôle Citoyenneté",
-            Name: "",
+            Name: "Echanges Phocéens",
             Color: "citoyennete",
             Logo: require('../Assets/Logos/EP_logo.png'),
             Message: "Envie de t’engager pour l’égalité des chances tout en vivant une expérience enrichissante ? Echanges Pho est l’asso pour toi ! Deviens tuteur de collégiens, lycéens, étudiants en post-bac ou jeunes en situation de handicap scolarisés dans des quartiers prioritaires de Marseille. Pas besoin d’un BAFA, seulement de ta motivation et créativité pour accompagner ces jeunes dans leur orientation, leur apporter une ouverture culturelle et surtout leur redonner confiance en eux. \n" +
@@ -647,15 +614,46 @@ export default
 
         ISF: {
             Title: "Pôle Citoyenneté",
-            Name: "ISF",
             Color: "citoyennete",
             Logo: require('../Assets/Logos/ISF_logo.png'),
-            Message: "Ingénieurs Sans Frontières, c’est l’association qui traite d’écologie et des questions sociales à Centrale. Toute l’année, on se forme et on sensibilise les étudiants sur les enjeux du monde d’aujourd’hui. On organise aussi des évènements à l’école, des rencontres avec des étudiants et des conférences avec des chercheurs ! \n" +
-                "Notre réseau national nous permet également de participer régulièrement à des week-ends d’échange et de rencontre avec des étudiants de toute la France !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            Pages: {
+                0: {
+                    Name: "ISF",
+                    Logo: require('../Assets/Logos/ISF_logo.png'),
+                    Message: "Ingénieurs Sans Frontières, c’est l’association qui traite d’écologie et des questions sociales à Centrale. Toute l’année, on se forme et on sensibilise les étudiants sur les enjeux du monde d’aujourd’hui. On organise aussi des évènements à l’école, des rencontres avec des étudiants et des conférences avec des chercheurs ! \n" +
+                        "Notre réseau national nous permet également de participer régulièrement à des week-ends d’échange et de rencontre avec des étudiants de toute la France !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                1: {
+                    Name: "Fémin'ISF",
+                    Logo: require('../Assets/Logos/ISF_logo.png'),
+                    Message: "Tu veux défendre l’égalité des sexes au quotidien ? Branche de l’association Ingénieurs Sans Frontières Provence, notre pôle a pour but de combattre tous les problèmes auxquels les femmes, en écoles d’ingénieur.e.s peuvent être confrontées. Sensibilisation, récoltes de fonds, débats… les actions sont nombreuses si tu veux t’y investir !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                2: {
+                    Name: "Centr'Arc-en-ciel",
+                    Logo: require('../Assets/Logos/ISF_logo.png'),
+                    Message: "Tout nouveau pôle d'ISF, nous sommes là pour faire de la prévention et améliorer la visibilité de la communauté LGBTQI+ au sein de l'école : notre objectif est de faire en sorte que tout le monde se sente bien à Centrale !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -670,42 +668,6 @@ export default
             Color: "citoyennete",
             Logo: require('../Assets/Logos/POTAGER_logo.png'),
             Message: "Le Pot'à gégé possède KSI, le BDE et l'UA. Viens y découvrir les fruits et légumes les plus savoureux de ta région, dans le sérieux, le respect, et l'amour de la pousse.",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        FEMINISF: {
-            Title: "Pôle Citoyenneté",
-            Name: "ISF",
-            Color: "citoyennete",
-            Logo: require('../Assets/Logos/ISF_logo.png'),
-            Message: "Tu veux défendre l’égalité des sexes au quotidien ? Branche de l’association Ingénieurs Sans Frontières Provence, notre pôle a pour but de combattre tous les problèmes auxquels les femmes, en écoles d’ingénieur.e.s peuvent être confrontées. Sensibilisation, récoltes de fonds, débats… les actions sont nombreuses si tu veux t’y investir !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        CENTRARCENCIEL: {
-            Title: "Pôle Citoyenneté",
-            Name: "Centr'Arc-en-ciel",
-            Color: "citoyennete",
-            Logo: require('../Assets/Logos/ISF_logo.png'),
-            Message: "Tout nouveau pôle d'ISF, nous sommes là pour faire de la prévention et améliorer la visibilité de la communauté LGBTQI+ au sein de l'école : notre objectif est de faire en sorte que tout le monde se sente bien à Centrale !",
             Images: {
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
@@ -748,14 +710,81 @@ export default
 
         BDS: {
             Title: "Pôle Sport",
-            Name: "Bureau des Sports",
             Color: "sport",
             Logo: require('../Assets/Logos/BDS_logo.png'),
-            Message: "Ancien taupin, tu arrives enfin au bout de ces heures passées sur une chaise et tu rêves de redécouvrir les joies du sport ! Le BDS de Centrale Marseille est là pour satisfaire tes désirs : que tu sois un solitaire ou que tu préfères l'esprit d'équipe, tu pourras trouver ton bonheur dans la vingtaine de sports que nous te proposons. En plus de dynamiser ta semaine, cet incroyable BDS te concocte entre autres des week-ends de folie, des tournois enflammés et, Marseille oblige, un accès privilégié au Vélodrome. On a hâte de te compter parmi notre grande famille de sportifs !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            Pages: {
+                0: {
+                    Name: "Bureau des Sports",
+                    Logo: require('../Assets/Logos/BDS_logo.png'),
+                    Message: "Ancien taupin, tu arrives enfin au bout de ces heures passées sur une chaise et tu rêves de redécouvrir les joies du sport ! Le BDS de Centrale Marseille est là pour satisfaire tes désirs : que tu sois un solitaire ou que tu préfères l'esprit d'équipe, tu pourras trouver ton bonheur dans la vingtaine de sports que nous te proposons. En plus de dynamiser ta semaine, cet incroyable BDS te concocte entre autres des week-ends de folie, des tournois enflammés et, Marseille oblige, un accès privilégié au Vélodrome. On a hâte de te compter parmi notre grande famille de sportifs !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                1: {
+                    Name: "BDX",
+                    Logo: require('../Assets/Logos/BDS_logo.png'),
+                    Message: "Le BDX c’est quoi? C’est un pôle du BDS qui peut vous permettre de faire des sports qui sortent de vos habitudes. L’objectif est de proposer des activités inédites à l‘ensemble des élèves qui le souhaitent. On organise des sorties motocross, sorties dans les calanques, paintball… En gros, on est là pour que tu t’éclates à Centrale en découvrant de nouvelles choses !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                2: {
+                    Name: "Week-end sportif",
+                    Logo: require('../Assets/Logos/BDS_logo.png'),
+                    Message: "Chaque année le BDS organise l'un des meilleurs événements de l'intégration : le Week-End Sportif. Partez entre premières années découvrir des paysages à couper le souffle où vous pourrez profiter de nombreuses activités (comme du canyoning, du rafting etc...) et d'une soirée inoubliable ! Sensations fortes et adrénalines seront au rendez-vous. Viens réveiller le sportif qui sommeille en toi ! Ce week-end est aussi un moment privilégié pour rencontrer les gens de ta promo et tisser des liens avec eux.",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                3: {
+                    Name: "Intercentrales",
+                    Logo: require('../Assets/Logos/BDS_logo.png'),
+                    Message: "Les Intercentrales c'est LA compétition inter-écoles du début d'année, la première d'une belle série ! C'est aussi la première grande occasion de défendre les couleurs de ton école en arborant ton maillot, en faisant résonner nos chants et en te battant pour le trophée ! Avec ses 600 compétiteurs, sa soirée et son incroyable show Pompom, c'est l'événement sportif Centralien à ne pas rater ! Alors prépare-toi à venir prouver à tous que le bleu et blanc sont les couleurs des gagnants !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                4: {
+                    Name: "TOSS",
+                    Logo: require('../Assets/Logos/BDS_logo.png'),
+                    Message: "C'est simple : c'est le plus gros tournoi auquel tu participeras ! Avec sa délégation de 4500 sportifs français et internationaux, la compétition est féroce en terrres parisiennes. Que tu sois adepte d'escalade, de volleyball ou même d'équitation, prépare-toi à te dépasser pour Centrale Marseille !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                5: {
+                    Name: "Challenge Centrale Lyon",
+                    Logo: require('../Assets/Logos/BDS_logo.png'),
+                    Message: "Pour l'arrivée du printemps, ce n'est pas moins de 3000 participants qui s'affrontent dans 20 sports . Cet événement accueille aussi des concours de fanfares, de mascottes et de Pompoms, sans oublier une soirée mémorable ! C'est le rendez-vous lyonnais auquel les marseillais ont une réputation à tenir ! ",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -784,7 +813,7 @@ export default
 
         RAID: {
             Title: "Pôle Sport",
-            Name: "",
+            Name: "Raid Centrale Marseille",
             Color: "sport",
             Logo: require('../Assets/Logos/Raid_logo.png'),
             Message: "Tu es frustré de ne pas avoir pu faire autant de sport que tu voulais pendant ces deux ou trois années ? La nature te manque ? Alors, les paysages magnifiques de la région t'attendent. Tu ne seras pas déçu ! Le dénivelé est à portée de mains, que ce soit dans les calanques ou dans le massif de l'Etoile juste derrière l'école. Tu auras l'occasion de nous rejoindre lors de trails ou encore pour la 8è édition du RAID Centrale Marseille. Au programme VTT, trail, course d'orientation et activités surprises, mais surtout plaisir, défi et convivialité !",
@@ -818,178 +847,71 @@ export default
             }
         },
 
-        BDX: {
-            Title: "Pôle Sport",
-            Name: "BDX",
-            Color: "sport",
-            Logo: require('../Assets/Logos/BDS_logo.png'),
-            Message: "Le BDX c’est quoi? C’est un pôle du BDS qui peut vous permettre de faire des sports qui sortent de vos habitudes. L’objectif est de proposer des activités inédites à l‘ensemble des élèves qui le souhaitent. On organise des sorties motocross, sorties dans les calanques, paintball… En gros, on est là pour que tu t’éclates à Centrale en découvrant de nouvelles choses !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        WESPORT: {
-            Title: "Pôle Sport",
-            Name: "Week-end sportif",
-            Color: "sport",
-            Logo: require('../Assets/Logos/BDS_logo.png'),
-            Message: "Chaque année le BDS organise l'un des meilleurs événements de l'intégration : le Week-End Sportif. Partez entre premières années découvrir des paysages à couper le souffle où vous pourrez profiter de nombreuses activités (comme du canyoning, du rafting etc...) et d'une soirée inoubliable ! Sensations fortes et adrénalines seront au rendez-vous. Viens réveiller le sportif qui sommeille en toi ! Ce week-end est aussi un moment privilégié pour rencontrer les gens de ta promo et tisser des liens avec eux.",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        INTER: {
-            Title: "Pôle Sport",
-            Name: "Intercentrales",
-            Color: "sport",
-            Logo: require('../Assets/Logos/BDS_logo.png'),
-            Message: "Les Intercentrales c'est LA compétition inter-écoles du début d'année, la première d'une belle série ! C'est aussi la première grande occasion de défendre les couleurs de ton école en arborant ton maillot, en faisant résonner nos chants et en te battant pour le trophée ! Avec ses 600 compétiteurs, sa soirée et son incroyable show Pompom, c'est l'événement sportif Centralien à ne pas rater ! Alors prépare-toi à venir prouver à tous que le bleu et blanc sont les couleurs des gagnants !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        TOSS: {
-            Title: "Pôle Sport",
-            Name: "TOSS",
-            Color: "sport",
-            Logo: require('../Assets/Logos/BDS_logo.png'),
-            Message: "C'est simple : c'est le plus gros tournoi auquel tu participeras ! Avec sa délégation de 4500 sportifs français et internationaux, la compétition est féroce en terrres parisiennes. Que tu sois adepte d'escalade, de volleyball ou même d'équitation, prépare-toi à te dépasser pour Centrale Marseille !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        CCL: {
-            Title: "Pôle Sport",
-            Name: "Challenge Centrale Lyon",
-            Color: "sport",
-            Logo: require('../Assets/Logos/BDS_logo.png'),
-            Message: "Pour l'arrivée du printemps, ce n'est pas moins de 3000 participants qui s'affrontent dans 20 sports . Cet événement accueille aussi des concours de fanfares, de mascottes et de Pompoms, sans oublier une soirée mémorable ! C'est le rendez-vous lyonnais auquel les marseillais ont une réputation à tenir ! ",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
         MDV: {
             Title: "Pôle Sport",
-            Name: "MDV",
             Color: "sport",
             Logo: require('../Assets/Logos/MDV_logo.png'),
-            Message: "Le MDV est l’asso de voile de l’école, que tu sois un skipper aguerri ou que tu souhaites t’initier aux plaisirs de la voile, le MDV est fait pour toi ! Il est possible de prendre des cours de planche à voile, Laser, ou encore habitable, mais il est aussi possible de profiter du bateau de l’asso ; Jnet, un J80 sur lequel on s’entraîne, mais sur lequel on fait aussi des apéros lorsque le soleil est au rendez-vous (c’est-à-dire de Février à Novembre). Notre association organise aussi des croisières inoubliables dans les calanques, la régate InterCentrales, la traversée du Vieux-Port et participe à la Course Croisière Edhec, régate étudiante de renommée internationale. Le MDV, ça n’est pas seulement de la voile, mais c’est l’asso de toutes les activités autour de la mer ; ses sous-com’ Centrale glisse, Centrale plongée, offrent de nombreuses possibilités qui sont présentées ci-dessous.",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        CENTRALEGLISSE: {
-            Title: "Pôle Sport",
-            Name: "Centrale Glisse",
-            Color: "sport",
-            Logo: require('../Assets/Logos/cglisse_logo.png'),
-            Message: "Parce que sur l’eau il n’y pas que la navigation qui permet de profiter du cadre marseillais, Centrale Glisse est là pour toi. Profite des sorties en paddles aux calanques, des kayaks de l’asso, ou encore du week-end glisse pour profiter à fond des sensations qu’offre le surf sur la côte ouest !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        CENTRALEPLONGEE: {
-            Title: "Pôle Sport",
-            Name: "MDV",
-            Color: "sport",
-            Logo: require('../Assets/Logos/cplongee_logo.jpg'),
-            Message: "Après la prépa, tu cherches de nouvelles expériences ? Viens découvrir les fonds méditerranéens avec Centrale Plongée ! Que tu sois novice ou expérimenté, tu pourras faire des baptêmes, des plongées d’exploration, et même passer des niveaux grâce à nos formations. Ce sera ta chance d’observer des murènes, des épaves et des mérous !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        RIC: {
-            Title: "Pôle Sport",
-            Name: "Régates InterCentrales",
-            Color: "sport",
-            Logo: require('../Assets/Logos/Raid_logo.png'),
-            Message: "la Régate InterCentrales, c’est une compétition de voile entre les 5 écoles du groupe Centrale, mais c’est surtout un moment de cohésion avec une soirée et un grand repas avec tous les participants. Nous réservons un accueil des plus chaleureux dans nos coloc’ marseillaises. La régate a lieu après le tournoi Intercentrales, alors si tu aimes déjà régater, ou si tu as envie d’essayer, rejoins-nous !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
-        },
-
-        CCE: {
-            Title: "Pôle Sport",
-            Name: "Course",
-            Color: "sport",
-            Logo: require('../Assets/Logos/MDV_logo.png'),
-            Message: "la Régate InterCentrales, c’est une compétition de voile entre les 5 écoles du groupe Centrale, mais c’est surtout un moment de cohésion avec une soirée et un grand repas avec tous les participants. Nous réservons un accueil des plus chaleureux dans nos coloc’ marseillaises. La régate a lieu après le tournoi Intercentrales, alors si tu aimes déjà régater, ou si tu as envie d’essayer, rejoins-nous !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            Pages: {
+                0: {
+                    Name: "MDV",
+                    Logo: require('../Assets/Logos/MDV_logo.png'),
+                    Message: "Le MDV est l’asso de voile de l’école, que tu sois un skipper aguerri ou que tu souhaites t’initier aux plaisirs de la voile, le MDV est fait pour toi ! Il est possible de prendre des cours de planche à voile, Laser, ou encore habitable, mais il est aussi possible de profiter du bateau de l’asso ; Jnet, un J80 sur lequel on s’entraîne, mais sur lequel on fait aussi des apéros lorsque le soleil est au rendez-vous (c’est-à-dire de Février à Novembre). Notre association organise aussi des croisières inoubliables dans les calanques, la régate InterCentrales, la traversée du Vieux-Port et participe à la Course Croisière Edhec, régate étudiante de renommée internationale. Le MDV, ça n’est pas seulement de la voile, mais c’est l’asso de toutes les activités autour de la mer ; ses sous-com’ Centrale glisse, Centrale plongée, offrent de nombreuses possibilités qui sont présentées ci-dessous.",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                1: {
+                    Name: "Centrale Glisse",
+                    Logo: require('../Assets/Logos/cglisse_logo.png'),
+                    Message: "Parce que sur l’eau il n’y pas que la navigation qui permet de profiter du cadre marseillais, Centrale Glisse est là pour toi. Profite des sorties en paddles aux calanques, des kayaks de l’asso, ou encore du week-end glisse pour profiter à fond des sensations qu’offre le surf sur la côte ouest !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                2: {
+                    Name: "Centrale Plongée",
+                    Logo: require('../Assets/Logos/cplongee_logo.jpg'),
+                    Message: "Après la prépa, tu cherches de nouvelles expériences ? Viens découvrir les fonds méditerranéens avec Centrale Plongée ! Que tu sois novice ou expérimenté, tu pourras faire des baptêmes, des plongées d’exploration, et même passer des niveaux grâce à nos formations. Ce sera ta chance d’observer des murènes, des épaves et des mérous !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                3: {
+                    Name: "Régates InterCentrales",
+                    Logo: require('../Assets/Logos/RIC_logo.png'),
+                    Message: "La Régate InterCentrales, c’est une compétition de voile entre les 5 écoles du groupe Centrale, mais c’est surtout un moment de cohésion avec une soirée et un grand repas avec tous les participants. Nous réservons un accueil des plus chaleureux dans nos coloc’ marseillaises. La régate a lieu après le tournoi Intercentrales, alors si tu aimes déjà régater, ou si tu as envie d’essayer, rejoins-nous !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
+                4: {
+                    Name: "Course Croisière Edhec",
+                    Logo: require('../Assets/Logos/MDV_logo.png'),
+                    Message: "La Régate InterCentrales, c’est une compétition de voile entre les 5 écoles du groupe Centrale, mais c’est surtout un moment de cohésion avec une soirée et un grand repas avec tous les participants. Nous réservons un accueil des plus chaleureux dans nos coloc’ marseillaises. La régate a lieu après le tournoi Intercentrales, alors si tu aimes déjà régater, ou si tu as envie d’essayer, rejoins-nous !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                        },
+                },
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -1166,7 +1088,11 @@ export default
             Name: "Centrale Marseille Alumni",
             Color: "reseaux",
             Logo: require('../Assets/Logos/Alumni_logo.png'),
-            Message: "Tu comprendras très vite en arrivant à l'école l'importance d'avoir un bon réseau de relations construit au cours de ta vie. L'association des alumnis, c'est ta porte ouverte sur tous les élèves passés par Centrale Marseille et ses écoles fondatrices ! Au-delà d'un annuaire où se trouve peut-être le numéro de ton futur employeur, l'association des Alumnis c'est aussi des interlocuteurs expérimentés qui sauront répondre à toutes tes questions et qui feront leur maximum pour t'aider dans tes projets professionnels.\n" +
+            Message: "Tu comprendras très vite en arrivant à l'école l'importance d'avoir un bon réseau de relations " +
+                "construit au cours de ta vie. L'association des alumnis, c'est ta porte ouverte sur tous les élèves passés " +
+                "par Centrale Marseille et ses écoles fondatrices ! Au-delà d'un annuaire où se trouve peut-être le numéro de " +
+                "ton futur employeur, l'association des Alumnis c'est aussi des interlocuteurs expérimentés qui sauront " +
+                "répondre à toutes tes questions et qui feront leur maximum pour t'aider dans tes projets professionnels.\n" +
                 "C'est ce réseau riche, accessible et solidaire qui fait la force de Centrale Marseille !",
             Images: {
                 0: require("../Assets/Images/BDE/BDE_1.jpg"),
@@ -1187,8 +1113,15 @@ export default
             Name: "C5",
             Color: "reseaux",
             Logo: require('../Assets/Logos/C5_logo.png'),
-            Message: "La fédération C5 est une association constituée d'élèves des 5 écoles Centrale métropolitaines et de l'Ecole Centrale de Casablanca. Elle favorise la cohésion et la communication au sein du réseau centralien et agit à l'échelle du Groupe des Ecoles Centrale. \n" +
-                "Chaque année l'équipe du C5 organise un congrès sur le campus de CentraleSupélec pour rassembler les associations des Ecoles Centrales. L'objectif est de créer des temps d'échange et de réflexion autour du monde associatif et des problèmatiques qu'il rencontre comme l'éco-responsabilité ou l'organisation d'événements de grande ampleur. Au programme : des conférences, des tables rondes, des rencontres, et une soirée entre les 6 écoles !",
+            Message: "La fédération C5 est une association constituée d'élèves des 5 écoles Centrale " +
+                "métropolitaines et de l'Ecole Centrale de Casablanca. Elle favorise la cohésion et " +
+                "la communication au sein du réseau centralien et agit à l'échelle du Groupe des Ecoles Centrale. \n" +
+                "Chaque année l'équipe du C5 organise un congrès sur le campus de CentraleSupélec " +
+                "pour rassembler les associations des Ecoles Centrales. L'objectif est de créer " +
+                "des temps d'échange et de réflexion autour du monde associatif et des " +
+                "problèmatiques qu'il rencontre comme l'éco-responsabilité ou l'organisation d'événements " +
+                "de grande ampleur. Au programme : des conférences, des tables rondes, des rencontres, " +
+                "et une soirée entre les 6 écoles !",
             Images: {
                 0: require("../Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../Assets/Images/BDE/Association_UA_2.png"),
@@ -1208,8 +1141,13 @@ export default
             Name: "Bureau National des Elèves Ingénieurs",
             Color: "reseaux",
             Logo: require('../Assets/Logos/BNEI_logo.png'),
-            Message: "Le Bureau National des Elèves Ingénieurs (BNEI) représente l’ensemble des 185 000 élèves-ingénieurs en fédérant les Bureaux des Elèves des écoles et les élus. Ses missions sont de représenter, d'informer et de former les élèves ingénieurs de la France entière. C'est une instance permettant un lien avec différentes institutions sociales, industrielles ou gouvernementales afin de défendre vos intérêts !\n" +
-                "Des formations sont également dispensées aux différents responsables associatifs afin d'accompagner le développement des associations et l'implication des élèves !\n" +
+            Message: "Le Bureau National des Elèves Ingénieurs (BNEI) représente l’ensemble des 185 000 " +
+                "élèves-ingénieurs en fédérant les Bureaux des Elèves des écoles et les élus. Ses missions " +
+                "sont de représenter, d'informer et de former les élèves ingénieurs de la France entière. " +
+                "C'est une instance permettant un lien avec différentes institutions sociales, industrielles " +
+                "ou gouvernementales afin de défendre vos intérêts !\n" +
+                "Des formations sont également dispensées aux différents responsables associatifs afin " +
+                "d'accompagner le développement des associations et l'implication des élèves !\n" +
                 "Le BNEI est organisé en près de 24 Bureaux Régionaux des Elèves Ingénieurs (BREI) pour agir à échelle locale !",
             Images: {
                 0: require("../Assets/Images/BDE/BDE_1.jpg"),

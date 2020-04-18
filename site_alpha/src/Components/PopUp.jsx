@@ -3,6 +3,9 @@ import './styles/PopUp.css'
 import Croix from '../Assets/Buttons/Buttons__croix.png';
 import DataEntities from '../content/DataEntities';
 import Slideshow from "./Slideshow";
+import RightArrow from '../Assets/Buttons/Buttons__nextPopUp.png';
+import LeftArrow from '../Assets/Buttons/Buttons__lastPopUp.png';
+import voidArrow from '../Assets/Buttons/Buttons__blanckPopUp.png';
 
 export default class PopUp extends React.Component{
     constructor(props){
@@ -27,6 +30,13 @@ export default class PopUp extends React.Component{
             this.Img_btn = this.Entity["Img_btn"];
         }
 
+        if (this.props.severalPages === true){
+            this.Pages = this.Entity.Pages;
+            this.state = {content: this.Pages[0],
+                        contentInd: 0,};
+            this.Pages_length = Object.keys(this.Pages).length;
+        }
+
     }
 
     openModal() {
@@ -41,6 +51,32 @@ export default class PopUp extends React.Component{
         });
     }
 
+    previous_Page = () => {
+        let ActualContentInd = this.state.contentInd;
+        if (ActualContentInd > 0) {
+            --ActualContentInd;
+        }
+        else if (ActualContentInd <= 0){
+            ActualContentInd = this.Pages_length - 1;
+        }
+        this.setState(
+            { contentInd: ActualContentInd,
+                    content: this.Pages[ActualContentInd]});
+    };
+
+    next_Page = () => {
+        let ActualContentInd = this.state.contentInd;
+        if (ActualContentInd >= this.Pages_length - 1) {
+            ActualContentInd = 0;
+        }
+        else if (ActualContentInd < this.Pages_length -1) {
+            ++ActualContentInd;
+        }
+        this.setState(
+            { contentInd: ActualContentInd,
+                    content: this.Pages[ActualContentInd]});
+    };
+
     render() {
         if (this.state.visible) {
             return (
@@ -48,24 +84,29 @@ export default class PopUp extends React.Component{
                     <input className={"PopUpBTN " + this.Type + "TypeBTN"} type="image" alt="button" src={this.Img_btn} onClick={() => this.openModal()}/>
                     <div onClick={() => this.closeModal()} className="close_area"> </div>
                     <div className="PopUpAsso">
-                        <div className={"bordure " + this.Color}>
-                            <h1> {this.Title}</h1>
-                            <p/>
-                            <img className="croix" src={Croix} alt="close" onClick={() => this.closeModal()}/>
+                        <div className={this.Color} id={"Bordure"}>
+                            <h1 id={"PoleAssociatif"}> {this.Title}</h1>
+                            <img id="closeCrossPopUpAsso" src={Croix} alt="close" onClick={() => this.closeModal()}/>
                         </div>
-                        <div className="tableau">
-                            <div className="line1-container">
-                                <img className="logo" alt="logo" src={this.Entity.Logo}/>
-                                <h2> {this.Entity.Name}</h2>
-                            </div>
-                            <div className="line2-container">
-                                <div className="Message">
-                                    <p id="Texte_PopUp"> {this.Entity.Message}</p>
-                                    <div className="Links"></div>
-                                </div>
-                                <Slideshow className="Photos" images={this.Entity.Images}/>
-                            </div>
+                        <div id="row1-container">
+                            <img id="EntityLogoPopUp" alt="logo" src={this.props.severalPages ? this.state.content.Logo : this.Entity.Logo}/>
+                            <h1 id={"EntityName"}> {this.props.severalPages ? this.state.content.Name : this.Entity.Name}</h1>
+                            <img id={"LeftArrowButtonPopUP"}
+                                 src={this.props.severalPages ? LeftArrow : voidArrow}
+                                 alt={"précdent"}
+                                 onClick={this.props.severalPages ? this.previous_Page : () => {}}
+                            />
+                            <img id={"RightArrowButtonPopUP"}
+                                 src={this.props.severalPages ? RightArrow : voidArrow}
+                                 alt={"suivant"}
+                                 onClick={this.props.severalPages ? this.next_Page : () => {}}
+                            />
                         </div>
+                        <div id="row2-container">
+                            <p id="Texte_PopUp"> {this.props.severalPages ? this.state.content.Message : this.Entity.Message}</p>
+                            <Slideshow images={this.props.severalPages ? this.state.content.Images : this.Entity.Images}/>
+                        </div>
+                        <div className="Links"></div>
                     </div>
                 </div>
             );

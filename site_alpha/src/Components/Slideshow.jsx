@@ -35,7 +35,7 @@ export default class Slideshow extends React.Component {
 
     render() {
         return (
-            <div className="Slideshow">
+            <div id="SlideshowDiv">
                 <div className="Slide_box" style={{backgroundImage: 'url(' + this.images[this.state.rank] + ')',}}/>
                 <div className="Arrow_btns">
                     <input type="image" className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={this.previous_img}/>

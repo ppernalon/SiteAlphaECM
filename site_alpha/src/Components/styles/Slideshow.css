@@ -29,7 +29,7 @@
     margin-right: 1.5vw;
 }
 
-.Slideshow{
+#SlideshowDiv{
     position: relative;
 }
 
@@ -57,7 +57,7 @@
 }
 
 @media only screen and (max-width: 767px){
-    .Slideshow{
+    #SlideshowDiv{
         height: 32vh;
         width: 80vw;
     }
@@ -74,7 +74,7 @@
 }
 
 @media only screen and (min-width: 768px){
-    .Slideshow{
+    #SlideshowDiv{
         height: 50vh;
         width: 40vw;
     }
