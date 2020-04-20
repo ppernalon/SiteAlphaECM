@@ -15,10 +15,8 @@ export default class MarseillePage extends React.Component{
     render() {
         return(
             <div id="MarseillePage">
-                <ScrollButton title="Accueil" to="/" />
                 <MarseilleMap/>
                 <Message title={this.title} message={this.message}/>
-                <ScrollButton title="Réseaux" to="/reseaux" />
             </div>
         )
     }

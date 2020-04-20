@@ -41,7 +41,7 @@ p
 
     #Message h1
     {
-        font-size: 2.5vmax;
+        font-size: 2.3vmax;
     }
 
     .Bordure
@@ -54,13 +54,13 @@ p
 @media only screen and (min-width: 768px) {
     #Message p
     {
-        font-size: 0.9vmax;
+        font-size: 0.8vmax;
         padding: 0 2vmax 1.5vmax;
     }
 
     #Message h1
     {
-        font-size: 1.5vmax;
+        font-size: 1.4vmax;
     }
 
     .Bordure
