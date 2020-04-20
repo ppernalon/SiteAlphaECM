@@ -1,0 +1,76 @@
+#ContainerContactPage
+{
+    display: grid;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+@media only screen and (max-width: 767px) {
+    #ContainerContactPage {
+        grid-template-columns: 90vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #ContainerContactPage
+    {
+        grid-template-columns: 15vw 45vw;
+    }
+}
+
+.SocialNetworkButton{
+    background-size: contain;
+    color: #fff;
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+#SocialNetworks a{
+    margin-right: auto;
+    margin-top: 25px;
+    justify-content: center;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.ContactInfo{
+    display: grid;
+    width: 100%;
+    grid-template: "head head"
+                    "nav  main"
+                    /20% 80%;
+}
+
+.ContactInfo header {
+    grid-area: head;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.ContactInfo nav {
+    grid-area: nav;
+}
+
+.ContactInfo main {
+    grid-area: main;
+}
+
+.ContactInfo span {
+    text-shadow: 1px 1px 2px black;
+    display: inline-flex;
+    font-weight: bold;
+}
+
+.ContactInfo p {
+    text-shadow: 1px 1px 2px black;
+    margin: 5px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+}

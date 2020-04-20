@@ -13,8 +13,11 @@
 }
 
 
-.container{
-    height: 100%;
+.pageViewContainer{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 85% 5%;
+    height: calc(100% - 85px);
 }
 
 .MenuButton{
@@ -138,6 +141,25 @@
     text-align: right
 }
 
-.ScrollButton{
-    position: relative;
+a.ScrollButton{
+    display: flex;
+    height: 100%;
+    width: 150px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    color: #fff;
+    justify-content: center;
+}
+
+
+.ScrollButtonTop{
+    background-image: url("../../Assets/Buttons/Buttons__scroll_nav_top.png");
+    align-items: flex-end;
+}
+
+.ScrollButtonBot{
+    background-image: url("../../Assets/Buttons/Buttons__scroll_nav_bot.png");
+    align-items: flex-start;
 }
