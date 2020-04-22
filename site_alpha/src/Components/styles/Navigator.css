@@ -24,16 +24,11 @@
     a.ScrollButton{
         display: none;
     }
-
 }
 
-
-<<<<<<< HEAD
-=======
 .container{
     height: 100%;
 }
->>>>>>> parent of b24a244... Merge branch 'responsive_navigator_development'
 
 .MenuButton{
     width: 50px;
@@ -160,7 +155,6 @@
     text-align: right
 }
 
-<<<<<<< HEAD
 a.ScrollButton{
     width: 100%;
     background-size: contain;
@@ -177,11 +171,7 @@ a.ScrollButton{
     align-items: flex-end;
 }
 
-.ScrollButtonBot{
+.ScrollButtonBot {
     background-image: url("../../Assets/Buttons/Buttons__scroll_nav_bot.png");
-    align-items: flex-start;
-=======
-.ScrollButton{
-    position: relative;
->>>>>>> parent of b24a244... Merge branch 'responsive_navigator_development'
+    align-items: flex-start
 }

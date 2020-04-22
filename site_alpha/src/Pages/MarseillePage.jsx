@@ -14,15 +14,9 @@ export default class MarseillePage extends React.Component{
 
     render() {
         return(
-<<<<<<< HEAD
-            <div id="MarseillePage" className="animated fadeIn">
-=======
             <div id="MarseillePage">
-                <ScrollButton title="Accueil" to="/" />
->>>>>>> parent of b24a244... Merge branch 'responsive_navigator_development'
                 <MarseilleMap/>
                 <Message title={this.title} message={this.message}/>
-                <ScrollButton title="Réseaux" to="/reseaux" />
             </div>
         )
     }
