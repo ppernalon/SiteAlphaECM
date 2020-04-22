@@ -9,8 +9,8 @@
 
 @media only screen and (max-width: 767px) {
     #Map {
-        width: 65vmin;
-        height: 65vmin;
+        width: 75vmin;
+        height: 75vmin;
     }
 
     #Map input
@@ -70,8 +70,8 @@
 
 @media only screen and (min-width: 768px) {
     #Map {
-        width: 45vmin;
-        height: 45vmin;
+        width: 50vmin;
+        height: 50vmin;
     }
 
     #Map input

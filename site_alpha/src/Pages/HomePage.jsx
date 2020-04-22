@@ -14,6 +14,7 @@ export default class HomePage extends React.Component{
             <div id="container" className="animated fadeInUp">
                     <img id="Logo" src={HomePage_data.logo} alt={"logo"}/>
                     <WelcomingMessage data={HomePage_data.welcomingWord}/>
+                    <ScrollButton title="Marseille" to="/marseille" />
             </div>
         )
     }

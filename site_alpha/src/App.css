@@ -9,3 +9,14 @@
   background-position: center;
   background-size: cover;
 }
+
+.page{
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url("./Assets/Background_global_flou.png");
+  background-position: center;
+  background-size: cover;
+}
