@@ -9,7 +9,7 @@ export default class ContactPage extends React.Component{
 
     render() {
         return(
-            <div id="ContainerContactPage">
+            <div id="ContainerContactPage" className="animated fadeIn">
                 <div id={"SocialNetworks"}>
                     <h1>Liens</h1>
                     <a href="https://www.google.fr" className="SocialNetworkButton"> <img src={require("../Assets/fb.png")}/>Facebook Admissibles</a>

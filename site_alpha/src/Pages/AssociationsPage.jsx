@@ -33,7 +33,7 @@ export default class AssociationsPage extends React.Component
     render()
     {
         return(
-            <div id={"AssociationsPage"}>
+            <div id={"AssociationsPage"} className="animated fadeIn">
                 <AlphaButtons/>
                 <Message title={this.title} message={this.message}/>
             </div>

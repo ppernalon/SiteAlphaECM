@@ -2,25 +2,32 @@
 
 @media only screen and (min-width: 768px) {
     /* tablettes et ordinateurs */
+    .pageViewContainer{
+        display: grid;
+        grid-template-columns: 5vw 90vw 5vw;
+        height: calc(100% - 85px);
+    }
+
+    a.ScrollButton{
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     /* smartphone */
+    .pageViewContainer{
+        display: grid;
+        grid-template-columns: 100vw;
+        height: calc(100% - 85px);
+    }
+
+    a.ScrollButton{
+        display: none;
+    }
 
 }
 
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* smartphone en mode portait */
 
-}
-
-
-.pageViewContainer{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 5% 85% 5%;
-    height: calc(100% - 85px);
-}
 
 .MenuButton{
     width: 50px;
@@ -75,6 +82,7 @@
     background-position: center;
     height:100%;
     background-size: contain;
+    font-family: "Kaushan Script", cursive;
     font-size: 15px;
     color: white;
 }
@@ -135,6 +143,7 @@
     justify-content: center;
     text-align: left;
     color: #fff;
+    text-decoration: none;
 }
 
 .MenuItem a.Impair{
@@ -146,9 +155,7 @@
 }
 
 a.ScrollButton{
-    display: flex;
-    height: 100%;
-    width: 150px;
+    width: 100%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

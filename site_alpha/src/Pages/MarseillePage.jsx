@@ -14,7 +14,7 @@ export default class MarseillePage extends React.Component{
 
     render() {
         return(
-            <div id="MarseillePage">
+            <div id="MarseillePage" className="animated fadeIn">
                 <MarseilleMap/>
                 <Message title={this.title} message={this.message}/>
             </div>
