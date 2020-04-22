@@ -15,6 +15,7 @@ const HomePage = lazy(() => import('../Pages/HomePage'));
 const MarseillePage = lazy(() => import('../Pages/MarseillePage'));
 const AssociationsPage = lazy(() => import('../Pages/AssociationsPage'));
 const ReseauxPage = lazy(() => import('../Pages/ReseauxPage'));
+const ContactPage = lazy(() => import('../Pages/ContactPage'));
 const CalendarPage = lazy(() => import('../Pages/CalendarPage'));
 
 export default class NavigatorRouter extends React.Component{
@@ -51,6 +52,7 @@ export default class NavigatorRouter extends React.Component{
                                 <Route path="/reseaux" component={ReseauxPage}/>
                                 <Route path="/associations" component={AssociationsPage}/>
                                 <Route path="/calendrier" component={CalendarPage}/>
+                                <Route path="/contact" component={ContactPage}/>
                             </Switch>
                         </Suspense>
                         <Backdrop show={this.state.drawerOpen} close={this.backdropClickHandler}/>
