@@ -66,7 +66,22 @@
     align-items: center;
 }
 
+#LinksPopUp{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
 @media only screen and (min-width: 768px){
+    #LinksPopUp{
+        grid-template-rows: 10vh;
+        grid-template-columns: 13vw 13vw 13vw 39.75vw;
+    }
+
+    .LinkIconImg{
+        height: 10vh;
+    }
+
     .PopUpAsso
     {
         height: 90vh;
@@ -130,6 +145,8 @@
     #EntityName
     {
         font-size : 4vmax;
+        justify-self: left;
+
     }
 
     #EntityLogoPopUp
@@ -151,6 +168,15 @@
 }
 
 @media only screen and (max-width: 767px){
+    #LinksPopUp{
+        grid-template-rows: 7vh;
+        grid-template-columns: 26vw 26vw 26vw;
+    }
+
+    .LinkIconImg{
+        height: 7vh;
+    }
+
     .PopUpAsso
     {
         height: 98vh;
@@ -172,6 +198,7 @@
     #EntityName
     {
         font-size : 3vmax;
+        justify-self: left;
     }
 
     #EntityLogoPopUp

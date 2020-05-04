@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/HomePage.css';
-import HomePage_data from "../content/WelcomingMessage_data";
+import Logo from "../Assets/Logos_site/Logos__site_wShadow.png";
 import WelcomingMessage from "../Components/WelcomingMessage";
 import ScrollButton from "../Components/ScrollButton";
 
@@ -12,8 +12,8 @@ export default class HomePage extends React.Component{
     render() {
         return(
             <div id="container" className="animated fadeInUp">
-                    <img id="Logo" src={HomePage_data.logo} alt={"logo"}/>
-                    <WelcomingMessage data={HomePage_data.welcomingWord}/>
+                    <img id="Logo" src={Logo} alt={"logo"}/>
+                    <WelcomingMessage/>
             </div>
         )
     }

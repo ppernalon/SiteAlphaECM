@@ -12,7 +12,7 @@ export default class Message extends React.Component{
                 <div className="Bordure top"/>
                 <div id="Message">
                     <h1>{this.props.title}</h1>
-                    <p>{this.props.message}</p>
+                    <p> &emsp; &emsp; {this.props.message}</p>
                 </div>
                 <div className="Bordure bot"/>
             </div>

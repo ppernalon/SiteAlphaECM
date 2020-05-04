@@ -1,65 +1,62 @@
-.Current_image
+#SlideshowDiv
 {
-    min-width: 100%;
-    min-height: 100%;
+    display: grid;
+    grid-template-areas:
+            "a a"
+            "b c"
+            "d d";
+    justify-content: stretch;
+    align-content: stretch;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 0 0 1.5vmax black;
+    border-style: solid;
+    border-width: 1vmax;
+    border-color: whitesmoke;
 }
 
-.Arrow_btns
-{
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top:35%;
+#emptyDivSlideshow{
+    grid-area: a;
+    height: 5vh;
 }
-
 .Arrow
 {
     z-index: 4;
     cursor: pointer;
-    position: relative;
+    align-self: center;
 }
 
 .L_Arrow
 {
-    margin-left: 1.5vw;
+    justify-self: start;
+    margin-left: 0.1vmax;
+    grid-area: b;
 }
 
 .R_Arrow
 {
-    margin-right: 1.5vw;
+    justify-self: end;
+    margin-right: 0.1vmax;
+    grid-area: c;
 }
 
-#SlideshowDiv{
-    position: relative;
-}
-
-.Slide_box
-{
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    box-shadow: 0 0 1.5vmax black;
-}
-
-.Counter
+#counterDiv
 {
     font-family: "Kaushan Script", cursive;
-    color:white;
+    color: white;
     text-shadow: 0 0 0.5vmax black;
-    font-size: 2vmax;
-    display: block;
+    grid-area: d;
     text-align: center;
-    margin: 0.3vmax auto;
-    position: relative;
-    bottom: 14%;
+    vertical-align: bottom;
+    height: 5vh;
 }
 
 @media only screen and (max-width: 767px){
     #SlideshowDiv{
-        height: 32vh;
+        height: 30vh;
         width: 80vw;
+        grid-template-rows: 5vh 20vh 5vh;
     }
 
     .Arrow{
@@ -71,12 +68,18 @@
     {
         width: 80vw;
     }
+
+    #counterDiv
+    {
+        font-size: 4vmax;
+    }
 }
 
 @media only screen and (min-width: 768px){
     #SlideshowDiv{
-        height: 50vh;
-        width: 40vw;
+        grid-template-rows: 5vh 35vh 5vh;
+        height: 45vh;
+        width: 36vw;
     }
 
     .Arrow_btns
@@ -87,5 +90,10 @@
     .Arrow{
         width: 2vw;
         height: 10vw;
+    }
+
+    #counterDiv
+    {
+        font-size: 2vmax;
     }
 }

@@ -970,6 +970,11 @@ export default
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
                 2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            },
+            Links:{
+                Facebook: "https://www.facebook.com/ua.centrale.marseille",
+                Instagram: "0",
+                Site: "https://uaecm.fr/"
             }
         },
         MuCEM:{
@@ -983,7 +988,8 @@ export default
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
                 2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            }
+            },
+            Links: false
         },
         VieuxPort:{
             Img_btn: require('../Assets/Marseille_map/Marseille_VieuxPort.png'),
@@ -996,7 +1002,8 @@ export default
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
                 2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            }
+            },
+            Links : false
         },
         NotreDame:{
             Img_btn: require('../Assets/Marseille_map/Marseille_NotreDame.png'),
@@ -1009,7 +1016,8 @@ export default
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
                 2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            }
+            },
+            Links : false
         },
         Frioul:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Frioul.png'),
@@ -1022,7 +1030,8 @@ export default
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
                 2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            }
+            },
+            Links : false
         },
         Calanques:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Calanques.png'),
@@ -1035,7 +1044,8 @@ export default
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
                 2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            }
+            },
+            Links : false
         },
         OrangeVelodrome:{
             Img_btn: require('../Assets/Marseille_map/Marseille_OrangeVelodrome.png'),
@@ -1048,7 +1058,8 @@ export default
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
                 2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
-            }
+            },
+            Links : false
         },
     },
 
