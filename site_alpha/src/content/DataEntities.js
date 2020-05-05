@@ -13,9 +13,7 @@ export default
                             Images:
                                 {
                                     0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                    1: require("../Assets/Images/BDE/BDE_2.jpg"),
                                 },
                             },
                         1: {
@@ -26,10 +24,8 @@ export default
                                 "énormes soirées organisées en club privatisé, sois-en sûr, nous te montrerons ce que c'est que de s'amuser !",
                             Images:
                                 {
-                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                    0: require("../Assets/Images/Soirees/soiree_1.jpg"),
+                                    1: require("../Assets/Images/Soirees/soiree_2.jpg"),
                                 },
                             },
                         2: {
@@ -40,10 +36,9 @@ export default
                                 "pour finir sur un WEI endiablé !",
                             Images:
                                 {
-                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                    0: require("../Assets/Images/Inte/inte_1.jpg"),
+                                    1: require("../Assets/Images/Inte/inte_2.jpg"),
+                                    2: require("../Assets/Images/Inte/inte_3.jpg"),
                                 },
                             },
                         3: {
@@ -56,10 +51,11 @@ export default
                                 "n’en aurez pas deux comme ça.",
                             Images:
                                 {
-                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                    0: require("../Assets/Images/WEI/WEI_1.jpg"),
+                                    1: require("../Assets/Images/WEI/WEI_2.jpg"),
+                                    2: require("../Assets/Images/WEI/WEI_3.jpg"),
+                                    3: require("../Assets/Images/WEI/WEI_4.jpg"),
+                                    4: require("../Assets/Images/WEI/WEI_5.jpg"),
                                 },
                             },
                         4: {

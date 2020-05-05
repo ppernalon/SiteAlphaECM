@@ -3,6 +3,7 @@ import './styles/PopUp.css'
 import Croix from '../Assets/Buttons/Buttons__croix.png';
 import DataEntities from '../content/DataEntities';
 import Slideshow from "./Slideshow";
+import SlideshowPages from "./SlideshowPages";
 import RightArrow from '../Assets/Buttons/Buttons__nextPopUp.png';
 import LeftArrow from '../Assets/Buttons/Buttons__lastPopUp.png';
 import voidArrow from '../Assets/Buttons/Buttons__blanckPopUp.png';
@@ -35,8 +36,10 @@ export default class PopUp extends React.Component{
 
         if (this.props.severalPages){
             this.Pages = this.Entity.Pages;
-            this.state = {content: this.Pages[0],
-                        contentInd: 0,};
+            this.state = {
+                content: this.Pages[0],
+                contentInd: 0,
+                };
             this.Pages_length = Object.keys(this.Pages).length;
         }
 
@@ -71,7 +74,11 @@ export default class PopUp extends React.Component{
                 ];
         }
 
-    }
+    };
+
+    forceUpdateHandler(){
+        this.forceUpdate();
+    };
 
     openModal() {
         this.setState({
@@ -86,33 +93,49 @@ export default class PopUp extends React.Component{
     }
 
     previous_Page = () => {
-        let ActualContentInd = this.state.contentInd;
-        if (ActualContentInd > 0) {
-            --ActualContentInd;
-        }
-        else if (ActualContentInd <= 0){
-            ActualContentInd = this.Pages_length - 1;
-        }
+        let ActualContentInd = this.calcul_ind(false);
         this.setState(
-            { contentInd: ActualContentInd,
-                    content: this.Pages[ActualContentInd]});
+            {
+                contentInd: ActualContentInd,
+                content: this.Pages[ActualContentInd],
+            });
+        this.forceUpdate()
     };
 
     next_Page = () => {
-        let ActualContentInd = this.state.contentInd;
-        if (ActualContentInd >= this.Pages_length - 1) {
-            ActualContentInd = 0;
-        }
-        else if (ActualContentInd < this.Pages_length -1) {
-            ++ActualContentInd;
-        }
+        let ActualContentInd = this.calcul_ind(true);
         this.setState(
-            { contentInd: ActualContentInd,
-                    content: this.Pages[ActualContentInd]});
+            {
+                contentInd: ActualContentInd,
+                content: this.Pages[ActualContentInd],
+            });
+        this.forceUpdate()
     };
+
+    calcul_ind(next) {
+        let ActualContentInd = this.state.contentInd;
+        if (next){
+            if (ActualContentInd >= this.Pages_length - 1) {
+                ActualContentInd = 0;
+            }
+            else if (ActualContentInd < this.Pages_length -1) {
+                ++ActualContentInd;
+            }
+        }
+        else{
+            if (ActualContentInd > 0) {
+                --ActualContentInd;
+            }
+            else if (ActualContentInd <= 0){
+                ActualContentInd = this.Pages_length - 1;
+            }
+        }
+        return(ActualContentInd)
+    }
 
     render() {
         if (this.state.visible) {
+            let slideshow = this.props.severalPages ?  <SlideshowPages Images={this.Entity.Images}/> : <Slideshow Images={this.state.content.Images}/>;
             return (
                 <div>
                     <input className={"PopUpBTN " + this.Type + "TypeBTN"} type="image" alt="button" src={this.Img_btn} onClick={() => this.openModal()}/>
@@ -143,7 +166,7 @@ export default class PopUp extends React.Component{
 
                         <div id="row2-container">
                             <p id="Texte_PopUp"> &emsp; &emsp; {this.props.severalPages ? this.state.content.Message : this.Entity.Message} </p>
-                            <Slideshow images={this.props.severalPages ? this.state.content.Images : this.Entity.Images}/>
+                            {slideshow}
                         </div>
 
                         <div id="LinksPopUp">
