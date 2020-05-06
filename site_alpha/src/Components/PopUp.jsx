@@ -3,7 +3,6 @@ import './styles/PopUp.css'
 import Croix from '../Assets/Buttons/Buttons__croix.png';
 import DataEntities from '../content/DataEntities';
 import Slideshow from "./Slideshow";
-import SlideshowPages from "./SlideshowPages";
 import RightArrow from '../Assets/Buttons/Buttons__nextPopUp.png';
 import LeftArrow from '../Assets/Buttons/Buttons__lastPopUp.png';
 import voidArrow from '../Assets/Buttons/Buttons__blanckPopUp.png';
@@ -14,7 +13,7 @@ import Site_icon from '../Assets/Icons/Site.png';
 export default class PopUp extends React.Component{
     constructor(props){
         super(props);
-        this.state={
+        this.state = {
             visible : false,
         };
 
@@ -36,10 +35,8 @@ export default class PopUp extends React.Component{
 
         if (this.props.severalPages){
             this.Pages = this.Entity.Pages;
-            this.state = {
-                content: this.Pages[0],
-                contentInd: 0,
-                };
+            this.state = {content: this.Pages[0],
+                contentInd: 0,};
             this.Pages_length = Object.keys(this.Pages).length;
         }
 
@@ -49,12 +46,12 @@ export default class PopUp extends React.Component{
         if (this.Entity.Links !== false){
             this.Links =
                 [   <a
-                        className={"LinkPopUp"} id={"FbLink"}
-                        target="_blank"
-                        href={this.Entity.Links["Facebook"]}
-                    >
-                        <img className={"LinkIconImg"} src={Fb_icon} alt={"Facebook"}/>
-                    </a>,
+                    className={"LinkPopUp"} id={"FbLink"}
+                    target="_blank"
+                    href={this.Entity.Links["Facebook"]}
+                >
+                    <img className={"LinkIconImg"} src={Fb_icon} alt={"Facebook"}/>
+                </a>,
                     <a
                         className={"LinkPopUp"}
                         id={"InstaLink"}
@@ -73,12 +70,7 @@ export default class PopUp extends React.Component{
                     </a>,
                 ];
         }
-
-    };
-
-    forceUpdateHandler(){
-        this.forceUpdate();
-    };
+    }
 
     openModal() {
         this.setState({
@@ -93,49 +85,33 @@ export default class PopUp extends React.Component{
     }
 
     previous_Page = () => {
-        let ActualContentInd = this.calcul_ind(false);
+        let ActualContentInd = this.state.contentInd;
+        if (ActualContentInd > 0) {
+            --ActualContentInd;
+        }
+        else if (ActualContentInd <= 0){
+            ActualContentInd = this.Pages_length - 1;
+        }
         this.setState(
-            {
-                contentInd: ActualContentInd,
-                content: this.Pages[ActualContentInd],
-            });
-        this.forceUpdate()
+            { contentInd: ActualContentInd,
+                content: this.Pages[ActualContentInd]});
     };
 
     next_Page = () => {
-        let ActualContentInd = this.calcul_ind(true);
-        this.setState(
-            {
-                contentInd: ActualContentInd,
-                content: this.Pages[ActualContentInd],
-            });
-        this.forceUpdate()
-    };
-
-    calcul_ind(next) {
         let ActualContentInd = this.state.contentInd;
-        if (next){
-            if (ActualContentInd >= this.Pages_length - 1) {
-                ActualContentInd = 0;
-            }
-            else if (ActualContentInd < this.Pages_length -1) {
-                ++ActualContentInd;
-            }
+        if (ActualContentInd >= this.Pages_length - 1) {
+            ActualContentInd = 0;
         }
-        else{
-            if (ActualContentInd > 0) {
-                --ActualContentInd;
-            }
-            else if (ActualContentInd <= 0){
-                ActualContentInd = this.Pages_length - 1;
-            }
+        else if (ActualContentInd < this.Pages_length -1) {
+            ++ActualContentInd;
         }
-        return(ActualContentInd)
-    }
+        this.setState(
+            { contentInd: ActualContentInd,
+                content: this.Pages[ActualContentInd]});
+    };
 
     render() {
         if (this.state.visible) {
-            let slideshow = this.props.severalPages ?  <SlideshowPages Images={this.Entity.Images}/> : <Slideshow Images={this.state.content.Images}/>;
             return (
                 <div>
                     <input className={"PopUpBTN " + this.Type + "TypeBTN"} type="image" alt="button" src={this.Img_btn} onClick={() => this.openModal()}/>
@@ -166,7 +142,7 @@ export default class PopUp extends React.Component{
 
                         <div id="row2-container">
                             <p id="Texte_PopUp"> &emsp; &emsp; {this.props.severalPages ? this.state.content.Message : this.Entity.Message} </p>
-                            {slideshow}
+                            <Slideshow images={this.props.severalPages ? this.state.content.Images : this.Entity.Images}/>
                         </div>
 
                         <div id="LinksPopUp">

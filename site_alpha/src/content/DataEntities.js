@@ -105,9 +105,8 @@ export default
             Message: "Ah la la… que dire du Foy’s ? Le Foy’s c’est une équipe soudée qui a pour objectif d’apporter un endroit convivial et chaleureux pour tout le monde. \n" +
                 "Mais le Foy's c’est surtout un endroit de rassemblement et de partage, que ce soit lors des événements organisés par les différentes assos mais aussi en dehors des cours, juste pour se détendre autour du babyfoot ou du billard. Alors venez nous rejoindre au Foy’s !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Foys/Foys_1.jpg"),
+                1: require("../../src/Assets/Images/Foys/Foys_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -141,9 +140,9 @@ export default
             Logo: require('../Assets/Logos/Barbu_logo.png'),
             Message: "Le Bar’bu, c’est le bar de dégustation de bière de l’école. On y trouve plus de cinquante bières à la carte, ainsi qu’une bière exclusive chaque semaine ! Les 15 membres de la team vous donnent rendez-vous tous les mercredis soir pour partager ce super moment de convivialité autour d’un bon breuvage. Vous y découvrirez également le célèbre Gabian Déchainé, journal satirique hebdomadaire emblématique de la subtilité centralienne !\n",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Barbu/Barbu_1.jpg"),
+                1: require("../../src/Assets/Images/Barbu/Barbu_2.jpg"),
+                2: require("../../src/Assets/Images/Barbu/Barbu_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -160,9 +159,9 @@ export default
             Message: "Tu aimes la bière ? Écumer les bars ne te suffit plus ? Le CHAUDRON n'attends que toi ! Nous sommes l'unique asso de brassage de bières à Centrale !\n" +
                 "Après nous avoir rejoints, houblon et malts n'auront plus aucun secret pour toi et tu pourra sortir des mots comme : «Stout, IPA, Rye, Lager, Pale Ale...» pour avoir l'air intelligent au comptoir ;) !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Chaudron/Chaudron_1.jpg"),
+                1: require("../../src/Assets/Images/Chaudron/Chaudron_2.jpg"),
+                2: require("../../src/Assets/Images/Chaudron/Chaudron_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -197,9 +196,8 @@ export default
             Message: "Tu aimes écrire ? Partager tes idées ? Le Petit Centralien est fait pour toi ! Journal par les centraliens et pour les centraliens, tout le monde est invité à écrire un article. Qu'importe le sujet qui t'inspire, les pages du journal s'offrent à toi !\n" +
                 "Au contraire, tu n'aimes pas écrire ? Ou tu n'as juste pas envie ? Qu'à cela ne tienne, ce mensuel - presque toujours publié à l'heure ! - saura te distraire avec toutes les rubriques qu'il offre : actualité, science, littérature, recettes et bien plus encore, tu trouveras ton bonheur !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/LPC/LPC_1.jpg"),
+                1: require("../../src/Assets/Images/LPC/LPC_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -221,10 +219,9 @@ export default
                         "Viens donc nous rejoindre au Fablab !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/Fablab/Fablab_1.jpg"),
+                            1: require("../Assets/Images/Fablab/Fablab_2.jpg"),
+                            2: require("../Assets/Images/Fablab/Fablab_3.jpg"),
                         },
                 },
                 1: {
@@ -233,10 +230,8 @@ export default
                     Message: "En février, se tient le MOC - Makers Original Challenge, c’est le plus gros événement organisé par le Fablab Marseille ! Il rassemble de nombreux élèves de différentes écoles pour s’affronter en équipe et créer LE prototype qui séduira le jury en seulement 48h. Aucun thème, les seules limites sont votre imagination et votre détermination, le tout c’est de s’amuser, créer et ce grâce aux machines et matériel mis à disposition par le Fab !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/MOC/MOC_1.jpg"),
+                            1: require("../Assets/Images/MOC/MOC_2.jpg"),
                         },
                 },
             },
@@ -255,9 +250,8 @@ export default
             Message: "Salut à toi ! Tu sors de prépa et veux mettre en pratique tes connaissances d’élec et de méca ? Ou simplement venir découvrir le monde de la robotique ? E-Gab c’est l’asso qui portera ton projet. Ce sera l’occasion de toucher à l’IOT, à Arduino, aux lidars, etc.\n" +
                 "Tu n’as pas de projet en tête ? E-Gab te propose de participer à la coupe de France de robotique. Chaque année on y envoie deux robots conçus et réalisés pour l’occasion. Alors viens exprimer ta créativité dans ce projet fun et captivant.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/EGab/EGAB_1.jpg"),
+                1: require("../../src/Assets/Images/EGab/EGAB_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -273,9 +267,9 @@ export default
             Logo: require('../Assets/Logos/GInfo_logo.png'),
             Message:  "Intéressé par l’informatique ? Ça tombe bien, le GInfo est l’association d’informatique de Centrale Marseille. Nous développons de nombreuses applications indispensables aux centraliens : pour ton emploi du temps, le bar de l’école ou encore sauver tes partiels ! Le GInfo, ce ne sont pas que des sites internet. Nous gérons le réseau internet des associations, organisons des LAN pour se retrouver ensemble et jouer à des jeux vidéos... Le GInfo est bien sûr ouvert à tous, expert ou débutant : nous proposons des formations, pour que chacun puisse progresser dans ce vaste domaine qu’est l’informatique. Si l’informatique t’intéresse, tu y trouveras ton bonheur !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/GInfo/GInfo_2.jpg"),
+                1: require("../../src/Assets/Images/GInfo/GInfo_1.jpg"),
+                2: require("../../src/Assets/Images/GInfo/GInfo_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -291,9 +285,8 @@ export default
             Logo: require('../Assets/Logos/Chris_logo.png'),
             Message:  "As-tu déjà été interpellé(e) par le concept d’intelligence artificielle ? Que ce soit sa portée éthique ou son fonctionnement ? Tu as frappé à la bonne porte ! À Christopher.ai, on te propose de découvrir le monde de l’intelligence artificielle avec plusieurs activités : des débats sur ce thème ainsi que des formations portant sur les réseaux neuronaux. Tu pourras ensuite appliquer ces connaissances dans le cadre de projets réalisés tout au long de l’année !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Chris/chris_1.jpg"),
+                1: require("../../src/Assets/Images/Chris/chris_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -309,9 +302,8 @@ export default
             Logo: require('../Assets/Logos/Kryptosphere_logo.png'),
             Message:  "As-tu déjà été interpellé(e) par le concept d’intelligence artificielle ? Que ce soit sa portée éthique ou son fonctionnement ? Tu as frappé à la bonne porte ! À Christopher.ai, on te propose de découvrir le monde de l’intelligence artificielle avec plusieurs activités : des débats sur ce thème ainsi que des formations portant sur les réseaux neuronaux. Tu pourras ensuite appliquer ces connaissances dans le cadre de projets réalisés tout au long de l’année !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Krypto/Krypto_1.jpg"),
+                1: require("../../src/Assets/Images/Krypto/Krypto_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -324,7 +316,7 @@ export default
             Title: "Pôle Innovation",
             Name: "Racing Club",
             Color: "innovation",
-            Logo: require('../Assets/Logos/Squadra_logo.png'),
+            Logo: require('../Assets/Logos/ercm_logo.png'),
             Message: "Tu es passionné de belles mécaniques\n" +
                 "et tu veux en apprendre plus sur les\n" +
                 "moteurs ? Ou peut être as-tu le projet\n" +
@@ -337,9 +329,8 @@ export default
                 "pockets bikes que nous utilisons régu-\n" +
                 "lièrement !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/R2CM/R2CM_1.png"),
+                1: require("../../src/Assets/Images/R2CM/R2CM_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -353,13 +344,13 @@ export default
             Name: "4L Trophy",
             Color: "innovation",
             Logo: require('../Assets/Logos/Squadra_logo.png'),
-            Message: "Ce n'est pas ENCORE une asso à proprement parler, cependant, tous les ans des équipages de Centrale Marseille participent au 4L TROPHY !\n" +
+            Message: "Tous les ans des équipages de Centrale Marseille participent au 4L TROPHY !\n" +
                 "C’est le plus gros évènement sportif et solidaire d’Europe pour les 18 - 28 ans, c’est une course d’orientation de plus de 6000km à travers l’Espagne et le Maroc, jusqu’aux dunes du Sahara. Le 4L Trophy rassemble chaque année plus de 1200 voitures et 2400 jeunes qui découvrent, boussole à la main, l’Aventure. Ce rallye nous emmène dans les zones les plus reculées du Maroc pour y apporter du matériel scolaire et faciliter l’accès à l’éducation à près de 20 000 enfants Marocains.\n" +
                 "Alors rejoins l'aventure et participe au 4L trophy à Centrale Marseille !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/4L/4L_3.jpg"),
+                1: require("../../src/Assets/Images/4L/4L_1.jpg"),
+                2: require("../../src/Assets/Images/4L/4L_2.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -385,9 +376,8 @@ export default
                 "pour découvrir ce monde, n’hésite\n" +
                 "pas à nous rejoindre !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/CMF/CMF_1.jpg"),
+                1: require("../../src/Assets/Images/CMF/CMF_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -405,9 +395,8 @@ export default
                 "Pas besoin d’attendre encore 3 ans avant d’entrer dans le monde de l’entreprise : tu peux le faire dès l’année prochaine !\n" +
                 "Alors si tu penses être un assez gros tchatcheur pour vendre des lunettes à un aveugle et que t’imposer devant des darons pleins aux As c’est ton bail, tu sais où aller !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/KSI/KSI_1.jpg"),
+                1: require("../../src/Assets/Images/KSI/KSI_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -423,9 +412,8 @@ export default
             Logo: require('../Assets/Logos/FOCEEN_logo.png'),
             Message: "Le FOCEEN organise cette année la 13ème édition du plus grand forum de recrutement ingénieur de la région Sud ! Lors de cette journée, les étudiants centraliens (et ceux d’autres écoles de la région) ont l’opportunité de découvrir et d’échanger avec un panel d’entreprises très varié. C’est un évènement clé de ta formation qui te permettra d’échanger, le 10 novembre 2020, avec des représentants de Bouygues, EDF, ou encore Airbus. Bien entendu, tu auras l’occasion de découvrir le fonctionnement de l’association en participant aux derniers préparatifs du forum, qui te donneront peut-être envie de rejoindre l’association pour organiser le prochain !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/FOCEEN/Foceen_1.jpg"),
+                1: require("../../src/Assets/Images/FOCEEN/Foceen_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
