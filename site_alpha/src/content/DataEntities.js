@@ -65,10 +65,9 @@ export default
                                 "marseillais. Les centraliens passent tous ensemble une soirée de prestige aux cotés de leur famille, leurs amis, leurs enseignants et de l’administration.",
                             Images:
                                 {
-                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                                    0: require("../Assets/Images/Gala/Gala_1.jpg"),
+                                    1: require("../Assets/Images/Gala/Gala_2.jpg"),
                                     2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
                                 },
                         },
                     },
@@ -177,9 +176,9 @@ export default
             Logo: require('../Assets/Logos/PhyTv_logo.png'),
             Message: "T’as toujours rêvé de devenir la star d’une pub sexy et ton accessoire fashion INDISPENSABLE de l’été c’est un bob ? T’es enfin prêt à l’assumer ? Alors c’est sûr, le Phy tu l’as toi aussi dans le sang !                                                                                                                                                                        Entre fictions déjantées et parodies douteuses, c’est bien nous l’asso audiovisuelle de l’école. Nous filmons vos meilleures et vos pires aventures, et nous diffusons tous ces souvenirs dans l’euphorie générale en amphi lors des célèbres JTs. Alors viens nous rejoindre pour toi aussi mettre des paillettes dans la vie des Centraliens !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Phy/Phy_1.jpg"),
+                1: require("../../src/Assets/Images/Phy/Phy_2.jpg"),
+                2: require("../../src/Assets/Images/Phy/Phy_3.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -435,10 +434,8 @@ export default
                         "Alors préparez-vous à vivre une année inoubliable entre le Plot 5, le cabaret, le masterchef, les concerts, les soirées Foy’s ainsi que le Voyage, vous ne vous ennuierez jamais, que vous ayez l’âme d’un artiste ou non !\n",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/BDA/BDA_1.jpg"),
+                            1: require("../Assets/Images/BDA/BDA_2.jpg"),
                         },
                 },
                 1: {
@@ -448,10 +445,8 @@ export default
                         "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/BDA/BDA_1.jpg"),
+                            1: require("../Assets/Images/BDA/BDA_2.jpg"),
                         },
                 },
                 2: {
@@ -461,10 +456,8 @@ export default
                         "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            0: require("../Assets/Images/PouceDor/Pouce_1.jpg"),
                             1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
                         },
                 },
                 3: {
@@ -474,23 +467,34 @@ export default
                         "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/Cabaret/Cabaret_1.jpg"),
+                            1: require("../Assets/Images/Cabaret/Cabaret_2.jpg"),
                         },
                 },
                 4: {
                     Name: "Les Massiliades",
                     Logo: require('../Assets/Logos/BDA_logo.png'),
-                    Message: "Les plus grands artistes de l’école passeront sur le devant de la scène pour vous montrer à tour de rôle leur talent ! Danse, musique, chant, stand-up, préparez-vous à en prendre plein la vue !\n" +
-                        "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
+                    Message: "Vous avez déjà rêvé\n" +
+                        "d’organiser un festival de\n" +
+                        "musique ? Les étudiants de\n" +
+                        "Centrale Marseille organisent\n" +
+                        "depuis plus de 10 ans les\n" +
+                        "Massiliades, un événement\n" +
+                        "qui permet à des artistes\n" +
+                        "pré-sélectionnés de se produire\n" +
+                        "dans un lieu d’exception:\n" +
+                        "la Friche Belle de Mai !\n" +
+                        "Le festival a notamment accueilli\n" +
+                        "Bigflo et Oli, Skip the\n" +
+                        "Use et Deluxe à leurs débuts.\n" +
+                        "C’est ainsi l’occasion de découvrir\n" +
+                        "de futurs talents mais\n" +
+                        "aussi de passer un bon moment\n" +
+                        "entre étudiants.",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/Massiliades/Massiliades_1.jpg"),
+                            1: require("../Assets/Images/Massiliades/Massiliades_2.jpg"),
                         },
                 },
             },
@@ -510,9 +514,8 @@ export default
                 "Alors viens rejoindre la team du PXC !\n" +
                 "Nous sommes là pour prendre en photo tous les événements de Centrale, créer et immortaliser les moments de folie que nous vivons. Ça ne nous empêche pas de faire des sorties photos, d’organiser le Yearbook et même de développer nos propres tirages argentiques !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
+                0: require("../../src/Assets/Images/PXC/PXC_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -525,12 +528,11 @@ export default
             Title: "Pôle Culture",
             Name: "Pompoms",
             Color: "culture",
-            Logo: require('../Assets/Logos/BDA_logo.png'),
+            Logo: require('../Assets/Logos/Pompoms_logo.png'),
             Message: "Nos pompoms et nos pimpims, on les aime on les adore, que dis-je, on les adule ! C’est celles et ceux qui sont chargé.e.s de mettre de l’ambiance à tous les événements centraliens, tu peux être sûr.e que bientôt tu les aimeras autant que nous !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Pompoms/pompoms_1.jpg"),
+                1: require("../../src/Assets/Images/Pompoms/pompoms_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -546,9 +548,9 @@ export default
             Logo: require('../Assets/Logos/Farigoule_logo.png'),
             Message: "Ils sont beaux, ils sont frais, ils sentent bon et leur musique est divine ! La Farigoule c'est la fanfare de Centrale Marseille, composée de fanfarons tous aussi exceptionnels les uns que les autres dont la mission est d'animer le Vieux-Port, et plein d'autres quartiers de la planète Mars ! Tu aimes les caniches en slip ? Les fourrures et les fripes de grand-mère ? Tu es un garçon ? Une fille ? Les deux ? Tu as un goût prononcé pour les sensations auditives hors du commun ? Tu rêves de savoir ce qu'est l'amour ? Ta place est alors peut-être chez nous, n'hésite pas à nous contacter avec un CV et une lettre de motivation à l'adresse mail suivante : disadieuatestympans@acouphenes.org",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Farigoule/Farigoule_1.jpg"),
+                1: require("../../src/Assets/Images/Farigoule/Farigoule_2.jpg"),
+                2: require("../../src/Assets/Images/Farigoule/Farigoule_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -566,9 +568,8 @@ export default
                 "\n" +
                 "Faisant partie de l’équipe CheerUp!, vous programmerez des évènements comme l’opération Cupidon ou la Course Contre le Cancer. Puisque se battre pour son projet c'est se battre contre le cancer, les bénéfices sont reversés à la recherche ou à la réalisation des projets. Alors rejoins-nous et viens te battre à nos côtés ! ",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/CheerUp/CheerUp_1.jpg"),
+                1: require("../../src/Assets/Images/CheerUp/CheerUp_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -585,9 +586,9 @@ export default
             Message: "Envie de t’engager pour l’égalité des chances tout en vivant une expérience enrichissante ? Echanges Pho est l’asso pour toi ! Deviens tuteur de collégiens, lycéens, étudiants en post-bac ou jeunes en situation de handicap scolarisés dans des quartiers prioritaires de Marseille. Pas besoin d’un BAFA, seulement de ta motivation et créativité pour accompagner ces jeunes dans leur orientation, leur apporter une ouverture culturelle et surtout leur redonner confiance en eux. \n" +
                 "Des sorties, des voyages et des events te feront également découvrir Marseille, sa région, et bien plus avec tes tutorés.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/EP/EP_1.jpg"),
+                1: require("../../src/Assets/Images/EP/EP_3.jpg"),
+                2: require("../../src/Assets/Images/EP/EP_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -608,10 +609,9 @@ export default
                         "Notre réseau national nous permet également de participer régulièrement à des week-ends d’échange et de rencontre avec des étudiants de toute la France !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            0: require("../Assets/Images/ISF/ISF_1.jpg"),
                             1: require("../Assets/Images/BDE/Association_UA_2.png"),
                             2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
                         },
                 },
                 1: {
@@ -620,10 +620,8 @@ export default
                     Message: "Tu veux défendre l’égalité des sexes au quotidien ? Branche de l’association Ingénieurs Sans Frontières Provence, notre pôle a pour but de combattre tous les problèmes auxquels les femmes, en écoles d’ingénieur.e.s peuvent être confrontées. Sensibilisation, récoltes de fonds, débats… les actions sont nombreuses si tu veux t’y investir !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            0: require("../Assets/Images/FeminISF/FeminISF_2.jpg"),
                             1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
                         },
                 },
                 2: {
@@ -653,9 +651,8 @@ export default
             Logo: require('../Assets/Logos/POTAGER_logo.png'),
             Message: "Le Pot'à gégé possède KSI, le BDE et l'UA. Viens y découvrir les fruits et légumes les plus savoureux de ta région, dans le sérieux, le respect, et l'amour de la pousse.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Potager/Potager_1.jpg"),
+                1: require("../../src/Assets/Images/Potager/Potager_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -681,9 +678,8 @@ export default
                 "messes et de séances de catéchisme...\n" +
                 "Ne prie pas seulement Dieu pour tes concours, rejoins-nous l’année prochaine !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Aumonerie/Aumonerie_1.jpg"),
+                1: require("../../src/Assets/Images/Aumonerie/Aumonerie_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",

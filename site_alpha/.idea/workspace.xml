@@ -2,58 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/4L/4L_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/4L/4L_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/4L/4L_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Barbu/Barbu_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Barbu/Barbu_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Barbu/Barbu_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/CMF/CMF_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/CMF/CMF_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Chaudron/Chaudron_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Chaudron/Chaudron_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Chaudron/Chaudron_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Chris/chris_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Chris/chris_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/EGab/EGAB_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/EGab/EGAB_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/FOCEEN/Foceen_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/FOCEEN/Foceen_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Fablab/Fablab_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Fablab/Fablab_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Fablab/Fablab_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Foys/Foys_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Foys/Foys_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/GInfo/GInfo_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/GInfo/GInfo_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/GInfo/GInfo_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/KSI/KSI_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/KSI/KSI_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Krypto/Krypto_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Krypto/Krypto_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/LPC/LPC_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/LPC/LPC_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/MOC/MOC_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/MOC/MOC_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/R2CM/R2CM_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/R2CM/R2CM_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/ercm_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Aumonerie/Aumonerie_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Aumonerie/Aumonerie_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDA/BDA_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDA/BDA_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Cabaret/Cabaret_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Cabaret/Cabaret_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/CheerUp/CheerUp_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/CheerUp/CheerUp_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/EP/EP_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/EP/EP_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/EP/EP_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Farigoule/Farigoule_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Farigoule/Farigoule_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Farigoule/Farigoule_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/FeminISF/FeminISF_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/ISF/ISF_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Massiliades/Massiliades_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Massiliades/Massiliades_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/PXC/PXC_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Phy/Phy_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Phy/Phy_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Phy/Phy_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Pompoms/pompoms_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Pompoms/pompoms_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Potager/Potager_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Potager/Potager_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/PouceDor/Pouce_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Pompoms_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/WEI_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/WEI_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/WEI_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/WEI_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/WEI_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/inte_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/inte_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/inte_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/soiree_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/soiree_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Kryptosphere_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Kryptosphere_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Slideshow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slideshow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SlideshowPages.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/PopUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/Farigoule_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/Farigoule_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/PXC_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/PXC_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/DataEntities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/DataEntities.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,6 +117,7 @@
       <workItem from="1588593691815" duration="572000" />
       <workItem from="1588594315559" duration="13487000" />
       <workItem from="1588682511976" duration="4825000" />
+      <workItem from="1588841063835" duration="6524000" />
     </task>
     <servers />
   </component>
