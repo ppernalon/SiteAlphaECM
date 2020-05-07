@@ -699,10 +699,8 @@ export default
                     Message: "Ancien taupin, tu arrives enfin au bout de ces heures passées sur une chaise et tu rêves de redécouvrir les joies du sport ! Le BDS de Centrale Marseille est là pour satisfaire tes désirs : que tu sois un solitaire ou que tu préfères l'esprit d'équipe, tu pourras trouver ton bonheur dans la vingtaine de sports que nous te proposons. En plus de dynamiser ta semaine, cet incroyable BDS te concocte entre autres des week-ends de folie, des tournois enflammés et, Marseille oblige, un accès privilégié au Vélodrome. On a hâte de te compter parmi notre grande famille de sportifs !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/BDS/BDS_1.jpg"),
+                            1: require("../Assets/Images/BDS/BDS_2.jpg"),
                         },
                 },
                 1: {
@@ -723,10 +721,9 @@ export default
                     Message: "Chaque année le BDS organise l'un des meilleurs événements de l'intégration : le Week-End Sportif. Partez entre premières années découvrir des paysages à couper le souffle où vous pourrez profiter de nombreuses activités (comme du canyoning, du rafting etc...) et d'une soirée inoubliable ! Sensations fortes et adrénalines seront au rendez-vous. Viens réveiller le sportif qui sommeille en toi ! Ce week-end est aussi un moment privilégié pour rencontrer les gens de ta promo et tisser des liens avec eux.",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/WES/WES_1.jpg"),
+                            1: require("../Assets/Images/WES/WES_2.jpg"),
+                            2: require("../Assets/Images/WES/WES_3.jpg"),
                         },
                 },
                 3: {
@@ -735,10 +732,8 @@ export default
                     Message: "Les Intercentrales c'est LA compétition inter-écoles du début d'année, la première d'une belle série ! C'est aussi la première grande occasion de défendre les couleurs de ton école en arborant ton maillot, en faisant résonner nos chants et en te battant pour le trophée ! Avec ses 600 compétiteurs, sa soirée et son incroyable show Pompom, c'est l'événement sportif Centralien à ne pas rater ! Alors prépare-toi à venir prouver à tous que le bleu et blanc sont les couleurs des gagnants !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/Intercentrales/Inter_3.jpg"),
+                            1: require("../Assets/Images/Intercentrales/Inter_2.jpg"),
                         },
                 },
                 4: {
@@ -747,10 +742,8 @@ export default
                     Message: "C'est simple : c'est le plus gros tournoi auquel tu participeras ! Avec sa délégation de 4500 sportifs français et internationaux, la compétition est féroce en terrres parisiennes. Que tu sois adepte d'escalade, de volleyball ou même d'équitation, prépare-toi à te dépasser pour Centrale Marseille !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/TOSS/TOSS_1.jpg"),
+                            1: require("../Assets/Images/TOSS/TOSS_2.jpg"),
                         },
                 },
                 5: {
@@ -759,10 +752,8 @@ export default
                     Message: "Pour l'arrivée du printemps, ce n'est pas moins de 3000 participants qui s'affrontent dans 20 sports . Cet événement accueille aussi des concours de fanfares, de mascottes et de Pompoms, sans oublier une soirée mémorable ! C'est le rendez-vous lyonnais auquel les marseillais ont une réputation à tenir ! ",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/CCL/CCL_1.jpg"),
+                            1: require("../Assets/Images/CCL/CCL_2.jpg"),
                         },
                 },
             },
@@ -780,9 +771,8 @@ export default
             Logo: require('../Assets/Logos/MSB_logo.png'),
             Message: "Le Massilia Sun Ball est le plus grand tournoi sportif étudiant sur plage de France ! Celui-ci se tient durant le mois de mai au Grau-du-Roi sur la belle plage de l’Espiguette. Plus de 1200 étudiants d’écoles de commerce et d’ingénieurs de toute la France se retrouvent pour s’affronter lors d’un tournoi de beach volley, dodgeball, beach soccer, sandball et beach rugby ! D’autres activités seront possibles lors de ce weekend mémorable comme le show pompom, deux grosses soirées et différents activités aquatiques !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/MSB/MSB_1.jpg"),
+                1: require("../../src/Assets/Images/MSB/MSB_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -798,9 +788,9 @@ export default
             Logo: require('../Assets/Logos/Raid_logo.png'),
             Message: "Tu es frustré de ne pas avoir pu faire autant de sport que tu voulais pendant ces deux ou trois années ? La nature te manque ? Alors, les paysages magnifiques de la région t'attendent. Tu ne seras pas déçu ! Le dénivelé est à portée de mains, que ce soit dans les calanques ou dans le massif de l'Etoile juste derrière l'école. Tu auras l'occasion de nous rejoindre lors de trails ou encore pour la 8è édition du RAID Centrale Marseille. Au programme VTT, trail, course d'orientation et activités surprises, mais surtout plaisir, défi et convivialité !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Raid/Photo_raid_1.png"),
+                1: require("../../src/Assets/Images/Raid/Photo_raid_2.jpg"),
+                2: require("../../src/Assets/Images/Raid/Photo_raid_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -816,9 +806,9 @@ export default
             Logo: require('../Assets/Logos/MRC_logo.png'),
             Message: "Si Marseille rime avec plage et soleil, on oublie quand même les fans de montagnes. L’asso MRC t'emmène le temps d'une semaine au sommet des Alpes, et te propose un petit avant-goût grâce à des weekends ski et des sorties de qualité !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/MRC/MRC_2.jpg"),
+                1: require("../../src/Assets/Images/MRC/MRC_1.jpg"),
+                2: require("../../src/Assets/Images/MRC/MRC_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -835,13 +825,11 @@ export default
                 0: {
                     Name: "MDV",
                     Logo: require('../Assets/Logos/MDV_logo.png'),
-                    Message: "Le MDV est l’asso de voile de l’école, que tu sois un skipper aguerri ou que tu souhaites t’initier aux plaisirs de la voile, le MDV est fait pour toi ! Il est possible de prendre des cours de planche à voile, Laser, ou encore habitable, mais il est aussi possible de profiter du bateau de l’asso ; Jnet, un J80 sur lequel on s’entraîne, mais sur lequel on fait aussi des apéros lorsque le soleil est au rendez-vous (c’est-à-dire de Février à Novembre). Notre association organise aussi des croisières inoubliables dans les calanques, la régate InterCentrales, la traversée du Vieux-Port et participe à la Course Croisière Edhec, régate étudiante de renommée internationale. Le MDV, ça n’est pas seulement de la voile, mais c’est l’asso de toutes les activités autour de la mer ; ses sous-com’ Centrale glisse, Centrale plongée, offrent de nombreuses possibilités qui sont présentées ci-dessous.",
+                    Message: "Le MDV est l’asso de voile de l’école, que tu sois un skipper aguerri ou que tu souhaites t’initier aux plaisirs de la voile, le MDV est fait pour toi ! Il est possible de prendre des cours de planche à voile, Laser, ou encore habitable. Vous pouvez aussi profiter du bateau de l’asso ; Jnet, un J80 sur lequel on organise des apéros lorsque le soleil est au rendez-vous (c’est-à-dire de Février à Novembre). Notre association organise aussi des croisières inoubliables dans les calanques et de nombreuses activités autour de la mer grâce à ses sous com’ présentées ci-dessous.",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/MDV/MDV_3.jpg"),
+                            1: require("../Assets/Images/MDV/MDV_2.jpg"),
                         },
                 },
                 1: {
@@ -850,10 +838,9 @@ export default
                     Message: "Parce que sur l’eau il n’y pas que la navigation qui permet de profiter du cadre marseillais, Centrale Glisse est là pour toi. Profite des sorties en paddles aux calanques, des kayaks de l’asso, ou encore du week-end glisse pour profiter à fond des sensations qu’offre le surf sur la côte ouest !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/CGlisse/CGlisse_1.jpg"),
+                            1: require("../Assets/Images/CGlisse/CGlisse_2.jpg"),
+                            2: require("../Assets/Images/CGlisse/CGlisse_3.jpg"),
                         },
                 },
                 2: {
@@ -862,10 +849,9 @@ export default
                     Message: "Après la prépa, tu cherches de nouvelles expériences ? Viens découvrir les fonds méditerranéens avec Centrale Plongée ! Que tu sois novice ou expérimenté, tu pourras faire des baptêmes, des plongées d’exploration, et même passer des niveaux grâce à nos formations. Ce sera ta chance d’observer des murènes, des épaves et des mérous !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/CPlongee/CPlongee_2.jpg"),
+                            1: require("../Assets/Images/CPlongee/CPlongee_1.jpg"),
+                            2: require("../Assets/Images/CPlongee/CPlongee_3.jpg"),
                         },
                 },
                 3: {
@@ -874,16 +860,15 @@ export default
                     Message: "La Régate InterCentrales, c’est une compétition de voile entre les 5 écoles du groupe Centrale, mais c’est surtout un moment de cohésion avec une soirée et un grand repas avec tous les participants. Nous réservons un accueil des plus chaleureux dans nos coloc’ marseillaises. La régate a lieu après le tournoi Intercentrales, alors si tu aimes déjà régater, ou si tu as envie d’essayer, rejoins-nous !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/RIC/RIC_1.jpg"),
+                            1: require("../Assets/Images/RIC/RIC_2.jpg"),
+                            2: require("../Assets/Images/RIC/RIC_3.jpg"),
                         },
                 },
                 4: {
                     Name: "Course Croisière Edhec",
                     Logo: require('../Assets/Logos/MDV_logo.png'),
-                    Message: "La Régate InterCentrales, c’est une compétition de voile entre les 5 écoles du groupe Centrale, mais c’est surtout un moment de cohésion avec une soirée et un grand repas avec tous les participants. Nous réservons un accueil des plus chaleureux dans nos coloc’ marseillaises. La régate a lieu après le tournoi Intercentrales, alors si tu aimes déjà régater, ou si tu as envie d’essayer, rejoins-nous !",
+                    Message: "Tu as le pied marin, l'esprit sportif ou juste envie de chiller sur les plages de Bretagne avec tes potes ? Alors rejoins la CCE pour passer la meilleure semaine de l'année. Le principe ? Défendre les couleurs de Centrale Marseille lors de régates (trophée mer), ou de tournois plus ou moins sportifs (trophée terre et sable). Et bien sur, la nuit tombée, participe aux nombreuses soirées organisées pour te forger encore plus de souvenirs mémorables ! ",
                     Images:
                         {
                             0: require("../Assets/Images/BDE/BDE_1.jpg"),
@@ -907,9 +892,9 @@ export default
             Logo: require('../Assets/Logos/TVP_logo.png'),
             Message: "La Traversée du Vieux-Port est un évènement organisé par des Centraliens, pour des Centraliens (mais pas que !), dans la rade du Mucem. Le principe ? Participer à des courses nautiques en équipe, à bord de radeaux construits à partir de matériaux récupérés dans tout Marseille ! Chaque équipe construit son « bateau » avec un seul objectif : ne pas couler tout de suite ! Les courses sont également ouvertes à des jeunes le matin (collégiens, lycéens, scouts...), et la journée est rythmée par les courses et les nombreuses animations. Rendez-vous en 2021 pour la 41e édition !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/TVP/TVP_3.jpg"),
+                1: require("../../src/Assets/Images/TVP/TVP_2.jpg"),
+                2: require("../../src/Assets/Images/TVP/TVP_4.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
