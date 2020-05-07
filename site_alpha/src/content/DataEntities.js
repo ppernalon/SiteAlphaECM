@@ -709,10 +709,9 @@ export default
                     Message: "Le BDX c’est quoi? C’est un pôle du BDS qui peut vous permettre de faire des sports qui sortent de vos habitudes. L’objectif est de proposer des activités inédites à l‘ensemble des élèves qui le souhaitent. On organise des sorties motocross, sorties dans les calanques, paintball… En gros, on est là pour que tu t’éclates à Centrale en découvrant de nouvelles choses !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/BDX/BDX_2.jpg"),
+                            1: require("../Assets/Images/BDX/BDX_1.jpg"),
+                            2: require("../Assets/Images/BDX/BDX_3.jpg"),
                         },
                 },
                 2: {
@@ -911,9 +910,9 @@ export default
             Logo: require('../Assets/Logos/UA_logo.png'),
             Message: "Comme tu vas vite t'en rendre compte, la vie associative de Centrale Marseille est dense et variée ! Avec le développement exponentielle de celle-ci des dix dernières années, la necessité d'une fédération chargée de pérenniser, professionnaliser et représenter les associations a rapidement vu le jour. Cette fédération est l'Union des Associations de son nom court l'UA. Une telle fédération confère une plus grande envergure à l'ensemble des associations, non seulement elle est au centre des discussions avec la direction de l'école mais c'est aussi un interlocuteur privilégié pour développer des partenariats profitant à tous.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/UA/UA_1.jpg"),
+                1: require("../../src/Assets/Images/UA/UA_2.jpg"),
+                2: require("../../src/Assets/Images/UA/UA_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/ua.centrale.marseille",
