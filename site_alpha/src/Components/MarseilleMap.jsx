@@ -11,7 +11,7 @@ export default class MarseilleMap extends React.Component {
         return(
             <div id="Map">
                 <div className="ButtonsMarseilleMap" id="CentraleMarseille">
-                    <PopUp type="VilleMarseille" identity="CentraleMarseille"/>
+                    <PopUp type="VilleMarseille" identity="CentraleMarseille" severalPages={true}/>
                 </div>
 
                 <div className="ButtonsMarseilleMap" id="MuCEM">

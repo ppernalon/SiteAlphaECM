@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDX/BDX_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDX/BDX_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BDX/BDX_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/UA/UA_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/UA/UA_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/UA/UA_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/DataEntities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/DataEntities.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +87,7 @@
       <workItem from="1588594315559" duration="13487000" />
       <workItem from="1588682511976" duration="4825000" />
       <workItem from="1588841063835" duration="6524000" />
-      <workItem from="1588870329333" duration="3769000" />
+      <workItem from="1588870329333" duration="4448000" />
     </task>
     <servers />
   </component>

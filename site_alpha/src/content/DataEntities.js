@@ -926,10 +926,56 @@ export default
         CentraleMarseille:{
             Img_btn: require('../Assets/Marseille_map/Marseille_CentraleMarseille.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+            Logo: require('../Assets/Logos/CentraleMarseille_logo.png'),
+            Pages: {
+                0: {
+                    Name: "Centrale Marseille",
+                    Logo: require('../Assets/Logos/CentraleMarseille_logo.png'),
+                    Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+                    Images:
+                        {
+                            0: require("../Assets/Images/MDV/MDV_3.jpg"),
+                            1: require("../Assets/Images/MDV/MDV_2.jpg"),
+                        },
+                },
+                1: {
+                    Name: "Campus",
+                    Logo: require('../Assets/Logos/CentraleMarseille_logo.png'),
+                    Message: "Les Centraliens investissent\n" +
+                        "en début d’année\n" +
+                        "plusieurs résidences du\n" +
+                        "Technopôle. Elles proposent\n" +
+                        "des appartements meublés\n" +
+                        "d’environ 20 m². Il en existe\n" +
+                        "plusieurs: Château-Gombert,\n" +
+                        "collé à l’école, Les Estudines -\n" +
+                        "Oxford, en face, Les Estudines\n" +
+                        "- Provence, un peu plus loin à\n" +
+                        "4min de marche, Vilogia, au\n" +
+                        "même niveau que Provence,\n" +
+                        "Les Estudines - Victoria Park,\n" +
+                        "en continuant une dizaine de\n" +
+                        "minutes, et les Résidences\n" +
+                        "CROUS, plus éloignées de\n" +
+                        "l’école.\n" +
+                        "Il est également envisageable\n" +
+                        "de loger en centrale-\n" +
+                        "ville mais peu de 1ère\n" +
+                        "années choisisse cette option.\n" +
+                        "C’est là-bas que la majorité\n" +
+                        "des 2As vivent en colocation\n" +
+                        "dans les quartiers du\n" +
+                        "Vieux-Port, de Réformés ou\n" +
+                        "de Cinq-Avenues.",
+                    Images:
+                        {
+                            0: require("../Assets/Images/CGlisse/CGlisse_1.jpg"),
+                            1: require("../Assets/Images/CGlisse/CGlisse_2.jpg"),
+                            2: require("../Assets/Images/CGlisse/CGlisse_3.jpg"),
+                        },
+                },
+            },
             Images: {
                 0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
