@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/HomePage.css';
-import HomePage_data from "../content/WelcomingMessage_data";
+import Logo from "../Assets/Logos_site/Logos__site_wShadow.png";
 import WelcomingMessage from "../Components/WelcomingMessage";
 
 export default class SplashPage extends React.Component{
@@ -11,7 +11,7 @@ export default class SplashPage extends React.Component{
     render() {
         return(
             <div id="container">
-                <img id="Logo" src={HomePage_data.logo} alt={"logo"}/>
+                <img id="Logo" src={Logo} alt={"logo"}/>
                 <p>Chargement...</p>
             </div>
         )

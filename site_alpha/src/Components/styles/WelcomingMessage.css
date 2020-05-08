@@ -1,8 +1,9 @@
-p
+#pBaliseWM
 {
     font-family: "Roboto Light", sans-serif;
-    font-size : 1.5vmax;
+    font-size : 1.3vmax;
     text-align: justify;
+    color: black;
 }
 
 span
@@ -40,11 +41,10 @@ span
 {
     display: block;
     margin: auto;
-    padding: 2vmax;
+    padding: 1vmax;
     border-radius: 1vmax;
     box-shadow: 0 0 0.8vmax black;
     background-color: white;
-    color: black;
 }
 
 @supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
@@ -56,15 +56,13 @@ span
         box-shadow: 0 0 0.8vmax black;
         background-color: rgba(0,0,0,0.25);
         backdrop-filter: blur(0.8vmax);
-        color: white
+        color: white;
     }
 
-    #Message_WM p
-    {
+    #pBaliseWM{
         color: white;
         padding: 1vmax;
     }
-
     #Formulaire:hover
     {
         box-shadow: 0 0 0.5vmax white;
@@ -74,9 +72,9 @@ span
 
 
 @media only screen and (max-width: 767px)  {
-    p
+    #pBaliseWM
     {
-        font-size: 2vmax;
+        font-size: 1.9vmax;
     }
 
     span
@@ -91,6 +89,11 @@ span
 }
 
 @media only screen and (min-width: 768px) {
+    #pBaliseWM
+    {
+        font-size: 1.3vmax;
+    }
+
     #Formulaire
     {
         font-size: 1.3vmax;

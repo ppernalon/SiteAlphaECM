@@ -35,13 +35,13 @@ export default class Slideshow extends React.Component {
 
     render() {
         return (
-            <div id="SlideshowDiv">
-                <div className="Slide_box" style={{backgroundImage: 'url(' + this.images[this.state.rank] + ')',}}/>
-                <div className="Arrow_btns">
-                    <input type="image" className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={this.previous_img}/>
-                    <input type="image" className="R_Arrow Arrow" src={Right_arrow} alt="next" onClick={this.next_img}/>
+            <div id="SlideshowDiv" style={{backgroundImage: 'url(' + this.images[this.state.rank] + ')',}}>
+                <div id={"emptyDivSlideshow"}/>
+                <input type="image" className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={this.previous_img}/>
+                <input type="image" className="R_Arrow Arrow" src={Right_arrow} alt="next" onClick={this.next_img}/>
+                <div id={"counterDiv"}>
+                    {this.state.rank + 1}/{this.images_length}
                 </div>
-                <p className="Counter">{this.state.rank + 1}/{this.images_length} </p>
             </div>
 
         )

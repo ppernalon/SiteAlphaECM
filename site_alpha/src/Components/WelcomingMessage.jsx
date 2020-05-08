@@ -4,16 +4,14 @@ import "./styles/WelcomingMessage.css";
 export default class WelcomingMessage extends React.Component{
     constructor(props){
         super(props);
-        this.message1 = this.props.data.message1;
-        this.message2 = this.props.data.message2;
-        this.authors = this.props.data.authors;
+        this.authors = "BIDAN Clément et PERNALON Paul"
+        this.message = "Réalisé par les étudiants de Centrale Marseille, ce site te permettra de découvrir la vie étudiante et associative de notre école. En te souhaitant bon courage pour les concours et bonne découverte !";
     }
 
     render() {
         return(
             <div id="Message_WM">
-                <p> {this.message1} <br/> </p>
-                <p> {this.message2} </p>
+                <p id={"pBaliseWM"}> &emsp; &emsp; {this.message} </p>
                 <button id="Formulaire"> Donne nous tes coordonnées pour en savoir plus ! </button>
                 <br/>
                 <span> {this.authors} </span>

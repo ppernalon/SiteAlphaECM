@@ -10,7 +10,7 @@ import Mars_btn from '../Assets/Calendar_buttons/Mars.png';
 import Avr_btn from '../Assets/Calendar_buttons/Avr.png';
 import Mai_btn from '../Assets/Calendar_buttons/Mai.png';
 import Juin_btn from '../Assets/Calendar_buttons/Juin.png';
-import trait_verti from '../Assets/Calendar_buttons/trait_vertical.png'
+import trait_verti from '../Assets/Buttons/trait_vertical.png';
 
 export default class Calendar extends React.Component{
     constructor(props) {
