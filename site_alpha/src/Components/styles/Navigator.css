@@ -5,7 +5,7 @@
     .pageViewContainer{
         display: grid;
         grid-template-columns: 5vw 90vw 5vw;
-        height: calc(100% - 85px);
+        height: 100%;
     }
 
     a.ScrollButton{
@@ -17,8 +17,7 @@
     /* smartphone */
     .pageViewContainer{
         display: grid;
-        grid-template-columns: 100vw;
-        height: calc(100% - 85px);
+        height: 100%;
     }
 
     a.ScrollButton{
@@ -128,6 +127,30 @@
     background-image:url("../../Assets/Menu/Menu_button_bcV_filled.png");
 }
 
+.visited{
+     background-image:url("../../Assets/Menu/Menu_button_bc_filled.png");
+ }
+
+.visitedV{
+    background-image:url("../../Assets/Menu/Menu_button_bcV_filled.png");
+}
+
+.visitedStart{
+    background-image:url("../../Assets/Menu/Menu_button_bc_start_filled.png");
+}
+.visitedVStart{
+    background-image:url("../../Assets/Menu/Menu_button_bcV_start_filled.png");
+}
+
+.visitedEnd{
+    background-image:url("../../Assets/Menu/Menu_button_bc_end_filled.png");
+}
+.visitedVEnd{
+    background-image:url("../../Assets/Menu/Menu_button_bcV_end_filled.png");
+}
+
+
+
 .MenuItem a{
     display: flex;
     height: 100%;
@@ -168,10 +191,9 @@ a.ScrollButton{
 
 .ScrollButtonTop{
     background-image: url("../../Assets/Buttons/Buttons__scroll_nav_top.png");
-    align-items: flex-end;
+
 }
 
 .ScrollButtonBot {
     background-image: url("../../Assets/Buttons/Buttons__scroll_nav_bot.png");
-    align-items: flex-start
 }

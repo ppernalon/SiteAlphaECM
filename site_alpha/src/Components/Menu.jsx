@@ -3,68 +3,61 @@ import Frise from '../Assets/Menu/Menu__frise.png'
 import Rond from '../Assets/Menu/Menu__rond.png'
 import AB from '../Assets/Menu/Menu_button_bc.png'
 import { NavLink } from 'react-router-dom'
+import NavItem from "./NavItem";
 
 export default class Menu extends React.Component{
     constructor(props){
         super(props)
+        this.state = {
+            visited : [1,0,0,0,0,0]
+        }
     }
+
+    pages = [
+        '/',
+        '/marseille',
+        '/reseaux',
+        '/associations',
+        '/calendrier',
+        '/contact'
+    ]
+
+
+
+    handleMenu = (number) => {
+        let tableau = [];
+        for(let i = 0; i < this.pages.length; i++){
+            if (i <= number){
+                tableau[i]=1;
+            }
+            else{
+                tableau[i]=0;
+            }
+        }
+        this.setState({visited : tableau})
+        console.log(this.state.visited)
+    };
 
     render(){
         let className = 'Menu';
-        let classItem ='MenuItem';
-        let vertical = '';
-        let toggle = () => {};
         if(this.props.vertical){
             className = 'MenuV';
-            classItem ='MenuItemV';
-            vertical = 'V';
-            toggle = this.props.toggle
         }
         return(
             <div className={className}>
-                    <div className={"MenuItemStart" + vertical + " " + classItem}>
-                        <NavLink to="/">
-                            <a onClick={() => toggle()}>
-                            Accueil
-                            </a>
-                        </NavLink>
-                    </div>
-                    <div className={classItem}>
-                        <NavLink to="/marseille">
-                        <a className="Impair" onClick={() => toggle()}>
-                        Marseille
-                        </a>
-                        </NavLink>
-                    </div>
-                    <div className={classItem}>
-                        <NavLink to="/reseaux">
-                            <a onClick={() => toggle()}>
-                                Réseaux
-                            </a>
-                        </NavLink>
-                    </div>
-                    <div className={classItem}>
-                        <NavLink to="/associations">
-                            <a className="Impair" onClick={() => toggle()}>
-                                Associations
-                            </a>
-                        </NavLink>
-                    </div>
-                    <div className={classItem}>
-                        <NavLink to="/calendrier">
-                            <a onClick={() => toggle()}>
-                                Calendrier
-                            </a>
-                        </NavLink>
-                    </div>
-                    <div className={"MenuItemEnd" + vertical + " " + classItem}>
-                        <NavLink to="/contact">
-                            <a className="Impair" onClick={() => toggle()}>
-                                Contact
-                            </a>
-                        </NavLink>
-                    </div>
+                <NavItem toggle={this.props.toggle} title={'Accueil'} onClick={this.handleMenu} to={'/'} number={0} vertical={this.props.vertical} visited={this.state.visited[0]} start/>
+                <NavItem toggle={this.props.toggle} title={'Marseille'} onClick={this.handleMenu} to={'/marseille'} number={1} vertical={this.props.vertical} visited={this.state.visited[1]} impair/>
+                <NavItem toggle={this.props.toggle} title={'Réseaux'} onClick={this.handleMenu} to={'/reseaux'} number={2} vertical={this.props.vertical} visited={this.state.visited[2]}/>
+                <NavItem toggle={this.props.toggle} title={'Associations'} onClick={this.handleMenu} to={'/associations'} number={3} vertical={this.props.vertical} visited={this.state.visited[3]} impair/>
+                <NavItem toggle={this.props.toggle} title={'Calendrier'} onClick={this.handleMenu} to={'/calendrier'} number={4} vertical={this.props.vertical} visited={this.state.visited[4]}/>
+                <NavItem toggle={this.props.toggle} title={'Contact'} onClick={this.handleMenu} to={'/contact'} number={5} vertical={this.props.vertical} visited={this.state.visited[5]} impair end/>
             </div>
         )
+    }
+
+    componentDidMount() {
+        let urlcourante = document.location.href;
+        let queue_url = urlcourante.substring(urlcourante.lastIndexOf("/"));
+        this.handleMenu(this.pages.indexOf(queue_url));
     }
 }

@@ -13,7 +13,7 @@ export default class ReseauxPage extends React.Component{
 
     render(){
         return(
-            <div id="ReseauxPageDiv" className="animated fadeIn">
+            <div id="ReseauxPageDiv" className={this.props.transition}>
                 <ReseauxButtons/>
                 <Message title={this.title} message={this.message}/>
             </div>

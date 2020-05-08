@@ -6,9 +6,11 @@ import NavBar from './NavBar';
 import {
     BrowserRouter as Router,
     Switch,
-    Route
+    Route,
+    withRouter
 } from "react-router-dom";
 import SplashPage from "../Pages/SplashPage";
+import ScrollButton from "./ScrollButton";
 
 
 const HomePage = lazy(() => import('../Pages/HomePage'));
@@ -18,47 +20,82 @@ const ReseauxPage = lazy(() => import('../Pages/ReseauxPage'));
 const ContactPage = lazy(() => import('../Pages/ContactPage'));
 const CalendarPage = lazy(() => import('../Pages/CalendarPage'));
 
-export default class NavigatorRouter extends React.Component{
-    constructor(props){
+class NavigatorRouter extends React.Component {
+    constructor(props) {
         super(props);
-        this.state={
-            drawerOpen:false
+        this.state = {
+            drawerOpen: false,
+            pageNumber: 0,
+            url: '/',
+            transitions: ['animated fadeInRight', 'animated fadeInRight', 'animated fadeInRight', 'animated fadeInRight', 'animated fadeInRight',
+                'animated fadeInRight'],
+            previous : '/contact',
+            next : '/marseille'
         }
     }
 
-    drawerToggleClickHandler = () => {
-        this.setState({
-            drawerOpen: !this.state.drawerOpen
-        })
+    pages = [
+        '/',
+        '/marseille',
+        '/reseaux',
+        '/associations',
+        '/calendrier',
+        '/contact'
+    ]
+
+    transitions = {
+        0 : "animated fadeInRight",
+        1 : "animated fadeInLeft"
+    }
+
+    handlePageNumber = () => {
+        let urlcourante = document.location.href;
+        let queue_url = urlcourante.substring(urlcourante.lastIndexOf("/"));
+        this.setState({pageNumber: this.pages.indexOf(queue_url)});
     };
 
-    backdropClickHandler = () => {
-        this.setState({
-            drawerOpen: false
-        })
-    };
+    handleTransitions = (url) => {
+        let tableau = [];
+        for(let i = 0; i < this.pages.length; i++){
+            if (i <= this.pages.indexOf(url)){
+                tableau[i]=this.transitions[1];
+            }
+            else{
+                tableau[i]=this.transitions[0];
+            }
+        }
+        this.setState({transitions:tableau})
+    }
+
 
     render() {
-        return(
+        return (
             <div className="container">
-                <Router>
-                        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-                        <NavBar toggle={this.drawerToggleClickHandler}/>
+                    <NavBar/>
+                    <div className="pageViewContainer">
+                        <ScrollButton to={'/'} title={"Contacts"}/>
                         <Suspense fallback={<SplashPage/>}>
                             <Switch>
-                                <Route exact path="/" component={HomePage}/>
-                                <Route path="/marseille" component={MarseillePage}/>
-                                <Route path="/reseaux" component={ReseauxPage}/>
-                                <Route path="/associations" component={AssociationsPage}/>
-                                <Route path="/calendrier" component={CalendarPage}/>
-                                <Route path="/contact" component={ContactPage}/>
+                                <Route exact path="/" component={() => <HomePage transition={this.state.transitions[0]}/>}/>
+                                <Route path="/marseille" component={() => <MarseillePage transition={this.state.transitions[1]}/>}/>
+                                <Route path="/reseaux" component={() => <ReseauxPage transition={this.state.transitions[2]}/>}/>
+                                <Route path="/associations" component={() => <AssociationsPage transition={this.state.transitions[3]}/>}/>
+                                <Route path="/calendrier" component={() => <CalendarPage transition={this.state.transitions[4]}/>}/>
+                                <Route path="/contact" component={() => <ContactPage transition={this.state.transitions[5]}/>}/>
                             </Switch>
                         </Suspense>
-                        <Backdrop show={this.state.drawerOpen} close={this.backdropClickHandler}/>
-                        <SlideDrawer show={this.state.drawerOpen} toggle={this.drawerToggleClickHandler} navigate={this.navigationHandler}/>
-                </Router>
+                        <ScrollButton to={'/marseille'} title={"Contacts"}/>
+                    </div>
             </div>
         )
     }
+
+    componentDidUpdate(prevProps) {
+        if (this.props.location !== prevProps.location) {
+            this.handleTransitions(prevProps.location.pathname);
+        }
+    }
+
 }
+
+export default withRouter(NavigatorRouter);

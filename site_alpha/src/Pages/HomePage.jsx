@@ -11,10 +11,14 @@ export default class HomePage extends React.Component{
 
     render() {
         return(
-            <div id="container" className="animated fadeInUp">
+            <div id="container" className={this.props.transition}>
                     <img id="Logo" src={HomePage_data.logo} alt={"logo"}/>
                     <WelcomingMessage data={HomePage_data.welcomingWord}/>
             </div>
         )
+    }
+
+    componentWillUnmount(){
+
     }
 }

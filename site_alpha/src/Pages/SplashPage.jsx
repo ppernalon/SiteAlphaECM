@@ -16,4 +16,5 @@ export default class SplashPage extends React.Component{
             </div>
         )
     }
+
 }

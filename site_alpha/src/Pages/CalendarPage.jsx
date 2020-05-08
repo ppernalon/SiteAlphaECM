@@ -9,7 +9,7 @@ export default class CalendarPage extends React.Component{
 
     render() {
         return (
-            <div id="CalendarPageDiv">
+            <div id="CalendarPageDiv" className={this.props.transition}>
                 <Calendar/>
             </div>
         );
