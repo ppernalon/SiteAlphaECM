@@ -932,7 +932,19 @@ export default
                 0: {
                     Name: "Centrale Marseille",
                     Logo: require('../Assets/Logos/CentraleMarseille_logo.png'),
-                    Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+                    Message: "Notre école se situe sur le\n" +
+                        "Technopôle de Château-Gombert\n" +
+                        "dans le 13e arrondissement de\n" +
+                        "Marseille. C’est une zone calme,\n" +
+                        "fréquentée en majorité par des\n" +
+                        "étudiants et les chercheurs des\n" +
+                        "laboratoires aux alentours.\n" +
+                        "Le métro est à quelques\n" +
+                        "minutes de bus de l’école et à\n" +
+                        "seulement 15 minutes à pieds. Au\n" +
+                        "sein de l’établissement, tu trouveras\n" +
+                        "de nombreux espaces verts\n" +
+                        "ainsi qu’un terrain de pétanque.",
                     Images:
                         {
                             0: require("../Assets/Images/Centrale/Centrale_3.jpg"),
@@ -989,7 +1001,7 @@ export default
             Name: "MuCEM",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+            Message: "Le MuCEM, où musée des Civilisations de l'Europe et de la Méditerranée, est un musée national situé au coeur de la ville de Marseille entre le fort Saint-Jean et la cathédrale de La Major. Il est qualifié de musée de société préférant exposer les objets du quotidien plutôt que les œuvres d'art. De plus, sa fonction va au-delà de celle d'un musée traditionnelle, l'objectif est d'articulier les programmations autour des grandes questions de sociétés européennes et méditerranéennes. Ce site culturel est une source d'attractivité pour la ville de Marseille et comptabilise plus d'un million de visiteurs par an.",
             Images: {
                 0: require("../../src/Assets/Images/MuCEM/MuCEM_1.jpg"),
                 1: require("../../src/Assets/Images/MuCEM/MuCEM_2.jpg"),
@@ -1031,7 +1043,7 @@ export default
             Name: "Iles du Frioul",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
-            Message: "Facilement accessibles en prenant un bateau depuis le Vieux-Port de Marseille, les 4 îles du Frioul forment un archipel protégé de 200 hectares. La faune et la flore locale se sont adaptées aux conditions climatiques d'un massif de calcaire blanc soumis aux nombreux vents marins. Elles habritent également le célèbre Château d'If mis en scène par Alexandre Dumas dans son romain le Comte de Monte Cristo, celui servait autrefois un but militaire mais aujourd'hui est la principale attraction touristique des îles avec 400 000 visiteurs par an.",
+            Message: "Facilement accessibles en prenant un bateau depuis le Vieux-Port de Marseille, les 4 îles du Frioul forment un archipel protégé de 200 hectares. La faune et la flore locale se sont adaptées aux conditions climatiques d'un massif de calcaire blanc soumis aux nombreux vents marins. Elles habritent également le célèbre Château d'If mis en scène par Alexandre Dumas dans son romain le Comte de Monte Cristo, celui-ci servait autrefois un but militaire mais aujourd'hui est la principale attraction touristique des îles avec 400 000 visiteurs par an.",
             Images: {
                 0: require("../../src/Assets/Images/Frioules/Frioules_1.jpg"),
                 1: require("../../src/Assets/Images/Frioules/Frioules_2.jpg"),
