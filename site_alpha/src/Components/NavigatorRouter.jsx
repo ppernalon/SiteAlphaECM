@@ -73,7 +73,7 @@ class NavigatorRouter extends React.Component {
             <div className="container">
                     <NavBar/>
                     <div className="pageViewContainer">
-                        <ScrollButton to={'/'} title={"Contacts"}/>
+                        <ScrollButton to={this.state.previous} title={"Contacts"}/>
                         <Suspense fallback={<SplashPage/>}>
                             <Switch>
                                 <Route exact path="/" component={() => <HomePage transition={this.state.transitions[0]}/>}/>
@@ -84,7 +84,7 @@ class NavigatorRouter extends React.Component {
                                 <Route path="/contact" component={() => <ContactPage transition={this.state.transitions[5]}/>}/>
                             </Switch>
                         </Suspense>
-                        <ScrollButton to={'/marseille'} title={"Contacts"}/>
+                        <ScrollButton to={this.state.next} title={"Contacts"}/>
                     </div>
             </div>
         )
@@ -93,6 +93,7 @@ class NavigatorRouter extends React.Component {
     componentDidUpdate(prevProps) {
         if (this.props.location !== prevProps.location) {
             this.handleTransitions(prevProps.location.pathname);
+            this.setState({next:this.pages[this.pages.indexOf(this.props.location.pathname)+1], previous:this.pages[this.pages.indexOf(this.props.location.pathname)-1]})
         }
     }
 

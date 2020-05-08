@@ -12,7 +12,7 @@ export default class ContactPage extends React.Component{
             <div id="ContainerContactPage" className={this.props.transition}>
                 <div id={"SocialNetworks"}>
                     <h1>Liens</h1>
-                    <a href="https://www.google.fr" className="SocialNetworkButton"> <img src={require("../Assets/fb.png")}/>Facebook Admissibles</a>
+                    <a href="https://www.google.fr" className="SocialNetworkButton"> <img src={require("../Assets/fb.png")}/> Facebook Admissibles</a>
                     <a href="https://www.google.fr" className="SocialNetworkButton"> <img src={require("../Assets/fb.png")}/>Instagram Admissibles</a>
                     <a href="https://www.google.fr" className="SocialNetworkButton"> <img src={require("../Assets/fb.png")}/>Centrale Marseille Le site officiel</a>
                 </div>
