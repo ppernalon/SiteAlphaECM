@@ -935,8 +935,9 @@ export default
                     Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
                     Images:
                         {
-                            0: require("../Assets/Images/MDV/MDV_3.jpg"),
-                            1: require("../Assets/Images/MDV/MDV_2.jpg"),
+                            0: require("../Assets/Images/Centrale/Centrale_3.jpg"),
+                            1: require("../Assets/Images/Centrale/Centrale_2.jpg"),
+                            2: require("../Assets/Images/Centrale/Centrale_1.jpg")
                         },
                 },
                 1: {
@@ -970,16 +971,11 @@ export default
                         "de Cinq-Avenues.",
                     Images:
                         {
-                            0: require("../Assets/Images/CGlisse/CGlisse_1.jpg"),
-                            1: require("../Assets/Images/CGlisse/CGlisse_2.jpg"),
-                            2: require("../Assets/Images/CGlisse/CGlisse_3.jpg"),
+                            0: require("../Assets/Images/Campus/Campus_1.jpg"),
+                            1: require("../Assets/Images/Campus/Campus_2.jpg"),
+                            2: require("../Assets/Images/Campus/Campus_3.jpg"),
                         },
                 },
-            },
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
             },
             Links:{
                 Facebook: "https://www.facebook.com/ua.centrale.marseille",
@@ -990,84 +986,83 @@ export default
         MuCEM:{
             Img_btn: require('../Assets/Marseille_map/Marseille_MuCEM.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "MuCEM",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/MuCEM/MuCEM_1.jpg"),
+                1: require("../../src/Assets/Images/MuCEM/MuCEM_2.jpg"),
+                2: require("../../src/Assets/Images/MuCEM/MuCEM_3.jpg")
             },
             Links: false
         },
         VieuxPort:{
             Img_btn: require('../Assets/Marseille_map/Marseille_VieuxPort.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Vieux-Port",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/VieuxPort/VP_1.jpg"),
+                1: require("../../src/Assets/Images/VieuxPort/VP_2.jpg"),
+                2: require("../../src/Assets/Images/VieuxPort/VP_3.jpg")
             },
             Links : false
         },
         NotreDame:{
             Img_btn: require('../Assets/Marseille_map/Marseille_NotreDame.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Notre Dame de la Garde",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/NotreDame/ND_1.jpg"),
+                1: require("../../src/Assets/Images/NotreDame/ND_2.jpg"),
+                2: require("../../src/Assets/Images/NotreDame/ND_3.jpg")
             },
             Links : false
         },
         Frioul:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Frioul.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Iles du Frioul",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
+            Message: "Facilement accessibles en prenant un bateau depuis le Vieux-Port de Marseille, les 4 îles du Frioul forment un archipel protégé de 200 hectares. La faune et la flore locale se sont adaptées aux conditions climatiques d'un massif de calcaire blanc soumis aux nombreux vents marins. Elles habritent également le célèbre Château d'If mis en scène par Alexandre Dumas dans son romain le Comte de Monte Cristo, celui servait autrefois un but militaire mais aujourd'hui est la principale attraction touristique des îles avec 400 000 visiteurs par an.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Frioules/Frioules_1.jpg"),
+                1: require("../../src/Assets/Images/Frioules/Frioules_2.jpg"),
+                2: require("../../src/Assets/Images/Frioules/Frioules_3.jpg")
             },
             Links : false
         },
         Calanques:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Calanques.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Calanques",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Calanques/Calanques_1.jpg"),
+                1: require("../../src/Assets/Images/Calanques/Calanques_2.jpg"),
+                2: require("../../src/Assets/Images/Calanques/Calanques_3.jpg")
             },
             Links : false
         },
         OrangeVelodrome:{
             Img_btn: require('../Assets/Marseille_map/Marseille_OrangeVelodrome.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Orange Vélodrome",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
+            Logo: require('../Assets/Logos/OM_logo.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/OrangeVelodrome/OV_1.jpg"),
+                1: require("../../src/Assets/Images/OrangeVelodrome/OV_2.jpg"),
             },
             Links : false
         },
