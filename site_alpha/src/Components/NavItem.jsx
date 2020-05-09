@@ -2,9 +2,9 @@ import React from 'react';
 import PopUp from './PopUp';
 import PopUpPortail from './PopUpPortail';
 import './styles/AlphaButtons.css';
-import {NavLink} from "react-router-dom";
+import {NavLink, withRouter} from "react-router-dom";
 
-export default class NavItem extends React.Component {
+class NavItem extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -36,7 +36,7 @@ export default class NavItem extends React.Component {
         if (this.props.vertical){
            return (
                <div className={classItem}>
-                   <NavLink to={this.props.to} >
+                   <NavLink to={this.props.to}>
                        <a className={classParite} onClick={() => {this.props.toggle(); this.props.onClick(this.props.number)}}>
                            {this.props.title}
                        </a>
@@ -47,7 +47,7 @@ export default class NavItem extends React.Component {
         else{
             return (
                 <div className={classItem} onClick={()=>{this.props.onClick(this.props.number);}}>
-                    <NavLink push to={this.props.to}>
+                    <NavLink to={this.props.to}>
                         <a className={classParite}>
                             {this.props.title}
                         </a>
@@ -58,3 +58,5 @@ export default class NavItem extends React.Component {
         }
     }
 }
+
+export default withRouter(NavItem);

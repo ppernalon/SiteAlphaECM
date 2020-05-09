@@ -4,12 +4,28 @@
     /* tablettes et ordinateurs */
     .pageViewContainer{
         display: grid;
-        grid-template-columns: 5vw 90vw 5vw;
-        height: 100%;
+        grid-template-columns: 10vw 80vw 10vw;
+        height: calc(100% - 85px - 60px);
     }
 
     a.ScrollButton{
-        display: block;
+        display: flex;
+        height: 10vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-family: "Kaushan Script", cursive;
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-self: center;
+        color: white;
+        font-size: 1.4vw;
+        text-decoration: none;
+        text-shadow: #000000 -1px -1px 3px, #000000 1px -1px 3px;
+    }
+
+    #BottomButtons{
+        display: none;
     }
 }
 
@@ -17,11 +33,43 @@
     /* smartphone */
     .pageViewContainer{
         display: grid;
-        height: 100%;
+        height: calc(100% - 85px - 60px);
     }
 
     a.ScrollButton{
         display: none;
+    }
+
+    #BottomButtons{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        height: 60px;
+    }
+
+    .BottomButton{
+        display:flex;
+        width: 40%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 6vw;
+        text-decoration: none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: "Kaushan Script", cursive;
+        text-shadow: #000000 -1px -1px 2px, #000000 1px -1px 2px;
+    }
+
+    .BottomButtonLeft{
+        background-image: url('../../Assets/Buttons/Buttons__scroll_sp_left.png');
+        background-position: left;
+    }
+
+    .BottomButtonRight{
+        background-image: url('../../Assets/Buttons/Buttons__scroll_sp_right.png');
+        background-position: right;
     }
 }
 
@@ -178,22 +226,14 @@
     text-align: right
 }
 
-a.ScrollButton{
-    width: 100%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
-    color: #fff;
-    justify-content: center;
+
+
+.ScrollButtonLeft{
+    background-image: url("../../Assets/Buttons/Buttons__scroll_sp_left.png");
+    background-position: left;
 }
 
-
-.ScrollButtonTop{
-    background-image: url("../../Assets/Buttons/Buttons__scroll_nav_top.png");
-
-}
-
-.ScrollButtonBot {
-    background-image: url("../../Assets/Buttons/Buttons__scroll_nav_bot.png");
+.ScrollButtonRight {
+    background-image: url("../../Assets/Buttons/Buttons__scroll_sp_right.png");
+    background-position: right;
 }

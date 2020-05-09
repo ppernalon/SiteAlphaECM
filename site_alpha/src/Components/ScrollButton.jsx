@@ -9,11 +9,11 @@ export default class ScrollButton extends React.Component{
     render() {
         if (this.props.up){
             return(
-                <NavLink className={"ScrollButton"} to={this.props.to}>
+                <NavLink className={"ScrollButton ScrollButtonLeft"} to={this.props.to}>
                     {this.props.title}
                 </NavLink>)
         }
-        return (<NavLink className={"ScrollButton"} to={this.props.to}>
+        return (<NavLink className={"ScrollButton ScrollButtonRight"} to={this.props.to}>
             {this.props.title}
         </NavLink>)
     }

@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import SplashPage from "../Pages/SplashPage";
 import ScrollButton from "./ScrollButton";
+import BottomButtons from "./BottomButtons";
 
 
 const HomePage = lazy(() => import('../Pages/HomePage'));
@@ -20,7 +21,7 @@ const ReseauxPage = lazy(() => import('../Pages/ReseauxPage'));
 const ContactPage = lazy(() => import('../Pages/ContactPage'));
 const CalendarPage = lazy(() => import('../Pages/CalendarPage'));
 
-class NavigatorRouter extends React.Component {
+class NavigatorRouterV2 extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -82,7 +83,7 @@ class NavigatorRouter extends React.Component {
             <div className="container">
                     <NavBar/>
                     <div className="pageViewContainer">
-                        <ScrollButton to={this.state.previous.path} title={this.state.previous.title}/>
+                        <ScrollButton to={this.state.previous.path} title={this.state.previous.title} up/>
                         <Suspense fallback={<SplashPage/>}>
                             <Switch>
                                 <Route exact path="/" component={() => <HomePage transition={this.state.transitions[0]}/>}/>
@@ -96,6 +97,7 @@ class NavigatorRouter extends React.Component {
                         </Suspense>
                         <ScrollButton to={this.state.next.path} title={this.state.next.title}/>
                     </div>
+                <BottomButtons nextPath={this.state.next.path} previousPath={this.state.previous.path} nextTitle={this.state.next.title} previousTitle={this.state.previous.title}/>
             </div>
         )
     }
@@ -104,7 +106,7 @@ class NavigatorRouter extends React.Component {
 
     }
 
-    componentDidUpdate(prevProps) {
+    componentDidUpdate(prevProps, prevState, prevSnap) {
         if (this.props.location !== prevProps.location) {
             this.handleTransitions(prevProps.location.pathname);
             console.log(prevProps.location.pathname);
@@ -122,7 +124,7 @@ class NavigatorRouter extends React.Component {
                     previous:{path:this.pages[4], title:this.pagesTitle[4]}
                 })
             }
-            else{
+            if(index <5 && index>0){
                 this.setState({next:{path : this.pages[index+1], title : this.pagesTitle[index+1]}, previous:{path : this.pages[index-1], title : this.pagesTitle[index-1]}})
             }
         }
@@ -131,4 +133,4 @@ class NavigatorRouter extends React.Component {
 
 }
 
-export default withRouter(NavigatorRouter);
+export default withRouter(NavigatorRouterV2);

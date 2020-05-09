@@ -2,10 +2,10 @@ import React from 'react';
 import Frise from '../Assets/Menu/Menu__frise.png'
 import Rond from '../Assets/Menu/Menu__rond.png'
 import AB from '../Assets/Menu/Menu_button_bc.png'
-import { NavLink } from 'react-router-dom'
+import { NavLink, withRouter } from 'react-router-dom'
 import NavItem from "./NavItem";
 
-export default class Menu extends React.Component{
+class Menu extends React.Component{
     constructor(props){
         super(props)
         this.state = {
@@ -56,8 +56,14 @@ export default class Menu extends React.Component{
     }
 
     componentDidMount() {
-        let urlcourante = document.location.href;
-        let queue_url = urlcourante.substring(urlcourante.lastIndexOf("/"));
-        this.handleMenu(this.pages.indexOf(queue_url));
+        this.handleMenu(this.pages.indexOf(this.props.location.pathname));
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if(prevProps.location.pathname !== this.props.location.pathname){
+            this.handleMenu(this.pages.indexOf(this.props.location.pathname))
+        }
     }
 }
+
+export default withRouter(Menu);

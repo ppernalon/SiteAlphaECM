@@ -9,6 +9,7 @@
 #ContainerContactPage h1
 {
     font-family: "Kaushan Script", cursive;
+    font-size: 3vh;
 }
 
 @media only screen and (max-width: 767px) {
@@ -35,7 +36,7 @@
 .SocialNetworkButton{
     background-size: contain;
     color: #fff;
-    width: 120px;
+    width: 100px;
     height: 120px;
     margin-bottom: 25px;
     margin-left: auto;
@@ -57,7 +58,7 @@
 .ContactInfo header {
     grid-area: head;
     text-align: left;
-    font-size: 25px;
+    font-size: 2vh;
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
     font-family: "Roboto", cursive;
@@ -75,14 +76,16 @@
     text-shadow: 1px 1px 2px black;
     display: inline-flex;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2vh;
     font-family: Roboto, cursive;
 }
 
 .ContactInfo p {
     text-shadow: 1px 1px 2px black;
-    margin: 5px;
+    margin: 0.3vh;
     padding: 0;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2vh;
 }
+
+
