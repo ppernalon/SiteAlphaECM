@@ -103,8 +103,25 @@ class NavigatorRouterV2 extends React.Component {
     }
 
     componentDidMount() {
-
+        let index = this.pages.indexOf(this.props.location.pathname);
+        if(index === 0){
+            this.setState({
+                next:{path: this.pages[1], title : this.pagesTitle[1]
+                },
+                previous:{path:"/", title:''}
+            })
+        }
+        if(index === 5){
+            this.setState({
+                next:{path:this.pages[0], title:''},
+                previous:{path:this.pages[4], title:this.pagesTitle[4]}
+            })
+        }
+        if(index <5 && index>0){
+            this.setState({next:{path : this.pages[index+1], title : this.pagesTitle[index+1]}, previous:{path : this.pages[index-1], title : this.pagesTitle[index-1]}})
+        }
     }
+
 
     componentDidUpdate(prevProps, prevState, prevSnap) {
         if (this.props.location !== prevProps.location) {

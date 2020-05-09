@@ -28,15 +28,28 @@ export default class AssociationsPage extends React.Component
             "cette plaquette ne répond pas, n’hésite surtout pas\n" +
             "à me contacter, je te répondrai avec plaisir.\n" +
             "Fais-toi confiance, donne-toi à fond et à bientôt au soleil !";
+        this.state = {transitionClass:this.props.transition}
     }
 
     render()
     {
         return(
-            <div id={"AssociationsPage"} className={"animated fadeIn"}>
+            <div id={"AssociationsPage"} className={this.state.transitionClass}>
                 <AlphaButtons/>
                 <Message title={this.title} message={this.message}/>
             </div>
         )
+    }
+
+    componentDidMount() {
+        setTimeout( () => {
+            this.setState({transitionClass:""})
+        },1000)
+    }
+
+    componentWillUnmount() {
+        setTimeout( () => {
+            this.setState({transitionClass:"animated FadeInRight"})
+        },1000)
     }
 }
