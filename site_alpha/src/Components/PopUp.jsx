@@ -13,7 +13,7 @@ import Site_icon from '../Assets/Icons/Site.png';
 export default class PopUp extends React.Component{
     constructor(props){
         super(props);
-        this.state={
+        this.state = {
             visible : false,
         };
 
@@ -36,7 +36,7 @@ export default class PopUp extends React.Component{
         if (this.props.severalPages){
             this.Pages = this.Entity.Pages;
             this.state = {content: this.Pages[0],
-                        contentInd: 0,};
+                contentInd: 0,};
             this.Pages_length = Object.keys(this.Pages).length;
         }
 
@@ -46,12 +46,12 @@ export default class PopUp extends React.Component{
         if (this.Entity.Links !== false){
             this.Links =
                 [   <a
-                        className={"LinkPopUp"} id={"FbLink"}
-                        target="_blank"
-                        href={this.Entity.Links["Facebook"]}
-                    >
-                        <img className={"LinkIconImg"} src={Fb_icon} alt={"Facebook"}/>
-                    </a>,
+                    className={"LinkPopUp"} id={"FbLink"}
+                    target="_blank"
+                    href={this.Entity.Links["Facebook"]}
+                >
+                    <img className={"LinkIconImg"} src={Fb_icon} alt={"Facebook"}/>
+                </a>,
                     <a
                         className={"LinkPopUp"}
                         id={"InstaLink"}
@@ -70,7 +70,6 @@ export default class PopUp extends React.Component{
                     </a>,
                 ];
         }
-
     }
 
     openModal() {
@@ -95,7 +94,7 @@ export default class PopUp extends React.Component{
         }
         this.setState(
             { contentInd: ActualContentInd,
-                    content: this.Pages[ActualContentInd]});
+                content: this.Pages[ActualContentInd]});
     };
 
     next_Page = () => {
@@ -108,7 +107,7 @@ export default class PopUp extends React.Component{
         }
         this.setState(
             { contentInd: ActualContentInd,
-                    content: this.Pages[ActualContentInd]});
+                content: this.Pages[ActualContentInd]});
     };
 
     render() {

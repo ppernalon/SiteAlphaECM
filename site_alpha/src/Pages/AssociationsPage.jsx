@@ -10,24 +10,7 @@ export default class AssociationsPage extends React.Component
         super(props);
 
         this.title = "Mot des prez'";
-        this.message = "Salut toi !\n" +
-            "Tu es surement en plein dans tes oraux ou bien en\n" +
-            "préparation de ceux-ci ou encore en plein débat\n" +
-            "interne : mais quelle école choisir ?\n" +
-            "Reste motivé, ne lâche rien et prend 5 minutes pour\n" +
-            "t’imprégner de ta future vie en école d’ingénieur.\n" +
-            "Tu vas voir : ça vaut le coup de se donner à fond !\n" +
-            "Je vais te laisser explorer cette plaquette pour\n" +
-            "en apprendre plus sur toutes les associations qui\n" +
-            "\n" +
-            "rythment la vie des centraliens à travers des pho-\n" +
-            "tos, témoignages et anecdotes. En tout cas, nous\n" +
-            "\n" +
-            "t’attendons avec impatience pour te faire découvrir\n" +
-            "notre univers ! Si tu as des questions auxquelles\n" +
-            "cette plaquette ne répond pas, n’hésite surtout pas\n" +
-            "à me contacter, je te répondrai avec plaisir.\n" +
-            "Fais-toi confiance, donne-toi à fond et à bientôt au soleil !";
+        this.message = "Clausos vehementer vehementer consumendo inediae vehebant vero quod clausos quae vehebant clausos vehebant cibos angebat exitialis navigiis quidem ipsi exitialis vehebant frumenta Isauri clausos ipsi horrebant solitarum adfluebant Isauri navigiis consumendo aerumnas cibos flumen iam copiis per quod horrebant captis flumen cibos exitialis tamen quidem cibos Isauri quod cibos flumen Isauri captis clausos vehementer cibos ipsi flumen clausos cibos aerumnas angebat cibos per horrebant quod propinquantis exitialis angebat cibos frumenta horrebant aerumnas tamen vehementer frumenta solitarum vehebant flumen flumen quidem angebat per rerum per per quidem alimentorum clausos vehebant Isauri exitialis cibos cibos captis inediae copiis angebat propinquantis vehebant rerum.";
         this.state = {transitionClass:this.props.transition}
     }
 

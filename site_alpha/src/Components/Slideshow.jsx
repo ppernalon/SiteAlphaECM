@@ -47,5 +47,15 @@ export default class Slideshow extends React.Component {
         )
     }
 
-
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if (prevProps !== this.props)
+        {
+            this.setState( {
+                rank:0
+            });
+            this.images = this.props.images;
+            this.images_length = Object.keys(this.images).length;
+            this.forceUpdate()
+        }
+    }
 }

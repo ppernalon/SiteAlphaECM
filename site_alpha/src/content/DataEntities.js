@@ -13,9 +13,7 @@ export default
                             Images:
                                 {
                                     0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                    1: require("../Assets/Images/BDE/BDE_2.jpg"),
                                 },
                             },
                         1: {
@@ -26,10 +24,8 @@ export default
                                 "énormes soirées organisées en club privatisé, sois-en sûr, nous te montrerons ce que c'est que de s'amuser !",
                             Images:
                                 {
-                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                    0: require("../Assets/Images/Soirees/soiree_1.jpg"),
+                                    1: require("../Assets/Images/Soirees/soiree_2.jpg"),
                                 },
                             },
                         2: {
@@ -40,10 +36,9 @@ export default
                                 "pour finir sur un WEI endiablé !",
                             Images:
                                 {
-                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                    0: require("../Assets/Images/Inte/inte_1.jpg"),
+                                    1: require("../Assets/Images/Inte/inte_2.jpg"),
+                                    2: require("../Assets/Images/Inte/inte_3.jpg"),
                                 },
                             },
                         3: {
@@ -56,10 +51,11 @@ export default
                                 "n’en aurez pas deux comme ça.",
                             Images:
                                 {
-                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
+                                    0: require("../Assets/Images/WEI/WEI_1.jpg"),
+                                    1: require("../Assets/Images/WEI/WEI_2.jpg"),
+                                    2: require("../Assets/Images/WEI/WEI_3.jpg"),
+                                    3: require("../Assets/Images/WEI/WEI_4.jpg"),
+                                    4: require("../Assets/Images/WEI/WEI_5.jpg"),
                                 },
                             },
                         4: {
@@ -69,10 +65,9 @@ export default
                                 "marseillais. Les centraliens passent tous ensemble une soirée de prestige aux cotés de leur famille, leurs amis, leurs enseignants et de l’administration.",
                             Images:
                                 {
-                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/Association_UA_2.png"),
+                                    0: require("../Assets/Images/Gala/Gala_1.jpg"),
+                                    1: require("../Assets/Images/Gala/Gala_2.jpg"),
                                     2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                                    3: require("../Assets/Images/BDE/Association_UA_4.png")
                                 },
                         },
                     },
@@ -109,9 +104,8 @@ export default
             Message: "Ah la la… que dire du Foy’s ? Le Foy’s c’est une équipe soudée qui a pour objectif d’apporter un endroit convivial et chaleureux pour tout le monde. \n" +
                 "Mais le Foy's c’est surtout un endroit de rassemblement et de partage, que ce soit lors des événements organisés par les différentes assos mais aussi en dehors des cours, juste pour se détendre autour du babyfoot ou du billard. Alors venez nous rejoindre au Foy’s !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Foys/Foys_1.jpg"),
+                1: require("../../src/Assets/Images/Foys/Foys_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -145,9 +139,9 @@ export default
             Logo: require('../Assets/Logos/Barbu_logo.png'),
             Message: "Le Bar’bu, c’est le bar de dégustation de bière de l’école. On y trouve plus de cinquante bières à la carte, ainsi qu’une bière exclusive chaque semaine ! Les 15 membres de la team vous donnent rendez-vous tous les mercredis soir pour partager ce super moment de convivialité autour d’un bon breuvage. Vous y découvrirez également le célèbre Gabian Déchainé, journal satirique hebdomadaire emblématique de la subtilité centralienne !\n",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Barbu/Barbu_1.jpg"),
+                1: require("../../src/Assets/Images/Barbu/Barbu_2.jpg"),
+                2: require("../../src/Assets/Images/Barbu/Barbu_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -164,9 +158,9 @@ export default
             Message: "Tu aimes la bière ? Écumer les bars ne te suffit plus ? Le CHAUDRON n'attends que toi ! Nous sommes l'unique asso de brassage de bières à Centrale !\n" +
                 "Après nous avoir rejoints, houblon et malts n'auront plus aucun secret pour toi et tu pourra sortir des mots comme : «Stout, IPA, Rye, Lager, Pale Ale...» pour avoir l'air intelligent au comptoir ;) !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Chaudron/Chaudron_1.jpg"),
+                1: require("../../src/Assets/Images/Chaudron/Chaudron_2.jpg"),
+                2: require("../../src/Assets/Images/Chaudron/Chaudron_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -182,9 +176,9 @@ export default
             Logo: require('../Assets/Logos/PhyTv_logo.png'),
             Message: "T’as toujours rêvé de devenir la star d’une pub sexy et ton accessoire fashion INDISPENSABLE de l’été c’est un bob ? T’es enfin prêt à l’assumer ? Alors c’est sûr, le Phy tu l’as toi aussi dans le sang !                                                                                                                                                                        Entre fictions déjantées et parodies douteuses, c’est bien nous l’asso audiovisuelle de l’école. Nous filmons vos meilleures et vos pires aventures, et nous diffusons tous ces souvenirs dans l’euphorie générale en amphi lors des célèbres JTs. Alors viens nous rejoindre pour toi aussi mettre des paillettes dans la vie des Centraliens !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Phy/Phy_1.jpg"),
+                1: require("../../src/Assets/Images/Phy/Phy_2.jpg"),
+                2: require("../../src/Assets/Images/Phy/Phy_3.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -201,9 +195,8 @@ export default
             Message: "Tu aimes écrire ? Partager tes idées ? Le Petit Centralien est fait pour toi ! Journal par les centraliens et pour les centraliens, tout le monde est invité à écrire un article. Qu'importe le sujet qui t'inspire, les pages du journal s'offrent à toi !\n" +
                 "Au contraire, tu n'aimes pas écrire ? Ou tu n'as juste pas envie ? Qu'à cela ne tienne, ce mensuel - presque toujours publié à l'heure ! - saura te distraire avec toutes les rubriques qu'il offre : actualité, science, littérature, recettes et bien plus encore, tu trouveras ton bonheur !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/LPC/LPC_1.jpg"),
+                1: require("../../src/Assets/Images/LPC/LPC_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -225,10 +218,9 @@ export default
                         "Viens donc nous rejoindre au Fablab !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/Fablab/Fablab_1.jpg"),
+                            1: require("../Assets/Images/Fablab/Fablab_2.jpg"),
+                            2: require("../Assets/Images/Fablab/Fablab_3.jpg"),
                         },
                 },
                 1: {
@@ -237,10 +229,8 @@ export default
                     Message: "En février, se tient le MOC - Makers Original Challenge, c’est le plus gros événement organisé par le Fablab Marseille ! Il rassemble de nombreux élèves de différentes écoles pour s’affronter en équipe et créer LE prototype qui séduira le jury en seulement 48h. Aucun thème, les seules limites sont votre imagination et votre détermination, le tout c’est de s’amuser, créer et ce grâce aux machines et matériel mis à disposition par le Fab !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/MOC/MOC_1.jpg"),
+                            1: require("../Assets/Images/MOC/MOC_2.jpg"),
                         },
                 },
             },
@@ -259,9 +249,8 @@ export default
             Message: "Salut à toi ! Tu sors de prépa et veux mettre en pratique tes connaissances d’élec et de méca ? Ou simplement venir découvrir le monde de la robotique ? E-Gab c’est l’asso qui portera ton projet. Ce sera l’occasion de toucher à l’IOT, à Arduino, aux lidars, etc.\n" +
                 "Tu n’as pas de projet en tête ? E-Gab te propose de participer à la coupe de France de robotique. Chaque année on y envoie deux robots conçus et réalisés pour l’occasion. Alors viens exprimer ta créativité dans ce projet fun et captivant.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/EGab/EGAB_1.jpg"),
+                1: require("../../src/Assets/Images/EGab/EGAB_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -277,9 +266,9 @@ export default
             Logo: require('../Assets/Logos/GInfo_logo.png'),
             Message:  "Intéressé par l’informatique ? Ça tombe bien, le GInfo est l’association d’informatique de Centrale Marseille. Nous développons de nombreuses applications indispensables aux centraliens : pour ton emploi du temps, le bar de l’école ou encore sauver tes partiels ! Le GInfo, ce ne sont pas que des sites internet. Nous gérons le réseau internet des associations, organisons des LAN pour se retrouver ensemble et jouer à des jeux vidéos... Le GInfo est bien sûr ouvert à tous, expert ou débutant : nous proposons des formations, pour que chacun puisse progresser dans ce vaste domaine qu’est l’informatique. Si l’informatique t’intéresse, tu y trouveras ton bonheur !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/GInfo/GInfo_2.jpg"),
+                1: require("../../src/Assets/Images/GInfo/GInfo_1.jpg"),
+                2: require("../../src/Assets/Images/GInfo/GInfo_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -295,9 +284,8 @@ export default
             Logo: require('../Assets/Logos/Chris_logo.png'),
             Message:  "As-tu déjà été interpellé(e) par le concept d’intelligence artificielle ? Que ce soit sa portée éthique ou son fonctionnement ? Tu as frappé à la bonne porte ! À Christopher.ai, on te propose de découvrir le monde de l’intelligence artificielle avec plusieurs activités : des débats sur ce thème ainsi que des formations portant sur les réseaux neuronaux. Tu pourras ensuite appliquer ces connaissances dans le cadre de projets réalisés tout au long de l’année !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Chris/chris_1.jpg"),
+                1: require("../../src/Assets/Images/Chris/chris_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -313,9 +301,8 @@ export default
             Logo: require('../Assets/Logos/Kryptosphere_logo.png'),
             Message:  "As-tu déjà été interpellé(e) par le concept d’intelligence artificielle ? Que ce soit sa portée éthique ou son fonctionnement ? Tu as frappé à la bonne porte ! À Christopher.ai, on te propose de découvrir le monde de l’intelligence artificielle avec plusieurs activités : des débats sur ce thème ainsi que des formations portant sur les réseaux neuronaux. Tu pourras ensuite appliquer ces connaissances dans le cadre de projets réalisés tout au long de l’année !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Krypto/Krypto_1.jpg"),
+                1: require("../../src/Assets/Images/Krypto/Krypto_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -328,7 +315,7 @@ export default
             Title: "Pôle Innovation",
             Name: "Racing Club",
             Color: "innovation",
-            Logo: require('../Assets/Logos/Squadra_logo.png'),
+            Logo: require('../Assets/Logos/ercm_logo.png'),
             Message: "Tu es passionné de belles mécaniques\n" +
                 "et tu veux en apprendre plus sur les\n" +
                 "moteurs ? Ou peut être as-tu le projet\n" +
@@ -341,9 +328,8 @@ export default
                 "pockets bikes que nous utilisons régu-\n" +
                 "lièrement !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/R2CM/R2CM_1.png"),
+                1: require("../../src/Assets/Images/R2CM/R2CM_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -357,13 +343,13 @@ export default
             Name: "4L Trophy",
             Color: "innovation",
             Logo: require('../Assets/Logos/Squadra_logo.png'),
-            Message: "Ce n'est pas ENCORE une asso à proprement parler, cependant, tous les ans des équipages de Centrale Marseille participent au 4L TROPHY !\n" +
+            Message: "Tous les ans des équipages de Centrale Marseille participent au 4L TROPHY !\n" +
                 "C’est le plus gros évènement sportif et solidaire d’Europe pour les 18 - 28 ans, c’est une course d’orientation de plus de 6000km à travers l’Espagne et le Maroc, jusqu’aux dunes du Sahara. Le 4L Trophy rassemble chaque année plus de 1200 voitures et 2400 jeunes qui découvrent, boussole à la main, l’Aventure. Ce rallye nous emmène dans les zones les plus reculées du Maroc pour y apporter du matériel scolaire et faciliter l’accès à l’éducation à près de 20 000 enfants Marocains.\n" +
                 "Alors rejoins l'aventure et participe au 4L trophy à Centrale Marseille !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/4L/4L_3.jpg"),
+                1: require("../../src/Assets/Images/4L/4L_1.jpg"),
+                2: require("../../src/Assets/Images/4L/4L_2.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -389,9 +375,8 @@ export default
                 "pour découvrir ce monde, n’hésite\n" +
                 "pas à nous rejoindre !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/CMF/CMF_1.jpg"),
+                1: require("../../src/Assets/Images/CMF/CMF_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -409,9 +394,8 @@ export default
                 "Pas besoin d’attendre encore 3 ans avant d’entrer dans le monde de l’entreprise : tu peux le faire dès l’année prochaine !\n" +
                 "Alors si tu penses être un assez gros tchatcheur pour vendre des lunettes à un aveugle et que t’imposer devant des darons pleins aux As c’est ton bail, tu sais où aller !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/KSI/KSI_1.jpg"),
+                1: require("../../src/Assets/Images/KSI/KSI_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -427,9 +411,8 @@ export default
             Logo: require('../Assets/Logos/FOCEEN_logo.png'),
             Message: "Le FOCEEN organise cette année la 13ème édition du plus grand forum de recrutement ingénieur de la région Sud ! Lors de cette journée, les étudiants centraliens (et ceux d’autres écoles de la région) ont l’opportunité de découvrir et d’échanger avec un panel d’entreprises très varié. C’est un évènement clé de ta formation qui te permettra d’échanger, le 10 novembre 2020, avec des représentants de Bouygues, EDF, ou encore Airbus. Bien entendu, tu auras l’occasion de découvrir le fonctionnement de l’association en participant aux derniers préparatifs du forum, qui te donneront peut-être envie de rejoindre l’association pour organiser le prochain !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/FOCEEN/Foceen_1.jpg"),
+                1: require("../../src/Assets/Images/FOCEEN/Foceen_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -451,10 +434,8 @@ export default
                         "Alors préparez-vous à vivre une année inoubliable entre le Plot 5, le cabaret, le masterchef, les concerts, les soirées Foy’s ainsi que le Voyage, vous ne vous ennuierez jamais, que vous ayez l’âme d’un artiste ou non !\n",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/BDA/BDA_1.jpg"),
+                            1: require("../Assets/Images/BDA/BDA_2.jpg"),
                         },
                 },
                 1: {
@@ -464,10 +445,8 @@ export default
                         "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/BDA/BDA_1.jpg"),
+                            1: require("../Assets/Images/BDA/BDA_2.jpg"),
                         },
                 },
                 2: {
@@ -477,10 +456,8 @@ export default
                         "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            0: require("../Assets/Images/PouceDor/Pouce_1.jpg"),
                             1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
                         },
                 },
                 3: {
@@ -490,23 +467,34 @@ export default
                         "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/Cabaret/Cabaret_1.jpg"),
+                            1: require("../Assets/Images/Cabaret/Cabaret_2.jpg"),
                         },
                 },
                 4: {
                     Name: "Les Massiliades",
                     Logo: require('../Assets/Logos/BDA_logo.png'),
-                    Message: "Les plus grands artistes de l’école passeront sur le devant de la scène pour vous montrer à tour de rôle leur talent ! Danse, musique, chant, stand-up, préparez-vous à en prendre plein la vue !\n" +
-                        "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
+                    Message: "Vous avez déjà rêvé\n" +
+                        "d’organiser un festival de\n" +
+                        "musique ? Les étudiants de\n" +
+                        "Centrale Marseille organisent\n" +
+                        "depuis plus de 10 ans les\n" +
+                        "Massiliades, un événement\n" +
+                        "qui permet à des artistes\n" +
+                        "pré-sélectionnés de se produire\n" +
+                        "dans un lieu d’exception:\n" +
+                        "la Friche Belle de Mai !\n" +
+                        "Le festival a notamment accueilli\n" +
+                        "Bigflo et Oli, Skip the\n" +
+                        "Use et Deluxe à leurs débuts.\n" +
+                        "C’est ainsi l’occasion de découvrir\n" +
+                        "de futurs talents mais\n" +
+                        "aussi de passer un bon moment\n" +
+                        "entre étudiants.",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/Massiliades/Massiliades_1.jpg"),
+                            1: require("../Assets/Images/Massiliades/Massiliades_2.jpg"),
                         },
                 },
             },
@@ -526,9 +514,8 @@ export default
                 "Alors viens rejoindre la team du PXC !\n" +
                 "Nous sommes là pour prendre en photo tous les événements de Centrale, créer et immortaliser les moments de folie que nous vivons. Ça ne nous empêche pas de faire des sorties photos, d’organiser le Yearbook et même de développer nos propres tirages argentiques !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
+                0: require("../../src/Assets/Images/PXC/PXC_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -541,12 +528,11 @@ export default
             Title: "Pôle Culture",
             Name: "Pompoms",
             Color: "culture",
-            Logo: require('../Assets/Logos/BDA_logo.png'),
+            Logo: require('../Assets/Logos/Pompoms_logo.png'),
             Message: "Nos pompoms et nos pimpims, on les aime on les adore, que dis-je, on les adule ! C’est celles et ceux qui sont chargé.e.s de mettre de l’ambiance à tous les événements centraliens, tu peux être sûr.e que bientôt tu les aimeras autant que nous !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Pompoms/pompoms_1.jpg"),
+                1: require("../../src/Assets/Images/Pompoms/pompoms_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -562,9 +548,9 @@ export default
             Logo: require('../Assets/Logos/Farigoule_logo.png'),
             Message: "Ils sont beaux, ils sont frais, ils sentent bon et leur musique est divine ! La Farigoule c'est la fanfare de Centrale Marseille, composée de fanfarons tous aussi exceptionnels les uns que les autres dont la mission est d'animer le Vieux-Port, et plein d'autres quartiers de la planète Mars ! Tu aimes les caniches en slip ? Les fourrures et les fripes de grand-mère ? Tu es un garçon ? Une fille ? Les deux ? Tu as un goût prononcé pour les sensations auditives hors du commun ? Tu rêves de savoir ce qu'est l'amour ? Ta place est alors peut-être chez nous, n'hésite pas à nous contacter avec un CV et une lettre de motivation à l'adresse mail suivante : disadieuatestympans@acouphenes.org",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Farigoule/Farigoule_1.jpg"),
+                1: require("../../src/Assets/Images/Farigoule/Farigoule_2.jpg"),
+                2: require("../../src/Assets/Images/Farigoule/Farigoule_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -582,9 +568,8 @@ export default
                 "\n" +
                 "Faisant partie de l’équipe CheerUp!, vous programmerez des évènements comme l’opération Cupidon ou la Course Contre le Cancer. Puisque se battre pour son projet c'est se battre contre le cancer, les bénéfices sont reversés à la recherche ou à la réalisation des projets. Alors rejoins-nous et viens te battre à nos côtés ! ",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/CheerUp/CheerUp_1.jpg"),
+                1: require("../../src/Assets/Images/CheerUp/CheerUp_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -601,9 +586,9 @@ export default
             Message: "Envie de t’engager pour l’égalité des chances tout en vivant une expérience enrichissante ? Echanges Pho est l’asso pour toi ! Deviens tuteur de collégiens, lycéens, étudiants en post-bac ou jeunes en situation de handicap scolarisés dans des quartiers prioritaires de Marseille. Pas besoin d’un BAFA, seulement de ta motivation et créativité pour accompagner ces jeunes dans leur orientation, leur apporter une ouverture culturelle et surtout leur redonner confiance en eux. \n" +
                 "Des sorties, des voyages et des events te feront également découvrir Marseille, sa région, et bien plus avec tes tutorés.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/EP/EP_1.jpg"),
+                1: require("../../src/Assets/Images/EP/EP_3.jpg"),
+                2: require("../../src/Assets/Images/EP/EP_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -624,10 +609,9 @@ export default
                         "Notre réseau national nous permet également de participer régulièrement à des week-ends d’échange et de rencontre avec des étudiants de toute la France !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            0: require("../Assets/Images/ISF/ISF_1.jpg"),
                             1: require("../Assets/Images/BDE/Association_UA_2.png"),
                             2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
                         },
                 },
                 1: {
@@ -636,10 +620,8 @@ export default
                     Message: "Tu veux défendre l’égalité des sexes au quotidien ? Branche de l’association Ingénieurs Sans Frontières Provence, notre pôle a pour but de combattre tous les problèmes auxquels les femmes, en écoles d’ingénieur.e.s peuvent être confrontées. Sensibilisation, récoltes de fonds, débats… les actions sont nombreuses si tu veux t’y investir !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                            0: require("../Assets/Images/FeminISF/FeminISF_2.jpg"),
                             1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
                         },
                 },
                 2: {
@@ -669,9 +651,8 @@ export default
             Logo: require('../Assets/Logos/POTAGER_logo.png'),
             Message: "Le Pot'à gégé possède KSI, le BDE et l'UA. Viens y découvrir les fruits et légumes les plus savoureux de ta région, dans le sérieux, le respect, et l'amour de la pousse.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Potager/Potager_1.jpg"),
+                1: require("../../src/Assets/Images/Potager/Potager_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -697,9 +678,8 @@ export default
                 "messes et de séances de catéchisme...\n" +
                 "Ne prie pas seulement Dieu pour tes concours, rejoins-nous l’année prochaine !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Aumonerie/Aumonerie_1.jpg"),
+                1: require("../../src/Assets/Images/Aumonerie/Aumonerie_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -719,10 +699,8 @@ export default
                     Message: "Ancien taupin, tu arrives enfin au bout de ces heures passées sur une chaise et tu rêves de redécouvrir les joies du sport ! Le BDS de Centrale Marseille est là pour satisfaire tes désirs : que tu sois un solitaire ou que tu préfères l'esprit d'équipe, tu pourras trouver ton bonheur dans la vingtaine de sports que nous te proposons. En plus de dynamiser ta semaine, cet incroyable BDS te concocte entre autres des week-ends de folie, des tournois enflammés et, Marseille oblige, un accès privilégié au Vélodrome. On a hâte de te compter parmi notre grande famille de sportifs !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/BDS/BDS_1.jpg"),
+                            1: require("../Assets/Images/BDS/BDS_2.jpg"),
                         },
                 },
                 1: {
@@ -731,10 +709,9 @@ export default
                     Message: "Le BDX c’est quoi? C’est un pôle du BDS qui peut vous permettre de faire des sports qui sortent de vos habitudes. L’objectif est de proposer des activités inédites à l‘ensemble des élèves qui le souhaitent. On organise des sorties motocross, sorties dans les calanques, paintball… En gros, on est là pour que tu t’éclates à Centrale en découvrant de nouvelles choses !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/BDX/BDX_2.jpg"),
+                            1: require("../Assets/Images/BDX/BDX_1.jpg"),
+                            2: require("../Assets/Images/BDX/BDX_3.jpg"),
                         },
                 },
                 2: {
@@ -743,10 +720,9 @@ export default
                     Message: "Chaque année le BDS organise l'un des meilleurs événements de l'intégration : le Week-End Sportif. Partez entre premières années découvrir des paysages à couper le souffle où vous pourrez profiter de nombreuses activités (comme du canyoning, du rafting etc...) et d'une soirée inoubliable ! Sensations fortes et adrénalines seront au rendez-vous. Viens réveiller le sportif qui sommeille en toi ! Ce week-end est aussi un moment privilégié pour rencontrer les gens de ta promo et tisser des liens avec eux.",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/WES/WES_1.jpg"),
+                            1: require("../Assets/Images/WES/WES_2.jpg"),
+                            2: require("../Assets/Images/WES/WES_3.jpg"),
                         },
                 },
                 3: {
@@ -755,10 +731,8 @@ export default
                     Message: "Les Intercentrales c'est LA compétition inter-écoles du début d'année, la première d'une belle série ! C'est aussi la première grande occasion de défendre les couleurs de ton école en arborant ton maillot, en faisant résonner nos chants et en te battant pour le trophée ! Avec ses 600 compétiteurs, sa soirée et son incroyable show Pompom, c'est l'événement sportif Centralien à ne pas rater ! Alors prépare-toi à venir prouver à tous que le bleu et blanc sont les couleurs des gagnants !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/Intercentrales/Inter_3.jpg"),
+                            1: require("../Assets/Images/Intercentrales/Inter_2.jpg"),
                         },
                 },
                 4: {
@@ -767,10 +741,8 @@ export default
                     Message: "C'est simple : c'est le plus gros tournoi auquel tu participeras ! Avec sa délégation de 4500 sportifs français et internationaux, la compétition est féroce en terrres parisiennes. Que tu sois adepte d'escalade, de volleyball ou même d'équitation, prépare-toi à te dépasser pour Centrale Marseille !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/TOSS/TOSS_1.jpg"),
+                            1: require("../Assets/Images/TOSS/TOSS_2.jpg"),
                         },
                 },
                 5: {
@@ -779,10 +751,8 @@ export default
                     Message: "Pour l'arrivée du printemps, ce n'est pas moins de 3000 participants qui s'affrontent dans 20 sports . Cet événement accueille aussi des concours de fanfares, de mascottes et de Pompoms, sans oublier une soirée mémorable ! C'est le rendez-vous lyonnais auquel les marseillais ont une réputation à tenir ! ",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/CCL/CCL_1.jpg"),
+                            1: require("../Assets/Images/CCL/CCL_2.jpg"),
                         },
                 },
             },
@@ -800,9 +770,8 @@ export default
             Logo: require('../Assets/Logos/MSB_logo.png'),
             Message: "Le Massilia Sun Ball est le plus grand tournoi sportif étudiant sur plage de France ! Celui-ci se tient durant le mois de mai au Grau-du-Roi sur la belle plage de l’Espiguette. Plus de 1200 étudiants d’écoles de commerce et d’ingénieurs de toute la France se retrouvent pour s’affronter lors d’un tournoi de beach volley, dodgeball, beach soccer, sandball et beach rugby ! D’autres activités seront possibles lors de ce weekend mémorable comme le show pompom, deux grosses soirées et différents activités aquatiques !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/MSB/MSB_1.jpg"),
+                1: require("../../src/Assets/Images/MSB/MSB_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -818,9 +787,9 @@ export default
             Logo: require('../Assets/Logos/Raid_logo.png'),
             Message: "Tu es frustré de ne pas avoir pu faire autant de sport que tu voulais pendant ces deux ou trois années ? La nature te manque ? Alors, les paysages magnifiques de la région t'attendent. Tu ne seras pas déçu ! Le dénivelé est à portée de mains, que ce soit dans les calanques ou dans le massif de l'Etoile juste derrière l'école. Tu auras l'occasion de nous rejoindre lors de trails ou encore pour la 8è édition du RAID Centrale Marseille. Au programme VTT, trail, course d'orientation et activités surprises, mais surtout plaisir, défi et convivialité !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Raid/Photo_raid_1.png"),
+                1: require("../../src/Assets/Images/Raid/Photo_raid_2.jpg"),
+                2: require("../../src/Assets/Images/Raid/Photo_raid_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -836,9 +805,9 @@ export default
             Logo: require('../Assets/Logos/MRC_logo.png'),
             Message: "Si Marseille rime avec plage et soleil, on oublie quand même les fans de montagnes. L’asso MRC t'emmène le temps d'une semaine au sommet des Alpes, et te propose un petit avant-goût grâce à des weekends ski et des sorties de qualité !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/MRC/MRC_2.jpg"),
+                1: require("../../src/Assets/Images/MRC/MRC_1.jpg"),
+                2: require("../../src/Assets/Images/MRC/MRC_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -855,13 +824,11 @@ export default
                 0: {
                     Name: "MDV",
                     Logo: require('../Assets/Logos/MDV_logo.png'),
-                    Message: "Le MDV est l’asso de voile de l’école, que tu sois un skipper aguerri ou que tu souhaites t’initier aux plaisirs de la voile, le MDV est fait pour toi ! Il est possible de prendre des cours de planche à voile, Laser, ou encore habitable, mais il est aussi possible de profiter du bateau de l’asso ; Jnet, un J80 sur lequel on s’entraîne, mais sur lequel on fait aussi des apéros lorsque le soleil est au rendez-vous (c’est-à-dire de Février à Novembre). Notre association organise aussi des croisières inoubliables dans les calanques, la régate InterCentrales, la traversée du Vieux-Port et participe à la Course Croisière Edhec, régate étudiante de renommée internationale. Le MDV, ça n’est pas seulement de la voile, mais c’est l’asso de toutes les activités autour de la mer ; ses sous-com’ Centrale glisse, Centrale plongée, offrent de nombreuses possibilités qui sont présentées ci-dessous.",
+                    Message: "Le MDV est l’asso de voile de l’école, que tu sois un skipper aguerri ou que tu souhaites t’initier aux plaisirs de la voile, le MDV est fait pour toi ! Il est possible de prendre des cours de planche à voile, Laser, ou encore habitable. Vous pouvez aussi profiter du bateau de l’asso ; Jnet, un J80 sur lequel on organise des apéros lorsque le soleil est au rendez-vous (c’est-à-dire de Février à Novembre). Notre association organise aussi des croisières inoubliables dans les calanques et de nombreuses activités autour de la mer grâce à ses sous com’ présentées ci-dessous.",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/MDV/MDV_3.jpg"),
+                            1: require("../Assets/Images/MDV/MDV_2.jpg"),
                         },
                 },
                 1: {
@@ -870,10 +837,9 @@ export default
                     Message: "Parce que sur l’eau il n’y pas que la navigation qui permet de profiter du cadre marseillais, Centrale Glisse est là pour toi. Profite des sorties en paddles aux calanques, des kayaks de l’asso, ou encore du week-end glisse pour profiter à fond des sensations qu’offre le surf sur la côte ouest !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/CGlisse/CGlisse_1.jpg"),
+                            1: require("../Assets/Images/CGlisse/CGlisse_2.jpg"),
+                            2: require("../Assets/Images/CGlisse/CGlisse_3.jpg"),
                         },
                 },
                 2: {
@@ -882,10 +848,9 @@ export default
                     Message: "Après la prépa, tu cherches de nouvelles expériences ? Viens découvrir les fonds méditerranéens avec Centrale Plongée ! Que tu sois novice ou expérimenté, tu pourras faire des baptêmes, des plongées d’exploration, et même passer des niveaux grâce à nos formations. Ce sera ta chance d’observer des murènes, des épaves et des mérous !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/CPlongee/CPlongee_2.jpg"),
+                            1: require("../Assets/Images/CPlongee/CPlongee_1.jpg"),
+                            2: require("../Assets/Images/CPlongee/CPlongee_3.jpg"),
                         },
                 },
                 3: {
@@ -894,16 +859,15 @@ export default
                     Message: "La Régate InterCentrales, c’est une compétition de voile entre les 5 écoles du groupe Centrale, mais c’est surtout un moment de cohésion avec une soirée et un grand repas avec tous les participants. Nous réservons un accueil des plus chaleureux dans nos coloc’ marseillaises. La régate a lieu après le tournoi Intercentrales, alors si tu aimes déjà régater, ou si tu as envie d’essayer, rejoins-nous !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/RIC/RIC_1.jpg"),
+                            1: require("../Assets/Images/RIC/RIC_2.jpg"),
+                            2: require("../Assets/Images/RIC/RIC_3.jpg"),
                         },
                 },
                 4: {
                     Name: "Course Croisière Edhec",
                     Logo: require('../Assets/Logos/MDV_logo.png'),
-                    Message: "La Régate InterCentrales, c’est une compétition de voile entre les 5 écoles du groupe Centrale, mais c’est surtout un moment de cohésion avec une soirée et un grand repas avec tous les participants. Nous réservons un accueil des plus chaleureux dans nos coloc’ marseillaises. La régate a lieu après le tournoi Intercentrales, alors si tu aimes déjà régater, ou si tu as envie d’essayer, rejoins-nous !",
+                    Message: "Tu as le pied marin, l'esprit sportif ou juste envie de chiller sur les plages de Bretagne avec tes potes ? Alors rejoins la CCE pour passer la meilleure semaine de l'année. Le principe ? Défendre les couleurs de Centrale Marseille lors de régates (trophée mer), ou de tournois plus ou moins sportifs (trophée terre et sable). Et bien sur, la nuit tombée, participe aux nombreuses soirées organisées pour te forger encore plus de souvenirs mémorables ! ",
                     Images:
                         {
                             0: require("../Assets/Images/BDE/BDE_1.jpg"),
@@ -927,9 +891,9 @@ export default
             Logo: require('../Assets/Logos/TVP_logo.png'),
             Message: "La Traversée du Vieux-Port est un évènement organisé par des Centraliens, pour des Centraliens (mais pas que !), dans la rade du Mucem. Le principe ? Participer à des courses nautiques en équipe, à bord de radeaux construits à partir de matériaux récupérés dans tout Marseille ! Chaque équipe construit son « bateau » avec un seul objectif : ne pas couler tout de suite ! Les courses sont également ouvertes à des jeunes le matin (collégiens, lycéens, scouts...), et la journée est rythmée par les courses et les nombreuses animations. Rendez-vous en 2021 pour la 41e édition !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/TVP/TVP_3.jpg"),
+                1: require("../../src/Assets/Images/TVP/TVP_2.jpg"),
+                2: require("../../src/Assets/Images/TVP/TVP_4.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -946,9 +910,9 @@ export default
             Logo: require('../Assets/Logos/UA_logo.png'),
             Message: "Comme tu vas vite t'en rendre compte, la vie associative de Centrale Marseille est dense et variée ! Avec le développement exponentielle de celle-ci des dix dernières années, la necessité d'une fédération chargée de pérenniser, professionnaliser et représenter les associations a rapidement vu le jour. Cette fédération est l'Union des Associations de son nom court l'UA. Une telle fédération confère une plus grande envergure à l'ensemble des associations, non seulement elle est au centre des discussions avec la direction de l'école mais c'est aussi un interlocuteur privilégié pour développer des partenariats profitant à tous.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/UA/UA_1.jpg"),
+                1: require("../../src/Assets/Images/UA/UA_2.jpg"),
+                2: require("../../src/Assets/Images/UA/UA_3.jpg")
             },
             Links:{
                 Facebook: "https://www.facebook.com/ua.centrale.marseille",
@@ -962,14 +926,68 @@ export default
         CentraleMarseille:{
             Img_btn: require('../Assets/Marseille_map/Marseille_CentraleMarseille.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
-            Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+            Logo: require('../Assets/Logos/CentraleMarseille_logo.png'),
+            Pages: {
+                0: {
+                    Name: "Centrale Marseille",
+                    Logo: require('../Assets/Logos/CentraleMarseille_logo.png'),
+                    Message: "Notre école se situe sur le\n" +
+                        "Technopôle de Château-Gombert\n" +
+                        "dans le 13e arrondissement de\n" +
+                        "Marseille. C’est une zone calme,\n" +
+                        "fréquentée en majorité par des\n" +
+                        "étudiants et les chercheurs des\n" +
+                        "laboratoires aux alentours.\n" +
+                        "Le métro est à quelques\n" +
+                        "minutes de bus de l’école et à\n" +
+                        "seulement 15 minutes à pieds. Au\n" +
+                        "sein de l’établissement, tu trouveras\n" +
+                        "de nombreux espaces verts\n" +
+                        "ainsi qu’un terrain de pétanque.",
+                    Images:
+                        {
+                            0: require("../Assets/Images/Centrale/Centrale_3.jpg"),
+                            1: require("../Assets/Images/Centrale/Centrale_2.jpg"),
+                            2: require("../Assets/Images/Centrale/Centrale_1.jpg")
+                        },
+                },
+                1: {
+                    Name: "Campus",
+                    Logo: require('../Assets/Logos/CentraleMarseille_logo.png'),
+                    Message: "Les Centraliens investissent\n" +
+                        "en début d’année\n" +
+                        "plusieurs résidences du\n" +
+                        "Technopôle. Elles proposent\n" +
+                        "des appartements meublés\n" +
+                        "d’environ 20 m². Il en existe\n" +
+                        "plusieurs: Château-Gombert,\n" +
+                        "collé à l’école, Les Estudines -\n" +
+                        "Oxford, en face, Les Estudines\n" +
+                        "- Provence, un peu plus loin à\n" +
+                        "4min de marche, Vilogia, au\n" +
+                        "même niveau que Provence,\n" +
+                        "Les Estudines - Victoria Park,\n" +
+                        "en continuant une dizaine de\n" +
+                        "minutes, et les Résidences\n" +
+                        "CROUS, plus éloignées de\n" +
+                        "l’école.\n" +
+                        "Il est également envisageable\n" +
+                        "de loger en centrale-\n" +
+                        "ville mais peu de 1ère\n" +
+                        "années choisisse cette option.\n" +
+                        "C’est là-bas que la majorité\n" +
+                        "des 2As vivent en colocation\n" +
+                        "dans les quartiers du\n" +
+                        "Vieux-Port, de Réformés ou\n" +
+                        "de Cinq-Avenues.",
+                    Images:
+                        {
+                            0: require("../Assets/Images/Campus/Campus_1.jpg"),
+                            1: require("../Assets/Images/Campus/Campus_2.jpg"),
+                            2: require("../Assets/Images/Campus/Campus_3.jpg"),
+                        },
+                },
             },
             Links:{
                 Facebook: "https://www.facebook.com/ua.centrale.marseille",
@@ -980,84 +998,83 @@ export default
         MuCEM:{
             Img_btn: require('../Assets/Marseille_map/Marseille_MuCEM.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "MuCEM",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
+            Message: "Le MuCEM, où musée des Civilisations de l'Europe et de la Méditerranée, est un musée national situé au coeur de la ville de Marseille entre le fort Saint-Jean et la cathédrale de La Major. Il est qualifié de musée de société préférant exposer les objets du quotidien plutôt que les œuvres d'art. De plus, sa fonction va au-delà de celle d'un musée traditionnelle, l'objectif est d'articulier les programmations autour des grandes questions de sociétés européennes et méditerranéennes. Ce site culturel est une source d'attractivité pour la ville de Marseille et comptabilise plus d'un million de visiteurs par an.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/MuCEM/MuCEM_1.jpg"),
+                1: require("../../src/Assets/Images/MuCEM/MuCEM_2.jpg"),
+                2: require("../../src/Assets/Images/MuCEM/MuCEM_3.jpg")
             },
             Links: false
         },
         VieuxPort:{
             Img_btn: require('../Assets/Marseille_map/Marseille_VieuxPort.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Vieux-Port",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/VieuxPort/VP_1.jpg"),
+                1: require("../../src/Assets/Images/VieuxPort/VP_2.jpg"),
+                2: require("../../src/Assets/Images/VieuxPort/VP_3.jpg")
             },
             Links : false
         },
         NotreDame:{
             Img_btn: require('../Assets/Marseille_map/Marseille_NotreDame.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Notre Dame de la Garde",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/NotreDame/ND_1.jpg"),
+                1: require("../../src/Assets/Images/NotreDame/ND_2.jpg"),
+                2: require("../../src/Assets/Images/NotreDame/ND_3.jpg")
             },
             Links : false
         },
         Frioul:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Frioul.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Iles du Frioul",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
+            Message: "Facilement accessibles en prenant un bateau depuis le Vieux-Port de Marseille, les 4 îles du Frioul forment un archipel protégé de 200 hectares. La faune et la flore locale se sont adaptées aux conditions climatiques d'un massif de calcaire blanc soumis aux nombreux vents marins. Elles habritent également le célèbre Château d'If mis en scène par Alexandre Dumas dans son romain le Comte de Monte Cristo, celui-ci servait autrefois un but militaire mais aujourd'hui est la principale attraction touristique des îles avec 400 000 visiteurs par an.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Frioules/Frioules_1.jpg"),
+                1: require("../../src/Assets/Images/Frioules/Frioules_2.jpg"),
+                2: require("../../src/Assets/Images/Frioules/Frioules_3.jpg")
             },
             Links : false
         },
         Calanques:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Calanques.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Calanques",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
+            Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/Calanques/Calanques_1.jpg"),
+                1: require("../../src/Assets/Images/Calanques/Calanques_2.jpg"),
+                2: require("../../src/Assets/Images/Calanques/Calanques_3.jpg")
             },
             Links : false
         },
         OrangeVelodrome:{
             Img_btn: require('../Assets/Marseille_map/Marseille_OrangeVelodrome.png'),
             Title: "Marseille",
-            Name: "Centrale Marseille",
+            Name: "Orange Vélodrome",
             Color: "ecole",
-            Logo: require('../Assets/Logos/BDE_logo.png'),
+            Logo: require('../Assets/Logos/OM_logo.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/OrangeVelodrome/OV_1.jpg"),
+                1: require("../../src/Assets/Images/OrangeVelodrome/OV_2.jpg"),
             },
             Links : false
         },
