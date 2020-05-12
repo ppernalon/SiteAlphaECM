@@ -2,6 +2,8 @@ import React from 'react';
 import Left_arrow from '../Assets/Buttons/Buttons__scroll_sp_left.png';
 import Right_arrow from '../Assets/Buttons/Buttons__scroll_sp_right.png';
 import './styles/Slideshow.css';
+import HexagonPlein from "../Assets/Buttons/HexagonePlein.png";
+import HexagonVide from "../Assets/Buttons/HexagoneVide.png";
 
 export default class Slideshow extends React.Component {
     constructor(props) {
@@ -33,12 +35,35 @@ export default class Slideshow extends React.Component {
         }
     };
 
+    slideshowProgession = () => {
+        let progessionHexa = [];
+        for (let i=0; i<=this.state.rank; i++){
+            progessionHexa.push(<img className={"slideshowProgressionHexagones"} src={HexagonPlein} alt={'progression'}/>)
+        }
+
+        for (let i=this.state.rank+1; i<this.images_length; i++){
+            progessionHexa.push(<img className={"slideshowProgressionHexagones"} src={HexagonVide} alt={'progression'}/>)
+        }
+        return progessionHexa;
+    }
+
     render() {
+        let imagesArray = [];
+        for (let i=0; i < this.images_length; i++)
+        {
+            imagesArray.push(<img id={"slideshowImage_" + i.toString()}
+                                  className={"slideshowImages"}
+                                  src={this.images[i]}
+                                  alt={"photo"}/>)
+        }
+
+        let progressionSlideshow = this.slideshowProgession();
+
         return (
             <div id="SlideshowDiv" style={{backgroundImage: 'url(' + this.images[this.state.rank] + ')',}}>
-                <div id={"emptyDivSlideshow"}/>
-                <input type="image" className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={this.previous_img}/>
-                <input type="image" className="R_Arrow Arrow" src={Right_arrow} alt="next" onClick={this.next_img}/>
+
+                <img className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={this.previous_img}/>
+                <img className="R_Arrow Arrow" src={Right_arrow} alt="next" onClick={this.next_img}/>
                 <div id={"counterDiv"}>
                     {this.state.rank + 1}/{this.images_length}
                 </div>

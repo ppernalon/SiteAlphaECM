@@ -2,18 +2,16 @@
 {
     display: grid;
     grid-template-areas:
-            "a a"
-            "b c"
-            "d d";
+            "b a c"
+            "b e c"
+            "b d c";
     justify-content: stretch;
     align-content: stretch;
+    background-color: grey;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    box-shadow: 0 0 1.5vmax black;
-    border-style: solid;
-    border-width: 1vmax;
-    border-color: whitesmoke;
+    box-shadow: 0 0 0.5vmax black;
 }
 
 #emptyDivSlideshow{
@@ -25,6 +23,11 @@
     z-index: 4;
     cursor: pointer;
     align-self: center;
+    opacity: 0.5;
+}
+
+.Arrow:hover{
+    opacity: 1;
 }
 
 .L_Arrow
