@@ -9,6 +9,8 @@ import voidArrow from '../Assets/Buttons/Buttons__blanckPopUp.png';
 import Fb_icon from '../Assets/Icons/Facebook.png';
 import Insta_icon from '../Assets/Icons/Instagram.png';
 import Site_icon from '../Assets/Icons/Site.png';
+import HexagonVide from '../Assets/Buttons/HexagoneVide.png';
+import HexagonPlein from '../Assets/Buttons/HexagonePlein.png';
 
 export default class PopUp extends React.Component{
     constructor(props){
@@ -110,8 +112,41 @@ export default class PopUp extends React.Component{
                 content: this.Pages[ActualContentInd]});
     };
 
+    pageProgession = () => {
+        let progessionHexa = [];
+        for (let i=0; i<=this.state.contentInd; i++){
+            progessionHexa.push(<img className={"pageProgressionHexagones"} src={HexagonPlein} alt={'progression'}/>)
+        }
+
+        for (let i=this.state.contentInd+1; i<this.Pages_length; i++){
+            progessionHexa.push(<img className={"pageProgressionHexagones"} src={HexagonVide} alt={'progression'}/>)
+        }
+        return progessionHexa;
+    }
+
+    pageNavigatorButtons = () => {
+        let pageNavigatorButtons =
+            [<img id={"LeftArrowButtonPopUP"}
+                  src={this.props.severalPages ? LeftArrow : voidArrow}
+                  alt={"précdent"}
+                  onClick={this.props.severalPages ? this.previous_Page : () => {}}
+            />,
+            <div id={"pageProgessionHexagones"}>
+                {this.pageProgession()}
+            </div>,
+            <img id={"RightArrowButtonPopUP"}
+                  src={this.props.severalPages ? RightArrow : voidArrow}
+                  alt={"suivant"}
+                  onClick={this.props.severalPages ? this.next_Page : () => {}}
+            />];
+        return (this.props.severalPages ? pageNavigatorButtons : <div/>)
+    }
+
     render() {
         if (this.state.visible) {
+
+            let pageNavigatorButtons = this.pageNavigatorButtons()
+
             return (
                 <div>
                     <input className={"PopUpBTN " + this.Type + "TypeBTN"} type="image" alt="button" src={this.Img_btn} onClick={() => this.openModal()}/>
@@ -128,16 +163,9 @@ export default class PopUp extends React.Component{
                         <div id="row1-container">
                             <img id="EntityLogoPopUp" alt="logo" src={this.props.severalPages ? this.state.content.Logo : this.Entity.Logo}/>
                             <h1 id={"EntityName"}> {this.props.severalPages ? this.state.content.Name : this.Entity.Name}</h1>
-                            <img id={"LeftArrowButtonPopUP"}
-                                 src={this.props.severalPages ? LeftArrow : voidArrow}
-                                 alt={"précdent"}
-                                 onClick={this.props.severalPages ? this.previous_Page : () => {}}
-                            />
-                            <img id={"RightArrowButtonPopUP"}
-                                 src={this.props.severalPages ? RightArrow : voidArrow}
-                                 alt={"suivant"}
-                                 onClick={this.props.severalPages ? this.next_Page : () => {}}
-                            />
+                            <div id={"pageNavigatorDiv"}>
+                                {pageNavigatorButtons}
+                            </div>
                         </div>
 
                         <div id="row2-container">

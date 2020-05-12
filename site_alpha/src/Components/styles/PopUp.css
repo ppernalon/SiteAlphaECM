@@ -72,7 +72,46 @@
     justify-content: center;
 }
 
+#LeftArrowButtonPopUP{
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 1000ms;
+}
+
+#LeftArrowButtonPopUP:hover {
+    transform: scale(1.3);
+}
+
+#RightArrowButtonPopUP{
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 1000ms;
+}
+
+#RightArrowButtonPopUP:hover{
+    transform: scale(1.3);
+}
+
+#pageNavigatorDiv{
+    display: grid;
+    grid-template-columns: 10vw auto 10vw;
+    grid-gap: 5vw;
+    justify-items: center;
+    align-items: center;
+}
+
+#pageProgessionHexagones{
+    display: flex;
+    justify-content: space-around;
+}
+
 @media only screen and (min-width: 768px){
+    .pageProgressionHexagones{
+        height: 5vh;
+    }
+
     #LinksPopUp{
         grid-template-rows: 10vh;
         grid-template-columns: 13vw 13vw 13vw 39.75vw;
@@ -106,7 +145,7 @@
     #row1-container
     {
         height: 15vh;
-        grid-template-columns: 10vw auto 10vw 10vw;
+        grid-template-columns: 10vw 30vw 40vw;
         grid-template-rows: 15vh;
         grid-gap: 0.5vw;
         width: 80vw;
@@ -168,6 +207,10 @@
 }
 
 @media only screen and (max-width: 767px){
+    .pageProgressionHexagones{
+        height: 4vh;
+    }
+
     #LinksPopUp{
         grid-template-rows: 7vh;
         grid-template-columns: 26vw 26vw 26vw;
@@ -207,13 +250,11 @@
     }
 
     #LeftArrowButtonPopUP{
-        height: 7vh;
-        max-width: 7vw;
+        width: 7vh;
     }
 
     #RightArrowButtonPopUP{
-        height: 7vh;
-        max-width: 7vw;
+        width: 7vh;
     }
 
     #Bordure
@@ -227,13 +268,25 @@
     #row1-container
     {
         height: 15vw;
-        grid-template-columns: 15vw auto 7vw 7vw;
-        grid-template-rows: 15vw;
+        grid-template-areas:
+                "a a"
+                "c b";
         grid-gap: 1vw;
         width: 80vw;
         margin: auto;
         padding: 2vh;
         justify-items: center;
+    }
+
+    #pageNavigatorDiv{
+        grid-area: a;
+    }
+
+    #EntityLogoPopUp{
+        grid-area: c;
+    }
+    #EntityName{
+        grid-area: b;
     }
 
     #row2-container
