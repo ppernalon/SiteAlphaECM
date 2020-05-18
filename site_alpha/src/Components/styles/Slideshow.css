@@ -1,23 +1,44 @@
 #SlideshowDiv
 {
+    box-shadow: 0 0 0.5vmax black;
+    position: relative;
+    overflow: hidden;
+}
+
+#interfaceSlideshow{
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-areas:
             "b a c"
             "b e c"
             "b d c";
+    grid-template-rows: 15% auto 15%;
     justify-content: stretch;
     align-content: stretch;
+}
+
+.slideshowImg{
     background-color: grey;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
-    box-shadow: 0 0 0.5vmax black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    transition-duration: 1s;
+    transition-property: left;
+}
+
+.slideshowNextImgAnimation{
+
 }
 
 #emptyDivSlideshow{
     grid-area: a;
     height: 5vh;
 }
+
 .Arrow
 {
     z-index: 4;
@@ -46,6 +67,7 @@
 
 #counterDiv
 {
+    z-index: 4;
     font-family: "Kaushan Script", cursive;
     color: white;
     text-shadow: 0 0 0.5vmax black;
