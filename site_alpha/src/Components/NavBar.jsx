@@ -4,7 +4,7 @@ import LogowCM from '../Assets/Logos_site/Logos__wCM.png';
 import Menu from "./Menu";
 import Backdrop from "./BackDrop";
 import SlideDrawer from "./SlideDrawer";
-import {BrowserRouter as Router, useHistory} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 export default class NavBar extends React.Component{
     constructor(props){
@@ -38,7 +38,9 @@ export default class NavBar extends React.Component{
         if (this.state.windowWidth > 768){
             return(
                 <div className="NavBar">
-                    <img src={LogowCM} height="80px" className="MenuLogo"/>
+                    <NavLink to={"/"}>
+                        <img src={LogowCM} height="80px" className="MenuLogo"/>
+                    </NavLink>
                     <Menu/>
                 </div>
             )

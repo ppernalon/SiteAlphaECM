@@ -5,7 +5,7 @@
   text-align: center;
   overflow: hidden;
   height: 100vh;
-  background-image: url("./Assets/Background_global.jpg");
+  background-image: url("./Assets/Background_global_flou.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -16,7 +16,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-image: url("./Assets/Background_global_flou.png");
+  background-image: url("./Assets/Background_global_flou.jpg");
   background-position: center;
   background-size: cover;
 }

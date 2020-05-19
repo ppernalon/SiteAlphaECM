@@ -16,8 +16,8 @@ class Menu extends React.Component{
     pages = [
         '/',
         '/marseille',
-        '/reseaux',
         '/associations',
+        '/reseaux',
         '/calendrier',
         '/contact'
     ]
@@ -47,8 +47,8 @@ class Menu extends React.Component{
             <div className={className}>
                 <NavItem toggle={this.props.toggle} title={'Accueil'} onClick={this.handleMenu} to={'/'} number={0} vertical={this.props.vertical} visited={this.state.visited[0]} start/>
                 <NavItem toggle={this.props.toggle} title={'Marseille'} onClick={this.handleMenu} to={'/marseille'} number={1} vertical={this.props.vertical} visited={this.state.visited[1]} impair/>
-                <NavItem toggle={this.props.toggle} title={'Réseaux'} onClick={this.handleMenu} to={'/reseaux'} number={2} vertical={this.props.vertical} visited={this.state.visited[2]}/>
-                <NavItem toggle={this.props.toggle} title={'Associations'} onClick={this.handleMenu} to={'/associations'} number={3} vertical={this.props.vertical} visited={this.state.visited[3]} impair/>
+                <NavItem toggle={this.props.toggle} title={'Associations'} onClick={this.handleMenu} to={'/associations'} number={2} vertical={this.props.vertical} visited={this.state.visited[2]}/>
+                <NavItem toggle={this.props.toggle} title={'Réseaux'} onClick={this.handleMenu} to={'/reseaux'} number={3} vertical={this.props.vertical} visited={this.state.visited[3]} impair/>
                 <NavItem toggle={this.props.toggle} title={'Calendrier'} onClick={this.handleMenu} to={'/calendrier'} number={4} vertical={this.props.vertical} visited={this.state.visited[4]}/>
                 <NavItem toggle={this.props.toggle} title={'Contact'} onClick={this.handleMenu} to={'/contact'} number={5} vertical={this.props.vertical} visited={this.state.visited[5]} impair end/>
             </div>
