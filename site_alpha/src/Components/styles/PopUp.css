@@ -9,6 +9,10 @@
     box-shadow: 0 0 1vmax black;
 }
 
+.PopUpBTN{
+    cursor: pointer;
+}
+
 .close_area
 {
     cursor: pointer;

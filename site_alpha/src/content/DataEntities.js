@@ -992,8 +992,7 @@ export default
                     Images:
                         {
                             0: require("../Assets/Images/Campus/Campus_1.jpg"),
-                            1: require("../Assets/Images/Campus/Campus_2.jpg"),
-                            2: require("../Assets/Images/Campus/Campus_3.jpg"),
+                            1: require("../Assets/Images/Campus/Campus_3.jpg"),
                         },
                 },
             },

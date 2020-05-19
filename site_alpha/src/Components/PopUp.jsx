@@ -9,6 +9,7 @@ import voidArrow from '../Assets/Buttons/Buttons__blanckPopUp.png';
 import Fb_icon from '../Assets/Icons/Facebook.png';
 import Insta_icon from '../Assets/Icons/Instagram.png';
 import Site_icon from '../Assets/Icons/Site.png';
+import Twitter_icon from '../Assets/Icons/Twitter.png';
 import HexagonVide from '../Assets/Buttons/HexagoneVide.png';
 import HexagonPlein from '../Assets/Buttons/HexagonePlein.png';
 
@@ -46,31 +47,26 @@ export default class PopUp extends React.Component{
             this.Links = <div/>;
         }
         if (this.Entity.Links !== false){
-            this.Links =
-                [   <a
-                    className={"LinkPopUp"} id={"FbLink"}
-                    target="_blank"
-                    href={this.Entity.Links["Facebook"]}
-                >
-                    <img className={"LinkIconImg"} src={Fb_icon} alt={"Facebook"}/>
-                </a>,
-                    <a
-                        className={"LinkPopUp"}
-                        id={"InstaLink"}
-                        target="_blank"
-                        href={this.Entity.Links["Instagram"]}
-                    >
-                        <img className={"LinkIconImg"} src={Insta_icon} alt={"Instagram"}/>
-                    </a>,
-                    <a
-                        className={"LinkPopUp"}
-                        id={"SiteLink"}
-                        target="_blank"
-                        href={this.Entity.Links["Site"]}
-                    >
-                        <img className={"LinkIconImg"} src={Site_icon} alt={"Site"}/>
-                    </a>,
-                ];
+            this.Links = []
+            for (let key in this.Entity.Links){
+                let icon;
+                if (key === "Facebook"){
+                    icon = Fb_icon
+                }
+                else if (key === "Instagram"){
+                    icon = Insta_icon
+                }
+                else if (key === "Site"){
+                    icon = Site_icon
+                }
+                else if (key === "Twitter"){
+                    icon = Twitter_icon
+                }
+                this.Links.push(
+                    <a className={"LinkPopUp"} id={key + "link"} target="_blank" href={this.Entity.Links[key]}>
+                        <img className={"LinkIconImg"} src={icon} alt={"Networks icon Centrale Marseille"}/>
+                    </a>)
+            }
         }
     }
 

@@ -66,9 +66,11 @@ export default class Slideshow extends React.Component {
 
     render() {
         let progressionSlideshow = this.slideshowProgession();
+        let interfaceApparente = this.images_length > 1;
+        let styleInterface = interfaceApparente ? {} : {display: "none"};
         return (
             <div id="SlideshowDiv">
-                <div id={"interfaceSlideshow"}>
+                <div id={"interfaceSlideshow"} style={styleInterface}>
                     <img className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={this.previous_img}/>
                     <img className="R_Arrow Arrow" src={Right_arrow} alt="next" onClick={this.next_img}/>
                     <div id={"counterDiv"}>
