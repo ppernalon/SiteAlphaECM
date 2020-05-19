@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="" />
+    <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Calendar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PopUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/styles/AlphaButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/AlphaButtons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/styles/Calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/Calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/styles/MarseilleMap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/MarseilleMap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/DataEntities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/DataEntities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/DataPortailAsso.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/DataPortailAsso.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +96,7 @@
       <workItem from="1588841063835" duration="6524000" />
       <workItem from="1588870329333" duration="5551000" />
       <workItem from="1588929312459" duration="5987000" />
-      <workItem from="1589803088581" duration="17093000" />
+      <workItem from="1589803088581" duration="17985000" />
     </task>
     <servers />
   </component>

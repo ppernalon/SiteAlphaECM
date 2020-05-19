@@ -94,6 +94,6 @@ export default class Slideshow extends React.Component {
     }
 
     componentDidMount() {
-        setInterval(this.next_img, 6000)
+        setInterval(this.next_img, 5000)
     }
 }

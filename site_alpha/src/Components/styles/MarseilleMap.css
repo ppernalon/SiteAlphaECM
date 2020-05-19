@@ -7,13 +7,17 @@
     margin: 0 auto;
 }
 
+#Map .PopUpBTN{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 767px) {
     #Map {
         width: 75vmin;
         height: 75vmin;
     }
 
-    #Map input
+    #Map .PopUpBTN
     {
         height: 14vmin;
     }
@@ -74,7 +78,7 @@
         height: 50vmin;
     }
 
-    #Map input
+    #Map .PopUpBTN
     {
         height: 10vmin;
     }

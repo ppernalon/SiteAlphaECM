@@ -93,6 +93,10 @@ export default
                 Name : "Phy-Tv",
                     Logo : require('../Assets/Logos/PhyTv_logo.png'),
             },
+            MASSILIADES: {
+                Name : "Les Massiliades",
+                Logo: require('../Assets/Logos/BDA_logo.png'),
+            },
         }
     },
 

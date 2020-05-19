@@ -183,7 +183,7 @@ export default class PopUp extends React.Component{
             );
         }
         else {
-            return (<div> <input className={"PopUpBTN " + this.Type + "TypeBTN"} type="image" alt="button" src={this.Img_btn} onClick={() => this.openModal()}/> </div>)
+            return (<div> <img className={"PopUpBTN " + this.Type + "TypeBTN"} alt="button" src={this.Img_btn} onClick={() => this.openModal()}/> </div>)
         }
     }
 }

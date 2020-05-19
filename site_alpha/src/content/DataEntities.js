@@ -471,33 +471,41 @@ export default
                             1: require("../Assets/Images/Cabaret/Cabaret_2.jpg"),
                         },
                 },
-                4: {
-                    Name: "Les Massiliades",
-                    Logo: require('../Assets/Logos/BDA_logo.png'),
-                    Message: "Vous avez déjà rêvé\n" +
-                        "d’organiser un festival de\n" +
-                        "musique ? Les étudiants de\n" +
-                        "Centrale Marseille organisent\n" +
-                        "depuis plus de 10 ans les\n" +
-                        "Massiliades, un événement\n" +
-                        "qui permet à des artistes\n" +
-                        "pré-sélectionnés de se produire\n" +
-                        "dans un lieu d’exception:\n" +
-                        "la Friche Belle de Mai !\n" +
-                        "Le festival a notamment accueilli\n" +
-                        "Bigflo et Oli, Skip the\n" +
-                        "Use et Deluxe à leurs débuts.\n" +
-                        "C’est ainsi l’occasion de découvrir\n" +
-                        "de futurs talents mais\n" +
-                        "aussi de passer un bon moment\n" +
-                        "entre étudiants.",
-                    Images:
-                        {
-                            0: require("../Assets/Images/Massiliades/Massiliades_1.jpg"),
-                            1: require("../Assets/Images/Massiliades/Massiliades_2.jpg"),
-                        },
                 },
-            },
+            Links:{
+                Facebook: "https://www.facebook.com/bdecentralemarseille",
+                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
+                Site: "https://bde.asso.centrale-marseille.fr/"
+            }
+        },
+
+        MASSILIADES: {
+            Title: "Pôle Culture",
+            Color: "culture",
+            Name: "Les Massiliades",
+            Logo: require('../Assets/Logos/BDA_logo.png'),
+            Message: "Vous avez déjà rêvé\n" +
+                "d’organiser un festival de\n" +
+                "musique ? Les étudiants de\n" +
+                "Centrale Marseille organisent\n" +
+                "depuis plus de 10 ans les\n" +
+                "Massiliades, un événement\n" +
+                "qui permet à des artistes\n" +
+                "pré-sélectionnés de se produire\n" +
+                "dans un lieu d’exception:\n" +
+                "la Friche Belle de Mai !\n" +
+                "Le festival a notamment accueilli\n" +
+                "Bigflo et Oli, Skip the\n" +
+                "Use et Deluxe à leurs débuts.\n" +
+                "C’est ainsi l’occasion de découvrir\n" +
+                "de futurs talents mais\n" +
+                "aussi de passer un bon moment\n" +
+                "entre étudiants.",
+            Images:
+                {
+                    0: require("../Assets/Images/Massiliades/Massiliades_1.jpg"),
+                    1: require("../Assets/Images/Massiliades/Massiliades_2.jpg"),
+                },
             Links:{
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
                 Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",

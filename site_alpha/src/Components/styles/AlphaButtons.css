@@ -55,6 +55,10 @@
     justify-content: center;
 }
 
+#AlphaButtons_container .PopUpBTN{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 767px) {
     #AlphaButtons_container {
         width: 90vw;

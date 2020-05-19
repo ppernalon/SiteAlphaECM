@@ -61,6 +61,10 @@
     margin: auto 0;
 }
 
+.monthsBTN{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 767px) {
     #monthEvnts
     {

@@ -49,16 +49,16 @@ export default class Calendar extends React.Component{
         return (
             <div id="CalendarDiv">
                 <div id="monthsFrieze">
-                    <input type="image" src={Sept_btn} alt={"Septembre"} className="monthsBTN" id="Sept" onClick={() => this.modifyMonth("Sept")}/>
-                    <input type="image" src={Oct_btn} alt={"Octobre"} className="monthsBTN" id="Oct" onClick={() => this.modifyMonth("Oct")}/>
-                    <input type="image" src={Nov_btn} alt={"Novembre"} className="monthsBTN" id="Nov" onClick={() => this.modifyMonth("Nov")}/>
-                    <input type="image" src={Dec_btn} alt={"Décembre"} className="monthsBTN" id="Déc" onClick={() => this.modifyMonth("Déc")}/>
-                    <input type="image" src={Jan_btn} alt={"Janvier"} className="monthsBTN" id="Jan" onClick={() => this.modifyMonth("Jan")}/>
-                    <input type="image" src={Fev_btn} alt={"Février"} className="monthsBTN" id="Fév" onClick={() => this.modifyMonth("Fév")}/>
-                    <input type="image" src={Mars_btn} alt={"Mars"} className="monthsBTN" id="Mars" onClick={() => this.modifyMonth("Mars")}/>
-                    <input type="image" src={Avr_btn} alt={"Avril"} className="monthsBTN" id="Avr" onClick={() => this.modifyMonth("Avr")}/>
-                    <input type="image" src={Mai_btn} alt={"Mai"} className="monthsBTN" id="Mai" onClick={() => this.modifyMonth("Mai")}/>
-                    <input type="image" src={Juin_btn} alt={"Juin"} className="monthsBTN" id="Juin" onClick={() => this.modifyMonth("Juin")}/>
+                    <img src={Sept_btn} alt={"Septembre"} className="monthsBTN" id="Sept" onClick={() => this.modifyMonth("Sept")}/>
+                    <img src={Oct_btn} alt={"Octobre"} className="monthsBTN" id="Oct" onClick={() => this.modifyMonth("Oct")}/>
+                    <img src={Nov_btn} alt={"Novembre"} className="monthsBTN" id="Nov" onClick={() => this.modifyMonth("Nov")}/>
+                    <img src={Dec_btn} alt={"Décembre"} className="monthsBTN" id="Déc" onClick={() => this.modifyMonth("Déc")}/>
+                    <img src={Jan_btn} alt={"Janvier"} className="monthsBTN" id="Jan" onClick={() => this.modifyMonth("Jan")}/>
+                    <img src={Fev_btn} alt={"Février"} className="monthsBTN" id="Fév" onClick={() => this.modifyMonth("Fév")}/>
+                    <img src={Mars_btn} alt={"Mars"} className="monthsBTN" id="Mars" onClick={() => this.modifyMonth("Mars")}/>
+                    <img src={Avr_btn} alt={"Avril"} className="monthsBTN" id="Avr" onClick={() => this.modifyMonth("Avr")}/>
+                    <img src={Mai_btn} alt={"Mai"} className="monthsBTN" id="Mai" onClick={() => this.modifyMonth("Mai")}/>
+                    <img src={Juin_btn} alt={"Juin"} className="monthsBTN" id="Juin" onClick={() => this.modifyMonth("Juin")}/>
                 </div>
                 <div id="monthEvnts">
                     <img src={this.state.currentMonth[1][2]} alt={this.state.currentMonth[0]} id="currentMonthIMG"/>
