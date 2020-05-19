@@ -299,7 +299,7 @@ export default
             Name: "Kryptosphere",
             Color: "innovation",
             Logo: require('../Assets/Logos/Kryptosphere_logo.png'),
-            Message:  "As-tu déjà été interpellé(e) par le concept d’intelligence artificielle ? Que ce soit sa portée éthique ou son fonctionnement ? Tu as frappé à la bonne porte ! À Christopher.ai, on te propose de découvrir le monde de l’intelligence artificielle avec plusieurs activités : des débats sur ce thème ainsi que des formations portant sur les réseaux neuronaux. Tu pourras ensuite appliquer ces connaissances dans le cadre de projets réalisés tout au long de l’année !",
+            Message:  "Tu t'intéresses à la technologie Blockchain et aux crypto-monnaies ? Tu es déjà un expert dans le domaine ou un novice qui cherche à le découvrir ? Tu es au bon endroit ! Kryptosphere est la première association étudiante en France spécialisée dans ce domaine, et elle est présente dans plusieurs écoles. Va visiter kryptosphere.org et nos réseaux sociaux si tu veux en savoir plus sur ce projet précurseur et ambitieux...",
             Images: {
                 0: require("../../src/Assets/Images/Krypto/Krypto_1.jpg"),
                 1: require("../../src/Assets/Images/Krypto/Krypto_2.jpg"),
@@ -972,17 +972,15 @@ export default
                         "plusieurs: Château-Gombert,\n" +
                         "collé à l’école, Les Estudines -\n" +
                         "Oxford, en face, Les Estudines\n" +
-                        "- Provence, un peu plus loin à\n" +
-                        "4min de marche, Vilogia, au\n" +
-                        "même niveau que Provence,\n" +
+                        "- Provence et Vilogia, un peu plus loin à\n" +
+                        "4min de marche,\n" +
                         "Les Estudines - Victoria Park,\n" +
                         "en continuant une dizaine de\n" +
-                        "minutes, et les Résidences\n" +
-                        "CROUS, plus éloignées de\n" +
-                        "l’école.\n" +
+                        "minutes, et enfin les Résidences\n" +
+                        "CROUS, plus éloignées encore.\n" +
                         "Il est également envisageable\n" +
-                        "de loger en centrale-\n" +
-                        "ville mais peu de 1ère\n" +
+                        "de loger en centre-ville\n" +
+                        "mais peu de 1ère\n" +
                         "années choisisse cette option.\n" +
                         "C’est là-bas que la majorité\n" +
                         "des 2As vivent en colocation\n" +
@@ -1033,7 +1031,7 @@ export default
         NotreDame:{
             Img_btn: require('../Assets/Marseille_map/Marseille_NotreDame.png'),
             Title: "Marseille",
-            Name: "Notre Dame de la Garde",
+            Name: "la Bonne Mère",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
@@ -1120,7 +1118,7 @@ export default
         AI: {
             Img_btn: require('../Assets/Reseaux_buttons/ReseauxButtons_AI.png'),
             Title: "Nos réseaux",
-            Name: "Centrale Marseille Alumni",
+            Name: "Les Alumni",
             Color: "reseaux",
             Logo: require('../Assets/Logos/Alumni_logo.png'),
             Message: "Tu comprendras très vite en arrivant à l'école l'importance d'avoir un bon réseau de relations " +
@@ -1130,10 +1128,8 @@ export default
                 "répondre à toutes tes questions et qui feront leur maximum pour t'aider dans tes projets professionnels.\n" +
                 "C'est ce réseau riche, accessible et solidaire qui fait la force de Centrale Marseille !",
             Images: {
-                0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                3: require("../Assets/Images/BDE/Association_UA_4.png")
+                0: require("../Assets/Images/AI/AI_1.jpg"),
+                1: require("../Assets/Images/AI/AI_2.jpg"),
             },
             Links: {
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -1158,10 +1154,9 @@ export default
                 "de grande ampleur. Au programme : des conférences, des tables rondes, des rencontres, " +
                 "et une soirée entre les 6 écoles !",
             Images: {
-                0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                3: require("../Assets/Images/BDE/Association_UA_4.png")
+                0: require("../Assets/Images/C5/C5_1.jpg"),
+                1: require("../Assets/Images/C5/C5_2.jpg"),
+                2: require("../Assets/Images/C5/C5_3.jpg"),
             },
             Links: {
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
@@ -1173,7 +1168,7 @@ export default
         BNEI: {
             Img_btn: require('../Assets/Reseaux_buttons/ReseauxButtons_BNEI.png'),
             Title: "Nos réseaux",
-            Name: "Bureau National des Elèves Ingénieurs",
+            Name: "BNEI",
             Color: "reseaux",
             Logo: require('../Assets/Logos/BNEI_logo.png'),
             Message: "Le Bureau National des Elèves Ingénieurs (BNEI) représente l’ensemble des 185 000 " +
@@ -1185,10 +1180,7 @@ export default
                 "d'accompagner le développement des associations et l'implication des élèves !\n" +
                 "Le BNEI est organisé en près de 24 Bureaux Régionaux des Elèves Ingénieurs (BREI) pour agir à échelle locale !",
             Images: {
-                0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                3: require("../Assets/Images/BDE/Association_UA_4.png")
+                0: require("../Assets/Images/BNEI/BNEI_1.jpg"),
             },
             Links: {
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
