@@ -54,7 +54,7 @@ span
         border-width: 0.4vmax;
         border-color: white;
         box-shadow: 0 0 0.8vmax black;
-        background-color: rgba(0,0,0,0.25);
+        background-color: rgba(0,0,0,0.4);
         backdrop-filter: blur(0.8vmax);
         color: white;
     }
