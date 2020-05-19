@@ -10,10 +10,9 @@
     height: 100%;
     display: grid;
     grid-template-areas:
-            "b a c"
-            "b e c"
+            "a a a"
+            "e e e"
             "b d c";
-    grid-template-rows: 15% auto 15%;
     justify-content: stretch;
     align-content: stretch;
 }
@@ -26,17 +25,7 @@
     height: 100%;
     position: absolute;
     top:0;
-    transition-duration: 1s;
-    transition-property: left;
-}
-
-.slideshowNextImgAnimation{
-
-}
-
-#emptyDivSlideshow{
-    grid-area: a;
-    height: 5vh;
+    left:0;
 }
 
 .Arrow
@@ -44,12 +33,8 @@
     z-index: 4;
     cursor: pointer;
     align-self: center;
-    opacity: 0.5;
 }
 
-.Arrow:hover{
-    opacity: 1;
-}
 
 .L_Arrow
 {
@@ -68,30 +53,31 @@
 #counterDiv
 {
     z-index: 4;
-    font-family: "Kaushan Script", cursive;
-    color: white;
-    text-shadow: 0 0 0.5vmax black;
     grid-area: d;
-    text-align: center;
-    vertical-align: bottom;
     height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 767px){
     #SlideshowDiv{
         height: 30vh;
         width: 80vw;
-        grid-template-rows: 5vh 20vh 5vh;
+    }
+
+    #interfaceSlideshow{
+        grid-template-rows: 4vh 22vh 4vh;
+    }
+
+    .slideshowProgressionHexagones{
+        height: 3vh;
+        width: 3vh;
     }
 
     .Arrow{
         width: 4vw;
-        height: 20vw;
-    }
-
-    .Arrow_btns
-    {
-        width: 80vw;
+        height: 3vh;
     }
 
     #counterDiv
@@ -102,23 +88,25 @@
 
 @media only screen and (min-width: 768px){
     #SlideshowDiv{
-        grid-template-rows: 5vh 35vh 5vh;
         height: 45vh;
         width: 36vw;
     }
 
-    .Arrow_btns
-    {
-        width: 40vw;
+    #interfaceSlideshow{
+        grid-template-rows: 4vh 37vh 4vh;
+    }
+
+    .slideshowProgressionHexagones{
+        height: 3vh;
+    }
+
+    .Arrow:hover{
+        opacity: 1;
     }
 
     .Arrow{
         width: 2vw;
-        height: 10vw;
-    }
-
-    #counterDiv
-    {
-        font-size: 2vmax;
+        height: 5vh;
+        opacity: 0.5;
     }
 }

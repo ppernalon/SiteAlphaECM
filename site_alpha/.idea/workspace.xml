@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Buttons/HexagonePleinBlanc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Buttons/HexagoneVideBlanc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Slideshow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slideshow.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/styles/Slideshow.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/Slideshow.css" afterDir="false" />
@@ -92,7 +93,7 @@
       <workItem from="1588841063835" duration="6524000" />
       <workItem from="1588870329333" duration="5551000" />
       <workItem from="1588929312459" duration="5987000" />
-      <workItem from="1589803088581" duration="11786000" />
+      <workItem from="1589803088581" duration="16577000" />
     </task>
     <servers />
   </component>

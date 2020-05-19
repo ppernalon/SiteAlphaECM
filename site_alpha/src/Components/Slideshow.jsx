@@ -2,19 +2,14 @@ import React from 'react';
 import Left_arrow from '../Assets/Buttons/Buttons__scroll_sp_left.png';
 import Right_arrow from '../Assets/Buttons/Buttons__scroll_sp_right.png';
 import './styles/Slideshow.css';
-import HexagonPlein from "../Assets/Buttons/HexagonePlein.png";
-import HexagonVide from "../Assets/Buttons/HexagoneVide.png";
+import HexagonPlein from "../Assets/Buttons/HexagonePleinBlanc.png";
+import HexagonVide from "../Assets/Buttons/HexagoneVideBlanc.png";
 
 export default class Slideshow extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             rank:0,
-            imagesArray: [
-                <div id={"slideshowImg_" + 0} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[0] + ')', left:"0"}}/>,
-                <div id={"slideshowImg_" + 1} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[1] + ')',display:"none" ,left:"-100%"}}/>,
-                <div id={"slideshowImg_" + this.calcPrevRank(0)} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[this.calcPrevRank(0)] + ')',display:"none" , left:"100%"}}/>
-            ]
         };
 
         this.images_length = Object.keys(this.props.images).length;
@@ -22,30 +17,11 @@ export default class Slideshow extends React.Component {
 
     next_img = () => {
         let nextRank = this.calcNextRank(this.state.rank);
-        this.animationNextImg(nextRank)
         this.setState(
             {
                 rank : nextRank,
-                imagesArray: [
-                    <div id={"slideshowImg_" + nextRank} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[nextRank] + ')', left:"0"}}/>,
-                    <div id={"slideshowImg_" + this.calcNextRank(nextRank)} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[this.calcNextRank(nextRank)] + ')', display:"none", left:"-100%"}}/>,
-                    <div id={"slideshowImg_" + this.calcPrevRank(nextRank)} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[this.calcPrevRank(nextRank)] + ')', display:"none", left:"100%"}}/>
-                ]
             });
     };
-
-    animationNextImg(nextRank){
-        let currentImg = document.getElementById("slideshowImg_"+this.state.rank);
-        currentImg.style.transition = "1s";
-        currentImg.style.left = 100 + "%";
-
-        let nextImg = document.getElementById("slideshowImg_"+ nextRank);
-        nextImg.style.display = "block";
-        nextImg.style.transition = "1s";
-        nextImg.style.left = "0";
-        setTimeout(() => {}, 1000);
-        currentImg.style.display = "none";
-    }
 
     calcNextRank(currentRank){
         let newRank = currentRank;
@@ -59,13 +35,10 @@ export default class Slideshow extends React.Component {
     };
 
     previous_img = () => {
-        document.getElementById("slideshowImg_"+this.state.rank).style.display = "none";
-        let currentRank = this.calcPrevRank(this.state.rank);
-        document.getElementById("slideshowImg_"+currentRank).style.display = "block";
+        let prevRank = this.calcPrevRank(this.state.rank);
         this.setState({
-            rank : currentRank,
+            rank : prevRank,
         });
-        document.getElementById("slideshowImg_"+currentRank).style.display = "block";
     };
 
     calcPrevRank(currentRank){
@@ -92,17 +65,17 @@ export default class Slideshow extends React.Component {
     }
 
     render() {
-        //let progressionSlideshow = this.slideshowProgession();
+        let progressionSlideshow = this.slideshowProgession();
         return (
             <div id="SlideshowDiv">
                 <div id={"interfaceSlideshow"}>
                     <img className="L_Arrow Arrow" src={Left_arrow} alt="next" onClick={this.previous_img}/>
                     <img className="R_Arrow Arrow" src={Right_arrow} alt="next" onClick={this.next_img}/>
                     <div id={"counterDiv"}>
-                        {this.state.rank + 1}/{this.images_length}
+                        {progressionSlideshow}
                     </div>
                 </div>
-                {this.state.imagesArray}
+                <div id={"slideshowImg_" + this.state.rank} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[this.state.rank] + ')'}}/>
             </div>
 
         )
@@ -113,15 +86,14 @@ export default class Slideshow extends React.Component {
         {
             this.setState({
                 rank:0,
-                imagesArray: [
-                    <div id={"slideshowImg_" + 0} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[0] + ')', left:"0"}}/>,
-                    <div id={"slideshowImg_" + 1} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[1] + ')',display:"none" , left:"-100%"}}/>,
-                    <div id={"slideshowImg_" + this.calcPrevRank(0)} className="slideshowImg" style={{backgroundImage: 'url(' + this.props.images[this.calcPrevRank(0)] + ')',display:"none" , left:"100%"}}/>
-                ]
             });
 
             this.images_length = Object.keys(this.props.images).length;
             this.forceUpdate()
         }
+    }
+
+    componentDidMount() {
+        setInterval(this.next_img, 6000)
     }
 }
