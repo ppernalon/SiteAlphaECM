@@ -16,20 +16,20 @@ export default class Slideshow extends React.Component {
     }
 
     next_img = () => {
-        let nextRank = this.calcNextRank(this.state.rank);
+        let newRank = this.calcNextRank(this.state.rank);
         this.setState(
             {
-                rank : nextRank,
+                rank : newRank,
             });
     };
 
     calcNextRank(currentRank){
         let newRank = currentRank;
-        if (currentRank >= this.images_length - 1) {
+        if (currentRank === this.images_length - 1) {
             newRank = 0;
         }
-        else if (currentRank < this.images_length -1) {
-            ++newRank;
+        else {
+            newRank++;
         }
         return newRank;
     };
@@ -43,11 +43,11 @@ export default class Slideshow extends React.Component {
 
     calcPrevRank(currentRank){
         let newRank = currentRank;
-        if (currentRank > 0) {
-            --newRank;
+        if (currentRank === 0){
+            newRank = this.images_length - 1;
         }
-        else if (currentRank <= 0){
-            newRank = this.images_length - 1
+        else {
+            newRank--;
         }
         return newRank;
     };
@@ -86,9 +86,9 @@ export default class Slideshow extends React.Component {
     componentDidUpdate(prevProps, prevState, snapshot) {
         if (prevProps !== this.props)
         {
-            this.setState({
+            this.state={
                 rank:0,
-            });
+            };
 
             this.images_length = Object.keys(this.props.images).length;
             this.forceUpdate()

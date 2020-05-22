@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PopUpPortail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUpPortail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slideshow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slideshow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/styles/PopUpPortail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/PopUpPortail.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.PopUpPortailBTN{
+    cursor: pointer;
+}
+
 #logoPortail
 {
     max-height: 40vh;
@@ -60,6 +64,7 @@
     position: absolute;
     top:2vh;
     right:2vh;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 767px) {

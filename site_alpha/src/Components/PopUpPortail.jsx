@@ -56,7 +56,7 @@ export default class PopUpPortail extends React.Component{
             let PopUpPortail;
             PopUpPortail = (
                 <div className={"PopUpPortail " + this.Color + "Portail"}>
-                    <input id="closeCross" type={"image"} src={Croix} alt={"croix"} onClick={() => this.closeModal()}/>
+                    <img id="closeCross" src={Croix} alt={"croix"} onClick={() => this.closeModal()}/>
                     <img id={"logoPortail"} alt={"logo du pôle"} src={this.Entity.Logo}/>
                     <div id={"Grid-container-PopUpPortail"}>
                         {arrayAssos.map((ligne) => ligne)}
