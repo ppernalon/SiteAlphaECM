@@ -49,7 +49,9 @@ export default class NavBar extends React.Component{
             return(
                 <div>
                 <div className="NavBar">
-                    <img src={LogowCM} height="80px" className="MenuLogo"/>
+                    <NavLink to={"/"}>
+                        <img src={LogowCM} height="80px" className="MenuLogo"/>
+                    </NavLink>
                     <img src={ButtonImage} width="50px" onClick={this.drawerToggleClickHandler} className="MenuButton"/>
                 </div>
                     <Backdrop show={this.state.drawerOpen} close={this.backdropClickHandler}/>
