@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles/WelcomingMessage.css";
+import Form from "./Form";
 
 export default class WelcomingMessage extends React.Component{
     constructor(props){
@@ -12,7 +13,7 @@ export default class WelcomingMessage extends React.Component{
         return(
             <div id="Message_WM">
                 <p id={"pBaliseWM"}> &emsp; &emsp; {this.message} </p>
-                <button id="Formulaire"> Donne nous tes coordonnées pour en savoir plus ! </button>
+                <Form/>
                 <br/>
                 <span> {this.authors} </span>
             </div>

@@ -1,0 +1,48 @@
+#Formulaire
+{
+    display: block;
+    border: none;
+    border-radius: 1vmax;
+    font-family: "Kaushan Script", cursive;
+    color : white;
+    background-image: url("../../Assets/Bordures/Bordures__ecole.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 0.5vmax black;
+    margin: auto;
+    padding: 0.8vmax;
+}
+
+#Formulaire:hover
+{
+    box-shadow: 0 0 0.5vmax blue;
+    color: lightblue;
+    cursor: pointer;
+}
+
+
+@supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
+    #Formulaire:hover
+    {
+        box-shadow: 0 0 0.5vmax white;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (max-width: 767px)  {
+    #Formulaire
+    {
+        font-size: 1.5vmax;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    #Formulaire
+    {
+        font-size: 1.3vmax;
+    }
+}

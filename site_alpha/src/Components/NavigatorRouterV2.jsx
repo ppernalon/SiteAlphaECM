@@ -12,6 +12,9 @@ import {
 import SplashPage from "../Pages/SplashPage";
 import ScrollButton from "./ScrollButton";
 import BottomButtons from "./BottomButtons";
+import Background from "../Assets/Background_global.jpg";
+import BackgroundFlou from "../Assets/Background_global_flou.jpg";
+
 
 
 const HomePage = lazy(() => import('../Pages/HomePage'));
@@ -36,15 +39,16 @@ class NavigatorRouterV2 extends React.Component {
             next : {
                 path :'/marseille',
                 title: 'Marseille'
-            }
+            },
+            backGround:Background
         }
     }
 
     pages = [
         '/',
         '/marseille',
-        '/reseaux',
         '/associations',
+        '/reseaux',
         '/calendrier',
         '/contact'
     ]
@@ -52,8 +56,8 @@ class NavigatorRouterV2 extends React.Component {
     pagesTitle = [
         'Accueil',
         'Marseille',
-        'Réseaux',
         'Associations',
+        'Réseaux',
         'Calendrier',
         'Contact'
     ]
@@ -80,7 +84,7 @@ class NavigatorRouterV2 extends React.Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="container" style={{backgroundImage: "url(" + this.state.backGround + ")"}}>
                     <NavBar/>
                     <div className="pageViewContainer">
                         <ScrollButton to={this.state.previous.path} title={this.state.previous.title} up/>
@@ -88,8 +92,8 @@ class NavigatorRouterV2 extends React.Component {
                             <Switch>
                                 <Route exact path="/" component={() => <HomePage transition={this.state.transitions[0]}/>}/>
                                 <Route path="/marseille" component={() => <MarseillePage transition={this.state.transitions[1]}/>}/>
-                                <Route path="/reseaux" component={() => <ReseauxPage transition={this.state.transitions[2]}/>}/>
-                                <Route path="/associations" component={() => <AssociationsPage transition={this.state.transitions[3]}/>}/>
+                                <Route path="/associations" component={() => <AssociationsPage transition={this.state.transitions[2]}/>}/>
+                                <Route path="/reseaux" component={() => <ReseauxPage transition={this.state.transitions[3]}/>}/>
                                 <Route path="/calendrier" component={() => <CalendarPage transition={this.state.transitions[4]}/>}/>
                                 <Route path="/contact" component={() => <ContactPage transition={this.state.transitions[5]}/>}/>
                                 <Route component={HomePage}/>
@@ -132,17 +136,19 @@ class NavigatorRouterV2 extends React.Component {
                 this.setState({
                     next:{path: this.pages[1], title : this.pagesTitle[1]
                     },
-                    previous:{path:"/", title:''}
+                    previous:{path:"/", title:''},
+                    backGround: Background
                 })
             }
             if(index === 5){
                 this.setState({
                     next:{path:this.pages[0], title:''},
-                    previous:{path:this.pages[4], title:this.pagesTitle[4]}
+                    previous:{path:this.pages[4], title:this.pagesTitle[4]},
+                    backGround: BackgroundFlou
                 })
             }
             if(index <5 && index>0){
-                this.setState({next:{path : this.pages[index+1], title : this.pagesTitle[index+1]}, previous:{path : this.pages[index-1], title : this.pagesTitle[index-1]}})
+                this.setState({next:{path : this.pages[index+1], title : this.pagesTitle[index+1]}, previous:{path : this.pages[index-1], title : this.pagesTitle[index-1]}, backGround: BackgroundFlou})
             }
         }
     }
