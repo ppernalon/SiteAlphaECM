@@ -66,14 +66,14 @@ export default class PopUpPortail extends React.Component{
 
             return (
                 <div>
-                    <input className={"PopUpPortailBTN"} type="image" alt="button" src={this.state.Img_btn} onClick={() => this.openModal()}/>
+                    <img className={"PopUpPortailBTN"} alt="button" src={this.state.Img_btn} onClick={() => this.openModal()}/>
                     <div onClick={() => this.closeModal()} className="close_area"> </div>
                     {PopUpPortail}
                 </div>
             );
         }
         else {
-            return (<div> <input className="PopUpPortailBTN" type="image" alt="button" src={this.state.Img_btn} onClick={() => this.openModal()}/> </div>)
+            return (<div> <img className="PopUpPortailBTN" alt="button" src={this.state.Img_btn} onClick={() => this.openModal()}/> </div>)
         }
     }
 

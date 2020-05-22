@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/AI/AI_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/AI/AI_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/BNEI/BNEI_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/C5-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/C5/C5_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/C5/C5_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/C5/C5_3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/DataEntities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/DataEntities.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +89,8 @@
       <workItem from="1588841063835" duration="6524000" />
       <workItem from="1588870329333" duration="5551000" />
       <workItem from="1588929312459" duration="5987000" />
-      <workItem from="1589803088581" duration="21600000" />
+      <workItem from="1589803088581" duration="22218000" />
+      <workItem from="1589975791553" duration="1212000" />
     </task>
     <servers />
   </component>
