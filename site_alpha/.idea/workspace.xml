@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__scroll_sp_left_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__scroll_sp_right_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/SocialNetworks/Fb_Alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/SocialNetworks/Fb_ECM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ContactInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SocialNetworksLink.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/styles/ContactInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/styles/SocialNetworkLink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/LinksSocialNetworks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PopUpPortail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUpPortail.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Slideshow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slideshow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/styles/PopUpPortail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/styles/PopUpPortail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ContactPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ContactPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/styles/ContactPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/styles/ContactPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +103,7 @@
       <workItem from="1588929312459" duration="5987000" />
       <workItem from="1589803088581" duration="22218000" />
       <workItem from="1589975791553" duration="1212000" />
+      <workItem from="1590243432020" duration="13554000" />
     </task>
     <servers />
   </component>
@@ -108,9 +118,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="90" key="#Inspections/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1588686292852" />
-    <state x="521" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588689069236">
+    <state x="521" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590249722659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="521" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1590249722659" />
     <state x="521" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1588689069236" />
     <state x="776" y="175" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1585563016393">
       <screen x="0" y="0" width="1536" height="824" />
@@ -136,9 +147,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1585909744205" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1586362907449">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1590243871436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1590243871436" />
     <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1585250393987" />
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1586362907449" />
   </component>

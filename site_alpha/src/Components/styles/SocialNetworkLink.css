@@ -1,0 +1,94 @@
+.SocialNetworksLink-container1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.SocialNetworkButton{
+    cursor: pointer;
+}
+
+.LinksContainer{
+    display: none;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 1vmax black;
+    border-radius: 10vmax;
+    padding: 0.5vmax;
+    z-index: 10;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.SocialNetworkIcon{
+    z-index: 10;
+    cursor: pointer;
+}
+
+.closeArrowSocialNetworks{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .SocialNetworkIcon{
+        height: 7vh;
+    }
+
+    .SocialNetworksLink-container1{
+        grid-template-areas:
+                "a"
+                "b";
+    }
+
+    .SocialNetworksLink-container1{
+        grid-area: b;
+    }
+
+    .LinksContainer{
+        grid-area: a;
+        flex-direction: column-reverse;
+        bottom: 8vh;
+    }
+
+    .closeArrowSocialNetworks{
+        transform: rotate(-90deg);
+        height: 3vh;
+    }
+
+    .LinksContainerItems{
+        padding-bottom: 0.5vmax;
+        padding-top: 0.5vmax;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .LinksContainerItems{
+        padding-left: 0.5vmax;
+        padding-right: 0.5vmax;
+    }
+
+    .SocialNetworksLink-container1{
+        grid-template-areas: "a b";
+    }
+
+    .SocialNetworksLink-container1{
+        grid-area: a;
+    }
+
+    .LinksContainer{
+        grid-area: b;
+        left: 3vh;
+    }
+
+    .SocialNetworkIcon{
+        height: 10vh;
+    }
+
+    .closeArrowSocialNetworks{
+        height: 5vh;
+    }
+}

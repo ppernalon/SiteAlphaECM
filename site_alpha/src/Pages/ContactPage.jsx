@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/ContactPage.css';
-
+import ContactInfo from "../Components/ContactInfo";
+import SocialNetworksLink from "../Components/SocialNetworksLink";
 
 export default class ContactPage extends React.Component{
     constructor(props){
@@ -11,53 +12,21 @@ export default class ContactPage extends React.Component{
         return(
             <div id="ContainerContactPage" className={this.props.transition}>
                 <div id={"SocialNetworks"}>
-                    <h1>Liens</h1>
-                    <a href="https://www.google.fr" className="SocialNetworkButton"> <img src={require("../Assets/fb.png")}/> Facebook Admissibles</a>
-                    <a href="https://www.google.fr" className="SocialNetworkButton"> <img src={require("../Assets/fb.png")}/>Instagram Admissibles</a>
-                    <a href="https://www.google.fr" className="SocialNetworkButton"> <img src={require("../Assets/fb.png")}/>Centrale Marseille Le site officiel</a>
+                    <h1 id={"TitreLinks"}>Aller plus loin !</h1>
+                    <div id={"SocialNetworksLinks-container"}>
+                        <SocialNetworksLink Number={1} SocialNetwork={"Facebook"}/>
+                        <SocialNetworksLink Number={2} SocialNetwork={"Instagram"}/>
+                        <SocialNetworksLink SocialNetwork={"Discord"}/>
+                        <SocialNetworksLink SocialNetwork={"Twitter"}/>
+                        <SocialNetworksLink SocialNetwork={"CentraleMarseille"}/>
+                    </div>
                 </div>
                 <div id={"Contacts"}>
-                    <h1>Contacts</h1>
-                    <div className={"ContactInfo"}>
-                        <header>
-                            Thomas Sibille
-                        </header>
-                        <nav><p>|</p><p>|</p></nav>
-                        <main>
-                            <p><span>Tel :</span> 06 10 22 68 37</p>
-                            <p><span>Email :</span> thomas.sibille@centrale-marseille.fr</p>
-                        </main>
-                    </div>
-                    <div className={"ContactInfo"}>
-                        <header>
-                            Thomas Sibille
-                        </header>
-                        <nav><p>|</p><p>|</p></nav>
-                        <main>
-                            <p><span>Tel :</span> 06 10 22 68 37</p>
-                            <p><span>Email :</span> thomas.sibille@centrale-marseille.fr</p>
-                        </main>
-                    </div>
-                    <div className={"ContactInfo"}>
-                        <header>
-                            Thomas Sibille
-                        </header>
-                        <nav><p>|</p><p>|</p></nav>
-                        <main>
-                            <p><span>Tel :</span> 06 10 22 68 37</p>
-                            <p><span>Email :</span> thomas.sibille@centrale-marseille.fr</p>
-                        </main>
-                    </div>
-                    <div className={"ContactInfo"}>
-                        <header>
-                            Thomas Sibille
-                        </header>
-                        <nav><p>|</p><p>|</p></nav>
-                        <main>
-                            <p><span>Tel :</span> 06 10 22 68 37</p>
-                            <p><span>Email :</span> thomas.sibille@centrale-marseille.fr</p>
-                        </main>
-                    </div>
+                    <h1 id={"TitreContacts"}>Contacts</h1>
+                    <ContactInfo name={"Julie BRUANT"} poste={"Présidente UA"} phoneNumber={"06 10 22 68 37"} mailAdress={"thomas.sibille@centrale-marseille.fr"}/>
+                    <ContactInfo name={"Aris DJALLALI"} poste={"Président BDE"} phoneNumber={"06 10 22 68 37"} mailAdress={"thomas.sibille@centrale-marseille.fr"}/>
+                    <ContactInfo name={"Thomas SIBILLE"} poste={"Co-responsable Intégration"} phoneNumber={"06 10 22 68 37"} mailAdress={"thomas.sibille@centrale-marseille.fr"}/>
+                    <ContactInfo name={"Théo CHANTRAINE"} poste={"Co-responsable Intégration"} phoneNumber={"06 10 22 68 37"} mailAdress={"thomas.sibille@centrale-marseille.fr"}/>
                 </div>
             </div>
         )

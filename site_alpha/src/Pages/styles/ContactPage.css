@@ -2,90 +2,93 @@
 {
     display: grid;
     justify-content: center;
-    color: #fff;
-    text-shadow: 1px 1px 2px black;
 }
 
-#ContainerContactPage h1
-{
+#TitreContacts{
     font-family: "Kaushan Script", cursive;
-    font-size: 3vh;
+    color: white;
+    text-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.8);
+}
+
+#TitreLinks{
+    font-family: "Kaushan Script", cursive;
+    color: white;
+    text-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.8);
+}
+
+#Contacts{
+    display: grid;
+    justify-content: center;
+}
+
+#SocialNetworks{
+    display: grid;
+    justify-content: center;
+}
+
+#SocialNetworksLinks-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 767px) {
-    #ContainerContactPage {
-        grid-template-columns: 90vw;
+    #SocialNetworks{
+        grid-template-rows: 8vh 15vh;
     }
 
-    .SocialNetworkButton{
-         display: inline-block;
+    #SocialNetworksLinks-container{
+        width: 80vw;
+    }
+
+    #ContainerContactPage {
+        grid-template-columns: 90vw;
+        grid-template-areas:
+                "a"
+                "b";
+    }
+
+    #Contacts{
+        grid-template-rows: 8vh auto auto auto;
+        grid-area: a;
+    }
+
+    #SocialNetworks{
+        grid-area: b;
+    }
+
+    #TitreContacts{
+        font-size: 3vh;
+    }
+
+    #TitreLinks{
+        font-size: 3vh;
     }
 }
 
 @media only screen and (min-width: 768px) {
+    #SocialNetworksLinks-container{
+        flex-direction: column;
+    }
+
+    #SocialNetworks{
+        grid-template-rows: 10vh auto;
+    }
+
     #ContainerContactPage
     {
-        grid-template-columns: 15vw 45vw;
+        grid-template-areas: "a b";
+        grid-template-columns: 17vw 45vw;
     }
 
-    .SocialNetworkButton{
-        display: block;
+    #Contacts{
+        grid-template-rows: 10vh auto auto auto;
+        grid-area: b;
+    }
+
+    #SocialNetworks{
+        grid-area: a;
     }
 }
-
-.SocialNetworkButton{
-    background-size: contain;
-    color: #fff;
-    width: 100px;
-    height: 120px;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    text-shadow: 1px 1px 2px black;
-    font-family: "Kaushan Script", cursive;
-    text-decoration:none
-}
-
-.ContactInfo{
-    display: grid;
-    width: 100%;
-    grid-template: "head head"
-                    "nav  main"
-                    /20% 80%;
-}
-
-.ContactInfo header {
-    grid-area: head;
-    text-align: left;
-    font-size: 2vh;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px black;
-    font-family: "Roboto", cursive;
-}
-
-.ContactInfo nav {
-    grid-area: nav;
-}
-
-.ContactInfo main {
-    grid-area: main;
-}
-
-.ContactInfo span {
-    text-shadow: 1px 1px 2px black;
-    display: inline-flex;
-    font-weight: bold;
-    font-size: 2vh;
-    font-family: Roboto, cursive;
-}
-
-.ContactInfo p {
-    text-shadow: 1px 1px 2px black;
-    margin: 0.3vh;
-    padding: 0;
-    font-weight: bold;
-    font-size: 2vh;
-}
-
 
