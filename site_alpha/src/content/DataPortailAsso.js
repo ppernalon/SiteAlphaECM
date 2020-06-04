@@ -37,6 +37,10 @@ export default
                 Name : "Le Petit Centralien",
                     Logo : require('../Assets/Logos/LPC_logo.png'),
             },
+            CAMPAGNES: {
+                Name : "Campagnes",
+                Logo : require('../Assets/Logos/CDC_logo.png'),
+            },
         }
     },
 

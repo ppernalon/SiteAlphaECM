@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__scroll_sp_left_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Buttons/Buttons__scroll_sp_right_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/SocialNetworks/Fb_Alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/SocialNetworks/Fb_ECM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ContactInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SocialNetworksLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/styles/ContactInfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/styles/SocialNetworkLink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/LinksSocialNetworks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Campagnes/Campagnes_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Campagnes/Campagnes_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Campagnes/Campagnes_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Campagnes/Campagnes_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/ICM/ICM_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/ICM/ICM_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/ICM/ICM_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/TP/TP_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/TP/TP_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/CDC_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/ContactPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ContactPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/styles/ContactPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/styles/ContactPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Images/Foys/Foys_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Images/Foys/Foys_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Images/LPC/LPC_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Images/LPC/LPC_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Images/LPC/LPC_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Images/LPC/LPC_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slideshow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slideshow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/DataEntities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/DataEntities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/DataPortailAsso.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/DataPortailAsso.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -104,6 +109,9 @@
       <workItem from="1589803088581" duration="22218000" />
       <workItem from="1589975791553" duration="1212000" />
       <workItem from="1590243432020" duration="13554000" />
+      <workItem from="1590843286438" duration="638000" />
+      <workItem from="1591188718583" duration="639000" />
+      <workItem from="1591269586965" duration="5158000" />
     </task>
     <servers />
   </component>

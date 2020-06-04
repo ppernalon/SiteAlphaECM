@@ -11,16 +11,17 @@ export default class Slideshow extends React.Component {
         this.state = {
             rank:0,
         };
-
         this.images_length = Object.keys(this.props.images).length;
     }
 
     next_img = () => {
+        clearInterval(this.nextImageInterval);
         let newRank = this.calcNextRank(this.state.rank);
         this.setState(
             {
                 rank : newRank,
             });
+        this.nextImageInterval = setInterval(this.next_img, 5000);
     };
 
     calcNextRank(currentRank){
@@ -35,10 +36,12 @@ export default class Slideshow extends React.Component {
     };
 
     previous_img = () => {
+        clearInterval(this.nextImageInterval);
         let prevRank = this.calcPrevRank(this.state.rank);
         this.setState({
             rank : prevRank,
         });
+        this.nextImageInterval = setInterval(this.next_img, 5000);
     };
 
     calcPrevRank(currentRank){
@@ -89,13 +92,12 @@ export default class Slideshow extends React.Component {
             this.state={
                 rank:0,
             };
-
             this.images_length = Object.keys(this.props.images).length;
             this.forceUpdate()
         }
     }
 
     componentDidMount() {
-        setInterval(this.next_img, 5000)
+        this.nextImageInterval = setInterval(this.next_img, 5000);
     }
 }

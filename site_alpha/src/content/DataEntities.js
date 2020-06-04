@@ -9,7 +9,25 @@ export default
                         0: {
                             Name: "Bureau des Elèves",
                             Logo: require('../Assets/Logos/BDE_logo.png'),
-                            Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
+                            Message: "L’équipe du Bureau Des\n" +
+                                "Élèves t’attend avec impatience\n" +
+                                "pour te faire découvrir la vie\n" +
+                                "centralienne à travers l’Inté’ et\n" +
+                                "le WEI. Mais ne t’inquiète pas,\n" +
+                                "le travail du BDE ne s’arrête pas\n" +
+                                "là ! Pour permettre à tous les\n" +
+                                "étudiants de s’épanouir durant\n" +
+                                "leur parcours à Centrale, de\n" +
+                                "nombreux événements sont\n" +
+                                "organisés au cours de l’année\n" +
+                                "comme les soirées. Et grâce\n" +
+                                "aux divers partenariats tu\n" +
+                                "auras accès à des bons plans\n" +
+                                "pour apprécier pleinement la\n" +
+                                "vie marseillaise !\n" +
+                                "Enfin, tu devras te\n" +
+                                "mettre sur ton 31 lors de la\n" +
+                                "prestigieuse soirée du Gala.",
                             Images:
                                 {
                                     0: require("../Assets/Images/BDE/BDE_1.jpg"),
@@ -19,9 +37,25 @@ export default
                         1: {
                             Name: "Soirées",
                             Logo: require('../Assets/Logos/BDE_logo.png'),
-                            Message: "Après la monotonie de la vie en prépa, tu découvriras enfin ce que veut dire la vie étudiante. Tu pourras compter sur le pôle Soirée du Bureau Des Élèves pour te faire connaître les lieux les plus festifs de notre belle ville marseillaise, toujours à des prix \n" +
-                                "incroyablement réduits. Heureusement pour toi, les soirées seront nombreuses et variées. D'une simple soirée afterwork en bar aux\n" +
-                                "énormes soirées organisées en club privatisé, sois-en sûr, nous te montrerons ce que c'est que de s'amuser !",
+                            Message: "Après la monotonie\n" +
+                                "de la vie en prépa, tu découvriras\n" +
+                                "enfin ce que veut dire\n" +
+                                "la vie étudiante. Tu pourras\n" +
+                                "compter sur le pôle Soirée\n" +
+                                "du Bureau Des Élèves pour\n" +
+                                "te faire connaître les lieux les\n" +
+                                "plus festifs de notre belle ville\n" +
+                                "marseillaise, toujours à des\n" +
+                                "prix incroyablement réduits.\n" +
+                                "Heureusement pour\n" +
+                                "toi, les soirées seront nombreuses\n" +
+                                "et variées. D’une\n" +
+                                "simple soirée afterwork en\n" +
+                                "bar aux énormes soirées\n" +
+                                "organisées en club privatisé,\n" +
+                                "sois-en sûr, nous te montrerons\n" +
+                                "ce que c’est que de\n" +
+                                "s’amuser !",
                             Images:
                                 {
                                     0: require("../Assets/Images/Soirees/soiree_1.jpg"),
@@ -31,8 +65,14 @@ export default
                         2: {
                             Name: "Inté",
                             Logo: require('../Assets/Logos/BDE_logo.png'),
-                            Message: "Si vous voulez décompresser après la dure vie de prépa, l'Inté c'est votre mois ! L'objectif : découvrir la vie à  \n" +
-                                "Centrale Marseille ainsi que ses nombreuses assos et se faire des potes lors d'activités sportives et culturelles,  \n" +
+                            Message: "Si vous voulez décompresser\n" +
+                                "après la dure\n" +
+                                "vie de prépa, l’Inté c’est votre\n" +
+                                "mois ! L’objectif : découvrir la\n" +
+                                "vie à Centrale Marseille ainsi\n" +
+                                "que ses nombreuses assos et\n" +
+                                "se faire des potes lors d’activités\n" +
+                                "sportives et culturelles,\n" +
                                 "pour finir sur un WEI endiablé !",
                             Images:
                                 {
@@ -44,11 +84,17 @@ export default
                         3: {
                             Name: "WEI",
                             Logo: require('../Assets/Logos/BDE_logo.png'),
-                            Message: "Qu’est-ce que le WEI? Organisé par 6 membres dévoués, cet \n" +
-                                "événement est l’avènement de l’intégration de Centrale Marseille. \n" +
-                                "Au programme: 2 jours de folie avec des activités ludiques, du \n" +
-                                "soleil et 2 soirées inoubliables. Profitez-en un maximum car vous \n" +
-                                "n’en aurez pas deux comme ça.",
+                            Message: "Qu’est-ce que le\n" +
+                                "WEI ? Organisé par 6 membres\n" +
+                                "dévoués, cet événement est le\n" +
+                                "point culminant de l’intégration\n" +
+                                "de Centrale Marseille. Au\n" +
+                                "programme: 2 jours de folie\n" +
+                                "avec des activités ludiques, du\n" +
+                                "soleil et 2 soirées inoubliables.\n" +
+                                "Profitez-en un maximum car\n" +
+                                "vous n’en aurez pas deux\n" +
+                                "comme ça.",
                             Images:
                                 {
                                     0: require("../Assets/Images/WEI/WEI_1.jpg"),
@@ -61,8 +107,17 @@ export default
                         4: {
                             Name: "Gala",
                             Logo: require('../Assets/Logos/BDE_logo.png'),
-                            Message: "Point final de la vie étudiante pour les nouveaux diplômés, le Gala réunit en leur honneur toutes les générations de centraliens \n" +
-                                "marseillais. Les centraliens passent tous ensemble une soirée de prestige aux cotés de leur famille, leurs amis, leurs enseignants et de l’administration.",
+                            Message: "Point final de la vie\n" +
+                                "étudiante pour les nouveaux\n" +
+                                "diplômés, le Gala réunit\n" +
+                                "en leur honneur toutes les\n" +
+                                "générations de Centraliens\n" +
+                                "marseillais. Les Centraliens\n" +
+                                "passent tous ensemble une\n" +
+                                "soirée de prestige aux côtés\n" +
+                                "de leur famille, leurs amis,\n" +
+                                "leurs enseignants et de\n" +
+                                "l’administration.",
                             Images:
                                 {
                                     0: require("../Assets/Images/Gala/Gala_1.jpg"),
@@ -80,20 +135,74 @@ export default
 
         ICM: {
             Title: "Pôle Vie de l'élève",
-            Name: "International Centrale Marseille",
+            Name: "ICM",
             Color: "vde",
             Logo: require('../Assets/Logos/ICM_logo.png'),
-            Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
+            Message: "International Centrale\n" +
+                "Marseille est l’association qui\n" +
+                "facilite l’intégration des élèves\n" +
+                "étrangers au sein de l’École\n" +
+                "centrale de Marseille. Le\n" +
+                "moment clef de ce processus\n" +
+                "d’intégration prend place la\n" +
+                "dernière semaine d’août lors\n" +
+                "de laquelle ICM accueille les\n" +
+                "étudiants étrangers sur le\n" +
+                "campus, avant que le reste\n" +
+                "de la promotion entrante\n" +
+                "n’arrive, et leur fait découvrir\n" +
+                "l’école et ses associations.\n" +
+                "ICM organise également\n" +
+                "des événements pour faire\n" +
+                "découvrir la culture d’autres\n" +
+                "pays aux Centraliens,\n" +
+                "comme des dîners et des\n" +
+                "échanges linguistiques et\n" +
+                "culturels encadrés. ICM aide\n" +
+                "également les étudiants en\n" +
+                "mobilité internationale du\n" +
+                "point de vue administratif\n" +
+                "pour faciliter leur arrivée en\n" +
+                "France.",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/ICM/ICM_1.jpg"),
+                1: require("../../src/Assets/Images/ICM/ICM_2.jpg"),
+                2: require("../../src/Assets/Images/ICM/ICM_3.jpg")
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/ICMCentraleMarseille",
             }
+        },
+
+        CAMPAGNES: {
+            Title: "Pôle Vie de l'élève",
+            Name: "Campagnes",
+            Color: "vde",
+            Logo: require('../Assets/Logos/CDC_logo.png'),
+            Message: "Les campagnes\n" +
+                "marquent un tournant majeur\n" +
+                "dans la vie centralienne. C’est\n" +
+                "le moment de monter sa liste\n" +
+                "avec son groupe de potes !\n" +
+                "Que tu le fasses pour t’amuser\n" +
+                "ou avec l’ambition d’être élu au\n" +
+                "Bureau des Élèves, au Bureau\n" +
+                "des Sports ou au Bureau des\n" +
+                "Arts, tu garderas un souvenir\n" +
+                "inoubliable de ces deux\n" +
+                "semaines intenses.\n" +
+                "Elles te permettront\n" +
+                "également de mieux connaître\n" +
+                "les 2A et 3A. Alors prépare\n" +
+                "toi, les crêpes et l’insomnie te\n" +
+                "tiendront compagnie.",
+            Images: {
+                0: require("../../src/Assets/Images/Campagnes/Campagnes_0.jpg"),
+                1: require("../../src/Assets/Images/Campagnes/Campagnes_1.jpg"),
+                2: require("../../src/Assets/Images/Campagnes/Campagnes_2.jpg"),
+                3: require("../../src/Assets/Images/Campagnes/Campagnes_3.jpg"),
+            },
+            Links: false,
         },
 
         FOYS: {
@@ -101,16 +210,28 @@ export default
             Name: "Foy's",
             Color: "vde",
             Logo: require('../Assets/Logos/Foys_logo.png'),
-            Message: "Ah la la… que dire du Foy’s ? Le Foy’s c’est une équipe soudée qui a pour objectif d’apporter un endroit convivial et chaleureux pour tout le monde. \n" +
-                "Mais le Foy's c’est surtout un endroit de rassemblement et de partage, que ce soit lors des événements organisés par les différentes assos mais aussi en dehors des cours, juste pour se détendre autour du babyfoot ou du billard. Alors venez nous rejoindre au Foy’s !",
+            Message: "Ah la la… que dire du\n" +
+                "Foy’s ? Le Foy’s c’est une\n" +
+                "équipe soudée qui a pour\n" +
+                "objectif d’apporter un endroit\n" +
+                "convivial et chaleureux pour\n" +
+                "tout le monde.\n" +
+                "Mais le Foy’s c’est\n" +
+                "surtout un endroit de rassemblement\n" +
+                "et de partage, que\n" +
+                "ce soit lors des événements\n" +
+                "organisés par les différentes\n" +
+                "assos mais aussi en dehors\n" +
+                "des cours, juste pour se\n" +
+                "détendre autour du babyfoot\n" +
+                "ou du billard. Alors venez\n" +
+                "nous rejoindre au Foy’s !",
             Images: {
                 0: require("../../src/Assets/Images/Foys/Foys_1.jpg"),
                 1: require("../../src/Assets/Images/Foys/Foys_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/foysecm",
             }
         },
 
@@ -119,16 +240,23 @@ export default
             Name: "Techno-pôle",
             Color: "vde",
             Logo: require('../Assets/Logos/TP_logo.png'),
-            Message: "L’équipe du Bureau Des Élèves t’attend avec impatience pour te faire découvrir la vie centralienne à travers l’Inté' et le WEI. Mais ne t’inquiète pas, le travail du BDE ne s’arrête pas là ! Pour permettre à tous les étudiants de s’épanouir durant leur parcours à Centrale, de nombreux événements sont organisés au cours de l'année comme les soirées et grâce aux divers partenariats tu auras accès à des bon plans pour apprécier pleinement la vie marseillaise ! Enfin, tu devras te mettre sur ton 31 lors de la prestigieuse soirée du Gala.",
+            Message: "Un collectif de DJ\n" +
+                "à Centrale Marseille ?! Tu\n" +
+                "en rêvais, on l’a fait ! Cette\n" +
+                "association te permettra\n" +
+                "d’apprendre à mixer et à te\n" +
+                "produire lors des nombreux\n" +
+                "événements de l’École. Alors\n" +
+                "si tu es prêt à enflammer les\n" +
+                "plus grosses soirées centraliennes,\n" +
+                "rejoins le Technopôle\n" +
+                "et deviens un de nos DJ !",
             Images: {
-                0: require("../../src/Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../../src/Assets/Images/BDE/Association_UA_3.png")
+                0: require("../../src/Assets/Images/TP/TP_2.jpg"),
+                1: require("../../src/Assets/Images/TP/TP_1.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/TechnoPole",
             }
         },
 
@@ -137,16 +265,29 @@ export default
             Name: "Bar'bu",
             Color: "vde",
             Logo: require('../Assets/Logos/Barbu_logo.png'),
-            Message: "Le Bar’bu, c’est le bar de dégustation de bière de l’école. On y trouve plus de cinquante bières à la carte, ainsi qu’une bière exclusive chaque semaine ! Les 15 membres de la team vous donnent rendez-vous tous les mercredis soir pour partager ce super moment de convivialité autour d’un bon breuvage. Vous y découvrirez également le célèbre Gabian Déchainé, journal satirique hebdomadaire emblématique de la subtilité centralienne !\n",
+            Message: "Le Bar’bu, c’est le bar\n" +
+                "de dégustation de bière de\n" +
+                "l’école. On y trouve plus de\n" +
+                "cinquante bières à la carte,\n" +
+                "ainsi qu’une bière exclusive\n" +
+                "chaque semaine ! Les 15\n" +
+                "membres de la team vous\n" +
+                "donnent rendez-vous tous\n" +
+                "les mercredis soirs pour\n" +
+                "partager ce super moment de\n" +
+                "convivialité autour d’un bon\n" +
+                "breuvage. Vous y découvrirez\n" +
+                "également le célèbre Gabian\n" +
+                "Déchainé, journal satirique\n" +
+                "hebdomadaire emblématique\n" +
+                "de la subtilité centralienne !",
             Images: {
                 0: require("../../src/Assets/Images/Barbu/Barbu_1.jpg"),
                 1: require("../../src/Assets/Images/Barbu/Barbu_2.jpg"),
                 2: require("../../src/Assets/Images/Barbu/Barbu_3.jpg")
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/BarbuECM",
             }
         },
 
@@ -155,18 +296,24 @@ export default
             Name: "Le Chaudron",
             Color: "vde",
             Logo: require('../Assets/Logos/Chaudron_logo.png'),
-            Message: "Tu aimes la bière ? Écumer les bars ne te suffit plus ? Le CHAUDRON n'attends que toi ! Nous sommes l'unique asso de brassage de bières à Centrale !\n" +
-                "Après nous avoir rejoints, houblon et malts n'auront plus aucun secret pour toi et tu pourra sortir des mots comme : «Stout, IPA, Rye, Lager, Pale Ale...» pour avoir l'air intelligent au comptoir ;) !",
+            Message: "Tu aimes la bière ?\n" +
+                "Le Chaudron n’attend que\n" +
+                "toi ! Nous sommes l’unique\n" +
+                "asso de brassage de bières\n" +
+                "à Centrale ! Après nous avoir\n" +
+                "rejoints, houblon et malts\n" +
+                "n’auront plus aucun secret\n" +
+                "pour toi et tu pourras sortir\n" +
+                "des mots comme: «Stout,\n" +
+                "IPA, Rye, Lager, Pale Ale...»\n" +
+                "pour avoir l’air intelligent au\n" +
+                "comptoir !",
             Images: {
                 0: require("../../src/Assets/Images/Chaudron/Chaudron_1.jpg"),
                 1: require("../../src/Assets/Images/Chaudron/Chaudron_2.jpg"),
                 2: require("../../src/Assets/Images/Chaudron/Chaudron_3.jpg")
             },
-            Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
-            }
+            Links: false
         },
 
         PHY: {
@@ -189,11 +336,28 @@ export default
 
         LPC: {
             Title: "Pôle Vie de l'élève",
-            Name: "Le Petit Centralien",
+            Name: "LPC",
             Color: "vde",
             Logo: require('../Assets/Logos/LPC_logo.png'),
-            Message: "Tu aimes écrire ? Partager tes idées ? Le Petit Centralien est fait pour toi ! Journal par les centraliens et pour les centraliens, tout le monde est invité à écrire un article. Qu'importe le sujet qui t'inspire, les pages du journal s'offrent à toi !\n" +
-                "Au contraire, tu n'aimes pas écrire ? Ou tu n'as juste pas envie ? Qu'à cela ne tienne, ce mensuel - presque toujours publié à l'heure ! - saura te distraire avec toutes les rubriques qu'il offre : actualité, science, littérature, recettes et bien plus encore, tu trouveras ton bonheur !",
+            Message: "Tu aimes écrire ?\n" +
+                "Partager tes idées ? Le Petit\n" +
+                "Centralien est fait pour toi !\n" +
+                "Journal par les centraliens et\n" +
+                "pour les centraliens, tout le\n" +
+                "monde est invité à écrire un\n" +
+                "article. Qu’importe le sujet qui\n" +
+                "t’inspire, les pages du journal\n" +
+                "s’offrent à toi !\n" +
+                "Au contraire, tu n’aimes\n" +
+                "pas écrire ? Ou tu n’as juste\n" +
+                "pas envie ? Qu’à cela ne\n" +
+                "tienne, ce mensuel - presque\n" +
+                "toujours publié à l’heure ! -\n" +
+                "saura te distraire avec toutes\n" +
+                "les rubriques qu’il offre:\n" +
+                "actualité, sciences, littérature,\n" +
+                "recettes et bien plus encore,\n" +
+                "tu trouveras ton bonheur !",
             Images: {
                 0: require("../../src/Assets/Images/LPC/LPC_1.jpg"),
                 1: require("../../src/Assets/Images/LPC/LPC_2.jpg"),
