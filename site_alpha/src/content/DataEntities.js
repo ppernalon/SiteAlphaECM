@@ -377,9 +377,26 @@ export default
                 0: {
                     Name: "Fablab",
                     Logo: require('../Assets/Logos/Fablab_logo.png'),
-                    Message: "Tu as pleins d’idées farfelues et des projets à fabriquer mais qui sont en stand-by ? Alors n’attends plus ! Le Fablab est un lieu où tu peux laisser ta créativité parler et bricoler tout et n’importe quoi, grâce aux imprimantes 3D, découpeuses laser, floqueuse et autres matériels à disposition. \n" +
-                        "Tu n’y connais rien ? Pas grave ! Tout le long de l’année, le Fablab organise des Repair Cafés et des formations pour pouvoir utiliser les machines et vous donner des tips et conseils en tout genre.\n" +
-                        "Viens donc nous rejoindre au Fablab !",
+                    Message: "Tu as plein d’idées\n" +
+                        "farfelues et des projets à\n" +
+                        "fabriquer mais qui sont en\n" +
+                        "stand-by ? Alors n’attends\n" +
+                        "plus ! Le Fablab est un lieu\n" +
+                        "où tu peux laisser ta créativité\n" +
+                        "parler et bricoler tout\n" +
+                        "et n’importe quoi, grâce aux\n" +
+                        "imprimantes 3D, découpeuses\n" +
+                        "laser, floqueuse et autres\n" +
+                        "matériels à disposition.\n" +
+                        "Tu n’y connais rien ?\n" +
+                        "Pas grave ! Tout le long de\n" +
+                        "l’année, le Fablab organise des\n" +
+                        "Repair Cafés et des formations\n" +
+                        "pour pouvoir utiliser les\n" +
+                        "machines et vous donner des\n" +
+                        "tips et conseils en tout genre.\n" +
+                        "Viens donc nous rejoindre au\n" +
+                        "Fablab!",
                     Images:
                         {
                             0: require("../Assets/Images/Fablab/Fablab_1.jpg"),
@@ -388,9 +405,25 @@ export default
                         },
                 },
                 1: {
-                    Name: "Makers Original Challenge",
+                    Name: "MOC",
                     Logo: require('../Assets/Logos/Fablab_logo.png'),
-                    Message: "En février, se tient le MOC - Makers Original Challenge, c’est le plus gros événement organisé par le Fablab Marseille ! Il rassemble de nombreux élèves de différentes écoles pour s’affronter en équipe et créer LE prototype qui séduira le jury en seulement 48h. Aucun thème, les seules limites sont votre imagination et votre détermination, le tout c’est de s’amuser, créer et ce grâce aux machines et matériel mis à disposition par le Fab !",
+                    Message: "En février se tient\n" +
+                        "le MOC - Makers Original\n" +
+                        "Challenge, c’est le plus\n" +
+                        "gros événement organisé\n" +
+                        "par le Fablab Marseille ! Il\n" +
+                        "rassemble de nombreux\n" +
+                        "élèves de différentes écoles\n" +
+                        "pour s’affronter en équipe\n" +
+                        "et créer LE prototype qui\n" +
+                        "séduira le jury en seulement\n" +
+                        "48h. Aucun thème, les seules\n" +
+                        "limites sont votre imagination\n" +
+                        "et votre détermination, le\n" +
+                        "tout c’est de s’amuser, créer\n" +
+                        "et ce grâce aux machines et\n" +
+                        "matériel mis à disposition\n" +
+                        "par le Fab !",
                     Images:
                         {
                             0: require("../Assets/Images/MOC/MOC_1.jpg"),
@@ -399,9 +432,9 @@ export default
                 },
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/FabLab.Marseille",
+                Twitter: "https://twitter.com/FabLabMarseille",
+                Site: "https://fablab.asso.centrale-marseille.fr/"
             }
         },
 
@@ -410,16 +443,33 @@ export default
             Name: "E-Gab",
             Color: "innovation",
             Logo: require('../Assets/Logos/EGab_logo.png'),
-            Message: "Salut à toi ! Tu sors de prépa et veux mettre en pratique tes connaissances d’élec et de méca ? Ou simplement venir découvrir le monde de la robotique ? E-Gab c’est l’asso qui portera ton projet. Ce sera l’occasion de toucher à l’IOT, à Arduino, aux lidars, etc.\n" +
-                "Tu n’as pas de projet en tête ? E-Gab te propose de participer à la coupe de France de robotique. Chaque année on y envoie deux robots conçus et réalisés pour l’occasion. Alors viens exprimer ta créativité dans ce projet fun et captivant.",
+            Message: "Salut à toi ! Tu sors\n" +
+                "de prépa et veux mettre en\n" +
+                "pratique tes connaissances\n" +
+                "d’élec et de méca ? Ou\n" +
+                "simplement venir découvrir\n" +
+                "le monde de la robotique ?\n" +
+                "E-Gab c’est l’asso qui portera\n" +
+                "ton projet. Ce sera l’occasion\n" +
+                "de toucher à l’IOT, à Arduino,\n" +
+                "aux lidars, etc.\n" +
+                "Tu n’as pas de projet\n" +
+                "en tête ? E-Gab te propose\n" +
+                "de participer à la coupe de\n" +
+                "France de robotique. Chaque\n" +
+                "année on y envoie deux\n" +
+                "robots conçus et réalisés\n" +
+                "pour l’occasion. Alors viens\n" +
+                "exprimer ta créativité dans ce\n" +
+                "projet fun et captivant.",
             Images: {
                 0: require("../../src/Assets/Images/EGab/EGAB_1.jpg"),
                 1: require("../../src/Assets/Images/EGab/EGAB_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/EGabECM",
+                Instagram: "https://www.instagram.com/e_gab_centrale_marseille/",
+                Twitter: "https://twitter.com/EGabECM"
             }
         },
 
@@ -428,16 +478,39 @@ export default
             Name: "GInfo",
             Color: "innovation",
             Logo: require('../Assets/Logos/GInfo_logo.png'),
-            Message:  "Intéressé par l’informatique ? Ça tombe bien, le GInfo est l’association d’informatique de Centrale Marseille. Nous développons de nombreuses applications indispensables aux centraliens : pour ton emploi du temps, le bar de l’école ou encore sauver tes partiels ! Le GInfo, ce ne sont pas que des sites internet. Nous gérons le réseau internet des associations, organisons des LAN pour se retrouver ensemble et jouer à des jeux vidéos... Le GInfo est bien sûr ouvert à tous, expert ou débutant : nous proposons des formations, pour que chacun puisse progresser dans ce vaste domaine qu’est l’informatique. Si l’informatique t’intéresse, tu y trouveras ton bonheur !",
+            Message: "Intéressé par l’informatique\n" +
+                "? Ça tombe bien,\n" +
+                "le GInfo est l’association\n" +
+                "d’informatique de Centrale\n" +
+                "Marseille. Nous développons\n" +
+                "de nombreuses applications\n" +
+                "indispensables aux centraliens,\n" +
+                "pour ton emploi du\n" +
+                "temps, le bar de l’école ou\n" +
+                "encore sauver tes partiels ! Le\n" +
+                "GInfo, ce ne sont pas que des\n" +
+                "sites internet. Nous gérons\n" +
+                "le réseau internet des associations,\n" +
+                "organisons des LAN\n" +
+                "pour se retrouver ensemble\n" +
+                "et jouer à des jeux vidéos...\n" +
+                "Le GInfo est bien sûr ouvert\n" +
+                "à tous, expert ou débutant :\n" +
+                "nous proposons des formations,\n" +
+                "pour que chacun puisse\n" +
+                "progresser dans ce vaste\n" +
+                "domaine qu’est l’informatique.\n" +
+                "Si l’informatique t’intéresse, tu\n" +
+                "y trouveras ton bonheur !",
             Images: {
                 0: require("../../src/Assets/Images/GInfo/GInfo_2.jpg"),
                 1: require("../../src/Assets/Images/GInfo/GInfo_1.jpg"),
                 2: require("../../src/Assets/Images/GInfo/GInfo_3.jpg")
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/ginfoecm",
+                Twitter: "https://twitter.com/GInfo_ECM",
+                Site: "https://ginfo.asso.centrale-marseille.fr/"
             }
         },
 
@@ -446,15 +519,29 @@ export default
             Name: "Christopher.ai",
             Color: "innovation",
             Logo: require('../Assets/Logos/Chris_logo.png'),
-            Message:  "As-tu déjà été interpellé(e) par le concept d’intelligence artificielle ? Que ce soit sa portée éthique ou son fonctionnement ? Tu as frappé à la bonne porte ! À Christopher.ai, on te propose de découvrir le monde de l’intelligence artificielle avec plusieurs activités : des débats sur ce thème ainsi que des formations portant sur les réseaux neuronaux. Tu pourras ensuite appliquer ces connaissances dans le cadre de projets réalisés tout au long de l’année !",
+            Message: "As-tu déjà été interpellé(" +
+                "e) par le concept d’intelligence " +
+                "artificielle ? Que " +
+                "ce soit sa portée éthique ou " +
+                "son fonctionnement ? Tu as " +
+                "frappé à la bonne porte ! À" +
+                "Christopher.ai, on te propose " +
+                "de découvrir le monde de " +
+                "l’intelligence artificielle avec " +
+                "plusieurs activités : des " +
+                "débats sur ce thème ainsi " +
+                "que des formations portant " +
+                "sur les réseaux neuronaux. " +
+                "Tu pourras ensuite appliquer " +
+                "ces connaissances dans le " +
+                "cadre de projets réalisés tout " +
+                "au long de l’année !",
             Images: {
                 0: require("../../src/Assets/Images/Chris/chris_1.jpg"),
                 1: require("../../src/Assets/Images/Chris/chris_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/AiChristopher",
             }
         },
 
@@ -463,15 +550,30 @@ export default
             Name: "Kryptosphere",
             Color: "innovation",
             Logo: require('../Assets/Logos/Kryptosphere_logo.png'),
-            Message:  "Tu t'intéresses à la technologie Blockchain et aux crypto-monnaies ? Tu es déjà un expert dans le domaine ou un novice qui cherche à le découvrir ? Tu es au bon endroit ! Kryptosphere est la première association étudiante en France spécialisée dans ce domaine, et elle est présente dans plusieurs écoles. Va visiter kryptosphere.org et nos réseaux sociaux si tu veux en savoir plus sur ce projet précurseur et ambitieux...",
+            Message: "Tu t’intéresses à la\n" +
+                "technologie Blockchain et\n" +
+                "aux crypto-monnaies ? Tu\n" +
+                "es déjà un expert dans le\n" +
+                "domaine ou un novice qui\n" +
+                "cherche à le découvrir ? Tu es\n" +
+                "au bon endroit ! Kryptosphere\n" +
+                "est la première association\n" +
+                "étudiante en France spécialisée\n" +
+                "dans ce domaine, et elle\n" +
+                "est présente dans plusieurs\n" +
+                "écoles. Va visiter kryptosphere.\n" +
+                "org et nos réseaux\n" +
+                "sociaux si tu veux en savoir\n" +
+                "plus sur ce projet précurseur\n" +
+                "et ambitieux...",
             Images: {
                 0: require("../../src/Assets/Images/Krypto/Krypto_1.jpg"),
                 1: require("../../src/Assets/Images/Krypto/Krypto_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/KryptoSphereCentraleM",
+                Instagram: "https://www.instagram.com/kryptospheremarseille/",
+                Site: "https://kryptosphere.org/ks-centrale-marseille/"
             }
         },
 
@@ -480,25 +582,25 @@ export default
             Name: "Racing Club",
             Color: "innovation",
             Logo: require('../Assets/Logos/ercm_logo.png'),
-            Message: "Tu es passionné de belles mécaniques\n" +
-                "et tu veux en apprendre plus sur les\n" +
-                "moteurs ? Ou peut être as-tu le projet\n" +
-                "de préparer le 4L Trophy ! Au Racing\n" +
-                "Club nous réunissons toutes les activités\n" +
-                "qui touchent aux sports mécaniques.\n" +
-                "Nos projets du moment ? Préparer un\n" +
-                "kart pour faire du circuit, et réparer les\n" +
-                "\n" +
-                "pockets bikes que nous utilisons régu-\n" +
-                "lièrement !",
+            Message: "Tu es passionné de\n" +
+                "belles mécaniques et tu veux\n" +
+                "en apprendre plus sur les\n" +
+                "moteurs ? Ou peut être as-tu\n" +
+                "le projet de préparer le 4L\n" +
+                "trophy ! Au Racing Club nous\n" +
+                "réunissons toutes activités\n" +
+                "qui touchent aux sports\n" +
+                "mécaniques. Nos projets du\n" +
+                "moment ? Préparer un kart\n" +
+                "pour faire du circuit, et réparer\n" +
+                "les pockets bikes que nous\n" +
+                "utilisons régulièrement !",
             Images: {
                 0: require("../../src/Assets/Images/R2CM/R2CM_1.png"),
                 1: require("../../src/Assets/Images/R2CM/R2CM_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/RacingClubCentraleMarseille",
             }
         },
 
@@ -507,18 +609,35 @@ export default
             Name: "4L Trophy",
             Color: "innovation",
             Logo: require('../Assets/Logos/Squadra_logo.png'),
-            Message: "Tous les ans des équipages de Centrale Marseille participent au 4L TROPHY !\n" +
-                "C’est le plus gros évènement sportif et solidaire d’Europe pour les 18 - 28 ans, c’est une course d’orientation de plus de 6000km à travers l’Espagne et le Maroc, jusqu’aux dunes du Sahara. Le 4L Trophy rassemble chaque année plus de 1200 voitures et 2400 jeunes qui découvrent, boussole à la main, l’Aventure. Ce rallye nous emmène dans les zones les plus reculées du Maroc pour y apporter du matériel scolaire et faciliter l’accès à l’éducation à près de 20 000 enfants Marocains.\n" +
-                "Alors rejoins l'aventure et participe au 4L trophy à Centrale Marseille !",
+            Message: "C’est le plus gros\n" +
+                "événement sportif et solidaire\n" +
+                "d’Europe pour les 18 - 28 ans,\n" +
+                "c’est une course d’orientation\n" +
+                "de plus de 6000km à travers\n" +
+                "l’Espagne et le Maroc, jusqu’aux\n" +
+                "dunes du Sahara. Le 4L Trophy\n" +
+                "rassemble chaque année plus\n" +
+                "de 1200 voitures et 2400 jeunes\n" +
+                "qui découvrent, boussole à la\n" +
+                "main, l’Aventure. Ce rallye nous\n" +
+                "emmène dans les zones les\n" +
+                "plus reculées du Maroc pour y\n" +
+                "apporter du matériel scolaire\n" +
+                "et faciliter l’accès à l’éducation\n" +
+                "à près de 20 000 enfants\n" +
+                "Marocains.\n" +
+                "Alors rejoins l’aventure\n" +
+                "et participe au 4L trophy à\n" +
+                "Centrale Marseille !",
             Images: {
                 0: require("../../src/Assets/Images/4L/4L_3.jpg"),
                 1: require("../../src/Assets/Images/4L/4L_1.jpg"),
                 2: require("../../src/Assets/Images/4L/4L_2.jpg")
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/lasquadramassilia",
+                Instagram: "https://www.instagram.com/lasquadramassilia/",
+                Twitter: "https://twitter.com/SquadraMassilia"
             }
         },
 
