@@ -10,7 +10,25 @@ export default class AssociationsPage extends React.Component
         super(props);
 
         this.title = "Mot des prez'";
-        this.message = "Clausos vehementer vehementer consumendo inediae vehebant vero quod clausos quae vehebant clausos vehebant cibos angebat exitialis navigiis quidem ipsi exitialis vehebant frumenta Isauri clausos ipsi horrebant solitarum adfluebant Isauri navigiis consumendo aerumnas cibos flumen iam copiis per quod horrebant captis flumen cibos exitialis tamen quidem cibos Isauri quod cibos flumen Isauri captis clausos vehementer cibos ipsi flumen clausos cibos aerumnas angebat cibos per horrebant quod propinquantis exitialis angebat cibos frumenta horrebant aerumnas tamen vehementer frumenta solitarum vehebant flumen flumen quidem angebat per rerum per per quidem alimentorum clausos vehebant Isauri exitialis cibos cibos captis inediae copiis angebat propinquantis vehebant rerum.";
+        this.message = "Hello !\n" +
+            "Félicitations à toi pour ton\n" +
+            "parcours ! Ne t’en fais pas, la peine que\n" +
+            "tu t’es donnée pour arriver jusqu’ici n’a\n" +
+            "pas été vaine, ta vie en École s’annonce\n" +
+            "grandiose !\n" +
+            "À Centrale Marseille, la vie associative\n" +
+            "est très riche et te laisse l’opportunité\n" +
+            "de t’épanouir complètement à travers\n" +
+            "toutes les possibilités qu’elle t’offre. Que ce\n" +
+            "soit pour participer aux événements, pour\n" +
+            "avoir des responsabilités ou simplement\n" +
+            "pour laisser place à sa créativité, chacun\n" +
+            "y trouve son compte. Et tout cela dans\n" +
+            "un cadre exceptionnel : le beau temps et\n" +
+            "la mer sont toujours là pour te donner le\n" +
+            "sourire !\n" +
+            "On t’attend alors impatiemment\n" +
+            "sous le soleil marseillais !";
         this.state = {transitionClass:this.props.transition}
     }
 

@@ -1195,7 +1195,28 @@ export default
                 0: {
                     Name: "Bureau des Sports",
                     Logo: require('../Assets/Logos/BDS_logo.png'),
-                    Message: "Ancien taupin, tu arrives enfin au bout de ces heures passées sur une chaise et tu rêves de redécouvrir les joies du sport ! Le BDS de Centrale Marseille est là pour satisfaire tes désirs : que tu sois un solitaire ou que tu préfères l'esprit d'équipe, tu pourras trouver ton bonheur dans la vingtaine de sports que nous te proposons. En plus de dynamiser ta semaine, cet incroyable BDS te concocte entre autres des week-ends de folie, des tournois enflammés et, Marseille oblige, un accès privilégié au Vélodrome. On a hâte de te compter parmi notre grande famille de sportifs !",
+                    Message: "Ancien taupin, tu\n" +
+                        "arrives enfin au bout de ces\n" +
+                        "heures passées sur une\n" +
+                        "chaise et tu rêves de redécouvrir\n" +
+                        "les joies du sport ? Le\n" +
+                        "BDS de Centrale Marseille est\n" +
+                        "là pour satisfaire tes désirs :\n" +
+                        "que tu sois un solitaire ou que\n" +
+                        "tu préfères l’esprit d’équipe, tu\n" +
+                        "pourras trouver ton bonheur\n" +
+                        "dans la vingtaine de sports\n" +
+                        "que nous te proposons.\n" +
+                        "En plus de dynamiser\n" +
+                        "ta semaine, cet incroyable\n" +
+                        "BDS te concocte entre autres\n" +
+                        "des week-ends de folie,\n" +
+                        "des tournois enflammés et,\n" +
+                        "Marseille oblige, un accès\n" +
+                        "privilégié au Vélodrome. On\n" +
+                        "a hâte de te compter parmi\n" +
+                        "notre grande famille de\n" +
+                        "sportifs !",
                     Images:
                         {
                             0: require("../Assets/Images/BDS/BDS_1.jpg"),
@@ -1205,7 +1226,19 @@ export default
                 1: {
                     Name: "BDX",
                     Logo: require('../Assets/Logos/BDS_logo.png'),
-                    Message: "Le BDX c’est quoi? C’est un pôle du BDS qui peut vous permettre de faire des sports qui sortent de vos habitudes. L’objectif est de proposer des activités inédites à l‘ensemble des élèves qui le souhaitent. On organise des sorties motocross, sorties dans les calanques, paintball… En gros, on est là pour que tu t’éclates à Centrale en découvrant de nouvelles choses !",
+                    Message: "Le BDX c’est quoi? C’est\n" +
+                        "un pôle du BDS qui peut vous\n" +
+                        "permettre de faire des sports\n" +
+                        "qui sortent de vos habitudes.\n" +
+                        "L’objectif est de proposer des\n" +
+                        "activités inédites à l‘ensemble\n" +
+                        "des élèves qui le souhaitent.\n" +
+                        "On organise des sorties\n" +
+                        "motocross, sorties dans les\n" +
+                        "calanques, paintball… En gros,\n" +
+                        "on est là pour que tu t’éclates\n" +
+                        "à Centrale en découvrant de\n" +
+                        "nouvelles choses !",
                     Images:
                         {
                             0: require("../Assets/Images/BDX/BDX_2.jpg"),
@@ -1216,7 +1249,24 @@ export default
                 2: {
                     Name: "Week-end sportif",
                     Logo: require('../Assets/Logos/BDS_logo.png'),
-                    Message: "Chaque année le BDS organise l'un des meilleurs événements de l'intégration : le Week-End Sportif. Partez entre premières années découvrir des paysages à couper le souffle où vous pourrez profiter de nombreuses activités (comme du canyoning, du rafting etc...) et d'une soirée inoubliable ! Sensations fortes et adrénalines seront au rendez-vous. Viens réveiller le sportif qui sommeille en toi ! Ce week-end est aussi un moment privilégié pour rencontrer les gens de ta promo et tisser des liens avec eux.",
+                    Message: "Chaque année le BDS\n" +
+                        "organise l’un des meilleurs\n" +
+                        "événements de l’intégration: le\n" +
+                        "Week-End Sportif. Partez entre\n" +
+                        "premières années découvrir\n" +
+                        "des paysages à couper le\n" +
+                        "souffle où vous pourrez profiter\n" +
+                        "de nombreuses activités\n" +
+                        "(comme du canyoning, du\n" +
+                        "rafting etc...) et d’une soirée\n" +
+                        "inoubliable ! Sensations fortes\n" +
+                        "et adrénalines seront au\n" +
+                        "rendez-vous. Viens réveiller le\n" +
+                        "sportif qui sommeille en toi !\n" +
+                        "Ce week-end est aussi\n" +
+                        "un moment privilégié pour rencontrer\n" +
+                        "les gens de ta promo et\n" +
+                        "tisser des liens avec eux.",
                     Images:
                         {
                             0: require("../Assets/Images/WES/WES_1.jpg"),
@@ -1226,8 +1276,24 @@ export default
                 },
                 3: {
                     Name: "Intercentrales",
-                    Logo: require('../Assets/Logos/BDS_logo.png'),
-                    Message: "Les Intercentrales c'est LA compétition inter-écoles du début d'année, la première d'une belle série ! C'est aussi la première grande occasion de défendre les couleurs de ton école en arborant ton maillot, en faisant résonner nos chants et en te battant pour le trophée ! Avec ses 600 compétiteurs, sa soirée et son incroyable show Pompom, c'est l'événement sportif Centralien à ne pas rater ! Alors prépare-toi à venir prouver à tous que le bleu et blanc sont les couleurs des gagnants !",
+                    Logo: require('../Assets/Logos/Intercentrales_logo.png'),
+                    Message: "Les Intercentrales c’est\n" +
+                        "la compétition inter-écoles\n" +
+                        "du début d’année, la première\n" +
+                        "d’une belle série ! C’est aussi\n" +
+                        "la première grande occasion\n" +
+                        "de défendre les couleurs de\n" +
+                        "ton école en arborant ton\n" +
+                        "maillot, en faisant résonner\n" +
+                        "nos chants et en te battant\n" +
+                        "pour le trophée ! Avec ses 600\n" +
+                        "compétiteurs, sa soirée et son\n" +
+                        "incroyable show Pompom,\n" +
+                        "c’est l’événement sportif\n" +
+                        "Centralien à ne pas rater ! Alors\n" +
+                        "prépare-toi à venir prouver à\n" +
+                        "tous que le bleu et blanc sont\n" +
+                        "les couleurs des gagnants !",
                     Images:
                         {
                             0: require("../Assets/Images/Intercentrales/Inter_3.jpg"),
@@ -1236,8 +1302,18 @@ export default
                 },
                 4: {
                     Name: "TOSS",
-                    Logo: require('../Assets/Logos/BDS_logo.png'),
-                    Message: "C'est simple : c'est le plus gros tournoi auquel tu participeras ! Avec sa délégation de 4500 sportifs français et internationaux, la compétition est féroce en terrres parisiennes. Que tu sois adepte d'escalade, de volleyball ou même d'équitation, prépare-toi à te dépasser pour Centrale Marseille !",
+                    Logo: require('../Assets/Logos/LogoTOSS.png'),
+                    Message: "C’est simple : c’est le\n" +
+                        "plus gros tournoi auquel tu\n" +
+                        "participeras ! Avec sa délégation\n" +
+                        "de 4500 sportifs français\n" +
+                        "et internationaux, la compétition\n" +
+                        "est féroce en terres parisiennes.\n" +
+                        "Que tu sois adepte\n" +
+                        "d’escalade, de volleyball ou\n" +
+                        "même d’équitation, prépare-toi\n" +
+                        "à te dépasser pour Centrale\n" +
+                        "Marseille !",
                     Images:
                         {
                             0: require("../Assets/Images/TOSS/TOSS_1.jpg"),
@@ -1245,9 +1321,19 @@ export default
                         },
                 },
                 5: {
-                    Name: "Challenge Centrale Lyon",
-                    Logo: require('../Assets/Logos/BDS_logo.png'),
-                    Message: "Pour l'arrivée du printemps, ce n'est pas moins de 3000 participants qui s'affrontent dans 20 sports . Cet événement accueille aussi des concours de fanfares, de mascottes et de Pompoms, sans oublier une soirée mémorable ! C'est le rendez-vous lyonnais auquel les marseillais ont une réputation à tenir ! ",
+                    Name: "CCL",
+                    Logo: require('../Assets/Logos/CCL_logo.png'),
+                    Message: "Pour l’arrivée du\n" +
+                        "printemps, ce n’est pas moins de\n" +
+                        "3000 participants qui s’affrontent\n" +
+                        "dans 20 sports. Cet événement\n" +
+                        "accueille aussi des concours\n" +
+                        "de fanfares, de mascottes et\n" +
+                        "de Pompoms, sans oublier une\n" +
+                        "soirée mémorable ! C’est le\n" +
+                        "rendez-vous lyonnais auquel les\n" +
+                        "Marseillais ont une réputation à\n" +
+                        "tenir !",
                     Images:
                         {
                             0: require("../Assets/Images/CCL/CCL_1.jpg"),
@@ -1256,9 +1342,9 @@ export default
                 },
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/bdscentralemarseille",
+                Instagram: "https://www.instagram.com/bds_ecm/",
+                Site: "https://bds.asso.centrale-marseille.fr/"
             }
         },
 
@@ -1267,33 +1353,68 @@ export default
             Name: "MSB",
             Color: "sport",
             Logo: require('../Assets/Logos/MSB_logo.png'),
-            Message: "Le Massilia Sun Ball est le plus grand tournoi sportif étudiant sur plage de France ! Celui-ci se tient durant le mois de mai au Grau-du-Roi sur la belle plage de l’Espiguette. Plus de 1200 étudiants d’écoles de commerce et d’ingénieurs de toute la France se retrouvent pour s’affronter lors d’un tournoi de beach volley, dodgeball, beach soccer, sandball et beach rugby ! D’autres activités seront possibles lors de ce weekend mémorable comme le show pompom, deux grosses soirées et différents activités aquatiques !",
+            Message: "Le Massilia Sun Ball est\n" +
+                "le plus grand tournoi sportif\n" +
+                "étudiant sur plage de France\n" +
+                "! Celui-ci se tient durant le\n" +
+                "mois de mai au Grau-du-Roi\n" +
+                "sur la belle plage de l’Espiguette.\n" +
+                "Plus de 1200 étudiants\n" +
+                "d’écoles de commerce et d’ingénieurs\n" +
+                "de toute la France se\n" +
+                "retrouvent pour s’affronter lors\n" +
+                "d’un tournoi de beach volley,\n" +
+                "dodgeball, beach soccer,\n" +
+                "sandball et beach rugby !\n" +
+                "D’autres activités seront\n" +
+                "possibles lors de ce week-end\n" +
+                "mémorable comme le show\n" +
+                "pompom, deux grosses\n" +
+                "soirées et différentes activités\n" +
+                "aquatiques !",
             Images: {
                 0: require("../../src/Assets/Images/MSB/MSB_1.jpg"),
                 1: require("../../src/Assets/Images/MSB/MSB_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/MSBECM",
+                Instagram: "https://www.instagram.com/msb.ecm/",
+                Site: "https://massiliasunball.fr/"
             }
         },
 
         RAID: {
             Title: "Pôle Sport",
-            Name: "Raid Centrale Marseille",
+            Name: "Raid",
             Color: "sport",
             Logo: require('../Assets/Logos/Raid_logo.png'),
-            Message: "Tu es frustré de ne pas avoir pu faire autant de sport que tu voulais pendant ces deux ou trois années ? La nature te manque ? Alors, les paysages magnifiques de la région t'attendent. Tu ne seras pas déçu ! Le dénivelé est à portée de mains, que ce soit dans les calanques ou dans le massif de l'Etoile juste derrière l'école. Tu auras l'occasion de nous rejoindre lors de trails ou encore pour la 8è édition du RAID Centrale Marseille. Au programme VTT, trail, course d'orientation et activités surprises, mais surtout plaisir, défi et convivialité !",
+            Message: "Tu es frustré de ne pas\n" +
+                "avoir pu faire autant de sport\n" +
+                "que tu voulais pendant ces\n" +
+                "deux ou trois années ? La\n" +
+                "nature te manque ? Alors, les\n" +
+                "paysages magnifiques de la\n" +
+                "région t’attendent. Tu ne seras\n" +
+                "pas déçu ! Le dénivelé est à\n" +
+                "portée de mains, que ce soit\n" +
+                "dans les calanques ou dans le\n" +
+                "massif de l’Étoile juste derrière\n" +
+                "l’école. Tu auras l’occasion de\n" +
+                "nous rejoindre lors de trails ou\n" +
+                "encore pour la 8e édition du\n" +
+                "RAID Centrale Marseille. Au\n" +
+                "programme VTT, trail, course\n" +
+                "d’orientation et activités\n" +
+                "surprises, mais surtout plaisir,\n" +
+                "défi et convivialité !",
             Images: {
-                0: require("../../src/Assets/Images/Raid/Photo_raid_1.png"),
-                1: require("../../src/Assets/Images/Raid/Photo_raid_2.jpg"),
-                2: require("../../src/Assets/Images/Raid/Photo_raid_3.jpg")
+                0: require("../../src/Assets/Images/Raid/Raid_1.jpg"),
+                1: require("../../src/Assets/Images/Raid/Raid_2.jpg"),
+                2: require("../../src/Assets/Images/Raid/Raid_3.jpg")
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/RaidCentraleMarseille",
+                Site: "https://raid.asso.centrale-marseille.fr/"
             }
         },
 
@@ -1302,16 +1423,22 @@ export default
             Name: "MRC le Ski",
             Color: "sport",
             Logo: require('../Assets/Logos/MRC_logo.png'),
-            Message: "Si Marseille rime avec plage et soleil, on oublie quand même les fans de montagnes. L’asso MRC t'emmène le temps d'une semaine au sommet des Alpes, et te propose un petit avant-goût grâce à des weekends ski et des sorties de qualité !",
+            Message: "Si Marseille rime avec\n" +
+                "plage et soleil, on oublie quand\n" +
+                "même les fans de montagnes.\n" +
+                "L’asso MRC t’emmène le temps\n" +
+                "d’une semaine au sommet\n" +
+                "des Alpes, et te propose un\n" +
+                "petit avant-goût grâce à des\n" +
+                "week-ends ski et des sorties\n" +
+                "de qualité !",
             Images: {
                 0: require("../../src/Assets/Images/MRC/MRC_2.jpg"),
                 1: require("../../src/Assets/Images/MRC/MRC_1.jpg"),
                 2: require("../../src/Assets/Images/MRC/MRC_3.jpg")
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/MRC-le-Ski-934324256769734",
             }
         },
 
@@ -1323,7 +1450,25 @@ export default
                 0: {
                     Name: "MDV",
                     Logo: require('../Assets/Logos/MDV_logo.png'),
-                    Message: "Le MDV est l’asso de voile de l’école, que tu sois un skipper aguerri ou que tu souhaites t’initier aux plaisirs de la voile, le MDV est fait pour toi ! Il est possible de prendre des cours de planche à voile, Laser, ou encore habitable. Vous pouvez aussi profiter du bateau de l’asso ; Jnet, un J80 sur lequel on organise des apéros lorsque le soleil est au rendez-vous (c’est-à-dire de Février à Novembre). Notre association organise aussi des croisières inoubliables dans les calanques et de nombreuses activités autour de la mer grâce à ses sous com’ présentées ci-dessous.",
+                    Message: "Le MDV est l’asso de\n" +
+                        "voile de l’école, que tu sois\n" +
+                        "un skipper aguerri ou que tu\n" +
+                        "souhaites t’initier aux plaisirs\n" +
+                        "de la voile, le MDV est fait pour\n" +
+                        "toi ! Il est possible de prendre\n" +
+                        "des cours de planche à voile,\n" +
+                        "Laser, ou encore habitable.\n" +
+                        "Vous pouvez aussi profiter\n" +
+                        "du bateau de l’asso ; J.net,\n" +
+                        "un J80 sur lequel on organise\n" +
+                        "des apéros lorsque le soleil\n" +
+                        "est au rendez-vous (c’est-àdire\n" +
+                        "de février à novembre).\n" +
+                        "Notre association organise\n" +
+                        "aussi des croisières inoubliables\n" +
+                        "dans les calanques\n" +
+                        "et de nombreuses activités\n" +
+                        "autour de la mer.",
                     Images:
                         {
                             0: require("../Assets/Images/MDV/MDV_3.jpg"),
@@ -1333,7 +1478,16 @@ export default
                 1: {
                     Name: "Centrale Glisse",
                     Logo: require('../Assets/Logos/cglisse_logo.png'),
-                    Message: "Parce que sur l’eau il n’y pas que la navigation qui permet de profiter du cadre marseillais, Centrale Glisse est là pour toi. Profite des sorties en paddles aux calanques, des kayaks de l’asso, ou encore du week-end glisse pour profiter à fond des sensations qu’offre le surf sur la côte ouest !",
+                    Message: "Parce que sur l’eau il\n" +
+                        "n’y pas que la navigation qui\n" +
+                        "permet de profiter du cadre\n" +
+                        "marseillais, Centrale Glisse est\n" +
+                        "là pour toi. Profite des sorties\n" +
+                        "en paddle aux calanques, des\n" +
+                        "kayaks de l’asso, ou encore du\n" +
+                        "week-end glisse pour profiter à\n" +
+                        "fond des sensations qu’offre le\n" +
+                        "surf sur la côte ouest !",
                     Images:
                         {
                             0: require("../Assets/Images/CGlisse/CGlisse_1.jpg"),
@@ -1343,8 +1497,20 @@ export default
                 },
                 2: {
                     Name: "Centrale Plongée",
-                    Logo: require('../Assets/Logos/cplongee_logo.jpg'),
-                    Message: "Après la prépa, tu cherches de nouvelles expériences ? Viens découvrir les fonds méditerranéens avec Centrale Plongée ! Que tu sois novice ou expérimenté, tu pourras faire des baptêmes, des plongées d’exploration, et même passer des niveaux grâce à nos formations. Ce sera ta chance d’observer des murènes, des épaves et des mérous !",
+                    Logo: require('../Assets/Logos/cplongee_logo.png'),
+                    Message: "Après la prépa, tu\n" +
+                        "cherches de nouvelles expériences\n" +
+                        "? Viens découvrir les\n" +
+                        "fonds méditerranéens avec\n" +
+                        "Centrale Plongée ! Que tu sois\n" +
+                        "novice ou expérimenté, tu\n" +
+                        "pourras faire des baptêmes,\n" +
+                        "des plongées d’exploration,\n" +
+                        "et même passer des niveaux\n" +
+                        "grâce à nos formations. Ce\n" +
+                        "sera ta chance d’observer des\n" +
+                        "murènes, des épaves et des\n" +
+                        "mérous !",
                     Images:
                         {
                             0: require("../Assets/Images/CPlongee/CPlongee_2.jpg"),
@@ -1353,9 +1519,22 @@ export default
                         },
                 },
                 3: {
-                    Name: "Régates InterCentrales",
+                    Name: "RIC",
                     Logo: require('../Assets/Logos/RIC_logo.png'),
-                    Message: "La Régate InterCentrales, c’est une compétition de voile entre les 5 écoles du groupe Centrale, mais c’est surtout un moment de cohésion avec une soirée et un grand repas avec tous les participants. Nous réservons un accueil des plus chaleureux dans nos coloc’ marseillaises. La régate a lieu après le tournoi Intercentrales, alors si tu aimes déjà régater, ou si tu as envie d’essayer, rejoins-nous !",
+                    Message: "La Régate\n" +
+                        "InterCentrales, c’est une\n" +
+                        "compétition de voile entre les\n" +
+                        "5 écoles du groupe Centrale,\n" +
+                        "mais c’est surtout un moment\n" +
+                        "de cohésion avec une soirée et\n" +
+                        "un grand repas avec tous les\n" +
+                        "participants. Nous réservons\n" +
+                        "un accueil des plus chaleureux\n" +
+                        "dans nos coloc’ marseillaises.\n" +
+                        "La régate a lieu après le tournoi\n" +
+                        "Intercentrales, alors si tu aimes\n" +
+                        "déjà régater, ou si tu as envie\n" +
+                        "d’essayer, rejoins-nous !",
                     Images:
                         {
                             0: require("../Assets/Images/RIC/RIC_1.jpg"),
@@ -1364,9 +1543,24 @@ export default
                         },
                 },
                 4: {
-                    Name: "Course Croisière Edhec",
-                    Logo: require('../Assets/Logos/MDV_logo.png'),
-                    Message: "Tu as le pied marin, l'esprit sportif ou juste envie de chiller sur les plages de Bretagne avec tes potes ? Alors rejoins la CCE pour passer la meilleure semaine de l'année. Le principe ? Défendre les couleurs de Centrale Marseille lors de régates (trophée mer), ou de tournois plus ou moins sportifs (trophée terre et sable). Et bien sur, la nuit tombée, participe aux nombreuses soirées organisées pour te forger encore plus de souvenirs mémorables ! ",
+                    Name: "CCE",
+                    Logo: require('../Assets/Logos/CCE_logo.png'),
+                    Message: "Tu as le pied marin,\n" +
+                        "l’esprit sportif ou juste envie\n" +
+                        "de chiller sur les plages de\n" +
+                        "Bretagne avec tes potes ? Alors\n" +
+                        "rejoins la CCE pour passer la\n" +
+                        "meilleure semaine de l’année.\n" +
+                        "Le principe ? Défendre les\n" +
+                        "couleurs de Centrale Marseille\n" +
+                        "lors de régates (trophée\n" +
+                        "mer), ou de tournois plus ou\n" +
+                        "moins sportifs (trophée terre\n" +
+                        "et sable). Et bien sûr, la nuit\n" +
+                        "tombée, participe aux nombreuses\n" +
+                        "soirées organisées\n" +
+                        "pour te forger encore plus de\n" +
+                        "souvenirs mémorables !",
                     Images:
                         {
                             0: require("../Assets/Images/BDE/BDE_1.jpg"),
@@ -1377,9 +1571,8 @@ export default
                 },
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/mdv.ecm",
+                Instagram: "https://www.instagram.com/massilia_defi_voile/"
             }
         },
 
@@ -1388,16 +1581,36 @@ export default
             Name: "Traversée du Vieux-Port",
             Color: "sport",
             Logo: require('../Assets/Logos/TVP_logo.png'),
-            Message: "La Traversée du Vieux-Port est un évènement organisé par des Centraliens, pour des Centraliens (mais pas que !), dans la rade du Mucem. Le principe ? Participer à des courses nautiques en équipe, à bord de radeaux construits à partir de matériaux récupérés dans tout Marseille ! Chaque équipe construit son « bateau » avec un seul objectif : ne pas couler tout de suite ! Les courses sont également ouvertes à des jeunes le matin (collégiens, lycéens, scouts...), et la journée est rythmée par les courses et les nombreuses animations. Rendez-vous en 2021 pour la 41e édition !",
+            Message: "La Traversée du\n" +
+                "Vieux-Port est un événement\n" +
+                "organisé par des Centraliens,\n" +
+                "pour des Centraliens (mais\n" +
+                "pas que !), dans la rade\n" +
+                "du MuCEM. Le principe ?\n" +
+                "Participer à des courses\n" +
+                "nautiques en équipe, à bord\n" +
+                "de radeaux construits à partir\n" +
+                "de matériaux récupérés dans\n" +
+                "tout Marseille ! Chaque équipe\n" +
+                "construit son bateau avec un\n" +
+                "seul objectif : ne pas couler\n" +
+                "tout de suite ! Les courses\n" +
+                "sont également ouvertes à\n" +
+                "des jeunes le matin (collégiens,\n" +
+                "lycéens, scouts...), et\n" +
+                "la journée est rythmée par les\n" +
+                "courses et les nombreuses\n" +
+                "animations. Rendez-vous en\n" +
+                "2021 pour la 41e édition !",
             Images: {
                 0: require("../../src/Assets/Images/TVP/TVP_3.jpg"),
                 1: require("../../src/Assets/Images/TVP/TVP_2.jpg"),
                 2: require("../../src/Assets/Images/TVP/TVP_4.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/ecmtvp",
+                Instagram: "https://www.instagram.com/tvp.ecm/",
+                Site: "https://tvp.centrale-marseille.fr/"
             }
         },
 
