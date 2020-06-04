@@ -643,64 +643,104 @@ export default
 
         CMF:{
             Title: "Pôle Business",
-            Name: "Centrale Marseille Finance",
+            Name: "Centrale Finance",
             Color: "business",
             Logo: require('../Assets/Logos/CMF_logo.png'),
-            Message: "Centrale Marseille Finance a pour\n" +
-                "but de promouvoir la finance dans\n" +
-                "\n" +
-                "Centrale, en organisant des évène-\n" +
-                "ments tels que la Bourse à la bière,\n" +
-                "\n" +
-                "divers jeux boursiers ou encore\n" +
-                "des conférences de pros. Si tu te\n" +
-                "sens l’âme d’un trader ou juste\n" +
-                "pour découvrir ce monde, n’hésite\n" +
-                "pas à nous rejoindre !",
+            Message: "Centrale Marseille\n" +
+                "Finance a pour but de\n" +
+                "promouvoir la finance dans\n" +
+                "Centrale, en organisant\n" +
+                "des évènements tels que\n" +
+                "la Bourse à la bière, divers\n" +
+                "jeux boursiers ou encore\n" +
+                "des conférences de pros. Si\n" +
+                "tu te sens l’âme d’un trader\n" +
+                "ou juste pour découvrir ce\n" +
+                "monde, n’hésite pas à nous\n" +
+                "rejoindre !",
             Images: {
                 0: require("../../src/Assets/Images/CMF/CMF_1.jpg"),
                 1: require("../../src/Assets/Images/CMF/CMF_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/CentraleMarseilleFinance",
             }
         },
 
         KSI:{
             Title: "Pôle Business",
-            Name: "Knowledge, Science and Innovation",
+            Name: "KSI",
             Color: "business",
             Logo: require('../Assets/Logos/KSI_logo.png'),
-            Message: "KSI est la Junior-Entreprise®️ de l’École. Notre mission : faire réaliser des missions pour des entreprises par les étudiants de l’école. Cela leur permet d’être rémunérés tout en appliquant leurs savoir-faire au service de projets concrets. \n" +
-                "Pas besoin d’attendre encore 3 ans avant d’entrer dans le monde de l’entreprise : tu peux le faire dès l’année prochaine !\n" +
-                "Alors si tu penses être un assez gros tchatcheur pour vendre des lunettes à un aveugle et que t’imposer devant des darons pleins aux As c’est ton bail, tu sais où aller !",
+            Message: "KSI est la Junior-\n" +
+                "Entreprise®️ de l’École.\n" +
+                "Notre objectif : faire réaliser\n" +
+                "des missions pour des entreprises\n" +
+                "par les étudiants\n" +
+                "de l’école. Cela leur permet\n" +
+                "d’être rémunérés tout en appliquant\n" +
+                "leurs savoir-faire au\n" +
+                "service de projets concrets.\n" +
+                "Pas besoin d’attendre\n" +
+                "encore 3 ans avant d’entrer\n" +
+                "dans le monde de l’entreprise\n" +
+                ": tu peux le faire dès\n" +
+                "l’année prochaine !\n" +
+                "Alors si tu penses être\n" +
+                "un encore plus gros tchatcheur\n" +
+                "que Julien Tanti et que\n" +
+                "t’imposer devant des darons\n" +
+                "pleins aux as c’est ton bail,\n" +
+                "tu sais où aller !",
             Images: {
                 0: require("../../src/Assets/Images/KSI/KSI_1.jpg"),
                 1: require("../../src/Assets/Images/KSI/KSI_2.jpg"),
+                2: require("../../src/Assets/Images/KSI/KSI_3.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/KSICentraleMarseille",
+                Instagram: "https://www.instagram.com/ksiecm/",
+                Site: "https://ksi.centrale-marseille.fr/"
             }
         },
 
         FOCEEN:{
             Title: "Pôle Business",
-            Name: "",
+            Name: "FOCEEN",
             Color: "business",
             Logo: require('../Assets/Logos/FOCEEN_logo.png'),
-            Message: "Le FOCEEN organise cette année la 13ème édition du plus grand forum de recrutement ingénieur de la région Sud ! Lors de cette journée, les étudiants centraliens (et ceux d’autres écoles de la région) ont l’opportunité de découvrir et d’échanger avec un panel d’entreprises très varié. C’est un évènement clé de ta formation qui te permettra d’échanger, le 10 novembre 2020, avec des représentants de Bouygues, EDF, ou encore Airbus. Bien entendu, tu auras l’occasion de découvrir le fonctionnement de l’association en participant aux derniers préparatifs du forum, qui te donneront peut-être envie de rejoindre l’association pour organiser le prochain !",
+            Message: "Le FOCEEN organise\n" +
+                "cette année la 13ème édition\n" +
+                "du plus grand forum de recrutement\n" +
+                "ingénieur de la région\n" +
+                "Sud ! Lors de cette journée,\n" +
+                "les étudiants centraliens (et\n" +
+                "ceux d’autres écoles de la\n" +
+                "région) ont l’opportunité de\n" +
+                "découvrir et d’échanger avec\n" +
+                "un panel d’entreprises très\n" +
+                "varié. C’est un évènement\n" +
+                "clé de ta formation qui te\n" +
+                "permettra d’échanger, le 10\n" +
+                "novembre 2020, avec des\n" +
+                "représentants de Bouygues,\n" +
+                "EDF, ou encore Airbus. Bien\n" +
+                "entendu, tu auras l’occasion\n" +
+                "de découvrir le fonctionnement\n" +
+                "de l’association en\n" +
+                "participant aux derniers\n" +
+                "préparatifs du forum, qui te\n" +
+                "donneront peut-être envie de\n" +
+                "rejoindre l’association pour\n" +
+                "organiser le prochain !",
             Images: {
                 0: require("../../src/Assets/Images/FOCEEN/Foceen_1.jpg"),
                 1: require("../../src/Assets/Images/FOCEEN/Foceen_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/FOCEEN",
+                Twitter: "https://twitter.com/_foceen",
+                Site: "https://foceen.asso.centrale-marseille.fr/"
             }
         },
 

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/KSI/KSI_3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Images/KSI/KSI_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Images/KSI/KSI_2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/DataEntities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/DataEntities.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +98,7 @@
       <workItem from="1590243432020" duration="13554000" />
       <workItem from="1590843286438" duration="638000" />
       <workItem from="1591188718583" duration="639000" />
-      <workItem from="1591269586965" duration="6105000" />
+      <workItem from="1591269586965" duration="6749000" />
     </task>
     <servers />
   </component>
