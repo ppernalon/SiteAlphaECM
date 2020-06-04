@@ -71,9 +71,9 @@
 }
 
 #LinksPopUp{
-    display: grid;
+    display: flex;
     justify-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #LeftArrowButtonPopUP{
@@ -116,11 +116,6 @@
         height: 5vh;
     }
 
-    #LinksPopUp{
-        grid-template-rows: 10vh;
-        grid-template-columns: 13vw 13vw 13vw 39.75vw;
-    }
-
     .LinkIconImg{
         height: 10vh;
     }
@@ -155,7 +150,7 @@
         width: 80vw;
         margin: auto;
         justify-items: center;
-        padding: 1vh;
+        padding: 2.3vh;
     }
 
     #LeftArrowButtonPopUP{
@@ -213,11 +208,6 @@
 @media only screen and (max-width: 767px){
     .pageProgressionHexagones{
         height: 4vh;
-    }
-
-    #LinksPopUp{
-        grid-template-rows: 7vh;
-        grid-template-columns: 26vw 26vw 26vw;
     }
 
     .LinkIconImg{
