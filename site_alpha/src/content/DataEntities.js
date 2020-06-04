@@ -1617,10 +1617,32 @@ export default
         UA: {
             Img_btn: require('../Assets/Logos/UA_Logo_blanc.png'),
             Title: "",
-            Name: "Union des Associations",
+            Name: "UA",
             Color: "ecole",
             Logo: require('../Assets/Logos/UA_logo.png'),
-            Message: "Comme tu vas vite t'en rendre compte, la vie associative de Centrale Marseille est dense et variée ! Avec le développement exponentielle de celle-ci des dix dernières années, la necessité d'une fédération chargée de pérenniser, professionnaliser et représenter les associations a rapidement vu le jour. Cette fédération est l'Union des Associations de son nom court l'UA. Une telle fédération confère une plus grande envergure à l'ensemble des associations, non seulement elle est au centre des discussions avec la direction de l'école mais c'est aussi un interlocuteur privilégié pour développer des partenariats profitant à tous.",
+            Message: "Comme tu vas vite\n" +
+                "t’en rendre compte, la vie\n" +
+                "associative de Centrale\n" +
+                "Marseille est dense et variée\n" +
+                "! Au cours des dix dernières\n" +
+                "années de développement\n" +
+                "exponentiel, la nécessité\n" +
+                "d’une fédération chargée de\n" +
+                "pérenniser, professionnaliser\n" +
+                "et représenter les associations,\n" +
+                "a rapidement vu le jour.\n" +
+                "Cette fédération est l’Union\n" +
+                "des Associations de son nom\n" +
+                "court l’UA. Une telle organisation\n" +
+                "confère une plus grande\n" +
+                "envergure à l’ensemble des\n" +
+                "associations ; non seulement\n" +
+                "elle est au centre des discussions\n" +
+                "avec la direction de\n" +
+                "l’école mais c’est aussi un\n" +
+                "interlocuteur privilégié pour\n" +
+                "développer des partenariats\n" +
+                "profitant à tous.",
             Images: {
                 0: require("../../src/Assets/Images/UA/UA_1.jpg"),
                 1: require("../../src/Assets/Images/UA/UA_2.jpg"),
@@ -1628,7 +1650,6 @@ export default
             },
             Links:{
                 Facebook: "https://www.facebook.com/ua.centrale.marseille",
-                Instagram: "0",
                 Site: "https://uaecm.fr/"
             }
         }
