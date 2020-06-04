@@ -99,7 +99,7 @@ export default
             },
             MASSILIADES: {
                 Name : "Les Massiliades",
-                Logo: require('../Assets/Logos/BDA_logo.png'),
+                Logo: require('../Assets/Logos/massiliades_logo.png'),
             },
         }
     },

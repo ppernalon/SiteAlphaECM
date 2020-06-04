@@ -321,16 +321,35 @@ export default
             Name: "Phy-Tv",
             Color: "culture",
             Logo: require('../Assets/Logos/PhyTv_logo.png'),
-            Message: "T’as toujours rêvé de devenir la star d’une pub sexy et ton accessoire fashion INDISPENSABLE de l’été c’est un bob ? T’es enfin prêt à l’assumer ? Alors c’est sûr, le Phy tu l’as toi aussi dans le sang !                                                                                                                                                                        Entre fictions déjantées et parodies douteuses, c’est bien nous l’asso audiovisuelle de l’école. Nous filmons vos meilleures et vos pires aventures, et nous diffusons tous ces souvenirs dans l’euphorie générale en amphi lors des célèbres JTs. Alors viens nous rejoindre pour toi aussi mettre des paillettes dans la vie des Centraliens !",
+            Message: "T’as toujours rêvé de\n" +
+                "devenir la star d’une pub sexy\n" +
+                "et ton accessoire fashion\n" +
+                "INDISPENSABLE de l’été c’est\n" +
+                "un bob ? T’es enfin prêt à\n" +
+                "l’assumer ? Alors c’est sûr, le\n" +
+                "Phy tu l’as toi aussi dans le\n" +
+                "sang !\n" +
+                "Entre fictions déjantées\n" +
+                "et parodies douteuses, c’est\n" +
+                "bien nous l’asso audiovisuelle\n" +
+                "de l’école. Nous filmons\n" +
+                "vos meilleures et vos pires\n" +
+                "aventures, et nous diffusons\n" +
+                "tous ces souvenirs dans l’euphorie\n" +
+                "générale en amphi lors\n" +
+                "des célèbres JTs. Alors viens\n" +
+                "nous rejoindre pour toi aussi\n" +
+                "mettre des paillettes dans la\n" +
+                "vie des Centraliens !",
             Images: {
                 0: require("../../src/Assets/Images/Phy/Phy_1.jpg"),
                 1: require("../../src/Assets/Images/Phy/Phy_2.jpg"),
                 2: require("../../src/Assets/Images/Phy/Phy_3.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/phytv",
+                Twitter: "https://twitter.com/phytv?lang=fr",
+                Site: "https://www.phytv.ninja/"
             }
         },
 
@@ -752,9 +771,28 @@ export default
                 0: {
                     Name: "Bureau des Arts",
                     Logo: require('../Assets/Logos/BDA_logo.png'),
-                    Message: "Le Bureau des Arts c’est l’association culturelle de l’école. Une équipe survoltée se donne à fond pour organiser des événements de folie!\n" +
-                        "Le BDA héberge également une dizaine de clubs : comédie musicale, chant / chorale, rock, orchestre, mais aussi cuisine, cinéma, jeux de société ou yoga ! Et si vous êtes animé.e.s par un projet nouveau, il est toujours possible de créer un club. \n" +
-                        "Alors préparez-vous à vivre une année inoubliable entre le Plot 5, le cabaret, le masterchef, les concerts, les soirées Foy’s ainsi que le Voyage, vous ne vous ennuierez jamais, que vous ayez l’âme d’un artiste ou non !\n",
+                    Message: "Le Bureau des Arts\n" +
+                        "c’est l’association culturelle de\n" +
+                        "l’école. Une équipe survoltée\n" +
+                        "se donne à fond pour organiser\n" +
+                        "des événements de folie !\n" +
+                        "Le BDA héberge\n" +
+                        "également une dizaine de\n" +
+                        "clubs: comédie musicale,\n" +
+                        "chant, chorale, rock, orchestre,\n" +
+                        "mais aussi cuisine, cinéma,\n" +
+                        "jeux de société ou yoga !\n" +
+                        "Et si tu es animé.e par un\n" +
+                        "projet nouveau, il est toujours\n" +
+                        "possible de créer un club.\n" +
+                        "Alors prépares-toi à\n" +
+                        "vivre une année inoubliable\n" +
+                        "entre le Plot 5, le cabaret,\n" +
+                        "le masterchef, les concerts,\n" +
+                        "les soirées Foy’s ainsi que\n" +
+                        "le Voyage, tu ne t’ennuieras\n" +
+                        "jamais, que tu aies l’âme d’un\n" +
+                        "artiste ou non !",
                     Images:
                         {
                             0: require("../Assets/Images/BDA/BDA_1.jpg"),
@@ -764,30 +802,54 @@ export default
                 1: {
                     Name: "Voyage",
                     Logo: require('../Assets/Logos/BDA_logo.png'),
-                    Message: "Partir le temps d’un Week-end en Europe avec des ami.e.s, c’est ce que le BDA te propose pendant le mois d’intégration ! \n" +
-                        "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
+                    Message: "Partir le temps d’un\n" +
+                        "Week-end en Europe avec des\n" +
+                        "ami.e.s, c’est ce que le BDA\n" +
+                        "te propose pendant le mois\n" +
+                        "d’intégration !\n" +
+                        "Le but est de te faire\n" +
+                        "découvrir un pays et de te\n" +
+                        "laisser décompresser après\n" +
+                        "toutes ces années de travail\n" +
+                        "intensif !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDA/BDA_1.jpg"),
-                            1: require("../Assets/Images/BDA/BDA_2.jpg"),
+                            0: require("../Assets/Images/Voyage/Voyage.jpg"),
                         },
                 },
                 2: {
                     Name: "Pouce d'Or",
                     Logo: require('../Assets/Logos/BDA_logo.png'),
-                    Message: "Partir le temps d’un Week-end en Europe avec des ami.e.s, c’est ce que le BDA te propose pendant le mois d’intégration ! \n" +
-                        "Le but est de te faire découvrir un pays et de te laisser décompresser après toutes ces années de travail intensif !",
+                    Message: "Il n’y a pas plus simple\n" +
+                        "que ça : un sac à dos, un.e\n" +
+                        "ami.e et c’est parti ! Tu as 48h\n" +
+                        "pour aller le plus loin possible\n" +
+                        "en Stop.\n" +
+                        "Une seule règle : Ne\n" +
+                        "débourser aucun centime\n" +
+                        "pour l’aller-retour. Arme-toi de\n" +
+                        "patience, enfile ton plus beau\n" +
+                        "gilet jaune et n’oublie pas de\n" +
+                        "revenir !",
                     Images:
                         {
                             0: require("../Assets/Images/PouceDor/Pouce_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
                         },
                 },
                 3: {
                     Name: "Cabaret",
                     Logo: require('../Assets/Logos/BDA_logo.png'),
-                    Message: "Les plus grands artistes de l’école passeront sur le devant de la scène pour vous montrer à tour de rôle leur talent ! Danse, musique, chant, stand-up, préparez-vous à en prendre plein la vue !\n" +
-                        "La participation est ouverte à tou.te.s alors n’hésitez pas à nous montrer ce que vous savez faire !",
+                    Message: "Les plus grands artistes\n" +
+                        "de l’école passeront sur le\n" +
+                        "devant de la scène pour vous\n" +
+                        "montrer à tour de rôle leur\n" +
+                        "talent ! Danse, musique, chant,\n" +
+                        "stand-up, préparez-vous à en\n" +
+                        "prendre plein la vue !\n" +
+                        "La participation est\n" +
+                        "ouverte à tou.te.s alors\n" +
+                        "n’hésitez pas à nous montrer\n" +
+                        "ce que vous savez faire !",
                     Images:
                         {
                             0: require("../Assets/Images/Cabaret/Cabaret_1.jpg"),
@@ -796,9 +858,9 @@ export default
                 },
                 },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/bda.ecm",
+                Instagram: "https://www.instagram.com/bda.ecm/",
+                Site: "https://bda.asso.centrale-marseille.fr/"
             }
         },
 
@@ -806,7 +868,7 @@ export default
             Title: "Pôle Culture",
             Color: "culture",
             Name: "Les Massiliades",
-            Logo: require('../Assets/Logos/BDA_logo.png'),
+            Logo: require('../Assets/Logos/massiliades_logo.png'),
             Message: "Vous avez déjà rêvé\n" +
                 "d’organiser un festival de\n" +
                 "musique ? Les étudiants de\n" +
@@ -830,9 +892,9 @@ export default
                     1: require("../Assets/Images/Massiliades/Massiliades_2.jpg"),
                 },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/lesmassiliades",
+                Instagram: "https://www.instagram.com/massiliades/",
+                Twitter: "https://twitter.com/LesMassiliades"
             }
         },
 
@@ -841,17 +903,29 @@ export default
             Name: "Pictures Centrale Marseille",
             Color: "culture",
             Logo: require('../Assets/Logos/PXC_logo.png'),
-            Message: "La photographie t’intéresse ou te passionne ? Tu n’as jamais touché à un appareil de ta vie ou tu es un professionnel avec des talents cachés ?\n" +
-                "Alors viens rejoindre la team du PXC !\n" +
-                "Nous sommes là pour prendre en photo tous les événements de Centrale, créer et immortaliser les moments de folie que nous vivons. Ça ne nous empêche pas de faire des sorties photos, d’organiser le Yearbook et même de développer nos propres tirages argentiques !",
+            Message: "La photographie t’intéresse\n" +
+                "ou te passionne ? Tu n’as\n" +
+                "jamais touché à un appareil de\n" +
+                "ta vie ou tu es un professionnel\n" +
+                "au talent caché ? Alors viens\n" +
+                "rejoindre la team du PXC !\n" +
+                "Nous sommes là pour\n" +
+                "prendre en photo tous les\n" +
+                "événements de Centrale, créer\n" +
+                "et immortaliser les moments\n" +
+                "de folie que nous vivons. Ça\n" +
+                "ne nous empêche pas de faire\n" +
+                "des sorties photos, d’organiser\n" +
+                "le Yearbook et même de développer\n" +
+                "nos propres tirages\n" +
+                "argentiques !",
             Images: {
                 0: require("../../src/Assets/Images/PXC/PXC_1.jpg"),
                 1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/pxcmars/",
+                Site: "https://pxcmarseille.fr/"
             }
         },
 
@@ -860,15 +934,21 @@ export default
             Name: "Pompoms",
             Color: "culture",
             Logo: require('../Assets/Logos/Pompoms_logo.png'),
-            Message: "Nos pompoms et nos pimpims, on les aime on les adore, que dis-je, on les adule ! C’est celles et ceux qui sont chargé.e.s de mettre de l’ambiance à tous les événements centraliens, tu peux être sûr.e que bientôt tu les aimeras autant que nous !",
+            Message: "Nos pompoms et nos\n" +
+                "pimpims, on les aime on\n" +
+                "les adore, que dis-je, on les\n" +
+                "adule ! C’est celles et ceux\n" +
+                "qui sont chargé.e.s de mettre\n" +
+                "de l’ambiance à tous les événements\n" +
+                "centraliens, tu peux\n" +
+                "être sûr.e que bientôt tu les\n" +
+                "aimeras autant que nous !",
             Images: {
                 0: require("../../src/Assets/Images/Pompoms/pompoms_1.jpg"),
                 1: require("../../src/Assets/Images/Pompoms/pompoms_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/pompomsecm",
             }
         },
 
@@ -877,16 +957,39 @@ export default
             Name: "La Farigoule",
             Color: "culture",
             Logo: require('../Assets/Logos/Farigoule_logo.png'),
-            Message: "Ils sont beaux, ils sont frais, ils sentent bon et leur musique est divine ! La Farigoule c'est la fanfare de Centrale Marseille, composée de fanfarons tous aussi exceptionnels les uns que les autres dont la mission est d'animer le Vieux-Port, et plein d'autres quartiers de la planète Mars ! Tu aimes les caniches en slip ? Les fourrures et les fripes de grand-mère ? Tu es un garçon ? Une fille ? Les deux ? Tu as un goût prononcé pour les sensations auditives hors du commun ? Tu rêves de savoir ce qu'est l'amour ? Ta place est alors peut-être chez nous, n'hésite pas à nous contacter avec un CV et une lettre de motivation à l'adresse mail suivante : disadieuatestympans@acouphenes.org",
+            Message: "Ils sont beaux, ils\n" +
+                "sont frais, ils sentent bon et\n" +
+                "leur musique est divine ! La\n" +
+                "Farigoule c’est la fanfare de\n" +
+                "Centrale Marseille, composée\n" +
+                "de fanfarons tous aussi exceptionnels\n" +
+                "les uns que les\n" +
+                "autres dont la mission est\n" +
+                "d’animer le Vieux-Port, et plein\n" +
+                "d’autres quartiers de la planète\n" +
+                "Mars ! Tu aimes les caniches en\n" +
+                "slip ? Les fourrures et les\n" +
+                "fripes de grand-mère ? Tu es\n" +
+                "un garçon ? Une fille ? Les\n" +
+                "deux ? Tu as un goût prononcé\n" +
+                "pour les sensations auditives\n" +
+                "hors du commun ? Tu rêves\n" +
+                "de savoir ce qu’est l’amour ?\n" +
+                "Ta place est alors peut-être\n" +
+                "chez nous, n’hésite pas à\n" +
+                "nous contacter avec un CV\n" +
+                "et une lettre de motivation\n" +
+                "à l’adresse mail suivante :\n" +
+                "disadieuatestympans@acouphenes.\n" +
+                "org",
             Images: {
                 0: require("../../src/Assets/Images/Farigoule/Farigoule_1.jpg"),
                 1: require("../../src/Assets/Images/Farigoule/Farigoule_2.jpg"),
                 2: require("../../src/Assets/Images/Farigoule/Farigoule_3.jpg")
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/FanfareLaFarigoule",
+                Site: "http://www.fanfare-farigoule.com/"
             }
         },
 
