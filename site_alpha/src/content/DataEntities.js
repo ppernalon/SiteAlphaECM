@@ -122,7 +122,8 @@ export default
                                 {
                                     0: require("../Assets/Images/Gala/Gala_1.jpg"),
                                     1: require("../Assets/Images/Gala/Gala_2.jpg"),
-                                    2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                                    2: require("../Assets/Images/Gala/Gala_3.jpg"),
+                                    3: require("../Assets/Images/Gala/Gala_4.jpg"),
                                 },
                         },
                     },
@@ -200,7 +201,9 @@ export default
                 2: require("../../src/Assets/Images/Campagnes/Campagnes_2.jpg"),
                 3: require("../../src/Assets/Images/Campagnes/Campagnes_3.jpg"),
             },
-            Links: false,
+            Links: {
+                Facebook: "https://www.facebook.com/CDC2019ecm/"
+            }
         },
         FOYS: {
             Title: "Pôle Vie de l'élève",
@@ -374,9 +377,7 @@ export default
                 1: require("../../src/Assets/Images/LPC/LPC_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/LePetitCentralien",
             }
         },
         FABLAB: {
@@ -879,7 +880,7 @@ export default
         },
         PXC: {
             Title: "Pôle Culture",
-            Name: "Pictures Centrale Marseille",
+            Name: "PXC",
             Color: "culture",
             Logo: require('../Assets/Logos/PXC_logo.png'),
             Message: "La photographie t’intéresse\n" +
@@ -900,7 +901,7 @@ export default
                 "argentiques !",
             Images: {
                 0: require("../../src/Assets/Images/PXC/PXC_1.jpg"),
-                1: require("../../src/Assets/Images/BDE/Association_UA_2.png"),
+                1: require("../../src/Assets/Images/PXC/PXC_2.jpg"),
             },
             Links:{
                 Facebook: "https://www.facebook.com/pxcmars/",
@@ -1240,9 +1241,9 @@ export default
                         "tisser des liens avec eux.",
                     Images:
                         {
-                            0: require("../Assets/Images/WES/WES_1.jpg"),
+                            0: require("../Assets/Images/WES/WES_3.jpg"),
                             1: require("../Assets/Images/WES/WES_2.jpg"),
-                            2: require("../Assets/Images/WES/WES_3.jpg"),
+                            2: require("../Assets/Images/WES/WES_1.jpg"),
                         },
                 },
                 3: {
@@ -1553,10 +1554,9 @@ export default
                         "souvenirs mémorables !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/CCE/CCE_3.jpg"),
+                            1: require("../Assets/Images/CCE/CCE_2.jpg"),
+                            2: require("../Assets/Images/CCE/CCE_1.jpg"),
                         },
                 },
             },
@@ -1567,7 +1567,7 @@ export default
         },
         TVP: {
             Title: "Pôle Sport",
-            Name: "Traversée du Vieux-Port",
+            Name: "TVP",
             Color: "sport",
             Logo: require('../Assets/Logos/TVP_logo.png'),
             Message: "La Traversée du\n" +
@@ -1817,9 +1817,6 @@ export default
                 "Marseillais, centraliens y compris.",
             Images: {
                 0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                3: require("../Assets/Images/BDE/Association_UA_4.png")
             },
             Links: {
                 Facebook: "https://www.facebook.com/bdecentralemarseille",
