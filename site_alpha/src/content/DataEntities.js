@@ -998,36 +998,77 @@ export default
             Name: "CheerUp!",
             Color: "citoyennete",
             Logo: require('../Assets/Logos/CU_logo.png'),
-            Message: "L’antenne marseillaise de CheerUp! intervient dans deux hôpitaux après de jeunes atteints du cancer. Dans ces centres, la moyenne d’âge est de 65 ans et ces jeunes hospitalisés peuvent se retrouver isolés. Ainsi, nous organisons des visites hebdomadaires et en apprenant à les connaître, nous réalisons leurs projets (sortie ULM, match de foot…). \n" +
-                "\n" +
-                "Faisant partie de l’équipe CheerUp!, vous programmerez des évènements comme l’opération Cupidon ou la Course Contre le Cancer. Puisque se battre pour son projet c'est se battre contre le cancer, les bénéfices sont reversés à la recherche ou à la réalisation des projets. Alors rejoins-nous et viens te battre à nos côtés ! ",
+            Message: "L’antenne marseillaise\n" +
+                "de CheerUp! intervient dans\n" +
+                "deux hôpitaux auprès de jeunes\n" +
+                "atteints du cancer. Dans ces\n" +
+                "centres, la moyenne d’âge est\n" +
+                "de 65 ans et ces jeunes hospitalisés\n" +
+                "peuvent se retrouver\n" +
+                "isolés. Ainsi, nous organisons\n" +
+                "des visites hebdomadaires et\n" +
+                "en apprenant à les connaître,\n" +
+                "nous réalisons leurs projets\n" +
+                "(sortie ULM, match de foot…).\n" +
+                "Faisant partie de\n" +
+                "l’équipe CheerUp!, vous programmerez\n" +
+                "des évènements\n" +
+                "comme l’opération Cupidon\n" +
+                "ou la Course Contre le Cancer.\n" +
+                "Puisque se battre pour son\n" +
+                "projet c’est se battre contre\n" +
+                "le cancer, les bénéfices sont\n" +
+                "reversés à la recherche ou à la\n" +
+                "réalisation des projets. Alors\n" +
+                "rejoins-nous et viens te battre\n" +
+                "à nos côtés !",
             Images: {
                 0: require("../../src/Assets/Images/CheerUp/CheerUp_1.jpg"),
                 1: require("../../src/Assets/Images/CheerUp/CheerUp_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/CheerUpECM",
+                Instagram: "https://www.instagram.com/cheerupecm/",
+                Site: "https://cheerup.asso.centrale-marseille.fr/"
             }
         },
 
         EP: {
             Title: "Pôle Citoyenneté",
-            Name: "Echanges Phocéens",
+            Name: "Ech. Phocéens",
             Color: "citoyennete",
             Logo: require('../Assets/Logos/EP_logo.png'),
-            Message: "Envie de t’engager pour l’égalité des chances tout en vivant une expérience enrichissante ? Echanges Pho est l’asso pour toi ! Deviens tuteur de collégiens, lycéens, étudiants en post-bac ou jeunes en situation de handicap scolarisés dans des quartiers prioritaires de Marseille. Pas besoin d’un BAFA, seulement de ta motivation et créativité pour accompagner ces jeunes dans leur orientation, leur apporter une ouverture culturelle et surtout leur redonner confiance en eux. \n" +
-                "Des sorties, des voyages et des events te feront également découvrir Marseille, sa région, et bien plus avec tes tutorés.",
+            Message: "Envie de t’engager\n" +
+                "pour l’égalité des chances\n" +
+                "tout en vivant une expérience\n" +
+                "enrichissante ? Echanges Pho\n" +
+                "est l’asso pour toi ! Deviens\n" +
+                "tuteur de collégiens, lycéens,\n" +
+                "étudiants en post-bac ou\n" +
+                "jeunes en situation de handicap\n" +
+                "scolarisés dans des quartiers\n" +
+                "prioritaires de Marseille. Pas\n" +
+                "besoin d’un BAFA, seulement\n" +
+                "de ta motivation et créativité\n" +
+                "pour accompagner ces jeunes\n" +
+                "dans leur orientation, leur\n" +
+                "apporter une ouverture culturelle\n" +
+                "et surtout leur redonner\n" +
+                "confiance en eux.\n" +
+                "Des sorties, des\n" +
+                "voyages et des events te feront\n" +
+                "également découvrir Marseille,\n" +
+                "sa région, et bien plus avec tes\n" +
+                "tutorés.",
             Images: {
                 0: require("../../src/Assets/Images/EP/EP_1.jpg"),
                 1: require("../../src/Assets/Images/EP/EP_3.jpg"),
                 2: require("../../src/Assets/Images/EP/EP_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/echangesphoceens",
+                Instagram: "https://www.instagram.com/echanges_phoceens/",
+                Twitter: "https://twitter.com/Echanges_Pho"
             }
         },
 
@@ -1039,59 +1080,85 @@ export default
                 0: {
                     Name: "ISF",
                     Logo: require('../Assets/Logos/ISF_logo.png'),
-                    Message: "Ingénieurs Sans Frontières, c’est l’association qui traite d’écologie et des questions sociales à Centrale. Toute l’année, on se forme et on sensibilise les étudiants sur les enjeux du monde d’aujourd’hui. On organise aussi des évènements à l’école, des rencontres avec des étudiants et des conférences avec des chercheurs ! \n" +
-                        "Notre réseau national nous permet également de participer régulièrement à des week-ends d’échange et de rencontre avec des étudiants de toute la France !",
+                    Message: "Ingénieurs Sans\n" +
+                        "Frontières, c’est l’association\n" +
+                        "qui traite d’écologie et des\n" +
+                        "questions sociales à Centrale.\n" +
+                        "Toute l’année, on se forme et on\n" +
+                        "sensibilise les étudiants sur les\n" +
+                        "enjeux du monde d’aujourd’hui.\n" +
+                        "On organise aussi des évènements\n" +
+                        "à l’école, des rencontres\n" +
+                        "avec des étudiants et des conférences\n" +
+                        "avec des chercheurs!\n" +
+                        "Notre réseau national\n" +
+                        "nous permet également de\n" +
+                        "participer régulièrement à des\n" +
+                        "week-ends d’échange et de\n" +
+                        "rencontre avec des étudiants de\n" +
+                        "toute la France!",
                     Images:
                         {
                             0: require("../Assets/Images/ISF/ISF_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
+                            1: require("../Assets/Images/ISF/ISF_2.jpg"),
+                            2: require("../Assets/Images/ISF/ISF_3.jpg"),
                         },
                 },
                 1: {
                     Name: "Fémin'ISF",
-                    Logo: require('../Assets/Logos/ISF_logo.png'),
-                    Message: "Tu veux défendre l’égalité des sexes au quotidien ? Branche de l’association Ingénieurs Sans Frontières Provence, notre pôle a pour but de combattre tous les problèmes auxquels les femmes, en écoles d’ingénieur.e.s peuvent être confrontées. Sensibilisation, récoltes de fonds, débats… les actions sont nombreuses si tu veux t’y investir !",
+                    Logo: require('../Assets/Logos/FEMIN_logo.png'),
+                    Message: "Tu veux défendre\n" +
+                        "l’égalité des sexes au\n" +
+                        "quotidien ? Branche de l’association\n" +
+                        "Ingénieurs Sans Frontières\n" +
+                        "Provence, notre pôle a pour but\n" +
+                        "de combattre tous les problèmes\n" +
+                        "auxquels les femmes, en écoles\n" +
+                        "d’ingénieur.e.s peuvent être\n" +
+                        "confrontées. Sensibilisation,\n" +
+                        "récoltes de fonds, débats… les\n" +
+                        "actions sont nombreuses si tu\n" +
+                        "veux t’y investir !",
                     Images:
                         {
                             0: require("../Assets/Images/FeminISF/FeminISF_2.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
                         },
                 },
                 2: {
                     Name: "Centr'Arc-en-ciel",
-                    Logo: require('../Assets/Logos/ISF_logo.png'),
+                    Logo: require('../Assets/Logos/Centrarcenciel_logo.PNG'),
                     Message: "Tout nouveau pôle d'ISF, nous sommes là pour faire de la prévention et améliorer la visibilité de la communauté LGBTQI+ au sein de l'école : notre objectif est de faire en sorte que tout le monde se sente bien à Centrale !",
                     Images:
                         {
-                            0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                            1: require("../Assets/Images/BDE/Association_UA_2.png"),
-                            2: require("../Assets/Images/BDE/Association_UA_3.png"),
-                            3: require("../Assets/Images/BDE/Association_UA_4.png")
+                            0: require("../Assets/Images/Centrarcenciel.jpg"),
                         },
                 },
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/isfecm",
+                Twitter: "https://twitter.com/ISFProvence",
+                Site: "https://www.isf-france.org/provence"
             }
         },
 
         POTAGER: {
             Title: "Pôle Citoyenneté",
-            Name: "ISF",
+            Name: "Pot'à'gégé",
             Color: "citoyennete",
             Logo: require('../Assets/Logos/POTAGER_logo.png'),
-            Message: "Le Pot'à gégé possède KSI, le BDE et l'UA. Viens y découvrir les fruits et légumes les plus savoureux de ta région, dans le sérieux, le respect, et l'amour de la pousse.",
+            Message: "Le Pot’à gégé possède\n" +
+                "KSI, le BDE et l’UA. Viens-y\n" +
+                "découvrir les fruits et légumes\n" +
+                "les plus savoureux de ta région,\n" +
+                "dans le sérieux, le respect, et\n" +
+                "l’amour de la pousse.",
             Images: {
                 0: require("../../src/Assets/Images/Potager/Potager_1.jpg"),
                 1: require("../../src/Assets/Images/Potager/Potager_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/PotagerECM",
+                Instagram: "https://www.instagram.com/potagerecm/",
             }
         },
 
@@ -1116,9 +1183,7 @@ export default
                 1: require("../../src/Assets/Images/Aumonerie/Aumonerie_2.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/aumonerie.ECM",
             }
         },
 
