@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1950-05b7-438f-bd5b-b2d1593ff86e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Raid/Raid_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Raid/Raid_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Raid/Raid_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/CCE_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/CCL_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/Intercentrales_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/LogoTOSS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Logos/cplongee_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Sports/sport_9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/Raid/Photo_raid_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/Raid/Photo_raid_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Images/Raid/Photo_raid_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/MDV_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Logos/MDV_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Logos/cplongee_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/AssociationsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/AssociationsPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/DataEntities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/DataEntities.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +108,7 @@
       <workItem from="1590243432020" duration="13554000" />
       <workItem from="1590843286438" duration="638000" />
       <workItem from="1591188718583" duration="639000" />
-      <workItem from="1591269586965" duration="12145000" />
+      <workItem from="1591269586965" duration="13768000" />
     </task>
     <servers />
   </component>

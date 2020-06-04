@@ -7,7 +7,7 @@ export default
             Logo: require('../Assets/Logos/BDE_logo.png'),
             Pages: {
                         0: {
-                            Name: "Bureau des Elèves",
+                            Name: "BDE",
                             Logo: require('../Assets/Logos/BDE_logo.png'),
                             Message: "L’équipe du Bureau Des\n" +
                                 "Élèves t’attend avec impatience\n" +
@@ -132,7 +132,6 @@ export default
                 Site: "https://bde.asso.centrale-marseille.fr/"
             }
         },
-
         ICM: {
             Title: "Pôle Vie de l'élève",
             Name: "ICM",
@@ -173,7 +172,6 @@ export default
                 Facebook: "https://www.facebook.com/ICMCentraleMarseille",
             }
         },
-
         CAMPAGNES: {
             Title: "Pôle Vie de l'élève",
             Name: "Campagnes",
@@ -204,7 +202,6 @@ export default
             },
             Links: false,
         },
-
         FOYS: {
             Title: "Pôle Vie de l'élève",
             Name: "Foy's",
@@ -234,7 +231,6 @@ export default
                 Facebook: "https://www.facebook.com/foysecm",
             }
         },
-
         TP: {
             Title: "Pôle Vie de l'élève",
             Name: "Techno-pôle",
@@ -259,7 +255,6 @@ export default
                 Facebook: "https://www.facebook.com/TechnoPole",
             }
         },
-
         BARBU: {
             Title: "Pôle Vie de l'élève",
             Name: "Bar'bu",
@@ -290,7 +285,6 @@ export default
                 Facebook: "https://www.facebook.com/BarbuECM",
             }
         },
-
         CHAUDRON: {
             Title: "Pôle Vie de l'élève",
             Name: "Le Chaudron",
@@ -315,7 +309,6 @@ export default
             },
             Links: false
         },
-
         PHY: {
             Title: "Pôle Culture",
             Name: "Phy-Tv",
@@ -352,7 +345,6 @@ export default
                 Site: "https://www.phytv.ninja/"
             }
         },
-
         LPC: {
             Title: "Pôle Vie de l'élève",
             Name: "LPC",
@@ -387,7 +379,6 @@ export default
                 Site: "https://bde.asso.centrale-marseille.fr/"
             }
         },
-
         FABLAB: {
             Title: "Pôle Innovation",
             Color: "innovation",
@@ -456,7 +447,6 @@ export default
                 Site: "https://fablab.asso.centrale-marseille.fr/"
             }
         },
-
         EGAB: {
             Title: "Pôle Innovation",
             Name: "E-Gab",
@@ -491,7 +481,6 @@ export default
                 Twitter: "https://twitter.com/EGabECM"
             }
         },
-
         GINFO: {
             Title: "Pôle Innovation",
             Name: "GInfo",
@@ -532,7 +521,6 @@ export default
                 Site: "https://ginfo.asso.centrale-marseille.fr/"
             }
         },
-
         CHRIS: {
             Title: "Pôle Innovation",
             Name: "Christopher.ai",
@@ -563,7 +551,6 @@ export default
                 Facebook: "https://www.facebook.com/AiChristopher",
             }
         },
-
         KRYPTO: {
             Title: "Pôle Innovation",
             Name: "Kryptosphere",
@@ -595,7 +582,6 @@ export default
                 Site: "https://kryptosphere.org/ks-centrale-marseille/"
             }
         },
-
         R2CM: {
             Title: "Pôle Innovation",
             Name: "Racing Club",
@@ -622,7 +608,6 @@ export default
                 Facebook: "https://www.facebook.com/RacingClubCentraleMarseille",
             }
         },
-
         QUATREL:{
             Title: "Pôle Innovation",
             Name: "4L Trophy",
@@ -659,7 +644,6 @@ export default
                 Twitter: "https://twitter.com/SquadraMassilia"
             }
         },
-
         CMF:{
             Title: "Pôle Business",
             Name: "Centrale Finance",
@@ -685,7 +669,6 @@ export default
                 Facebook: "https://www.facebook.com/CentraleMarseilleFinance",
             }
         },
-
         KSI:{
             Title: "Pôle Business",
             Name: "KSI",
@@ -722,7 +705,6 @@ export default
                 Site: "https://ksi.centrale-marseille.fr/"
             }
         },
-
         FOCEEN:{
             Title: "Pôle Business",
             Name: "FOCEEN",
@@ -762,14 +744,13 @@ export default
                 Site: "https://foceen.asso.centrale-marseille.fr/"
             }
         },
-
         BDA: {
             Title: "Pôle Culture",
             Color: "culture",
             Logo: require('../Assets/Logos/BDA_logo.png'),
             Pages: {
                 0: {
-                    Name: "Bureau des Arts",
+                    Name: "BDA",
                     Logo: require('../Assets/Logos/BDA_logo.png'),
                     Message: "Le Bureau des Arts\n" +
                         "c’est l’association culturelle de\n" +
@@ -863,7 +844,6 @@ export default
                 Site: "https://bda.asso.centrale-marseille.fr/"
             }
         },
-
         MASSILIADES: {
             Title: "Pôle Culture",
             Color: "culture",
@@ -897,7 +877,6 @@ export default
                 Twitter: "https://twitter.com/LesMassiliades"
             }
         },
-
         PXC: {
             Title: "Pôle Culture",
             Name: "Pictures Centrale Marseille",
@@ -928,7 +907,6 @@ export default
                 Site: "https://pxcmarseille.fr/"
             }
         },
-
         POMPOMS: {
             Title: "Pôle Culture",
             Name: "Pompoms",
@@ -951,7 +929,6 @@ export default
                 Facebook: "https://www.facebook.com/pompomsecm",
             }
         },
-
         FARIGOULE: {
             Title: "Pôle Culture",
             Name: "La Farigoule",
@@ -992,7 +969,6 @@ export default
                 Site: "http://www.fanfare-farigoule.com/"
             }
         },
-
         CU: {
             Title: "Pôle Citoyenneté",
             Name: "CheerUp!",
@@ -1032,7 +1008,6 @@ export default
                 Site: "https://cheerup.asso.centrale-marseille.fr/"
             }
         },
-
         EP: {
             Title: "Pôle Citoyenneté",
             Name: "Ech. Phocéens",
@@ -1071,7 +1046,6 @@ export default
                 Twitter: "https://twitter.com/Echanges_Pho"
             }
         },
-
         ISF: {
             Title: "Pôle Citoyenneté",
             Color: "citoyennete",
@@ -1140,7 +1114,6 @@ export default
                 Site: "https://www.isf-france.org/provence"
             }
         },
-
         POTAGER: {
             Title: "Pôle Citoyenneté",
             Name: "Pot'à'gégé",
@@ -1161,7 +1134,6 @@ export default
                 Instagram: "https://www.instagram.com/potagerecm/",
             }
         },
-
         AUMONERIE: {
             Title: "Pôle Citoyenneté",
             Name: "Aumônerie",
@@ -1186,14 +1158,13 @@ export default
                 Facebook: "https://www.facebook.com/aumonerie.ECM",
             }
         },
-
         BDS: {
             Title: "Pôle Sport",
             Color: "sport",
             Logo: require('../Assets/Logos/BDS_logo.png'),
             Pages: {
                 0: {
-                    Name: "Bureau des Sports",
+                    Name: "BDS",
                     Logo: require('../Assets/Logos/BDS_logo.png'),
                     Message: "Ancien taupin, tu\n" +
                         "arrives enfin au bout de ces\n" +
@@ -1275,6 +1246,29 @@ export default
                         },
                 },
                 3: {
+                    Name: "Les sports",
+                    Logo: require('../Assets/Logos/BDS_logo.png'),
+                    Message: "La vie sportive des Centraliens de Marseille n'est pas en manque. " +
+                        "Qu'il s'agisse de sports collectifs ou individuels, vous aurez un large panel de choix à Centrale Marseille ! " +
+                        "Vour pourrez commencer, ou vous perfectionner, dans les disciplines suivantes : " +
+                        "basket-ball, volley, football, rugby, handball, badminton, escalade, randonnée, boxe, ping pong, ou encore tennis " +
+                        "parmis tant d'autres.",
+                    Images:
+                        {
+                            0: require("../Assets/Images/Sports/sport_0.jpg"),
+                            1: require("../Assets/Images/Sports/sport_1.jpg"),
+                            2: require("../Assets/Images/Sports/sport_2.jpg"),
+                            3: require("../Assets/Images/Sports/sport_3.jpg"),
+                            4: require("../Assets/Images/Sports/sport_4.jpg"),
+                            5: require("../Assets/Images/Sports/sport_5.jpg"),
+                            6: require("../Assets/Images/Sports/sport_6.jpg"),
+                            7: require("../Assets/Images/Sports/sport_7.jpg"),
+                            8: require("../Assets/Images/Sports/sport_8.jpg"),
+                            9: require("../Assets/Images/Sports/sport_9.jpg"),
+                            10: require("../Assets/Images/Sports/sport_10.jpg"),
+                        },
+                },
+                4: {
                     Name: "Intercentrales",
                     Logo: require('../Assets/Logos/Intercentrales_logo.png'),
                     Message: "Les Intercentrales c’est\n" +
@@ -1300,7 +1294,7 @@ export default
                             1: require("../Assets/Images/Intercentrales/Inter_2.jpg"),
                         },
                 },
-                4: {
+                5: {
                     Name: "TOSS",
                     Logo: require('../Assets/Logos/LogoTOSS.png'),
                     Message: "C’est simple : c’est le\n" +
@@ -1320,7 +1314,7 @@ export default
                             1: require("../Assets/Images/TOSS/TOSS_2.jpg"),
                         },
                 },
-                5: {
+                6: {
                     Name: "CCL",
                     Logo: require('../Assets/Logos/CCL_logo.png'),
                     Message: "Pour l’arrivée du\n" +
@@ -1347,7 +1341,6 @@ export default
                 Site: "https://bds.asso.centrale-marseille.fr/"
             }
         },
-
         MSB: {
             Title: "Pôle Sport",
             Name: "MSB",
@@ -1382,7 +1375,6 @@ export default
                 Site: "https://massiliasunball.fr/"
             }
         },
-
         RAID: {
             Title: "Pôle Sport",
             Name: "Raid",
@@ -1417,7 +1409,6 @@ export default
                 Site: "https://raid.asso.centrale-marseille.fr/"
             }
         },
-
         MRC: {
             Title: "Pôle Sport",
             Name: "MRC le Ski",
@@ -1441,7 +1432,6 @@ export default
                 Facebook: "https://www.facebook.com/MRC-le-Ski-934324256769734",
             }
         },
-
         MDV: {
             Title: "Pôle Sport",
             Color: "sport",
@@ -1575,7 +1565,6 @@ export default
                 Instagram: "https://www.instagram.com/massilia_defi_voile/"
             }
         },
-
         TVP: {
             Title: "Pôle Sport",
             Name: "Traversée du Vieux-Port",
@@ -1613,7 +1602,6 @@ export default
                 Site: "https://tvp.centrale-marseille.fr/"
             }
         },
-
         UA: {
             Img_btn: require('../Assets/Logos/UA_Logo_blanc.png'),
             Title: "",
@@ -1839,7 +1827,6 @@ export default
                 Site: "https://bde.asso.centrale-marseille.fr/"
             }
         },
-
         AI: {
             Img_btn: require('../Assets/Reseaux_buttons/ReseauxButtons_AI.png'),
             Title: "Nos réseaux",
@@ -1862,7 +1849,6 @@ export default
                 Site: "https://bde.asso.centrale-marseille.fr/"
             }
         },
-
         C5: {
             Img_btn: require('../Assets/Reseaux_buttons/ReseauxButtons_C5.png'),
             Title: "Nos réseaux",
@@ -1889,7 +1875,6 @@ export default
                 Site: "https://bde.asso.centrale-marseille.fr/"
             }
         },
-
         BNEI: {
             Img_btn: require('../Assets/Reseaux_buttons/ReseauxButtons_BNEI.png'),
             Title: "Nos réseaux",
