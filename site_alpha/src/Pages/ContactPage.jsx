@@ -23,10 +23,10 @@ export default class ContactPage extends React.Component{
                 </div>
                 <div id={"Contacts"}>
                     <h1 id={"TitreContacts"}>Contacts</h1>
-                    <ContactInfo name={"Julie BRUANT"} poste={"Présidente UA"} phoneNumber={"06 10 22 68 37"} mailAdress={"thomas.sibille@centrale-marseille.fr"}/>
-                    <ContactInfo name={"Aris DJALLALI"} poste={"Président BDE"} phoneNumber={"06 10 22 68 37"} mailAdress={"thomas.sibille@centrale-marseille.fr"}/>
-                    <ContactInfo name={"Thomas SIBILLE"} poste={"Co-responsable Intégration"} phoneNumber={"06 10 22 68 37"} mailAdress={"thomas.sibille@centrale-marseille.fr"}/>
-                    <ContactInfo name={"Théo CHANTRAINE"} poste={"Co-responsable Intégration"} phoneNumber={"06 10 22 68 37"} mailAdress={"thomas.sibille@centrale-marseille.fr"}/>
+                    <ContactInfo name={"Julie BRUANT"} poste={"Présidente UA"} phoneNumber={"06 47 30 67 69"} mailAdress={"jbruant@ec-m.fr"}/>
+                    <ContactInfo name={"Aris DJALLALI"} poste={"Président BDE"} phoneNumber={"06 51 56 90 36"} mailAdress={"adjalalli@ec-m.fr"}/>
+                    <ContactInfo name={"Marie SCHARFF"} poste={"Présidente BDA"} phoneNumber={"07 70 51 99 99"} mailAdress={"mscharff@ec-m.fr"}/>
+                    <ContactInfo name={"Sophie BALANDREAU"} poste={"Présidente BDS"} phoneNumber={"06 98 48 08 37"} mailAdress={"sbalandreau@ec-m.fr"}/>
                 </div>
             </div>
         )
