@@ -1654,18 +1654,20 @@ export default
                     Name: "Centrale Marseille",
                     Logo: require('../Assets/Logos/CentraleMarseille_logo.png'),
                     Message: "Notre école se situe sur le\n" +
-                        "Technopôle de Château-Gombert\n" +
+                        "Technopôle de Château-Gombert,\n" +
                         "dans le 13e arrondissement de\n" +
                         "Marseille. C’est une zone calme,\n" +
                         "fréquentée en majorité par des\n" +
                         "étudiants et les chercheurs des\n" +
                         "laboratoires aux alentours.\n" +
+                        "\n" +
                         "Le métro est à quelques\n" +
                         "minutes de bus de l’école et à\n" +
-                        "seulement 15 minutes à pieds. Au\n" +
-                        "sein de l’établissement, tu trouveras\n" +
-                        "de nombreux espaces verts\n" +
-                        "ainsi qu’un terrain de pétanque.",
+                        "seulement 15 minutes à pieds.\n" +
+                        "Au sein de l’établissement, tu\n" +
+                        "trouveras de nombreux espaces\n" +
+                        "verts ainsi qu’un terrain de\n" +
+                        "pétanque.",
                     Images:
                         {
                             0: require("../Assets/Images/Centrale/Centrale_3.jpg"),
@@ -1676,30 +1678,34 @@ export default
                 1: {
                     Name: "Campus",
                     Logo: require('../Assets/Logos/CentraleMarseille_logo.png'),
-                    Message: "Les Centraliens investissent\n" +
-                        "en début d’année\n" +
+                    Message: "Les Centraliens in-\n" +
+                        "vestissent en début d’année\n" +
+                        "\n" +
                         "plusieurs résidences du\n" +
                         "Technopôle. Elles proposent\n" +
                         "des appartements meublés\n" +
-                        "d’environ 20 m². Il en existe\n" +
+                        "d’environ 20 m2. Il en existe\n" +
                         "plusieurs: Château-Gombert,\n" +
-                        "collé à l’école, Les Estudines -\n" +
-                        "Oxford, en face, Les Estudines\n" +
-                        "- Provence et Vilogia, un peu plus loin à\n" +
-                        "4min de marche,\n" +
-                        "Les Estudines - Victoria Park,\n" +
-                        "en continuant une dizaine de\n" +
-                        "minutes, et enfin les Résidences\n" +
-                        "CROUS, plus éloignées encore.\n" +
-                        "Il est également envisageable\n" +
-                        "de loger en centre-ville\n" +
-                        "mais peu de 1ère\n" +
-                        "années choisisse cette option.\n" +
-                        "C’est là-bas que la majorité\n" +
-                        "des 2As vivent en colocation\n" +
-                        "dans les quartiers du\n" +
-                        "Vieux-Port, de Réformés ou\n" +
-                        "de Cinq-Avenues.",
+                        "collée à l’école, Les Estudines\n" +
+                        "- Oxford, en face, Les\n" +
+                        "Estudines - Provence, un peu\n" +
+                        "plus loin à 4min de marche,\n" +
+                        "Vilogia, au même niveau\n" +
+                        "que Provence, Les Estudines\n" +
+                        "\n" +
+                        "- Victoria Park, en continuant\n" +
+                        "une dizaine de minutes, et\n" +
+                        "les Résidences CROUS, plus\n" +
+                        "éloignées de l’école.\n" +
+                        "Il est également\n" +
+                        "envisageable de loger en\n" +
+                        "centre-ville mais peu de 1ère\n" +
+                        "années choisissent cette\n" +
+                        "option. C’est là-bas dans les\n" +
+                        "quartiers du Vieux-Port, de\n" +
+                        "Réformés ou de Cinq-Avenues\n" +
+                        "que la majorité des 2As vit en\n" +
+                        "colocation.",
                     Images:
                         {
                             0: require("../Assets/Images/Campus/Campus_1.jpg"),
@@ -1708,9 +1714,9 @@ export default
                 },
             },
             Links:{
-                Facebook: "https://www.facebook.com/ua.centrale.marseille",
-                Instagram: "0",
-                Site: "https://uaecm.fr/"
+                Facebook: "https://www.facebook.com/marseilleville",
+                Instagram: false,
+                Site: "https://www.marseille.fr/"
             }
         },
         MuCEM:{
@@ -1725,7 +1731,11 @@ export default
                 1: require("../../src/Assets/Images/MuCEM/MuCEM_2.jpg"),
                 2: require("../../src/Assets/Images/MuCEM/MuCEM_3.jpg")
             },
-            Links: false
+            Links:{
+                Facebook: "https://www.facebook.com/lemucem",
+                Instagram: "https://www.instagram.com/mucem_officiel/",
+                Site: "https://www.mucem.org/"
+            }
         },
         VieuxPort:{
             Img_btn: require('../Assets/Marseille_map/Marseille_VieuxPort.png'),
@@ -1739,7 +1749,11 @@ export default
                 1: require("../../src/Assets/Images/VieuxPort/VP_2.jpg"),
                 2: require("../../src/Assets/Images/VieuxPort/VP_3.jpg")
             },
-            Links : false
+            Links:{
+                Facebook: "https://www.facebook.com/marseilleville",
+                Instagram: "https://www.instagram.com/villemarseille/",
+                Site: "https://www.marseille.fr/"
+            }
         },
         NotreDame:{
             Img_btn: require('../Assets/Marseille_map/Marseille_NotreDame.png'),
@@ -1753,7 +1767,12 @@ export default
                 1: require("../../src/Assets/Images/NotreDame/ND_2.jpg"),
                 2: require("../../src/Assets/Images/NotreDame/ND_3.jpg")
             },
-            Links : false
+
+            Links:{
+                Facebook: "https://www.facebook.com/marseilleville",
+                Instagram: "https://www.instagram.com/villemarseille/",
+                Site: "http://notredamedelagarde.marseille.fr/"
+            }
         },
         Frioul:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Frioul.png'),
@@ -1767,7 +1786,11 @@ export default
                 1: require("../../src/Assets/Images/Frioules/Frioules_2.jpg"),
                 2: require("../../src/Assets/Images/Frioules/Frioules_3.jpg")
             },
-            Links : false
+            Links:{
+                Facebook: "https://www.facebook.com/marseilleville",
+                Instagram: "https://www.instagram.com/villemarseille/",
+                Site: "https://www.marseille.fr/"
+            }
         },
         Calanques:{
             Img_btn: require('../Assets/Marseille_map/Marseille_Calanques.png'),
@@ -1781,20 +1804,29 @@ export default
                 1: require("../../src/Assets/Images/Calanques/Calanques_2.jpg"),
                 2: require("../../src/Assets/Images/Calanques/Calanques_3.jpg")
             },
-            Links : false
+            Links:{
+                Facebook: "https://www.facebook.com/marseilleville",
+                Instagram: "https://www.instagram.com/villemarseille/",
+                Site: "https://www.marseille.fr/"
+            }
         },
         OrangeVelodrome:{
             Img_btn: require('../Assets/Marseille_map/Marseille_OrangeVelodrome.png'),
             Title: "Marseille",
             Name: "Orange Vélodrome",
             Color: "ecole",
-            Logo: require('../Assets/Logos/OM_logo.png'),
+            Logo: require('../Assets/Logos/OrangeVelodrome_logo.png'),
             Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
             Images: {
                 0: require("../../src/Assets/Images/OrangeVelodrome/OV_1.jpg"),
                 1: require("../../src/Assets/Images/OrangeVelodrome/OV_2.jpg"),
+                2: require("../../src/Assets/Images/OrangeVelodrome/OV_3.jpg"),
             },
-            Links : false
+            Links:{
+                Facebook: "https://www.facebook.com/orangevelodrome",
+                Instagram: "https://www.instagram.com/orangevelodrome/",
+                Site: "https://www.orangevelodrome.com/"
+            }
         },
     },
 
