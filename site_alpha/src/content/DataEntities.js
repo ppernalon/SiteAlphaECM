@@ -1743,7 +1743,11 @@ export default
             Name: "Vieux-Port",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+            Message: "Historiquement le plus ancien port de Marseille, aujourd'hui le Vieux-Port peut accueillir jusqu'à " +
+                "3500 bateaux de plaisance. " +
+                "Situé au centre de la ville de Marseille, sous la surveillance de Notre-Dame-de-la-Garde, c'est un lieu de rassemblement, autant " +
+                "pour les Marseillais que pour les voyageurs. En effet, c'est depuis ce carrefour qu'il est possible d'accéder aux " +
+                "calanques de Marseille, parmi tant d'autres destinations.",
             Images: {
                 0: require("../../src/Assets/Images/VieuxPort/VP_1.jpg"),
                 1: require("../../src/Assets/Images/VieuxPort/VP_2.jpg"),
