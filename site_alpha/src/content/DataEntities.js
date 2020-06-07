@@ -1841,23 +1841,36 @@ export default
             Name: "AssoM",
             Color: "reseaux",
             Logo: require('../Assets/Logos/AssoM_logo.png'),
-            Message: "Une association regroupant tous les organismes étudiants de \n" +
-                "Marseille, ne serait-ce pas formidable ? Ne cherche plus, cette \n" +
-                "association existe et s’appelle l’AssoM ! Cette asso ne se limite \n" +
-                "pas à organiser deux énormes soirées étudiantes dans l’année, \n" +
-                "elle œuvre à une ouverture culturelle et sportive au sein de \n" +
-                "Marseille : un concours culinaire de qualité, une tournoi hyper \n" +
-                "compétitif inter-écoles, l’AssoM régale la cité Phocéenne avec \n" +
-                "des évènements tous plus exceptionnels les uns que les autres. \n" +
-                "Et ceci n’est possible que grâce à l’aide de tous les étudiants \n" +
-                "Marseillais, centraliens y compris.",
+            Message: "Une association\n" +
+                "regroupant tous les organismes\n" +
+                "étudiants de\n" +
+                "Marseille, ne serait-ce pas\n" +
+                "formidable ? Ne cherche plus,\n" +
+                "cette association existe et\n" +
+                "s’appelle l’AssoM ! Cette asso\n" +
+                "ne se limite pas à organiser\n" +
+                "deux énormes soirées étudiantes\n" +
+                "dans l’année, elle\n" +
+                "oeuvre à une ouverture culturelle\n" +
+                "et sportive au sein de\n" +
+                "Marseille : un concours\n" +
+                "culinaire de qualité, un tournoi\n" +
+                "hyper compétitif inter-écoles,\n" +
+                "l’AssoM régale la cité\n" +
+                "Phocéenne avec des événements\n" +
+                "tous plus exceptionnels\n" +
+                "les uns que les autres. Et\n" +
+                "ceci n’est possible que grâce\n" +
+                "à l’aide de tous les étudiants\n" +
+                "marseillais, centraliens y\n" +
+                "compris.",
             Images: {
                 0: require("../Assets/Images/BDE/BDE_1.jpg"),
             },
             Links: {
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/AssoMOfficiel",
+                Instagram: "https://www.instagram.com/assom_officiel/",
+                Site: "https://assom.fr/"
             }
         },
         AI: {
@@ -1866,20 +1879,34 @@ export default
             Name: "Les Alumni",
             Color: "reseaux",
             Logo: require('../Assets/Logos/Alumni_logo.png'),
-            Message: "Tu comprendras très vite en arrivant à l'école l'importance d'avoir un bon réseau de relations " +
-                "construit au cours de ta vie. L'association des alumnis, c'est ta porte ouverte sur tous les élèves passés " +
-                "par Centrale Marseille et ses écoles fondatrices ! Au-delà d'un annuaire où se trouve peut-être le numéro de " +
-                "ton futur employeur, l'association des Alumnis c'est aussi des interlocuteurs expérimentés qui sauront " +
-                "répondre à toutes tes questions et qui feront leur maximum pour t'aider dans tes projets professionnels.\n" +
-                "C'est ce réseau riche, accessible et solidaire qui fait la force de Centrale Marseille !",
+            Message: "Tu comprendras très\n" +
+                "vite en arrivant à l’école l’importance d’avoir un bon réseau de\n" +
+                "relations construit au cours de\n" +
+                "ta vie. L’association des Alumni,\n" +
+                "c’est ta porte ouverte sur tous\n" +
+                "les élèves passés par Centrale\n" +
+                "Marseille et ses écoles fondatrices !\n" +
+                "Au-delà d’un annuaire\n" +
+                "où se trouve peut-être le\n" +
+                "numéro de ton futur employeur,\n" +
+                "l’association des Alumnis\n" +
+                "c’est aussi des interlocuteurs\n" +
+                "expérimentés qui sauront\n" +
+                "répondre à toutes tes questions\n" +
+                "et qui feront leur maximum\n" +
+                "pour t’aider dans tes projets\n" +
+                "professionnels.\n" +
+                "C’est ce réseau riche,\n" +
+                "accessible et solidaire qui fait\n" +
+                "la force de Centrale Marseille !",
             Images: {
                 0: require("../Assets/Images/AI/AI_1.jpg"),
                 1: require("../Assets/Images/AI/AI_2.jpg"),
             },
             Links: {
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/CentraleMarseilleAlumni",
+                Instagram: "https://www.facebook.com/CentraleMarseilleAlumni",
+                Site: "https://www.centraliens-marseille.fr/"
             }
         },
         C5: {
@@ -1888,24 +1915,38 @@ export default
             Name: "C5",
             Color: "reseaux",
             Logo: require('../Assets/Logos/C5_logo.png'),
-            Message: "La fédération C5 est une association constituée d'élèves des 5 écoles Centrale " +
-                "métropolitaines et de l'Ecole Centrale de Casablanca. Elle favorise la cohésion et " +
-                "la communication au sein du réseau centralien et agit à l'échelle du Groupe des Ecoles Centrale. \n" +
-                "Chaque année l'équipe du C5 organise un congrès sur le campus de CentraleSupélec " +
-                "pour rassembler les associations des Ecoles Centrales. L'objectif est de créer " +
-                "des temps d'échange et de réflexion autour du monde associatif et des " +
-                "problèmatiques qu'il rencontre comme l'éco-responsabilité ou l'organisation d'événements " +
-                "de grande ampleur. Au programme : des conférences, des tables rondes, des rencontres, " +
-                "et une soirée entre les 6 écoles !",
+            Message: "La fédération C5 est\n" +
+                "une association constituée\n" +
+                "d’élèves des 5 écoles Centrale\n" +
+                "métropolitaines et de l’École\n" +
+                "Centrale de Casablanca. Elle\n" +
+                "favorise la cohésion et la communication\n" +
+                "au sein du réseau\n" +
+                "centralien et agit à l’échelle du\n" +
+                "Groupe des Écoles Centrale.\n" +
+                "Chaque année l’équipe du C5\n" +
+                "organise un congrès sur le\n" +
+                "campus de CentraleSupélec\n" +
+                "pour rassembler les\n" +
+                "associations des Écoles\n" +
+                "Centrales. L’objectif est de\n" +
+                "créer des temps d’échange et\n" +
+                "de réflexion autour du monde\n" +
+                "associatif et des problématiques\n" +
+                "qu’il rencontre comme\n" +
+                "l’écoresponsabilité ou l’organisation\n" +
+                "d’événements de grande\n" +
+                "ampleur. Au programme :\n" +
+                "des conférences, des tables\n" +
+                "rondes, des rencontres, et une\n" +
+                "soirée entre les 6 écoles !",
             Images: {
                 0: require("../Assets/Images/C5/C5_1.jpg"),
                 1: require("../Assets/Images/C5/C5_2.jpg"),
                 2: require("../Assets/Images/C5/C5_3.jpg"),
             },
             Links: {
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/centrale5",
             }
         },
         BNEI: {
@@ -1914,21 +1955,39 @@ export default
             Name: "BNEI",
             Color: "reseaux",
             Logo: require('../Assets/Logos/BNEI_logo.png'),
-            Message: "Le Bureau National des Elèves Ingénieurs (BNEI) représente l’ensemble des 185 000 " +
-                "élèves-ingénieurs en fédérant les Bureaux des Elèves des écoles et les élus. Ses missions " +
-                "sont de représenter, d'informer et de former les élèves ingénieurs de la France entière. " +
-                "C'est une instance permettant un lien avec différentes institutions sociales, industrielles " +
-                "ou gouvernementales afin de défendre vos intérêts !\n" +
-                "Des formations sont également dispensées aux différents responsables associatifs afin " +
-                "d'accompagner le développement des associations et l'implication des élèves !\n" +
-                "Le BNEI est organisé en près de 24 Bureaux Régionaux des Elèves Ingénieurs (BREI) pour agir à échelle locale !",
+            Message: "Le Bureau National\n" +
+                "des Elèves Ingénieurs (BNEI)\n" +
+                "représente l’ensemble des\n" +
+                "185 000 élèves-ingénieurs\n" +
+                "en fédérant les Bureaux des\n" +
+                "Elèves des écoles et les\n" +
+                "élus. Ses missions sont de\n" +
+                "représenter, d’informer et de\n" +
+                "former les élèves ingénieurs\n" +
+                "de la France entière. C’est une\n" +
+                "instance permettant un lien\n" +
+                "avec différentes institutions\n" +
+                "sociales, industrielles ou\n" +
+                "gouvernementales afin de\n" +
+                "défendre vos intérêts !\n" +
+                "Des formations sont\n" +
+                "également dispensées aux\n" +
+                "différents responsables associatifs\n" +
+                "afin d’accompagner\n" +
+                "le développement des associations\n" +
+                "et l’implication des\n" +
+                "élèves !\n" +
+                "Le BNEI est organisé en\n" +
+                "près de 24 Bureaux Régionaux\n" +
+                "des Elèves Ingénieurs (BREI)\n" +
+                "pour agir à échelle locale !",
             Images: {
                 0: require("../Assets/Images/BNEI/BNEI_1.jpg"),
             },
             Links: {
-                Facebook: "https://www.facebook.com/bdecentralemarseille",
-                Instagram: "https://www.instagram.com/bde_ecm/?hl=fr",
-                Site: "https://bde.asso.centrale-marseille.fr/"
+                Facebook: "https://www.facebook.com/BNEIassos",
+                Instagram: "https://www.instagram.com/bneiassos/",
+                Site: "https://www.bnei.fr/"
             }
         }
     }

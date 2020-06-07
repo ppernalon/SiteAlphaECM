@@ -11,7 +11,12 @@ export default class ReseauxPage extends React.Component{
         }
 
         this.title = "Nos réseaux";
-        this.message = "Clausos vehementer vehementer consumendo inediae vehebant vero quod clausos quae vehebant clausos vehebant cibos angebat exitialis navigiis quidem ipsi exitialis vehebant frumenta Isauri clausos ipsi horrebant solitarum adfluebant Isauri navigiis consumendo aerumnas cibos flumen iam copiis per quod horrebant captis flumen cibos exitialis tamen quidem cibos Isauri quod cibos flumen Isauri captis clausos vehementer cibos ipsi flumen clausos cibos aerumnas angebat cibos per horrebant quod propinquantis exitialis angebat cibos frumenta horrebant aerumnas tamen vehementer";
+        this.message = "Etre étudiant à Centrale Marseille donne accès à de nombreux réseaux. Chaque réseau est différent et " +
+            "te permet de t'impliquer dans divers monde. Ainsi tu pourras prendre part à la vie étudiante de Marseille grâce à " +
+            "l'AssoM, échanger avec les élèves provenant d'autres Centrale avec le C5, profiter de l'expérience des anciens " +
+            "pour t'aider dans ta vie professionnelle auprès des Alumni, ou encore participer aux discussions portant sur " +
+            "les élèves ingénieurs " +
+            "via le BNEI. Plusieurs réseaux pour de très nombreuses opportunités !";
     }
 
     render(){
