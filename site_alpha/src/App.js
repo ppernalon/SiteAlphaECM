@@ -3,6 +3,7 @@ import './App.css';
 import './animate.css';
 import NavigatorRouter from "./Components/NavigatorRouter";
 import NavigatorRouterV2 from "./Components/NavigatorRouterV2";
+import { loadReCaptcha } from 'react-recaptcha-google'
 
 import {
     BrowserRouter as Router
@@ -11,6 +12,7 @@ import {
 
 
 function App() {
+    loadReCaptcha();
   return (
     <Router>
         <div className="App">

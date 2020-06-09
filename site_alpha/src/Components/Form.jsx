@@ -2,6 +2,7 @@ import React from 'react';
 import PopUp from './PopUp';
 import PopUpPortail from './PopUpPortail';
 import './styles/Form.css';
+import Captcha from './Captcha'
 
 export default class Form extends React.Component {
     constructor(props) {
@@ -102,10 +103,7 @@ export default class Form extends React.Component {
         if(this.state.step === 5){
             return (
                 <div id="Formulaire">
-                    <script src="https://www.google.com/recaptcha/api.js&render=explicit" async defer>
-                    </script>
                     <form action="?" method="POST">
-                        <div className="g-recaptcha" data-sitekey="your_site_key"></div>
                         <br/>
                         <div id="CG">
                             <p>Conditions Générales de confidentialité</p>
@@ -115,6 +113,7 @@ export default class Form extends React.Component {
                             Si vous estimez, après nous avoir contactés, que vos droits sur vos données ne sont pas respectés, vous pouvez adresser une réclamation (plainte) auprès de la Commission nationale de l'Informatique et des Libertés (CNIL).
                         </div>
                         <input type="submit" value="Valider"/>
+                        <Captcha/>
                     </form>
                 </div>
             )
