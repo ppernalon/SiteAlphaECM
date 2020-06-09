@@ -1762,10 +1762,10 @@ export default
         NotreDame:{
             Img_btn: require('../Assets/Marseille_map/Marseille_NotreDame.png'),
             Title: "Marseille",
-            Name: "la Bonne Mère",
+            Name: "La Bonne Mère",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+            Message: "Surnommée « La Bonne Mère », Notre-Dame-de-la-Garde est une basilique catholique vieille de 156 ans construite sur les fondations d’un fort de François 1er. Elle surplombe la ville de Marseille et la mer depuis sa colline à près de 150 mètres d’altitude. Une statue dorée de Marie, protectrice de la ville et de ses marins, domine la basilique depuis le sommet du batiment. La vue de Marseille tout comme l’intérieur de la basilique qu’offre ce monument symbolique de Marseille en valent le détour.",
             Images: {
                 0: require("../../src/Assets/Images/NotreDame/ND_1.jpg"),
                 1: require("../../src/Assets/Images/NotreDame/ND_2.jpg"),
@@ -1802,7 +1802,7 @@ export default
             Name: "Calanques",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+            Message: "Paysage typique du littoral Marseillais, les Calanques regroupent une petite vingtaine de criques et d’anses entre Marseille et Cassis. Ce site est depuis 2012 un parc national, protégeant la flore et la faune terrestres comme maritimes. Au-delà des magnifiques paysages, les calanques proposent de nombreuses activités comme des randonnées, du kayak, de la plongée ou encore de l’escalade !",
             Images: {
                 0: require("../../src/Assets/Images/Calanques/Calanques_1.jpg"),
                 1: require("../../src/Assets/Images/Calanques/Calanques_2.jpg"),
@@ -1811,7 +1811,7 @@ export default
             Links:{
                 Facebook: "https://www.facebook.com/marseilleville",
                 Instagram: "https://www.instagram.com/villemarseille/",
-                Site: "https://www.marseille.fr/"
+                Site: "http://www.calanques-parcnational.fr/fr"
             }
         },
         OrangeVelodrome:{
@@ -1865,7 +1865,8 @@ export default
                 "marseillais, centraliens y\n" +
                 "compris.",
             Images: {
-                0: require("../Assets/Images/BDE/BDE_1.jpg"),
+                0: require("../Assets/Images/AssoM/AssoM_1.jpg"),
+                1: require("../Assets/Images/AssoM/AssoM_2.jpg"),
             },
             Links: {
                 Facebook: "https://www.facebook.com/AssoMOfficiel",
