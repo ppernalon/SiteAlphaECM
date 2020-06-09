@@ -49,9 +49,13 @@ export default class Navigator extends React.Component{
        return(
             <div className="container">
                 <NavBar toggle={this.drawerToggleClickHandler} navigate={this.navigationHandler}/>
-                <ScrollButton title="precedente" navigate={this.navigationHandler}/>
+                <div id="ColumnLeft">
+                    <ScrollButton title="precedente" navigate={this.navigationHandler}/>
+                </div>
                 {this.state.currentPage}
-                <ScrollButton title="suivante" navigate={this.navigationHandler}/>
+                <div id="ColumnRight">
+                    <ScrollButton title="suivante" navigate={this.navigationHandler}/>
+                </div>
                 <Backdrop show={this.state.drawerOpen} close={this.backdropClickHandler}/>
                 <SlideDrawer show={this.state.drawerOpen} toggle={this.drawerToggleClickHandler} navigate={this.navigationHandler}/>
             </div>

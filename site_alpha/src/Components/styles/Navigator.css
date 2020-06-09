@@ -8,6 +8,18 @@
         height: calc(100% - 85px - 60px);
     }
 
+    #ColumnRight{
+        height: calc(100vh - 85px - 60px);
+        align-items: center;
+        display: flex;
+    }
+
+    #ColumnLeft{
+        height: calc(100vh - 85px - 60px);
+        align-items: center;
+        display: flex;
+    }
+
     a.ScrollButton{
         display: flex;
         height: 10vh;
@@ -17,7 +29,6 @@
         font-family: "Kaushan Script", cursive;
         background-repeat: no-repeat;
         background-size: contain;
-        align-self: center;
         color: white;
         font-size: 1.4vw;
         text-decoration: none;
@@ -70,6 +81,13 @@
     .BottomButtonRight{
         background-image: url('../../Assets/Buttons/Buttons__scroll_sp_right.png');
         background-position: right;
+    }
+    #ColumnRight{
+        display: none;
+    }
+
+    #ColumnLeft{
+        display: none;
     }
 }
 
