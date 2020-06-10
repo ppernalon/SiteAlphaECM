@@ -1820,7 +1820,7 @@ export default
             Name: "Orange Vélodrome",
             Color: "ecole",
             Logo: require('../Assets/Logos/OrangeVelodrome_logo.png'),
-            Message: "Le Bureau Des Élèves... C’est l’une des assos les plus actives de l’école. Son équipe surmotivée organise de nombreux événements qui rythmeront ta vie centralienne : des soirées, des afterworks, le gala, mais surtout l’intégration et le WEI, qui te permettront de rencontrer ta nouvelle promo et tous les centraliens ! Grâce à ses partenariats, tu pourras aussi profiter de plein de bons plans pour vivre à Marseille et découvrir, ou redécouvrir, l’ambiance méditerranéenne qui fait tant rêver ! On espère te retrouver très vite sous lesoleil marseillais !",
+            Message: "Avec 60 000 places, l’Orange Vélodrome est le second stade de France en termes de capacité. Ne se limitant pas au football, il accueille également des rencontres de rugby et de cyclisme, mais aussi de nombreux concerts de célébrités nationales comme internationales. Toutefois, il doit sa grande popularité au club de football résidant depuis 1937 : l’Olympique de Marseille. ",
             Images: {
                 0: require("../../src/Assets/Images/OrangeVelodrome/OV_1.jpg"),
                 1: require("../../src/Assets/Images/OrangeVelodrome/OV_2.jpg"),
