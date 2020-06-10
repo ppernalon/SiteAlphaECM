@@ -13,7 +13,7 @@ export default class WelcomingMessage extends React.Component{
         return(
             <div id="Message_WM">
                 <p id={"pBaliseWM"}> &emsp; &emsp; {this.message} </p>
-                <Form/>
+                <Form />
                 <br/>
                 <span> {this.authors} </span>
             </div>

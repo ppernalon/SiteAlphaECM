@@ -1,3 +1,50 @@
+#CG{
+    font-family: "Roboto", cursive;
+    font-size: 10pt;
+    text-align: justify;
+}
+
+#CG p{
+    font-weight: bold;
+    color: #fff;
+}
+
+#Formulaire input{
+    font-family: "Roboto", cursive;
+    font-size: 15px;
+    border-color: #fff;
+    border-radius: 15px;
+    border-width: 1px;
+    color: #fff;
+    margin: 3px;
+    background-image: url("../../Assets/Bordures/Bordures__ecole.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 8px;
+}
+
+#Formulaire button{
+    font-family: "Roboto", cursive;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    border-width: 1px;
+    color: #fff;
+    background-image: url("../../Assets/Bordures/Bordures__ecole.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Formulaire button:hover{
+    box-shadow: 0 0 0.5vmax blue;
+    color: lightblue;
+    cursor: pointer;
+}
+
 #Formulaire
 {
     display: block;
@@ -35,13 +82,25 @@
 @media only screen and (max-width: 767px)  {
     #Formulaire
     {
-        font-size: 1.5vmax;
+        font-size: 2.5vmax;
+    }
+    #Formulaire input
+    {
+        font-size: 2vmax;
     }
 }
 
 @media only screen and (min-width: 768px) {
 
     #Formulaire
+    {
+        font-size: 1.3vmax;
+    }
+    #Formulaire input
+    {
+        font-size: 1.3vmax;
+    }
+    #Formulaire button
     {
         font-size: 1.3vmax;
     }

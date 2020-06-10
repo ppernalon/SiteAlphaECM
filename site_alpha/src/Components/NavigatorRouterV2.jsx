@@ -87,7 +87,9 @@ class NavigatorRouterV2 extends React.Component {
             <div className="container" style={{backgroundImage: "url(" + this.state.backGround + ")"}}>
                     <NavBar/>
                     <div className="pageViewContainer">
+                        <div id="ColumnRight">
                         <ScrollButton to={this.state.previous.path} title={this.state.previous.title} up/>
+                        </div>
                         <Suspense fallback={<SplashPage/>}>
                             <Switch>
                                 <Route exact path="/" component={() => <HomePage transition={this.state.transitions[0]}/>}/>
@@ -99,7 +101,9 @@ class NavigatorRouterV2 extends React.Component {
                                 <Route component={HomePage}/>
                             </Switch>
                         </Suspense>
+                        <div id="ColumnLeft">
                         <ScrollButton to={this.state.next.path} title={this.state.next.title}/>
+                        </div>
                     </div>
                 <BottomButtons nextPath={this.state.next.path} previousPath={this.state.previous.path} nextTitle={this.state.next.title} previousTitle={this.state.previous.title}/>
             </div>
