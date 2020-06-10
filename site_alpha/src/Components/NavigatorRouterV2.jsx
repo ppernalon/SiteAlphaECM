@@ -85,8 +85,8 @@ class NavigatorRouterV2 extends React.Component {
     render() {
         return (
             <div className="container" style={{backgroundImage: "url(" + this.state.backGround + ")"}}>
-                    <NavBar/>
-                    <div className="pageViewContainer">
+                <NavBar/>
+                <div className="pageViewContainer">
                         <div id="ColumnRight">
                         <ScrollButton to={this.state.previous.path} title={this.state.previous.title} up/>
                         </div>

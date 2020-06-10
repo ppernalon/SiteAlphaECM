@@ -13,6 +13,7 @@
 @media only screen and (max-width: 767px) {
     #ReseauxPageDiv {
         grid-template-columns: 90vw;
+        transform: scale(0.88);
     }
 }
 

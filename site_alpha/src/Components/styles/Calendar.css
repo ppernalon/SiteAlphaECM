@@ -70,6 +70,7 @@
     {
         width: 90vw;
         height: 22vh;
+        transform: scale(0.9);
     }
 
     #traitVertical
@@ -91,7 +92,7 @@
     #monthsFrieze
     {
         width: 90vw;
-        height: 60vh;
+        height: 52vh;
         position: relative;
     }
 
@@ -113,43 +114,43 @@
 
     #Sept
     {
-        top: 45.6vh;
+        top: 39.6vh;
         left: calc(45vw - 6vh);
     }
 
     #Oct
     {
-        top: 38.4vh;
+        top: 34.4vh;
         left: calc(45vw - 16vh);
     }
 
     #Nov
     {
-        top: 38.4vh;
+        top: 34.4vh;
         left: calc(45vw + 4vh);
     }
 
     #Déc
     {
-        top: 31.2vh;
+        top: 27.2vh;
         left: calc(45vw - 6vh);
     }
 
     #Jan
     {
-        top: 24vh;
+        top: 22vh;
         left: calc(45vw - 16vh);
     }
 
     #Fév
     {
-        top: 24vh;
+        top: 22vh;
         left: calc(45vw + 4vh);
     }
 
     #Mars
     {
-        top: 16.8vh;
+        top: 14.8vh;
         left: calc(45vw - 6vh);
     }
 
