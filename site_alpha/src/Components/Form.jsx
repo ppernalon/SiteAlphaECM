@@ -104,7 +104,6 @@ export default class Form extends React.Component {
             return (
                 <div id="Formulaire">
                     <form action="?" method="POST">
-                        <br/>
                         <div id="CG">
                             <p>Conditions Générales de confidentialité</p>
                             Le formulaire de demande d'information contenu sur la page ms-imeo.centrale-marseille.info constitue un traitement de données personnelles géré par l'Ecole centrale de Marseille fondé sur la base de la précontractualisation. Les informations recueillies à partir de ce formulaire, [nom, prénom, téléphone, email] sont transmises au service Executive Education de l'Ecole centrale de Marseille, ainsi qu'à son partenaire SeaTech, pour gérer votre demande d'information sur le site de l'Ecole centrale de Marseille et également dans le cadre de la promotion des offres de formation de l'Ecole centrale de Marseille. Les données recueillies sont conservées pour une durée de 3 ans.
