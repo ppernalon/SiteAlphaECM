@@ -14,7 +14,8 @@ export default class Form extends React.Component {
             codePostal : null,
             adresse : "",
             email : "",
-            ville : ""
+            ville : "",
+            recaptchaToken:""
         }
     }
 
@@ -34,9 +35,9 @@ export default class Form extends React.Component {
 
     };
 
-    handleStep = () => {
+    handleStep = (number) => {
         let step = this.state.step;
-        step = step + 1;
+        step = step + number;
         this.setState({step:step})
     };
 
@@ -53,7 +54,7 @@ export default class Form extends React.Component {
     render() {
         if(this.state.step === 0){
             return (
-                <div id="Formulaire" onClick={this.handleStep}>
+                <div id="Formulaire" onClick={() => this.handleStep(+1)}>
                     Donne nous tes coordonnées pour recevoir plus d'infos!!!
                 </div>
             )
@@ -63,7 +64,7 @@ export default class Form extends React.Component {
                 <div id="Formulaire">
                             <label htmlFor="lastName">Nom : </label>
                             <input type="text" name="lastName" required value={this.state.lastName} onChange={this.handleInputChange}/>
-                            <button onClick={this.handleStep}> > </button> <div>Etape {1}/{5}</div>
+                    <button onClick={() => this.handleStep(-1)}> {"<"} </button>  <button onClick={() => this.handleStep(+1)}> > </button> <div>Etape {1}/{5}</div>
                 </div>
             )
         }
@@ -72,7 +73,7 @@ export default class Form extends React.Component {
                 <div id="Formulaire">
                     <label htmlFor="firstName">Prénom : </label>
                     <input type="text" name="firstName" required value={this.state.firstName} onChange={this.handleInputChange}/>
-                    <button onClick={this.handleStep}> > </button> <div>Etape {2}/{5}</div>
+                    <button onClick={() => this.handleStep(-1)}> {"<"} </button>  <button onClick={() => this.handleStep(+1)}> > </button> <div>Etape {2}/{5}</div>
                 </div>
             )
         }
@@ -81,13 +82,16 @@ export default class Form extends React.Component {
                 <div id="Formulaire">
                     <label htmlFor="email">Email : </label>
                     <input type="text" name="email" required value={this.state.email} onChange={this.handleInputChange}/>
-                    <button onClick={this.handleStep}> > </button> <div>Etape {3}/{5}</div>
+                    <button onClick={() => this.handleStep(-1)}> {"<"} </button>  <button onClick={() => this.handleStep(+1)}> > </button>  <div>Etape {3}/{5}</div>
                 </div>
             )
         }
         if(this.state.step === 4){
             return (
                 <div id="Formulaire">
+                    <div id="info">
+                        <p>Etape non obligatoire sauf si tu souhaites recevoir des support d'information physiques!</p>
+                    </div>
                     <label htmlFor="adresse">Adresse : </label>
                     <input type="text" name="adresse" required value={this.state.adresse} onChange={this.handleInputChange}/>
                     <br/>
@@ -96,7 +100,7 @@ export default class Form extends React.Component {
                     <br/>
                     <label htmlFor="ville">Ville :</label>
                     <input type="text" name="ville" required value={this.state.ville} onChange={this.handleInputChange}/>
-                    <button onClick={this.handleStep}> > </button> <div>Etape {4}/{5}</div>
+                    <button onClick={() => this.handleStep(-1)}> {"<"} </button>  <button onClick={() => this.handleStep(+1)}> > </button> <div>Etape {4}/{5}</div>
                 </div>
             )
         }
@@ -111,8 +115,10 @@ export default class Form extends React.Component {
                             Vous pouvez exercer ces droits auprès du délégué à la protection des données en le contactant à l'adresse suivante : dpo@centrale-marseille.fr
                             Si vous estimez, après nous avoir contactés, que vos droits sur vos données ne sont pas respectés, vous pouvez adresser une réclamation (plainte) auprès de la Commission nationale de l'Informatique et des Libertés (CNIL).
                         </div>
+                        <div style={{display:"flex", justifyContent:"center"}}>
+                            <Captcha/>
+                        </div>
                         <input type="submit" value="Valider"/>
-                        <Captcha/>
                     </form>
                 </div>
             )

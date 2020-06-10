@@ -4,6 +4,13 @@
     text-align: justify;
 }
 
+#info p{
+    color: #fff;
+    font-family: "Roboto", cursive;
+    font-size: 15pt;
+    text-align: center;
+}
+
 #CG p{
     font-weight: bold;
     color: #fff;
@@ -87,6 +94,10 @@
         max-height: 20vh;
     }
     #Formulaire input
+    {
+        font-size: 2vmax;
+    }
+    #Formulaire button
     {
         font-size: 2vmax;
     }
