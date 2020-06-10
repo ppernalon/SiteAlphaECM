@@ -7,15 +7,35 @@ export default class BottomButtons extends React.Component{
     }
 
     render() {
-        return(
-            <div id="BottomButtons">
-                <NavLink className={"BottomButton BottomButtonLeft"} to={this.props.previousPath}>
-                    {this.props.previousTitle}
-                </NavLink>
-                <NavLink className={"BottomButton BottomButtonRight"} to={this.props.nextPath}>
-                    {this.props.nextTitle}
-                </NavLink>
-            </div>
-        )
+        if (this.props.nextTitle === "Marseille"){
+            return (
+                <div id="BottomButtons">
+                    <NavLink className={"BottomButton BottomButtonRight"} to={this.props.nextPath}>
+                        {this.props.nextTitle}
+                    </NavLink>
+                </div>
+            )
         }
+        else if (this.props.previousTitle === "Calendrier"){
+            return(
+                <div id="BottomButtons">
+                    <NavLink className={"BottomButton BottomButtonLeft"} to={this.props.previousPath}>
+                        {this.props.previousTitle}
+                    </NavLink>
+                </div>
+            )
+        }
+        else {
+            return(
+                <div id="BottomButtons">
+                    <NavLink className={"BottomButton BottomButtonLeft"} to={this.props.previousPath}>
+                        {this.props.previousTitle}
+                    </NavLink>
+                    <NavLink className={"BottomButton BottomButtonRight"} to={this.props.nextPath}>
+                        {this.props.nextTitle}
+                    </NavLink>
+                </div>
+            )
+        }
+    }
 }

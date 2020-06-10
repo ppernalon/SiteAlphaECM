@@ -83,12 +83,13 @@ class NavigatorRouterV2 extends React.Component {
 
 
     render() {
-        return (
-            <div className="container" style={{backgroundImage: "url(" + this.state.backGround + ")"}}>
-                <NavBar/>
-                <div className="pageViewContainer">
+        if (this.state.next.title === "Marseille"){
+            return(
+                <div className="container" style={{backgroundImage: "url(" + this.state.backGround + ")"}}>
+                    <NavBar/>
+                    <div className="pageViewContainer">
                         <div id="ColumnRight">
-                        <ScrollButton to={this.state.previous.path} title={this.state.previous.title} up/>
+
                         </div>
                         <Suspense fallback={<SplashPage/>}>
                             <Switch>
@@ -102,12 +103,69 @@ class NavigatorRouterV2 extends React.Component {
                             </Switch>
                         </Suspense>
                         <div id="ColumnLeft">
-                        <ScrollButton to={this.state.next.path} title={this.state.next.title}/>
+                            <ScrollButton to={this.state.next.path} title={this.state.next.title}/>
                         </div>
                     </div>
-                <BottomButtons nextPath={this.state.next.path} previousPath={this.state.previous.path} nextTitle={this.state.next.title} previousTitle={this.state.previous.title}/>
-            </div>
-        )
+                    <BottomButtons nextPath={this.state.next.path} previousPath={this.state.previous.path} nextTitle={this.state.next.title} previousTitle={this.state.previous.title}/>
+                </div>
+            )
+        }
+
+        else if (this.state.previous.title === "Calendrier"){
+            return(
+                <div className="container" style={{backgroundImage: "url(" + this.state.backGround + ")"}}>
+                    <NavBar/>
+                    <div className="pageViewContainer">
+                        <div id="ColumnRight">
+                            <ScrollButton to={this.state.previous.path} title={this.state.previous.title} up/>
+                        </div>
+                        <Suspense fallback={<SplashPage/>}>
+                            <Switch>
+                                <Route exact path="/" component={() => <HomePage transition={this.state.transitions[0]}/>}/>
+                                <Route path="/marseille" component={() => <MarseillePage transition={this.state.transitions[1]}/>}/>
+                                <Route path="/associations" component={() => <AssociationsPage transition={this.state.transitions[2]}/>}/>
+                                <Route path="/reseaux" component={() => <ReseauxPage transition={this.state.transitions[3]}/>}/>
+                                <Route path="/calendrier" component={() => <CalendarPage transition={this.state.transitions[4]}/>}/>
+                                <Route path="/contact" component={() => <ContactPage transition={this.state.transitions[5]}/>}/>
+                                <Route component={HomePage}/>
+                            </Switch>
+                        </Suspense>
+                        <div id="ColumnLeft">
+
+                        </div>
+                    </div>
+                    <BottomButtons nextPath={this.state.next.path} previousPath={this.state.previous.path} nextTitle={this.state.next.title} previousTitle={this.state.previous.title}/>
+                </div>
+            )
+        }
+
+        else{
+            return(
+                <div className="container" style={{backgroundImage: "url(" + this.state.backGround + ")"}}>
+                    <NavBar/>
+                    <div className="pageViewContainer">
+                        <div id="ColumnRight">
+                            <ScrollButton to={this.state.previous.path} title={this.state.previous.title} up/>
+                        </div>
+                        <Suspense fallback={<SplashPage/>}>
+                            <Switch>
+                                <Route exact path="/" component={() => <HomePage transition={this.state.transitions[0]}/>}/>
+                                <Route path="/marseille" component={() => <MarseillePage transition={this.state.transitions[1]}/>}/>
+                                <Route path="/associations" component={() => <AssociationsPage transition={this.state.transitions[2]}/>}/>
+                                <Route path="/reseaux" component={() => <ReseauxPage transition={this.state.transitions[3]}/>}/>
+                                <Route path="/calendrier" component={() => <CalendarPage transition={this.state.transitions[4]}/>}/>
+                                <Route path="/contact" component={() => <ContactPage transition={this.state.transitions[5]}/>}/>
+                                <Route component={HomePage}/>
+                            </Switch>
+                        </Suspense>
+                        <div id="ColumnLeft">
+                            <ScrollButton to={this.state.next.path} title={this.state.next.title}/>
+                        </div>
+                    </div>
+                    <BottomButtons nextPath={this.state.next.path} previousPath={this.state.previous.path} nextTitle={this.state.next.title} previousTitle={this.state.previous.title}/>
+                </div>
+            )
+        }
     }
 
     componentDidMount() {
