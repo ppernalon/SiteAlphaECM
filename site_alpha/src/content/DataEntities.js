@@ -1570,9 +1570,9 @@ export default
                 },
             },
             Links:{
-                Facebook: "https://www.facebook.com/marseilleville",
-                Instagram: false,
-                Site: "https://www.marseille.fr/"
+                Facebook: "https://www.facebook.com/CentraleMarseille",
+                Instagram: "https://www.instagram.com/centralemarseille/",
+                Site: "https://www.choisir.centrale-marseille.fr/"
             }
         },
         MuCEM:{
@@ -1581,7 +1581,7 @@ export default
             Name: "MuCEM",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
-            Message: "Le MuCEM, où musée des Civilisations de l'Europe et de la Méditerranée, est un musée national situé au coeur de la ville de Marseille entre le fort Saint-Jean et la cathédrale de La Major. Il est qualifié de musée de société préférant exposer les objets du quotidien plutôt que les œuvres d'art. De plus, sa fonction va au-delà de celle d'un musée traditionnelle, l'objectif est d'articulier les programmations autour des grandes questions de sociétés européennes et méditerranéennes. Ce site culturel est une source d'attractivité pour la ville de Marseille et comptabilise plus d'un million de visiteurs par an.",
+            Message: "Le MuCEM, où musée des Civilisations de l'Europe et de la Méditerranée, est un musée national situé au coeur de la ville de Marseille entre le fort Saint-Jean et la cathédrale de La Major. Il est qualifié de musée de société préférant exposer des objets du quotidien plutôt que des œuvres d'art. De plus, sa fonction va au-delà de celle d'un musée traditionnelle, l'objectif est d'articulier les programmations autour des grandes questions de sociétés européennes et méditerranéennes. Ce site culturel est une source d'attractivité pour la ville de Marseille et comptabilise plus d'un million de visiteurs par an.",
             Images: {
                 0: require("../../src/Assets/Images/MuCEM/MuCEM_1.jpg"),
                 1: require("../../src/Assets/Images/MuCEM/MuCEM_2.jpg"),
@@ -1640,7 +1640,7 @@ export default
             Name: "Iles du Frioul",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
-            Message: "Facilement accessibles en prenant un bateau depuis le Vieux-Port de Marseille, les 4 îles du Frioul forment un archipel protégé de 200 hectares. La faune et la flore locale se sont adaptées aux conditions climatiques d'un massif de calcaire blanc soumis aux nombreux vents marins. Elles habritent également le célèbre Château d'If mis en scène par Alexandre Dumas dans son romain le Comte de Monte Cristo, celui-ci servait autrefois un but militaire mais aujourd'hui est la principale attraction touristique des îles avec 400 000 visiteurs par an.",
+            Message: "Facilement accessibles en prenant un bateau depuis le Vieux-Port de Marseille, les 4 îles du Frioul forment un archipel protégé de 200 hectares. La faune et la flore locales se sont adaptées aux conditions climatiques d'un massif de calcaire blanc soumis aux nombreux vents marins. Elles habritent également le célèbre Château d'If mis en scène par Alexandre Dumas dans son romain le Comte de Monte Cristo, celui-ci servait autrefois un but militaire mais aujourd'hui est la principale attraction touristique des îles avec 400 000 visiteurs par an.",
             Images: {
                 0: require("../../src/Assets/Images/Frioules/Frioules_1.jpg"),
                 1: require("../../src/Assets/Images/Frioules/Frioules_2.jpg"),
