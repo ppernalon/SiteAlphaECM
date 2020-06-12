@@ -11,24 +11,22 @@ export default class AssociationsPage extends React.Component
 
         this.title = "Mot des prez'";
         this.message = "Hello !\n" +
-            "Félicitations à toi pour ton\n" +
-            "parcours ! Ne t’en fais pas, la peine que\n" +
-            "tu t’es donnée pour arriver jusqu’ici n’a\n" +
-            "pas été vaine, ta vie en École s’annonce\n" +
-            "grandiose !\n" +
+            "Félicitations à toi pour ton parcours ! Ne\n" +
+            "t’en fais pas, la peine que tu t’es donnée pour\n" +
+            "arriver jusqu’ici n’a pas été vaine, ta vie en\n" +
+            "École s’annonce grandiose !\n" +
             "À Centrale Marseille, la vie associative\n" +
-            "est très riche et te laisse l’opportunité\n" +
-            "de t’épanouir complètement à travers\n" +
-            "toutes les possibilités qu’elle t’offre. Que ce\n" +
-            "soit pour participer aux événements, pour\n" +
-            "avoir des responsabilités ou simplement\n" +
-            "pour laisser place à sa créativité, chacun\n" +
-            "y trouve son compte. Et tout cela dans\n" +
-            "un cadre exceptionnel : le beau temps et\n" +
-            "la mer sont toujours là pour te donner le\n" +
-            "sourire !\n" +
-            "On t’attend alors impatiemment\n" +
-            "sous le soleil marseillais !";
+            "est très riche et te laisse l’opportunité de\n" +
+            "t’épanouir complètement à travers toutes\n" +
+            "les possibilités qu’elle t’offre. Que ce soit\n" +
+            "pour participer aux événements, pour avoir\n" +
+            "des responsabilités ou simplement pour\n" +
+            "laisser place à sa créativité, chacun y trouve\n" +
+            "son compte. Et tout cela dans un cadre\n" +
+            "exceptionnel : le beau temps et la mer sont\n" +
+            "toujours là pour te donner le sourire !\n" +
+            "On t’attend alors impatiemment sous le\n" +
+            "soleil marseillais !";
         this.state = {transitionClass:this.props.transition}
     }
 

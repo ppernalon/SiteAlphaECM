@@ -17,15 +17,15 @@ export default class Calendar extends React.Component{
         super(props);
 
         this.months = {
-            Sept : ["Septembre", ["Inté", "WEI", "Croisière", "Week-end sport", "Rallye", "Raid", "Voyage BDA"], Sept_btn],
+            Sept : ["Septembre", ["Intégration", "WEI", "Croisière", "Week-end sport", "Rallye", "Raid", "Voyage"], Sept_btn],
             Oct: ["Octobre", ["Intercentrales", "Course Contre le Cancer", "Pouce d'Or", "Massiliades"], Oct_btn],
             Nov: ["Novembre", ["AssoM", "Régate Intercentrales", "Movember", "FOCEEN"], Nov_btn],
             Déc: ["Décembre", ["Téléthon", "Campagnes"], Dec_btn],
             Jan: ["Janvier", ["Gala", "Cabaret", "Week-end ski", "Partiels"], Jan_btn],
-            Fév: ["Février", ["GBS8", "Makers Original Challenge", "Semaine Ski", "Opération Cupidon"], Fev_btn],
-            Mars: ["Mars", ["GB3A", "Challenge Centrale Lyon", "AssoM"], Mars_btn],
+            Fév: ["Février", ["Good Bye S8", "Makers Original Challenge", "Semaine Ski", "Opération Cupidon"], Fev_btn],
+            Mars: ["Mars", ["Good Bye 3A", "Challenge Centrale Lyon", "AssoM"], Mars_btn],
             Avr: ["Avril", ["Course Croisière Edhec", "Chasse aux oeufs"], Avr_btn],
-            Mai: ["Mai", ["GBDD", "TOSS", "Massilia Sun Ball", "Traversée du Vieux-Port"], Mai_btn],
+            Mai: ["Mai", ["Good Bye DD", "TOSS", "Massilia Sun Ball", "Traversée du Vieux-Port"], Mai_btn],
             Juin: ["Juin", ["Croisière", "Partiels", "Stage"], Juin_btn],
         };
 

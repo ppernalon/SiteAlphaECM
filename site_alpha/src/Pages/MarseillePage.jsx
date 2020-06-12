@@ -8,32 +8,26 @@ export default class MarseillePage extends React.Component{
     constructor(props){
         super(props);
         this.state = {transitionClass:this.props.transition};
-        this.message = "Au-delà des clichés,\n" +
-            "Marseille est une ville vivante\n" +
-            "qui regorge d’activités ! Avec ses\n" +
-            "300 jours de soleil par an, vous\n" +
-            "pourrez bronzer sur les plages,\n" +
-            "vous promener et vous baigner\n" +
-            "dans les calanques, visiter les rues\n" +
-            "\n" +
-            "typiques du Panier ou plus sim-\n" +
-            "plement vous poser en terrasse\n" +
-            "\n" +
-            "sur le Vieux-Port. Au travers des\n" +
-            "innombrables musées, dont le\n" +
-            "fameux MuCEM, mais aussi des\n" +
-            "\n" +
-            "animations sportives comme la\n" +
-            "Color Run ou la Run and Mix, vous\n" +
-            "ne pourrez que vous épanouir à\n" +
+        this.message = "Au-delà des clichés, Marseille est\n" +
+            "une ville vivante qui regorge d’activités\n" +
+            "! Avec ses 300 jours de soleil par\n" +
+            "an, tu pourras bronzer sur les plages,\n" +
+            "te promener et te baigner dans les\n" +
+            "calanques, visiter les rues typiques\n" +
+            "du Panier ou plus simplement te\n" +
+            "poser en terrasse sur le Vieux-\n" +
+            "Port. Au travers des innombrables\n" +
+            "musées, dont le fameux MuCEM,\n" +
+            "mais aussi des animations sportives\n" +
+            "comme la Color Run ou la Run and\n" +
+            "Mix, tu ne pourras que t’épanouir à\n" +
             "Marseille.\n" +
-            "Niveau vie étudiante, pas\n" +
-            "de soucis à se faire : avec ses\n" +
-            "quelques 50 000 étudiants, du\n" +
-            "Vieux-Port au Cours Julien en\n" +
-            "passant par le Rooftop, Marseille\n" +
-            "est une ville qui bouge tous les\n" +
-            "soirs de la semaine.";
+            "Niveau vie étudiante, pas de\n" +
+            "soucis à se faire : avec ses quelques\n" +
+            "50 000 étudiants, du Vieux-Port au\n" +
+            "Cours Julien en passant par le\n" +
+            "Rooftop, Marseille est une ville qui\n" +
+            "bouge tous les soirs de la semaine.";
         this.title = "Centrale Marseille et ses Alentours"
     }
 
