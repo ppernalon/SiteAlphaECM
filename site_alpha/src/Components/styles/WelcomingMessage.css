@@ -32,7 +32,7 @@ span
 
 #Formulaire:hover
 {
-    box-shadow: 0 0 0.5vmax blue;
+    box-shadow: 0 0 0.5vmax #427fe5;
     color: lightblue;
     cursor: pointer;
 }
