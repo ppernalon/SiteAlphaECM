@@ -34,7 +34,7 @@ class Menu extends React.Component{
                 tableau[i]=0;
             }
         }
-        this.setState({visited : tableau})
+        this.setState({visited : tableau});
         console.log(this.state.visited)
     };
 

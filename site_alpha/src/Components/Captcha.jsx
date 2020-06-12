@@ -23,7 +23,7 @@ export default class Captcha extends React.Component {
     verifyCallback = (recaptchaToken) => {
         // Here you will get the final recaptchaToken!!!
         console.log(recaptchaToken);
-        this.setState('recaptchaResponse', recaptchaToken)
+        this.props.updateToken(recaptchaToken)
     };
 
     render() {
