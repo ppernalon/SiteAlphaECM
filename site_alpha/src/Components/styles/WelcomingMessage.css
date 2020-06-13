@@ -41,7 +41,7 @@ span
 {
     display: block;
     margin: auto;
-    padding: 1vmax;
+    padding: 1vmax 2.5vmax;
     border-radius: 1vmax;
     box-shadow: 0 0 0.8vmax black;
     background-color: white;
@@ -57,6 +57,7 @@ span
         background-color: rgba(0,0,0,0.4);
         backdrop-filter: blur(0.8vmax);
         color: white;
+        padding: 1vmax;
     }
 
     #pBaliseWM{

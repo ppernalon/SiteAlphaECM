@@ -22,9 +22,9 @@ export default class Form extends React.Component {
 
     render() {
             return (
-                <div id="Formulaire" onClick={() =>{}}>
-                    Donne nous tes coordonnées pour recevoir plus d'infos!!!
-                </div>
+                <a id="Formulaire" href={""} target={"_blank"}>
+                    Centrale Marseille t'intéresse ?
+                </a>
             )
     }
 }
