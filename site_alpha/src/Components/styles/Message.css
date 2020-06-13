@@ -1,4 +1,4 @@
-.Bordure
+.BordureMessageComponent
 {
     background-image: url("../../../src/Assets/Bordures/Bordures__ecole.png");
     background-size: cover;
@@ -7,24 +7,24 @@
     background-color: black;
 }
 
-.top
+.topMessageComponent
 {
     border-radius: 2vmax 2vmax 0 0;
 }
 
-.bot
+.botMessageComponent
 {
     border-radius: 0 0 2vmax 2vmax;
 }
 
-p
+#pIDMessageComponent
 {
     font-family: Roboto, sans-serif;
     color: black;
     margin: auto;
 }
 
-#Message h1
+#h1IDMessageComponent
 {
     font-family: "Kaushan Script", cursive;
     color: black;
@@ -32,18 +32,18 @@ p
 }
 
 @media only screen and (max-width: 767px) {
-    #Message p
+    #pIDMessageComponent
     {
-        font-size: 1.5vmax;
+        font-size: 1.1vmax;
         padding: 0 2vmax 1.5vmax;
     }
 
-    #Message h1
+    #h1IDMessageComponent
     {
         font-size: 2.5vmax;
     }
 
-    .Bordure
+    .BordureMessageComponent
     {
         height: 4vmax;
         width: 90vw;
@@ -51,18 +51,18 @@ p
 }
 
 @media only screen and (min-width: 768px) {
-    #Message p
+    #pIDMessageComponent
     {
         font-size: 0.8vmax;
         padding: 0 2vmax 1.5vmax;
     }
 
-    #Message h1
+    #h1IDMessageComponent
     {
         font-size: 1.5vmax;
     }
 
-    .Bordure
+    .BordureMessageComponent
     {
         height: 4vmin;
         width: 50vw;

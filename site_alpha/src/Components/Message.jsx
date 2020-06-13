@@ -10,12 +10,12 @@ export default class Message extends React.Component{
         return(
             <div>
             <div id="Message_container">
-                <div className="Bordure top"/>
-                <div id="Message">
-                    <h1>{this.props.title}</h1>
-                    <p> &emsp; &emsp; {this.props.message}</p>
+                <div className="BordureMessageComponent topMessageComponent"/>
+                <div id="MessageComponent">
+                    <h1 id={"h1IDMessageComponent"}>{this.props.title}</h1>
+                    <p id={"pIDMessageComponent"}> &emsp; &emsp; {this.props.message}</p>
                 </div>
-                <div className="Bordure bot"/>
+                <div className="BordureMessageComponent botMessageComponent"/>
             </div>
             </div>
         )
