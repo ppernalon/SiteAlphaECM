@@ -6,6 +6,7 @@
     text-align: justify;
     justify-content: center;
     justify-items: center;
+    align-content: center;
     padding: 2vmin;
     max-height: 80vh;
 }

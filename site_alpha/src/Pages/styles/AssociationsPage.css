@@ -5,6 +5,7 @@
     text-align: justify;
     grid-gap: 4vmax;
     justify-content: center;
+    align-content: center;
     padding: 2vmin;
     height: 100%;
 }
