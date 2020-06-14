@@ -12,7 +12,7 @@ export default
                             Message: "L’équipe du Bureau Des Élèves\n" +
                                 "t’attend avec impatience pour te\n" +
                                 "faire découvrir la vie centralienne\n" +
-                                "à travers l’Inté’ et le WEI. Mais ne\n" +
+                                "à travers l’Inté et le WEI. Mais ne\n" +
                                 "t’inquiète pas, le travail du BDE ne\n" +
                                 "s’arrête pas là ! Pour permettre à\n" +
                                 "tous les étudiants de s’épanouir\n" +
@@ -130,9 +130,9 @@ export default
             Message: "International Centrale Marseille\n" +
                 "(ICM) est l’association qui facilite\n" +
                 "l’intégration des élèves étrangers.\n" +
-                "Le moment clef de ce processus\n" +
+                "Le moment-clé de ce processus\n" +
                 "d’intégration : l’accueil des étudiants\n" +
-                "étrangers sur le campus, la drnière\n" +
+                "étrangers sur le campus, la dernière\n" +
                 "semaine d’août, avant que le reste\n" +
                 "de la promotion entrante n’arrive.\n" +
                 "Ce moment privilégié permet à ICM\n" +
@@ -216,7 +216,7 @@ export default
         },
         TP: {
             Title: "Pôle Vie de l'élève",
-            Name: "Techno-pôle",
+            Name: "Technopôle",
             Color: "vde",
             Logo: require('../Assets/Logos/TP_logo.png'),
             Message: "Un collectif de DJ à Centrale\n" +
@@ -233,7 +233,7 @@ export default
                 1: require("../../src/Assets/Images/TP/TP_1.jpg"),
             },
             Links:{
-                Facebook: "https://www.facebook.com/TechnoPole",
+                Facebook: "https://www.facebook.com/TechnoPoleECM/",
             }
         },
         BARBU: {
@@ -326,7 +326,7 @@ export default
             Message: "Tu aimes écrire ? Partager tes\n" +
                 "idées ? Le Petit Centralien est fait\n" +
                 "pour toi ! Journal par les centraliens\n" +
-                "et pour les centraliens, tout le\n" +
+                "et pour les Centraliens, tout le\n" +
                 "monde est invité à écrire un article.\n" +
                 "Qu’importe le sujet qui t’inspire, les\n" +
                 "pages du journal s’offrent à toi !\n" +
@@ -467,6 +467,7 @@ export default
             Links:{
                 Facebook: "https://www.facebook.com/ginfoecm",
                 Twitter: "https://twitter.com/GInfo_ECM",
+                Instagram: "https://www.instagram.com/ginfo_ecm/",
                 Site: "https://ginfo.asso.centrale-marseille.fr/"
             }
         },
@@ -623,7 +624,7 @@ export default
                 "Alors si tu souhaites confronter\n" +
                 "tes envies pro avec la réalité du\n" +
                 "terrain et réaliser des projets d’entreprise\n" +
-                "avec de vrais enjeux derrières,\n" +
+                "avec de vrais enjeux derrière,\n" +
                 "tu sais où aller !",
             Images: {
                 0: require("../../src/Assets/Images/KSI/KSI_1.jpg"),
@@ -705,7 +706,7 @@ export default
                 1: {
                     Name: "Voyage",
                     Logo: require('../Assets/Logos/BDA_logo.png'),
-                    Message: "Partir le temps d’un Week-end\n" +
+                    Message: "Partir le temps d’un week-end\n" +
                         "en Europe avec des ami.e.s, c’est ce\n" +
                         "que le BDA te propose pendant le\n" +
                         "mois d’intégration !\n" +
@@ -822,7 +823,7 @@ export default
             Name: "Pompoms",
             Color: "culture",
             Logo: require('../Assets/Logos/Pompoms_logo.png'),
-            Message: "Nos pompoms et nos pimpims,\n" +
+            Message: "Nos Pompoms et nos Pimpims,\n" +
                 "on les aime on les adore, que dis-je,\n" +
                 "on les adule ! C’est celles et ceux\n" +
                 "qui sont chargé.e.s de mettre de\n" +
@@ -862,7 +863,7 @@ export default
                 "nous, n’hésite pas à nous contacter\n" +
                 "avec un CV et une lettre de motivation\n" +
                 "à l’adresse mail suivante :\n" +
-                "disadieuatestympans@acouphenes.\n" +
+                "disadieuatestympans@acouphenes." +
                 "org",
             Images: {
                 0: require("../../src/Assets/Images/Farigoule/Farigoule_1.jpg"),
@@ -1041,7 +1042,7 @@ export default
                 "des questions ? Tu ne crois pas en\n" +
                 "Dieu ? Peu importe ! L’aumônerie\n" +
                 "t’accueille tous les vendredis soirs\n" +
-                "dans la chapelle de Château-\n" +
+                "dans la chapelle de Château-" +
                 "Gombert (un village juste au-dessus\n" +
                 "de Centrale). Un temps d’échange\n" +
                 "autour de la parole de Dieu accompagné\n" +
@@ -1118,7 +1119,7 @@ export default
                         },
                 },
                 2: {
-                    Name: "Week-end sportif",
+                    Name: "Week-End Sportif",
                     Logo: require('../Assets/Logos/BDS_logo.png'),
                     Message: "Chaque année le BDS organise\n" +
                         "l’un des meilleurs événements de\n" +
@@ -1148,9 +1149,9 @@ export default
                     Logo: require('../Assets/Logos/BDS_logo.png'),
                     Message: "La vie sportive des Centraliens de Marseille n'est pas en manque. " +
                         "Qu'il s'agisse de sports collectifs ou individuels, vous aurez un large panel de choix à Centrale Marseille ! " +
-                        "Vour pourrez commencer, ou vous perfectionner, dans les disciplines suivantes : " +
+                        "Vous pourrez commencer, ou vous perfectionner, dans les disciplines suivantes : " +
                         "basket-ball, volley, football, rugby, handball, badminton, escalade, randonnée, boxe, ping pong, ou encore tennis " +
-                        "parmis tant d'autres.",
+                        "et bien d'autres encore.",
                     Images:
                         {
                             0: require("../Assets/Images/Sports/sport_0.jpg"),
@@ -1167,7 +1168,7 @@ export default
                         },
                 },
                 4: {
-                    Name: "Intercentrales",
+                    Name: "InterCentrales",
                     Logo: require('../Assets/Logos/Intercentrales_logo.png'),
                     Message: "Les InterCentrales, c’est la\n" +
                         "compétition inter-écoles du début\n" +
@@ -1211,7 +1212,7 @@ export default
                     Name: "CCL",
                     Logo: require('../Assets/Logos/CCL_logo.png'),
                     Message: "Pour l’arrivée du printemps,\n" +
-                        "ce n’est pas moins de 3 000 participants\n" +
+                        "ce ne sont pas moins de 3 000 participants\n" +
                         "qui s’affrontent dans\n" +
                         "20 sports. Cet événement accueille\n" +
                         "aussi des concours de fanfares, de\n" +
@@ -1251,7 +1252,7 @@ export default
                 "sandball et beach rugby ! D’autres\n" +
                 "activités seront possibles lors de\n" +
                 "ce week-end mémorable comme\n" +
-                "le show pompom, deux grosses\n" +
+                "le show Pompom, deux grosses\n" +
                 "soirées et différentes activités\n" +
                 "aquatiques !",
             Images: {
@@ -1301,7 +1302,7 @@ export default
             Color: "sport",
             Logo: require('../Assets/Logos/MRC_logo.png'),
             Message: "Si Marseille rime avec plage et\n" +
-                "soleil, on oublie quand même les\n" +
+                "soleil, on n'oublie quand même pas pour autant les\n" +
                 "fans de montagnes. L’asso MRC\n" +
                 "t’emmène le temps d’une semaine\n" +
                 "au sommet des Alpes, et te propose\n" +
@@ -1487,7 +1488,7 @@ export default
                 "de vie associative. La nécessité d’une\n" +
                 "fédération chargée de pérenniser,\n" +
                 "professionnaliser et représenter\n" +
-                "cette richesse a rapidement vue le\n" +
+                "cette richesse a rapidement vu le\n" +
                 "jour. L’Union des Associations (UA)\n" +
                 "confère une plus grande envergure\n" +
                 "à l’ensemble des associations ; non\n" +
@@ -1527,7 +1528,7 @@ export default
                         "aux alentours.\n" +
                         "Le métro est à quelques minutes\n" +
                         "de bus de l’école et à seulement\n" +
-                        "15 minutes à pieds. Au sein de\n" +
+                        "15 minutes à pied. Au sein de\n" +
                         "l’établissement, tu trouveras de\n" +
                         "nombreux espaces verts ainsi qu’un\n" +
                         "terrain de pétanque.",
@@ -1581,7 +1582,7 @@ export default
             Name: "MuCEM",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
-            Message: "Le MuCEM, où musée des Civilisations de l'Europe et de la Méditerranée, est un musée national situé au coeur de la ville de Marseille entre le fort Saint-Jean et la cathédrale de La Major. Il est qualifié de musée de société préférant exposer des objets du quotidien plutôt que des œuvres d'art. De plus, sa fonction va au-delà de celle d'un musée traditionnelle, l'objectif est d'articulier les programmations autour des grandes questions de sociétés européennes et méditerranéennes. Ce site culturel est une source d'attractivité pour la ville de Marseille et comptabilise plus d'un million de visiteurs par an.",
+            Message: "Le MuCEM, ou musée des Civilisations de l'Europe et de la Méditerranée, est un musée national situé au coeur de la ville de Marseille entre le fort Saint-Jean et la cathédrale de La Major. Il est qualifié de musée de société préférant exposer des objets du quotidien plutôt que des œuvres d'art. De plus, sa fonction va au-delà de celle d'un musée traditionnelle, l'objectif est d'articulier les programmations autour des grandes questions de sociétés européennes et méditerranéennes. Ce site culturel est une source d'attractivité pour la ville de Marseille et comptabilise plus d'un million de visiteurs par an.",
             Images: {
                 0: require("../../src/Assets/Images/MuCEM/MuCEM_1.jpg"),
                 1: require("../../src/Assets/Images/MuCEM/MuCEM_2.jpg"),
@@ -1640,7 +1641,7 @@ export default
             Name: "Iles du Frioul",
             Color: "ecole",
             Logo: require('../Assets/Logos/Armoiries_de_Marseille.png'),
-            Message: "Facilement accessibles en prenant un bateau depuis le Vieux-Port de Marseille, les 4 îles du Frioul forment un archipel protégé de 200 hectares. La faune et la flore locales se sont adaptées aux conditions climatiques d'un massif de calcaire blanc soumis aux nombreux vents marins. Elles habritent également le célèbre Château d'If mis en scène par Alexandre Dumas dans son romain le Comte de Monte Cristo, celui-ci servait autrefois un but militaire mais aujourd'hui est la principale attraction touristique des îles avec 400 000 visiteurs par an.",
+            Message: "Facilement accessibles en prenant un bateau depuis le Vieux-Port de Marseille, les 4 îles du Frioul forment un archipel protégé de 200 hectares. La faune et la flore locales se sont adaptées aux conditions climatiques d'un massif de calcaire blanc soumis aux nombreux vents marins. Elles abritent également le célèbre Château d'If mis en scène par Alexandre Dumas dans son roman le Comte de Monte Cristo, celui-ci servait autrefois un but militaire mais aujourd'hui est la principale attraction touristique des îles avec 400 000 visiteurs par an.",
             Images: {
                 0: require("../../src/Assets/Images/Frioules/Frioules_1.jpg"),
                 1: require("../../src/Assets/Images/Frioules/Frioules_2.jpg"),
@@ -1713,7 +1714,7 @@ export default
                 "événements tous plus exceptionnels\n" +
                 "les uns que les autres. Et ceci n’est\n" +
                 "possible que grâce à l’aide de tous\n" +
-                "les étudiants marseillais, centraliens\n" +
+                "les étudiants marseillais, Centraliens\n" +
                 "y compris.",
             Images: {
                 0: require("../Assets/Images/AssoM/AssoM_1.jpg"),
@@ -1741,7 +1742,7 @@ export default
                 "Au-delà d’un annuaire où se\n" +
                 "trouve peut-être le numéro de ton\n" +
                 "futur employeur, l’association des\n" +
-                "Alumnis c’est aussi des interlocuteurs\n" +
+                "Alumni c’est aussi des interlocuteurs\n" +
                 "expérimentés qui sauront\n" +
                 "répondre à toutes tes questions et\n" +
                 "qui feront leur maximum pour t’aider\n" +
@@ -1755,7 +1756,7 @@ export default
             },
             Links: {
                 Facebook: "https://www.facebook.com/CentraleMarseilleAlumni",
-                Instagram: "https://www.facebook.com/CentraleMarseilleAlumni",
+                Instagram: "https://www.instagram.com/centralemarseillealumni/",
                 Site: "https://www.centraliens-marseille.fr/"
             }
         },
@@ -1803,7 +1804,7 @@ export default
             Logo: require('../Assets/Logos/BNEI_logo.png'),
             Message: "Le Bureau National des Élèves\n" +
                 "Ingénieurs (BNEI) représente\n" +
-                "l’ensemble des 185 000 élèvesingénieurs\n" +
+                "l’ensemble des 185 000 élèves ingénieurs\n" +
                 "en fédérant les Bureaux\n" +
                 "des Élèves des écoles et les élus.\n" +
                 "Ses missions sont de représenter,\n" +

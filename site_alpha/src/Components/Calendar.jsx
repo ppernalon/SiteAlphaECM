@@ -17,9 +17,9 @@ export default class Calendar extends React.Component{
         super(props);
 
         this.months = {
-            Sept : ["Septembre", ["Intégration", "WEI", "Croisière", "Week-end sport", "Rallye", "Raid", "Voyage"], Sept_btn],
-            Oct: ["Octobre", ["Intercentrales", "Course Contre le Cancer", "Pouce d'Or", "Massiliades"], Oct_btn],
-            Nov: ["Novembre", ["AssoM", "Régate Intercentrales", "Movember", "FOCEEN"], Nov_btn],
+            Sept : ["Septembre", ["Intégration", "WEI", "Croisière", "Week-End Sportif", "Rallye", "Raid", "Voyage"], Sept_btn],
+            Oct: ["Octobre", ["InterCentrales", "Course Contre le Cancer", "Pouce d'Or", "Massiliades"], Oct_btn],
+            Nov: ["Novembre", ["AssoM", "Régate InterCentrales", "Movember", "FOCEEN"], Nov_btn],
             Déc: ["Décembre", ["Téléthon", "Campagnes"], Dec_btn],
             Jan: ["Janvier", ["Gala", "Cabaret", "Week-end ski", "Partiels"], Jan_btn],
             Fév: ["Février", ["Good Bye S8", "Makers Original Challenge", "Semaine Ski", "Opération Cupidon"], Fev_btn],
