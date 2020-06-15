@@ -1,8 +1,5 @@
 import React from 'react';
-import PopUp from './PopUp';
-import PopUpPortail from './PopUpPortail';
 import './styles/Form.css';
-import Captcha from './Captcha'
 
 export default class Form extends React.Component {
     constructor(props) {
@@ -22,8 +19,8 @@ export default class Form extends React.Component {
 
     render() {
             return (
-                <a id="Formulaire" href={""} target={"_blank"}>
-                    Centrale Marseille t'intéresse ?
+                <a id="Formulaire" href={"https://choisir.centrale-marseille.fr/recevoir-la-plaquette/"} target={"_blank"}>
+                    Recevoir les plaquettes
                 </a>
             )
     }
