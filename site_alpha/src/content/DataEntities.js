@@ -219,15 +219,7 @@ export default
             Name: "Technopôle",
             Color: "vde",
             Logo: require('../Assets/Logos/TP_logo.png'),
-            Message: "Un collectif de DJ à Centrale\n" +
-                "Marseille ?! Tu en rêvais, on l’a fait !\n" +
-                "Cette association te permettra\n" +
-                "d’apprendre à mixer et à te produire\n" +
-                "lors des nombreux événements\n" +
-                "de l’École. Alors si tu es prêt à\n" +
-                "enflammer les plus grosses soirées\n" +
-                "centraliennes, rejoins le Technopôle\n" +
-                "et deviens un de nos DJ !",
+            Message: "Tu as toujours aimé t'occuper de la musique en soirée ou rêvé d'être derrière les platines comme ton DJ préféré ? Alors le Technopôle est là pour toi et les platines n'auront plus aucun secret ! Tu pourras ici lâcher tes meilleures transitions sur le style de musique que tu préfères et peut-être même mixer en soirée BDE avec le casque sur une seule oreille !",
             Images: {
                 0: require("../../src/Assets/Images/TP/TP_2.jpg"),
                 1: require("../../src/Assets/Images/TP/TP_1.jpg"),
@@ -739,7 +731,7 @@ export default
                 3: {
                     Name: "Cabaret",
                     Logo: require('../Assets/Logos/BDA_logo.png'),
-                    Message: "Les plus grands artistes de\n" +
+                    Message: "Les plus grand.e.s artistes de\n" +
                         "l’école passeront sur le devant de\n" +
                         "la scène pour vous montrer à tour\n" +
                         "de rôle leur talent ! Danse, musique,\n" +
