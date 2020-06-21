@@ -345,24 +345,24 @@ export default
             Logo: require('../Assets/Logos/Fablab_logo.png'),
             Pages: {
                 0: {
-                    Name: "Fablab",
+                    Name: "FabLab",
                     Logo: require('../Assets/Logos/Fablab_logo.png'),
                     Message: "Tu as plein d’idées farfelues et\n" +
                         "des projets à fabriquer mais qui\n" +
                         "sont en stand-by ? Alors n’attends\n" +
-                        "plus ! Le Fablab est un lieu où tu\n" +
+                        "plus ! Le FabLab est un lieu où tu\n" +
                         "peux laisser ta créativité parler et\n" +
                         "bricoler tout et n’importe quoi, grâce\n" +
                         "aux imprimantes 3D, découpeuses\n" +
                         "laser, floqueuse et autres matériels à\n" +
                         "disposition.\n" +
                         "Tu n’y connais rien ? Pas grave !\n" +
-                        "Tout le long de l’année, le Fablab\n" +
+                        "Tout le long de l’année, le FabLab\n" +
                         "organise des Repair Cafés et des\n" +
                         "formations pour pouvoir utiliser les\n" +
                         "machines et vous donner des tips et\n" +
                         "conseils en tout genre. Viens donc\n" +
-                        "nous rejoindre au Fablab !",
+                        "nous rejoindre au FabLab !",
                     Images:
                         {
                             0: require("../Assets/Images/Fablab/Fablab_1.jpg"),
@@ -376,7 +376,7 @@ export default
                     Message: "En février se tient le MOC –\n" +
                         "Makers Original Challenge, c’est le\n" +
                         "plus gros événement organisé par\n" +
-                        "le Fablab Marseille ! Il rassemble\n" +
+                        "le FabLab Marseille ! Il rassemble\n" +
                         "de nombreux élèves de différentes\n" +
                         "écoles pour s’affronter en équipe et\n" +
                         "créer LE prototype qui séduira le jury\n" +
