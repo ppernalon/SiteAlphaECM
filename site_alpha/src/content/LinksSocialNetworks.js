@@ -10,5 +10,5 @@ export default
     },
     Twitter: "https://twitter.com/CentraleMars",
     Discord: "https://discord.gg/RcrFZXN",
-    CentraleMarseille: "https://www.centrale-marseille.fr/"
+    CentraleMarseille: "https://choisir.centrale-marseille.fr/"
 }

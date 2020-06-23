@@ -1565,7 +1565,7 @@ export default
             Links:{
                 Facebook: "https://www.facebook.com/CentraleMarseille",
                 Instagram: "https://www.instagram.com/centralemarseille/",
-                Site: "https://www.choisir.centrale-marseille.fr/"
+                Site: "https://choisir.centrale-marseille.fr/"
             }
         },
         MuCEM:{
