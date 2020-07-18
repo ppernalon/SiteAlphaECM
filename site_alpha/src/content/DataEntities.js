@@ -28,8 +28,9 @@ export default
                                 "du Gala.",
                             Images:
                                 {
-                                    0: require("../Assets/Images/BDE/BDE_1.jpg"),
-                                    1: require("../Assets/Images/BDE/BDE_2.jpg"),
+                                    0: require("../Assets/Images/BDE/BDE_0.jpg"),
+                                    1: require("../Assets/Images/BDE/BDE_1.jpg"),
+                                    2: require("../Assets/Images/BDE/BDE_2.jpg"),
                                 },
                             },
                         1: {
